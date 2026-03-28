@@ -5,7 +5,8 @@ const state = {
   filters: {
     category: "all",
     brand: "all",
-    search: ""
+    search: "",
+    pitches: []
   },
   navigation: {
     selectedBrand: "all"
@@ -19,6 +20,9 @@ const productList = document.querySelector("#productList");
 const resultSummary = document.querySelector("#resultSummary");
 const brandSummary = document.querySelector("#brandSummary");
 const brandTree = document.querySelector("#brandTree");
+const pitchFilterSection = document.querySelector("#pitchFilterSection");
+const pitchFilterList = document.querySelector("#pitchFilterList");
+const clearPitchFilterBtn = document.querySelector("#clearPitchFilterBtn");
 const emptyState = document.querySelector("#emptyState");
 const comparisonWrapper = document.querySelector("#comparisonWrapper");
 const comparisonTable = document.querySelector("#comparisonTable");
@@ -82,6 +86,11 @@ function bindEvents() {
     render();
   });
 
+  clearPitchFilterBtn.addEventListener("click", () => {
+    state.filters.pitches = [];
+    render();
+  });
+
   exportExcelBtn.addEventListener("click", exportExcel);
   exportPdfBtn.addEventListener("click", () => window.print());
   clearSelectionBtn.addEventListener("click", () => {
@@ -105,6 +114,7 @@ function populateFilters() {
 
 function render() {
   renderHeroStats();
+  renderPitchFilters();
   renderBrandTree();
   renderProductList();
   renderComparison();
@@ -143,7 +153,75 @@ function getFilteredProducts() {
       .join(" ")
       .toLowerCase();
     const matchesSearch = !state.filters.search || haystack.includes(state.filters.search);
-    return matchesCategory && matchesBrand && matchesSearch;
+    const pitchValue = normalizePitchValue(product.specs["点间距"] || product.specs["像素间距"] || "");
+    const needsPitchFilter = product.category === "module" || product.category === "cabinet";
+    const matchesPitch = !needsPitchFilter || !state.filters.pitches.length || state.filters.pitches.includes(pitchValue);
+    return matchesCategory && matchesBrand && matchesSearch && matchesPitch;
+  });
+}
+
+function renderPitchFilters() {
+  const pitchProducts = state.products.filter((product) => {
+    const activeBrand =
+      state.navigation.selectedBrand !== "all" ? state.navigation.selectedBrand : state.filters.brand;
+    const matchesBrand = activeBrand === "all" || product.brand === activeBrand;
+    const matchesCategory =
+      state.filters.category === "all"
+        ? product.category === "module" || product.category === "cabinet"
+        : product.category === state.filters.category;
+    const haystack = [
+      product.brand,
+      product.model,
+      product.series,
+      product.summary,
+      product.application,
+      ...product.tags
+    ]
+      .join(" ")
+      .toLowerCase();
+    const matchesSearch = !state.filters.search || haystack.includes(state.filters.search);
+    return matchesBrand && matchesCategory && matchesSearch && (product.category === "module" || product.category === "cabinet");
+  });
+
+  const pitches = [...new Set(pitchProducts.map((product) => normalizePitchValue(product.specs["点间距"] || product.specs["像素间距"] || "")).filter(Boolean))]
+    .filter((value) => value && value !== "未标注")
+    .sort((left, right) => parsePitch(left) - parsePitch(right));
+
+  const shouldShow =
+    pitches.length > 0 && (state.filters.category === "all" || state.filters.category === "module" || state.filters.category === "cabinet");
+
+  pitchFilterSection.classList.toggle("hidden", !shouldShow);
+
+  if (!shouldShow) {
+    state.filters.pitches = [];
+    pitchFilterList.innerHTML = "";
+    return;
+  }
+
+  state.filters.pitches = state.filters.pitches.filter((pitch) => pitches.includes(pitch));
+
+  pitchFilterList.innerHTML = pitches
+    .map(
+      (pitch) => `
+        <label class="pitch-option">
+          <input type="checkbox" value="${pitch}" ${state.filters.pitches.includes(pitch) ? "checked" : ""} />
+          <span>${pitch}</span>
+        </label>
+      `
+    )
+    .join("");
+
+  pitchFilterList.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
+    checkbox.addEventListener("change", () => {
+      const next = new Set(state.filters.pitches);
+      if (checkbox.checked) {
+        next.add(checkbox.value);
+      } else {
+        next.delete(checkbox.value);
+      }
+      state.filters.pitches = [...next];
+      render();
+    });
   });
 }
 
@@ -370,6 +448,11 @@ function normalizePitchValue(value) {
 
   const rounded = numeric >= 10 ? numeric.toFixed(0) : numeric.toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
   return `${rounded} mm`;
+}
+
+function parsePitch(value) {
+  const match = String(value).match(/(\d+(?:\.\d+)?)/);
+  return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER;
 }
 
 function renderProductCard(product) {
