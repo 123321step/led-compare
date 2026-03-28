@@ -8,17 +8,12 @@
     "notes": "抓取海康威视 display 站 LED Displays 下全部产品列表与详情参数。"
   },
   {
-    "id": "unilumin-usurface-gm",
+    "id": "unilumin-led-products",
     "brand": "洲明",
-    "type": "uniluminProductPage",
+    "type": "uniluminLedProductsCatalog",
     "enabled": true,
-    "category": "cabinet",
-    "url": "https://www.unilumin.com/products/dooh/usurface-gm.html",
-    "model": "Usurface GM",
-    "series": "Usurface",
-    "application": "户外广告 / DOOH",
-    "summary": "从洲明官方产品页抓取的户外商显产品。",
-    "tags": ["真实抓取", "户外", "DOOH"]
+    "rootUrl": "https://www.unilumin.com/products/",
+    "notes": "抓取洲明 LED Products 目录下的全量产品页。"
   },
   {
     "id": "qiangli-seed",

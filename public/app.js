@@ -136,20 +136,16 @@ function renderHeroStats() {
   syncNote.textContent = state.metadata.note;
 }
 
+function getActiveBrand() {
+  return state.navigation.selectedBrand !== "all" ? state.navigation.selectedBrand : state.filters.brand;
+}
+
 function getFilteredProducts() {
   return state.products.filter((product) => {
-    const activeBrand =
-      state.navigation.selectedBrand !== "all" ? state.navigation.selectedBrand : state.filters.brand;
+    const activeBrand = getActiveBrand();
     const matchesCategory = state.filters.category === "all" || product.category === state.filters.category;
     const matchesBrand = activeBrand === "all" || product.brand === activeBrand;
-    const haystack = [
-      product.brand,
-      product.model,
-      product.series,
-      product.summary,
-      product.application,
-      ...product.tags
-    ]
+    const haystack = [product.brand, product.model, product.series, product.summary, product.application, ...product.tags]
       .join(" ")
       .toLowerCase();
     const matchesSearch = !state.filters.search || haystack.includes(state.filters.search);
@@ -162,28 +158,20 @@ function getFilteredProducts() {
 
 function renderPitchFilters() {
   const pitchProducts = state.products.filter((product) => {
-    const activeBrand =
-      state.navigation.selectedBrand !== "all" ? state.navigation.selectedBrand : state.filters.brand;
+    const activeBrand = getActiveBrand();
     const matchesBrand = activeBrand === "all" || product.brand === activeBrand;
     const matchesCategory =
       state.filters.category === "all"
         ? product.category === "module" || product.category === "cabinet"
         : product.category === state.filters.category;
-    const haystack = [
-      product.brand,
-      product.model,
-      product.series,
-      product.summary,
-      product.application,
-      ...product.tags
-    ]
+    const haystack = [product.brand, product.model, product.series, product.summary, product.application, ...product.tags]
       .join(" ")
       .toLowerCase();
     const matchesSearch = !state.filters.search || haystack.includes(state.filters.search);
     return matchesBrand && matchesCategory && matchesSearch && (product.category === "module" || product.category === "cabinet");
   });
 
-  const pitches = [...new Set(pitchProducts.map((product) => normalizePitchValue(product.specs["点间距"] || product.specs["像素间距"] || "")).filter(Boolean))]
+  const pitches = [...new Set(pitchProducts.map((product) => normalizePitchValue(product.specs["点间距"] || product.specs["像素间距"] || "")))]
     .filter((value) => value && value !== "未标注")
     .sort((left, right) => parsePitch(left) - parsePitch(right));
 
@@ -228,14 +216,7 @@ function renderPitchFilters() {
 function renderBrandTree() {
   const browseableProducts = state.products.filter((product) => {
     const matchesCategory = state.filters.category === "all" || product.category === state.filters.category;
-    const haystack = [
-      product.brand,
-      product.model,
-      product.series,
-      product.summary,
-      product.application,
-      ...product.tags
-    ]
+    const haystack = [product.brand, product.model, product.series, product.summary, product.application, ...product.tags]
       .join(" ")
       .toLowerCase();
     const matchesSearch = !state.filters.search || haystack.includes(state.filters.search);
@@ -244,40 +225,7 @@ function renderBrandTree() {
 
   const groupedBrands = groupProductsByBrand(browseableProducts);
 
-  brandTree.innerHTML = groupedBrands
-    .map(({ brand, items }) => {
-      const categories = ["module", "cabinet", "controller"]
-        .map((category) => {
-          const categoryProducts = items.filter((item) => item.category === category);
-          if (!categoryProducts.length) {
-            return "";
-          }
-
-          const bucketCount = getBucketedProducts(categoryProducts, category).length;
-          return `
-            <button class="tree-link tree-child" type="button" data-brand-jump="${brand}" data-category-jump="${category}">
-              <span>${categoryLabels[category]}</span>
-              <strong>${bucketCount}</strong>
-            </button>
-          `;
-        })
-        .join("");
-
-      const selectedClass = state.navigation.selectedBrand === brand ? "selected" : "";
-
-      return `
-        <section class="tree-group ${selectedClass}">
-          <button class="tree-link tree-parent" type="button" data-brand-select="${brand}">
-            <span>${brand}</span>
-            <strong>${items.length}</strong>
-          </button>
-          <div class="tree-children">
-            ${categories}
-          </div>
-        </section>
-      `;
-    })
-    .join("");
+  brandTree.innerHTML = groupedBrands.map(renderTreeBrandGroup).join("");
 
   brandTree.querySelectorAll("[data-brand-select]").forEach((button) => {
     button.addEventListener("click", () => {
@@ -289,19 +237,96 @@ function renderBrandTree() {
     });
   });
 
-  brandTree.querySelectorAll("[data-category-jump]").forEach((button) => {
+  brandTree.querySelectorAll("[data-tree-category]").forEach((button) => {
     button.addEventListener("click", () => {
       const brand = button.dataset.brandJump;
-      const category = button.dataset.categoryJump;
+      const category = button.dataset.treeCategory;
       state.navigation.selectedBrand = brand;
       state.filters.brand = brand;
       state.filters.category = category;
+      brandFilter.value = brand;
+      categoryFilter.value = category;
+      state.filters.pitches = [];
+      render();
+      document.querySelector(`[data-brand-section="${brand}"]`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+
+  brandTree.querySelectorAll("[data-tree-pitch]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const brand = button.dataset.brandJump;
+      const category = button.dataset.treeCategory;
+      const pitch = button.dataset.treePitch;
+      state.navigation.selectedBrand = brand;
+      state.filters.brand = brand;
+      state.filters.category = category;
+      state.filters.pitches = [pitch];
       brandFilter.value = brand;
       categoryFilter.value = category;
       render();
       document.querySelector(`[data-brand-section="${brand}"]`)?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
+}
+
+function renderTreeBrandGroup({ brand, items }) {
+  const categories = ["module", "cabinet", "controller"]
+    .map((category) => {
+      const categoryProducts = items.filter((item) => item.category === category);
+      if (!categoryProducts.length) {
+        return "";
+      }
+
+      const buckets = getBucketedProducts(categoryProducts, category);
+      const children =
+        category === "controller"
+          ? ""
+          : `
+            <div class="tree-grandchildren">
+              ${buckets
+                .map(
+                  ({ bucketLabel, items: bucketItems }) => `
+                    <button
+                      class="tree-link tree-grandchild"
+                      type="button"
+                      data-brand-jump="${brand}"
+                      data-tree-category="${category}"
+                      data-tree-pitch="${bucketLabel.replace("点间距: ", "")}"
+                    >
+                      <span>${bucketLabel.replace("点间距: ", "")}</span>
+                      <strong>${bucketItems.length}</strong>
+                    </button>
+                  `
+                )
+                .join("")}
+            </div>
+          `;
+
+      return `
+        <div class="tree-category-group">
+          <button class="tree-link tree-child" type="button" data-brand-jump="${brand}" data-tree-category="${category}">
+            <span>${categoryLabels[category]}</span>
+            <strong>${categoryProducts.length}</strong>
+          </button>
+          ${children}
+        </div>
+      `;
+    })
+    .join("");
+
+  const selectedClass = state.navigation.selectedBrand === brand ? "selected" : "";
+
+  return `
+    <section class="tree-group ${selectedClass}">
+      <button class="tree-link tree-parent" type="button" data-brand-select="${brand}">
+        <span>${brand}</span>
+        <strong>${items.length}</strong>
+      </button>
+      <div class="tree-children">
+        ${categories}
+      </div>
+    </section>
+  `;
 }
 
 function renderProductList() {
@@ -425,34 +450,9 @@ function getBucketedProducts(products, category) {
     map.get(bucketLabel).push(product);
   });
 
-  return Array.from(map.entries()).map(([bucketLabel, items]) => ({
-    bucketLabel,
-    items
-  }));
-}
-
-function normalizePitchValue(value) {
-  if (!value || value === "未标注") {
-    return "未标注";
-  }
-
-  const match = String(value).match(/(\d+(?:\.\d+)?)/);
-  if (!match) {
-    return String(value);
-  }
-
-  const numeric = Number(match[1]);
-  if (Number.isNaN(numeric)) {
-    return String(value);
-  }
-
-  const rounded = numeric >= 10 ? numeric.toFixed(0) : numeric.toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
-  return `${rounded} mm`;
-}
-
-function parsePitch(value) {
-  const match = String(value).match(/(\d+(?:\.\d+)?)/);
-  return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER;
+  return Array.from(map.entries())
+    .map(([bucketLabel, items]) => ({ bucketLabel, items }))
+    .sort((left, right) => parsePitch(left.bucketLabel) - parsePitch(right.bucketLabel));
 }
 
 function renderProductCard(product) {
@@ -625,6 +625,30 @@ function downloadFile(content, fileName, mimeType) {
   link.download = fileName;
   link.click();
   URL.revokeObjectURL(url);
+}
+
+function normalizePitchValue(value) {
+  if (!value || value === "未标注") {
+    return "未标注";
+  }
+
+  const match = String(value).match(/(\d+(?:\.\d+)?)/);
+  if (!match) {
+    return String(value);
+  }
+
+  const numeric = Number(match[1]);
+  if (Number.isNaN(numeric)) {
+    return String(value);
+  }
+
+  const rounded = numeric >= 10 ? numeric.toFixed(0) : numeric.toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
+  return `${rounded} mm`;
+}
+
+function parsePitch(value) {
+  const match = String(value).match(/(\d+(?:\.\d+)?)/);
+  return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER;
 }
 
 function formatDate(value) {

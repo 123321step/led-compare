@@ -88,8 +88,8 @@ async function crawlSource(source) {
     return crawlHikvisionLedDisplaysCatalog(source);
   }
 
-  if (source.type === "uniluminProductPage") {
-    return [await crawlUniluminProduct(source)];
+  if (source.type === "uniluminLedProductsCatalog") {
+    return crawlUniluminLedProductsCatalog(source);
   }
 
   throw new Error(`Unsupported source type: ${source.type}`);
@@ -116,14 +116,20 @@ async function crawlHikvisionLedDisplaysCatalog(source) {
     }
   }
 
-  const seenIds = new Set();
-  return allProducts.filter((product) => {
-    if (seenIds.has(product.id)) {
-      return false;
-    }
-    seenIds.add(product.id);
-    return true;
-  });
+  return dedupeProducts(allProducts);
+}
+
+async function crawlUniluminLedProductsCatalog(source) {
+  const productUrls = await discoverUniluminProductUrls(source.rootUrl);
+  const allProducts = [];
+
+  for (const productUrl of productUrls) {
+    const html = await fetchText(productUrl);
+    const variants = extractUniluminVariants(productUrl, html);
+    allProducts.push(...variants);
+  }
+
+  return dedupeProducts(allProducts);
 }
 
 async function discoverHikvisionListingEndpoints(rootUrl) {
@@ -138,8 +144,7 @@ async function discoverHikvisionListingEndpoints(rootUrl) {
 
   for (const categoryPath of categoryPaths) {
     const categoryHtml = await fetchText(toHikvisionPublicPageUrl(categoryPath));
-    const directDataUrls = extractSearchListUrls(categoryHtml);
-    endpoints.push(...directDataUrls);
+    endpoints.push(...extractSearchListUrls(categoryHtml));
 
     const seriesLinks = unique(
       [...categoryHtml.matchAll(/href="([^"]+)"/g)]
@@ -160,12 +165,28 @@ async function discoverHikvisionListingEndpoints(rootUrl) {
   return unique(endpoints);
 }
 
+async function discoverUniluminProductUrls(rootUrl) {
+  const pages = [rootUrl, ...Array.from({ length: 5 }, (_, index) => `${rootUrl}?pagenum=${index + 1}`)];
+  const urls = new Set();
+
+  for (const pageUrl of pages) {
+    const html = await fetchText(pageUrl);
+    const links = [...html.matchAll(/href="(https:\/\/www\.unilumin\.com\/products\/[^"]+)"/g)]
+      .map((match) => match[1])
+      .filter((url) => /\/products\/[^/]+\/[^/]+\.html$/.test(url));
+
+    links.forEach((url) => urls.add(url));
+  }
+
+  return [...urls];
+}
+
 function extractSearchListUrls(html) {
   return unique([...html.matchAll(/data-url="([^"]*search_list[^"]*)"/g)].map((match) => match[1]));
 }
 
 function normalizeHikvisionProduct({ endpoint, item, detailUrl, detailSpecs }) {
-  const category = inferHikvisionCategory(endpoint, item);
+  const category = inferHikvisionCategory(endpoint);
   const pointPitch = readRequiredSpec(detailSpecs, "Pixel Pitch", "Pixel Pitch Category");
   const baseTags = [
     "真实抓取",
@@ -183,7 +204,7 @@ function normalizeHikvisionProduct({ endpoint, item, detailUrl, detailSpecs }) {
     category,
     series: item.series || "未分组",
     model: item.title,
-    application: inferHikvisionApplication(endpoint, item),
+    application: inferHikvisionApplication(endpoint, item.subcategory),
     summary: item.description || `${item.series || "LED Displays"} 产品，来自海康威视官方 LED Displays 目录。`,
     tags: unique(baseTags),
     originUrl: detailUrl,
@@ -211,7 +232,258 @@ function normalizeHikvisionProduct({ endpoint, item, detailUrl, detailSpecs }) {
   };
 }
 
-function inferHikvisionCategory(endpoint, item) {
+function extractUniluminVariants(productUrl, html) {
+  const pageTitle = extractMetaContent(html, "og:title") || extractTitle(html) || "Unilumin Product";
+  const summary = extractMetaContent(html, "description") || `${pageTitle}，来自洲明官网产品目录。`;
+  const series = pageTitle.replace(/\s*[–-]\s*Unilumin$/i, "").trim();
+  const category = inferUniluminCategory(productUrl, series, html);
+  const application = inferUniluminApplication(productUrl);
+  const tables = extractUniluminParameterTables(html);
+  const modelsTable = tables.find(
+    (table) =>
+      table.some((row) => /^model$/i.test(row[0] || "")) ||
+      (/^pixel pitch$/i.test(table[1]?.[0] || "") && table[0]?.length > 1)
+  );
+
+  if (!modelsTable) {
+    const specs = tableRowsToSingleSpecs(tables.at(-1) || []);
+    return [
+      {
+        id: `unilumin-${slugify(series)}`,
+        brand: "洲明",
+        category,
+        series,
+        model: series,
+        application,
+        summary,
+        tags: unique(["真实抓取", extractUniluminSegment(productUrl)]),
+        originUrl: productUrl,
+        lastSeenAt: new Date().toISOString(),
+        specs: normalizeUniluminSpecs(specs)
+      }
+    ];
+  }
+
+  const variantSpecsList = tableRowsToVariantSpecs(modelsTable);
+  return variantSpecsList
+    .filter((variantSpecs) => shouldKeepUniluminVariant(variantSpecs.Model || ""))
+    .map((variantSpecs) => ({
+      id: `unilumin-${slugify(variantSpecs.Model || `${series}-${variantSpecs["Pixel Pitch"] || ""}`)}`,
+      brand: "洲明",
+      category,
+      series,
+      model: variantSpecs.Model || series,
+      application,
+      summary,
+      tags: unique(["真实抓取", extractUniluminSegment(productUrl)]),
+      originUrl: productUrl,
+      lastSeenAt: new Date().toISOString(),
+      specs: normalizeUniluminSpecs(variantSpecs)
+    }));
+}
+
+function extractUniluminParameterTables(html) {
+  const markerIndex = html.indexOf("Product Parameter");
+  if (markerIndex === -1) {
+    return [];
+  }
+
+  const sectionHtml = html.slice(markerIndex);
+  const tableMatches = [...sectionHtml.matchAll(/<table[\s\S]*?<\/table>/g)].map((match) => match[0]);
+
+  return tableMatches.map((tableHtml) =>
+    [...tableHtml.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map((rowMatch) =>
+      [...rowMatch[1].matchAll(/<td[\s\S]*?>([\s\S]*?)<\/td>/g)]
+        .map((cell) => normalizeWhitespace(decodeHtml(stripTags(cell[1]))))
+        .filter(Boolean)
+    )
+  );
+}
+
+function tableRowsToVariantSpecs(rows) {
+  if (!rows.length) {
+    return [];
+  }
+
+  if (/^model$/i.test(rows[0][0] || "")) {
+    if (isLikelySpecLabel(rows[1]?.[0] || "")) {
+      return parseColumnVariantTable(rows);
+    }
+    return parseRowVariantTable(rows);
+  }
+
+  if (!isLikelySpecLabel(rows[0][0] || "") && /^pixel pitch$/i.test(rows[1]?.[0] || "")) {
+    return parseHeaderlessModelTable(rows);
+  }
+
+  return [];
+}
+
+function parseColumnVariantTable(rows) {
+  const specsList = [];
+  const modelRow = rows.find((row) => /^model$/i.test(row[0] || ""));
+  let count = Math.max(0, modelRow.length - 1);
+  let modelNames = modelRow.slice(1);
+
+  if (modelRow.length === 2) {
+    const pitchRow = rows.find((row) => /pixel pitch/i.test(row[0] || ""));
+    if (pitchRow && pitchRow.length > 2) {
+      count = pitchRow.length - 1;
+      modelNames = pitchRow.slice(1).map((pitch) => `${modelRow[1]} ${pitch}`.trim());
+    }
+  }
+
+  for (let column = 1; column <= count; column += 1) {
+    const specs = {
+      Model: modelNames[column - 1] || modelNames[0] || "-"
+    };
+
+    for (const row of rows) {
+      const key = row[0];
+      const value = resolveVariantCellValue(row, column, count);
+      specs[key] = value;
+    }
+    specsList.push(specs);
+  }
+
+  return specsList.filter((specs) => specs.Model && !isLikelySpecLabel(specs.Model));
+}
+
+function parseRowVariantTable(rows) {
+  const headers = rows[0];
+  return rows.slice(1).map((row) => {
+    const specs = {};
+    headers.forEach((header, index) => {
+      specs[header || `field_${index}`] = row[index] || "-";
+    });
+    return specs;
+  });
+}
+
+function parseHeaderlessModelTable(rows) {
+  const specsList = [];
+  const count = rows[0].length;
+
+  for (let column = 0; column < count; column += 1) {
+    const specs = {
+      Model: rows[0][column]
+    };
+
+    for (const row of rows.slice(1)) {
+      const key = row[0];
+      const value = row[column + 1] || row[row.length - 1] || "-";
+      specs[key] = value;
+    }
+
+    specsList.push(specs);
+  }
+
+  return specsList.filter((specs) => specs.Model && !isLikelySpecLabel(specs.Model));
+}
+
+function resolveVariantCellValue(row, column, count) {
+  let values = row.slice(1);
+
+  if (values.length === count + 1 && isLikelySpecLabel(values[0])) {
+    values = values.slice(1);
+  }
+
+  if (values.length === count) {
+    return values[column - 1] || "-";
+  }
+
+  if (values.length > count && values.length % count === 0) {
+    const groupSize = values.length / count;
+    const start = (column - 1) * groupSize;
+    return values.slice(start, start + groupSize).join(" / ");
+  }
+
+  if (values.length === 1) {
+    return values[0];
+  }
+
+  return values[column - 1] || values[values.length - 1] || "-";
+}
+
+function tableRowsToSingleSpecs(rows) {
+  const specs = {};
+
+  for (const row of rows) {
+    if (row.length >= 2) {
+      specs[row[0]] = row[1];
+    }
+  }
+
+  return specs;
+}
+
+function isLikelySpecLabel(value) {
+  const normalized = String(value).trim().toLowerCase();
+  return [
+    "pixel pitch",
+    "brightness",
+    "resolution",
+    "dimension",
+    "dimensions",
+    "maintenance",
+    "weight",
+    "cabinet",
+    "cabinet size",
+    "module size",
+    "ip rating",
+    "parameter",
+    "viewing angle",
+    "contrast ratio",
+    "led",
+    "pixel density",
+    "module",
+    "panel",
+    "power",
+    "color",
+    "protection",
+    "driver",
+    "installation",
+    "frame rate",
+    "gray scale",
+    "input",
+    "processing",
+    "certification",
+    "material",
+    "planeness",
+    "product"
+  ].some((keyword) => normalized.startsWith(keyword));
+}
+
+function shouldKeepUniluminVariant(model) {
+  const normalized = String(model || "").trim();
+  if (!normalized) {
+    return false;
+  }
+
+  if (isLikelySpecLabel(normalized)) {
+    return false;
+  }
+
+  if (/^(u|x|f-|uc-|upad|ugm|ugn|urm|umini|umicro|umate|usurface|uslim|uhf|uda|uky|u-)/i.test(normalized)) {
+    return true;
+  }
+
+  return /\d/.test(normalized);
+}
+
+function normalizeUniluminSpecs(specs) {
+  return {
+    ...(readRequiredSpec(specs, "Pixel Pitch") !== "-" ? { "点间距": readRequiredSpec(specs, "Pixel Pitch") } : {}),
+    "箱体尺寸": readRequiredSpec(specs, "Cabinet Size(W x H x D)", "Cabinet Size(W x H x D)", "Cabinet Size"),
+    "模组尺寸": readRequiredSpec(specs, "Module Size"),
+    "亮度": readRequiredSpec(specs, "Brightness"),
+    "箱体重量": readRequiredSpec(specs, "Cabinet Weight"),
+    "维护方式": readRequiredSpec(specs, "Maintenance Method"),
+    "防护等级": readRequiredSpec(specs, "IP Rating")
+  };
+}
+
+function inferHikvisionCategory(endpoint) {
   if (endpoint.includes("/led-modules/")) {
     return "module";
   }
@@ -221,7 +493,7 @@ function inferHikvisionCategory(endpoint, item) {
   return "cabinet";
 }
 
-function inferHikvisionApplication(endpoint, item) {
+function inferHikvisionApplication(endpoint, subcategory) {
   if (endpoint.includes("/indoor-led/")) {
     return "室内显示 / 会议 / 展厅";
   }
@@ -243,7 +515,47 @@ function inferHikvisionApplication(endpoint, item) {
   if (endpoint.includes("/led-controllers/")) {
     return "发送控制 / 屏体控制";
   }
-  return item.subcategory || "LED 显示";
+  return subcategory || "LED 显示";
+}
+
+function inferUniluminCategory(productUrl, series, html) {
+  if (/module/i.test(productUrl) || /module/i.test(series)) {
+    return "module";
+  }
+  if (/controller/i.test(productUrl) || /controller/i.test(series)) {
+    return "controller";
+  }
+  if (html.includes("Video Processor") || html.includes("Controller")) {
+    return "controller";
+  }
+  return "cabinet";
+}
+
+function inferUniluminApplication(productUrl) {
+  if (productUrl.includes("/professional/")) {
+    return "专业显示 / 指挥中心 / 演播";
+  }
+  if (productUrl.includes("/commercial/")) {
+    return "商业显示 / 会议 / 展厅";
+  }
+  if (productUrl.includes("/dooh/")) {
+    return "户外广告 / DOOH";
+  }
+  if (productUrl.includes("/rental/")) {
+    return "租赁演出 / XR / 活动显示";
+  }
+  if (productUrl.includes("/creative/")) {
+    return "创意显示 / 异形显示";
+  }
+  if (productUrl.includes("/utv-cinema/")) {
+    return "影院 / 一体化显示";
+  }
+  return "LED 显示";
+}
+
+function extractUniluminSegment(productUrl) {
+  const match = productUrl.match(/\/products\/([^/]+)\//);
+  return match ? match[1] : "unilumin";
 }
 
 function toHikvisionDetailUrl(detailPath = "") {
@@ -263,32 +575,6 @@ function toHikvisionPublicPageUrl(pathname = "") {
   return pathname;
 }
 
-async function crawlUniluminProduct(source) {
-  const html = await fetchText(source.url);
-  const specs = extractProductParameterTable(html);
-
-  return {
-    id: source.id,
-    brand: source.brand,
-    category: source.category,
-    series: source.series,
-    model: source.model,
-    application: source.application,
-    summary: source.summary,
-    tags: source.tags,
-    originUrl: source.url,
-    lastSeenAt: new Date().toISOString(),
-    specs: {
-      "点间距": readRequiredSpec(specs, "Pixel Pitch"),
-      "箱体尺寸": readRequiredSpec(specs, "Cabinet Size(W x H x D)", "Cabinet Size(W x H x D)"),
-      "亮度": readRequiredSpec(specs, "Brightness"),
-      "箱体重量": readRequiredSpec(specs, "Cabinet Weight"),
-      "维护方式": readRequiredSpec(specs, "Maintenance Method"),
-      "防护等级": readRequiredSpec(specs, "IP Rating")
-    }
-  };
-}
-
 function extractLabeledSpecsFromHikvision(html) {
   const specs = {};
   const pattern =
@@ -305,30 +591,16 @@ function extractLabeledSpecsFromHikvision(html) {
   return specs;
 }
 
-function extractProductParameterTable(html) {
-  const marker = "Product Parameter";
-  const startIndex = html.indexOf(marker);
-  if (startIndex === -1) {
-    throw new Error("Unilumin product parameter table not found");
-  }
+function extractMetaContent(html, propertyName) {
+  const escaped = propertyName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const byProperty = html.match(new RegExp(`<meta[^>]+property=["']${escaped}["'][^>]+content=["']([^"']+)["']`, "i"));
+  const byName = html.match(new RegExp(`<meta[^>]+name=["']${escaped}["'][^>]+content=["']([^"']+)["']`, "i"));
+  return decodeHtml(byProperty?.[1] || byName?.[1] || "");
+}
 
-  const tableStart = html.indexOf("<table", startIndex);
-  const tableEnd = html.indexOf("</table>", tableStart);
-  const tableHtml = html.slice(tableStart, tableEnd + "</table>".length);
-  const rowMatches = [...tableHtml.matchAll(/<tr>([\s\S]*?)<\/tr>/g)];
-  const specs = {};
-
-  for (const rowMatch of rowMatches) {
-    const cells = [...rowMatch[1].matchAll(/<td[\s\S]*?>([\s\S]*?)<\/td>/g)]
-      .map((cell) => normalizeWhitespace(decodeHtml(stripTags(cell[1]))))
-      .filter(Boolean);
-
-    if (cells.length >= 2) {
-      specs[cells[0]] = cells[1];
-    }
-  }
-
-  return specs;
+function extractTitle(html) {
+  const match = html.match(/<title>([^<]+)<\/title>/i);
+  return decodeHtml(match?.[1] || "");
 }
 
 function readRequiredSpec(specs, ...keys) {
@@ -408,6 +680,17 @@ function stringify(value) {
 
 function unique(items) {
   return [...new Set(items)];
+}
+
+function dedupeProducts(products) {
+  const seen = new Set();
+  return products.filter((product) => {
+    if (seen.has(product.id)) {
+      return false;
+    }
+    seen.add(product.id);
+    return true;
+  });
 }
 
 function sleep(ms) {

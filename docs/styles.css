@@ -427,6 +427,24 @@ input {
   color: var(--muted);
 }
 
+.tree-category-group {
+  display: grid;
+  gap: 6px;
+}
+
+.tree-grandchildren {
+  display: grid;
+  gap: 4px;
+  padding-left: 14px;
+  border-left: 1px dotted rgba(18, 33, 38, 0.12);
+}
+
+.tree-grandchild {
+  font-size: 12px;
+  color: var(--muted);
+  padding: 6px 0;
+}
+
 .product-list {
   display: grid;
   gap: 18px;
