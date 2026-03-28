@@ -1,16 +1,11 @@
 [
   {
-    "id": "hikvision-ds-d4280fo",
+    "id": "hikvision-led-displays",
     "brand": "海康威视",
-    "type": "hikvisionProductPage",
+    "type": "hikvisionLedDisplaysCatalog",
     "enabled": true,
-    "category": "cabinet",
-    "url": "https://www.hikvision.com/my/products/led-displays/outdoor-led/ds-d4280fo/",
-    "model": "DS-D4280FO",
-    "series": "Outdoor Fixed LED",
-    "application": "户外广告 / 固装显示",
-    "summary": "从海康威视官方详情页抓取的户外固定安装 LED 产品。",
-    "tags": ["真实抓取", "户外", "固定安装"]
+    "rootUrl": "https://display.hikvision.com/en/products/led-displays/",
+    "notes": "抓取海康威视 display 站 LED Displays 下全部产品列表与详情参数。"
   },
   {
     "id": "unilumin-usurface-gm",

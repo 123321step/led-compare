@@ -100,150 +100,4398 @@
     }
   },
   {
-    "id": "hik-cabinet-500",
+    "id": "hikvision-ds-d4007bw-2fb-a",
     "brand": "海康威视",
     "category": "cabinet",
-    "series": "ArcVision",
-    "model": "500 x 500 压铸租赁箱体",
-    "application": "舞台租赁 / 展会活动",
-    "summary": "适配快装和弧形拼接的租赁箱体，适合中高频活动项目。",
-    "tags": [
-      "租赁",
-      "压铸铝",
-      "种子数据"
-    ],
-    "originUrl": "https://www.hikvision.com/",
-    "lastSeenAt": "2026-03-28T13:30:00.000Z",
-    "specs": {
-      "点间距": "3.91 mm",
-      "箱体尺寸": "500 x 500 x 75 mm",
-      "箱体材质": "压铸铝",
-      "箱体重量": "7.5 kg",
-      "维护方式": "前后维护",
-      "弧度支持": "-10° 至 +10°",
-      "防护等级": "IP54"
-    }
-  },
-  {
-    "id": "hikvision-ds-d4280fo",
-    "brand": "海康威视",
-    "category": "cabinet",
-    "series": "Outdoor Fixed LED",
-    "model": "DS-D4280FO",
-    "application": "户外广告 / 固装显示",
-    "summary": "从海康威视官方详情页抓取的户外固定安装 LED 产品。",
+    "series": "Ultra Series",
+    "model": "DS-D4007BW-2FB/A",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4007BW-2FB 300*168.75mm LED Module",
     "tags": [
       "真实抓取",
-      "户外",
-      "固定安装"
+      "Ultra Series",
+      "Indoor LED Displays",
+      "室内"
     ],
-    "originUrl": "https://www.hikvision.com/my/products/led-displays/outdoor-led/ds-d4280fo/",
-    "lastSeenAt": "2026-03-28T14:33:31.606Z",
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4007bw-2fb-a/",
+    "lastSeenAt": "2026-03-28T15:01:13.124Z",
     "specs": {
-      "点间距": "8.0 mm",
-      "箱体尺寸": "960 mm × 960 mm × 102.5 mm (37.8\" × 37.8\" × 4.0\")",
-      "分辨率": "120× 120",
-      "亮度": "6000 cd/m²",
-      "刷新率": "Up to 3840 Hz",
-      "防护等级": "IP65 both front and back"
+      "点间距": "0.78mm",
+      "箱体尺寸": "600 (W) × 337.5 (H) × 29.3(D) mm ；",
+      "分辨率": "768*432",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
     }
   },
   {
-    "id": "hik-controller-vp1000",
+    "id": "hikvision-ds-d4009bw-2fc",
     "brand": "海康威视",
-    "category": "controller",
-    "series": "VisionHub",
-    "model": "VP1000 视频控制器",
-    "application": "会议显示 / 指挥中心",
-    "summary": "海康生态兼容性较强，适合监控、会议和综合安防显示系统。",
+    "category": "cabinet",
+    "series": "Ultra Series",
+    "model": "DS-D4009BW-2FC",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4009BW-2FC 300*168.75mm LED Module",
     "tags": [
-      "兼容安防",
-      "会议",
-      "多输入"
+      "真实抓取",
+      "Ultra Series",
+      "Indoor LED Displays",
+      "室内"
     ],
-    "originUrl": "https://www.hikvision.com/",
-    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4009bw-2fc/",
+    "lastSeenAt": "2026-03-28T15:01:12.866Z",
     "specs": {
-      "最大带载": "520 万像素",
-      "输入接口": "HDMI / DVI / VGA",
-      "输出网口": "8 个千兆网口",
-      "图层数": "2 层",
-      "预监回显": "支持",
-      "备份机制": "双网口备份"
+      "点间距": "0.9375 mm",
+      "箱体尺寸": "600 mm × 337.5 mm × 29.3 mm (23.622\" × 13.287\" × 1.154\")",
+      "分辨率": "640 × 360",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
     }
   },
   {
-    "id": "hik-controller-vp2000",
+    "id": "hikvision-ds-d4012bw-2fc",
     "brand": "海康威视",
-    "category": "controller",
-    "series": "VisionHub",
-    "model": "VP2000 视频控制器",
-    "application": "监控中心 / 综合会议",
-    "summary": "用于更高带载和更多输入场景的视频控制器，适合综合安防和中控项目。",
+    "category": "cabinet",
+    "series": "Ultra Series",
+    "model": "DS-D4012BW-2FC",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4012BW-2FC 300*168.75mm LED Module",
     "tags": [
-      "安防",
-      "中控",
-      "种子数据"
+      "真实抓取",
+      "Ultra Series",
+      "Indoor LED Displays",
+      "室内"
     ],
-    "originUrl": "https://www.hikvision.com/",
-    "lastSeenAt": "2026-03-28T13:30:00.000Z",
-    "specs": {
-      "最大带载": "780 万像素",
-      "输入接口": "HDMI / DVI / VGA / SDI",
-      "输出网口": "12 个千兆网口",
-      "图层数": "4 层",
-      "预监回显": "支持",
-      "备份机制": "双机备份"
-    }
-  },
-  {
-    "id": "hik-module-p1-25",
-    "brand": "海康威视",
-    "category": "module",
-    "series": "FinePixel",
-    "model": "P1.25 室内小间距模组",
-    "application": "指挥中心 / 会议室",
-    "summary": "适合超高清近距离观看场景，强调高刷新与低亮高灰表现。",
-    "tags": [
-      "室内",
-      "小间距",
-      "种子数据"
-    ],
-    "originUrl": "https://www.hikvision.com/",
-    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4012bw-2fc/",
+    "lastSeenAt": "2026-03-28T15:01:13.398Z",
     "specs": {
       "点间距": "1.25 mm",
-      "模组尺寸": "320 x 160 mm",
-      "分辨率": "256 x 128",
-      "亮度": "600 nits",
+      "箱体尺寸": "600 mm × 337.5 mm × 29.3 mm (23.622\" × 13.287\" × 1.154\")",
+      "分辨率": "480 × 270",
+      "亮度": "600 cd/㎡",
       "刷新率": "3840 Hz",
-      "维护方式": "前维护",
-      "防护等级": "IP31"
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
     }
   },
   {
-    "id": "hik-module-p1-53",
+    "id": "hikvision-ds-d4012cs-2f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Value Series",
+    "model": "DS-D4012CS-2F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4012CS-2F，1.25mm，640*480MM",
+    "tags": [
+      "真实抓取",
+      "Value Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4012cs-2f/",
+    "lastSeenAt": "2026-03-28T15:02:16.996Z",
+    "specs": {
+      "点间距": "1.25mm",
+      "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
+      "分辨率": "512 × 384",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Complete front maintenance",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4012cw-2f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Solid Series",
+    "model": "DS-D4012CW-2F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "P1.2 SMD 600nits",
+    "tags": [
+      "真实抓取",
+      "Solid Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-series/ds-d4012cw-2f/",
+    "lastSeenAt": "2026-03-28T15:01:19.160Z",
+    "specs": {
+      "点间距": "1.25 mm",
+      "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
+      "分辨率": "480 × 270",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4015bw-2fc",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Ultra Series",
+    "model": "DS-D4015BW-2FC",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4015BW-2FC 300*168.75mm LED Module",
+    "tags": [
+      "真实抓取",
+      "Ultra Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4015bw-2fc/",
+    "lastSeenAt": "2026-03-28T15:01:13.660Z",
+    "specs": {
+      "点间距": "1.5625 mm",
+      "箱体尺寸": "600 mm × 337.5 mm × 29.3 mm (23.622\" × 13.287\" × 1.154\")",
+      "分辨率": "384 × 216",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4015cb-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4015CB-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4015CB-1F 750*250/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cb-1f/",
+    "lastSeenAt": "2026-03-28T15:01:26.545Z",
+    "specs": {
+      "点间距": "1.5625 mm",
+      "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
+      "分辨率": "480 × 160",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4015cc-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4015CC-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4015CC-1F 1000*250/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cc-1f/",
+    "lastSeenAt": "2026-03-28T15:01:26.817Z",
+    "specs": {
+      "点间距": "1.5625 mm",
+      "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
+      "分辨率": "640 × 160",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4015cd-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4015CD-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4015CD-1F 500*500/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cd-1f/",
+    "lastSeenAt": "2026-03-28T15:01:34.062Z",
+    "specs": {
+      "点间距": "1.5625 mm",
+      "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
+      "分辨率": "320 × 320",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4015cf-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4015CF-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4015CF-1F 1000*500/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cf-1f/",
+    "lastSeenAt": "2026-03-28T15:01:34.368Z",
+    "specs": {
+      "点间距": "1.5625 mm",
+      "箱体尺寸": "1000 mm × 500 mm × 50 mm(39.370\" × 19.685\" × 1.969\")",
+      "分辨率": "640 × 320",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4015cs-2f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Value Series",
+    "model": "DS-D4015CS-2F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4015CS-2F，1.538mm，640*480MM",
+    "tags": [
+      "真实抓取",
+      "Value Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4015cs-2f/",
+    "lastSeenAt": "2026-03-28T15:02:18.903Z",
+    "specs": {
+      "点间距": "1.538 mm",
+      "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
+      "分辨率": "416 × 312",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Complete front maintenance",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4015cw-2f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Solid Series",
+    "model": "DS-D4015CW-2F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "P1.5 SMD 600nits",
+    "tags": [
+      "真实抓取",
+      "Solid Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-series/ds-d4015cw-2f/",
+    "lastSeenAt": "2026-03-28T15:01:18.674Z",
+    "specs": {
+      "点间距": "1.5625 mm",
+      "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
+      "分辨率": "384 × 216",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4015cx-1f-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4015CX-1F/M",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "CX Series P1.5 Spare LED Module",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cx-1f-m/",
+    "lastSeenAt": "2026-03-28T15:02:11.945Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4018cs-2f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Value Series",
+    "model": "DS-D4018CS-2F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4018CS-2F，1.86mm，640*480MM",
+    "tags": [
+      "真实抓取",
+      "Value Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4018cs-2f/",
+    "lastSeenAt": "2026-03-28T15:02:20.848Z",
+    "specs": {
+      "点间距": "1.86 mm",
+      "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
+      "分辨率": "344 × 258",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Complete front maintenance",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4018cw-2f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Solid Series",
+    "model": "DS-D4018CW-2F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "P1.8 SMD 600nits",
+    "tags": [
+      "真实抓取",
+      "Solid Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-series/ds-d4018cw-2f/",
+    "lastSeenAt": "2026-03-28T15:01:18.901Z",
+    "specs": {
+      "点间距": "1.875 mm",
+      "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
+      "分辨率": "320 × 180",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4018cw-2fq",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Solid Plus Series",
+    "model": "DS-D4018CW-2FQ",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "P1.8 GOB 600nits",
+    "tags": [
+      "真实抓取",
+      "Solid Plus Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-plus-series/ds-d4018cw-2fq/",
+    "lastSeenAt": "2026-03-28T15:01:16.145Z",
+    "specs": {
+      "点间距": "1.875 mm",
+      "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
+      "分辨率": "320 × 180",
+      "亮度": "600cd/㎡",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4019cb-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4019CB-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4019CB-1F 750*250/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cb-1f/",
+    "lastSeenAt": "2026-03-28T15:01:38.772Z",
+    "specs": {
+      "点间距": "1.9531 mm",
+      "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
+      "分辨率": "384 × 128",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4019cc-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4019CC-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4019CC-1F 1000*250/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cc-1f/",
+    "lastSeenAt": "2026-03-28T15:01:41.945Z",
+    "specs": {
+      "点间距": "1.9531 mm",
+      "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
+      "分辨率": "512 × 128",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4019cd-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4019CD-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4019CD-1F 500*500/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cd-1f/",
+    "lastSeenAt": "2026-03-28T15:01:44.914Z",
+    "specs": {
+      "点间距": "1.9531 mm",
+      "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
+      "分辨率": "256 × 256",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4019cexx-2f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4019CEXX-2F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "P1.9 Flex II LED",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cexx-2f/",
+    "lastSeenAt": "2026-03-28T15:01:19.612Z",
+    "specs": {
+      "点间距": "1.9531 mm",
+      "箱体尺寸": "250 mm × 250 mm × 40.6 mm (9.84\" × 9.84\" × 1.60\"); 750 mm × 250 mm × 40.6 mm (29.53\" × 9.84\" × 1.60\"); 500 mm × 500 mm × 40.6 mm (19.69\" × 19.69\" × 1.60\");",
+      "分辨率": "128 × 128 ; 384 × 128 ; 256 × 256 ;",
+      "亮度": "800cd/m²",
+      "刷新率": "Up to 7680 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4019cf-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4019CF-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4019CF-1F 1000*500/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cf-1f/",
+    "lastSeenAt": "2026-03-28T15:01:47.690Z",
+    "specs": {
+      "点间距": "1.9531 mm",
+      "箱体尺寸": "1000 mm × 500 mm × 50 mm (39.370\" × 19.685\" × 1.969\")",
+      "分辨率": "512 × 256",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4019cx-1f-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4019CX-1F/M",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "CX Series P1.9 Spare LED Module",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cx-1f-m/",
+    "lastSeenAt": "2026-03-28T15:02:13.179Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4025cs-2f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Value Series",
+    "model": "DS-D4025CS-2F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4025CS-2F，2.5mm，640*480MM",
+    "tags": [
+      "真实抓取",
+      "Value Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4025cs-2f/",
+    "lastSeenAt": "2026-03-28T15:02:16.662Z",
+    "specs": {
+      "点间距": "2.5mm",
+      "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
+      "分辨率": "256 × 192",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Complete front maintenance",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4026cb-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4026CB-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4026CB-1F 750*250/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cb-1f/",
+    "lastSeenAt": "2026-03-28T15:01:50.959Z",
+    "specs": {
+      "点间距": "2.604 mm",
+      "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
+      "分辨率": "288 × 96",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4026cc-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4026CC-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4026CC-1F 1000*250/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cc-1f/",
+    "lastSeenAt": "2026-03-28T15:01:53.933Z",
+    "specs": {
+      "点间距": "2.604 mm",
+      "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
+      "分辨率": "384 × 96",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4026cd-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4026CD-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4026CD-1F 500*500/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cd-1f/",
+    "lastSeenAt": "2026-03-28T15:01:54.228Z",
+    "specs": {
+      "点间距": "2.604 mm",
+      "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
+      "分辨率": "192 × 192",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4026cexx-2f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4026CEXX-2F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "P2.6 Flex II LED",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cexx-2f/",
+    "lastSeenAt": "2026-03-28T15:01:21.669Z",
+    "specs": {
+      "点间距": "2.604 mm",
+      "箱体尺寸": "250 mm × 250 mm × 40.6 mm (9.84\" × 9.84\" × 1.60\"); 750 mm × 250 mm × 40.6 mm (29.53\" × 9.84\" × 1.60\"); 500 mm × 500 mm × 40.6 mm (19.69\" × 19.69\" × 1.60\");",
+      "分辨率": "96 × 96 ; 288 × 96 ; 192 × 192 ;",
+      "亮度": "1000cd/㎡",
+      "刷新率": "Up to 7680 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4026cf-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4026CF-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4026CF-1F 1000*500/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cf-1f/",
+    "lastSeenAt": "2026-03-28T15:01:54.534Z",
+    "specs": {
+      "点间距": "2.604 mm",
+      "箱体尺寸": "1000 mm × 500 mm × 50 mm (39.370\" × 19.685\" × 1.969\")",
+      "分辨率": "384 × 192",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4026cx-1f-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4026CX-1F/M",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "CX Series P2.6 Spare LED Module",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cx-1f-m/",
+    "lastSeenAt": "2026-03-28T15:02:14.507Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4029cb-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4029CB-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4029CB-1F 750*250/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cb-1f/",
+    "lastSeenAt": "2026-03-28T15:01:57.314Z",
+    "specs": {
+      "点间距": "2.976 mm",
+      "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
+      "分辨率": "252 × 84",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4029cc-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4029CC-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4029CC-1F 1000*250/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cc-1f/",
+    "lastSeenAt": "2026-03-28T15:01:57.580Z",
+    "specs": {
+      "点间距": "2.976 mm",
+      "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
+      "分辨率": "336 × 84",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4029cd-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4029CD-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4029CD-1F 500*500/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cd-1f/",
+    "lastSeenAt": "2026-03-28T15:02:00.894Z",
+    "specs": {
+      "点间距": "2.97619 mm",
+      "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
+      "分辨率": "168 × 168",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4029cf-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4029CF-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4029CF-1F 1000*500/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cf-1f/",
+    "lastSeenAt": "2026-03-28T15:02:04.058Z",
+    "specs": {
+      "点间距": "2.97619 mm",
+      "箱体尺寸": "1000 mm × 500 mm × 50 mm(39.370\" × 19.685\" × 1.969\")",
+      "分辨率": "336 × 168",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4029cx-1f-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4029CX-1F/M",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "CX Series P2.9 Spare LED Module",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cx-1f-m/",
+    "lastSeenAt": "2026-03-28T15:02:16.107Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4039cb-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4039CB-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4039CB-1F 750*250/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cb-1f/",
+    "lastSeenAt": "2026-03-28T15:02:06.679Z",
+    "specs": {
+      "点间距": "3.906 mm",
+      "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
+      "分辨率": "192 × 64",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4039cc-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4039CC-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4039CC-1F 1000*250/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cc-1f/",
+    "lastSeenAt": "2026-03-28T15:02:07.080Z",
+    "specs": {
+      "点间距": "3.906 mm",
+      "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
+      "分辨率": "256 × 64",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4039cd-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4039CD-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4039CD-1F 500*500/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cd-1f/",
+    "lastSeenAt": "2026-03-28T15:02:07.448Z",
+    "specs": {
+      "点间距": "3.90625 mm",
+      "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
+      "分辨率": "128 × 128",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4039cexx-2f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4039CEXX-2F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "P3.9 Flex II LED",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cexx-2f/",
+    "lastSeenAt": "2026-03-28T15:01:23.822Z",
+    "specs": {
+      "点间距": "3.906 mm",
+      "箱体尺寸": "250 mm × 250 mm × 40.6 mm (9.84\" × 9.84\" × 1.60\"); 750 mm × 250 mm × 40.6 mm (29.53\" × 9.84\" × 1.60\"); 500 mm × 500 mm × 40.6 mm (19.69\" × 19.69\" × 1.60\");",
+      "分辨率": "64 × 64 ; 192 × 64 ; 128 × 128 ;",
+      "亮度": "1000cd/m²",
+      "刷新率": "Up to 7680 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4039cf-1f",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4039CF-1F",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "DS-D4039CF-1F 1000*500/mm",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cf-1f/",
+    "lastSeenAt": "2026-03-28T15:02:07.737Z",
+    "specs": {
+      "点间距": "3.90625 mm",
+      "箱体尺寸": "1000 mm × 500 mm × 50 mm(39.370\" × 19.685\" × 1.969\")",
+      "分辨率": "256 × 128",
+      "亮度": "800 cd/m² (Peak 1000 cd/m²)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "Front protection level IP60",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4039cx-1f-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Flex Series",
+    "model": "DS-D4039CX-1F/M",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "CX Series P3.9 Spare LED Module",
+    "tags": [
+      "真实抓取",
+      "Flex Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cx-1f-m/",
+    "lastSeenAt": "2026-03-28T15:02:10.106Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4239cd-1aab",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiFit Series ",
+    "model": "DS-D4239CD-1AAB",
+    "application": "户外广告 / 固装显示",
+    "summary": "P3.9 Outdoor  LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiFit Series ",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cd-1aab/",
+    "lastSeenAt": "2026-03-28T15:02:35.603Z",
+    "specs": {
+      "点间距": "3.91mm",
+      "箱体尺寸": "500 mm × 500 mm × 97 mm",
+      "分辨率": "128×128",
+      "亮度": "4500 nit (Factory preset brightness) 5000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front and Rear maintenance",
+      "防护等级": "IP66",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4239cd-1aab-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiFit Series ",
+    "model": "DS-D4239CD-1AAB/M",
+    "application": "户外广告 / 固装显示",
+    "summary": "Module for DS-D4239CD-1AAB",
+    "tags": [
+      "真实抓取",
+      "LumiFit Series ",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cd-1aab-m/",
+    "lastSeenAt": "2026-03-28T15:02:35.908Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4239cf-1aab",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiFit Series ",
+    "model": "DS-D4239CF-1AAB",
+    "application": "户外广告 / 固装显示",
+    "summary": "P3.9 Outdoor LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiFit Series ",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cf-1aab/",
+    "lastSeenAt": "2026-03-28T15:02:36.236Z",
+    "specs": {
+      "点间距": "3.91 mm",
+      "箱体尺寸": "500 mm × 1000 mm × 97 mm（19.69\" × 39.37\" × 3.82\"）",
+      "分辨率": "128 × 256",
+      "亮度": "4500 nit (Factory preset brightness) 5000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front and Rear maintenance",
+      "防护等级": "IP66",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4248cd-1aab",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiFit Series ",
+    "model": "DS-D4248CD-1AAB",
+    "application": "户外广告 / 固装显示",
+    "summary": "P4.8 Outdoor  LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiFit Series ",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4248cd-1aab/",
+    "lastSeenAt": "2026-03-28T15:02:39.904Z",
+    "specs": {
+      "点间距": "4.81mm",
+      "箱体尺寸": "500 mm × 500 mm × 97 mm",
+      "分辨率": "104×104",
+      "亮度": "4500 nit (Factory preset brightness) 5000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front and Rear maintenance",
+      "防护等级": "IP66",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4248cd-1aab-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiFit Series ",
+    "model": "DS-D4248CD-1AAB/M",
+    "application": "户外广告 / 固装显示",
+    "summary": "Module for DS-D4248CD-1AAB",
+    "tags": [
+      "真实抓取",
+      "LumiFit Series ",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4248cd-1aab-m/",
+    "lastSeenAt": "2026-03-28T15:02:43.180Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4248cf-1aab",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiFit Series ",
+    "model": "DS-D4248CF-1AAB",
+    "application": "户外广告 / 固装显示",
+    "summary": "P4.8 Outdoor LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiFit Series ",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4248cf-1aab/",
+    "lastSeenAt": "2026-03-28T15:02:46.869Z",
+    "specs": {
+      "点间距": "4.8 mm",
+      "箱体尺寸": "500 mm × 1000 mm × 97 mm （19.69\" × 39.37\" × 3.82\"）",
+      "分辨率": "104 × 208",
+      "亮度": "4500 nit (Factory preset brightness) 5000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front and Rear maintenance",
+      "防护等级": "IP66",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4257co-2apa",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiSquare Series",
+    "model": "DS-D4257CO-2APA",
+    "application": "户外广告 / 固装显示",
+    "summary": "P5.7 Outdoor LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiSquare Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4257co-2apa/",
+    "lastSeenAt": "2026-03-28T15:02:50.858Z",
+    "specs": {
+      "点间距": "5.71 mm",
+      "箱体尺寸": "960 mm × 960 mm × 100 mm",
+      "分辨率": "168 × 168",
+      "亮度": "6500 nit (Factory preset brightness) 7000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front/Rear maintenance",
+      "防护等级": "IP66",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4257co-2apa-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiSquare Series",
+    "model": "DS-D4257CO-2APA/M",
+    "application": "户外广告 / 固装显示",
+    "summary": "Module for DS-D4257CO-2APA",
+    "tags": [
+      "真实抓取",
+      "LumiSquare Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4257co-2apa-m/",
+    "lastSeenAt": "2026-03-28T15:02:51.134Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4257go-2aaa",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiUltra Series",
+    "model": "DS-D4257GO-2AAA",
+    "application": "户外广告 / 固装显示",
+    "summary": "P5.7 Outdoor LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiUltra Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4257go-2aaa/",
+    "lastSeenAt": "2026-03-28T15:02:30.517Z",
+    "specs": {
+      "点间距": "5.71 mm",
+      "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
+      "分辨率": "168 × 168",
+      "亮度": "9000 nit (Factory preset brightness) 10000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front/Rear maintenance",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4257go-2aaa-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiUltra Series",
+    "model": "DS-D4257GO-2AAA/M",
+    "application": "户外广告 / 固装显示",
+    "summary": "Module for DS-D4257GO-2AAA",
+    "tags": [
+      "真实抓取",
+      "LumiUltra Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4257go-2aaa-m/",
+    "lastSeenAt": "2026-03-28T15:02:23.613Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4266co-2apa",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiSquare Series",
+    "model": "DS-D4266CO-2APA",
+    "application": "户外广告 / 固装显示",
+    "summary": "P6.6 Outdoor LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiSquare Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4266co-2apa/",
+    "lastSeenAt": "2026-03-28T15:02:51.480Z",
+    "specs": {
+      "点间距": "6.67 mm",
+      "箱体尺寸": "960 mm × 960 mm × 100 mm",
+      "分辨率": "144 × 144",
+      "亮度": "6500 nit (Factory preset brightness) 7000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front/Rear maintenance",
+      "防护等级": "IP66",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4266co-2apa-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiSquare Series",
+    "model": "DS-D4266CO-2APA/M",
+    "application": "户外广告 / 固装显示",
+    "summary": "Module for DS-D4266CO-2APA",
+    "tags": [
+      "真实抓取",
+      "LumiSquare Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4266co-2apa-m/",
+    "lastSeenAt": "2026-03-28T15:02:52.088Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4266go-2aaa",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiUltra Series",
+    "model": "DS-D4266GO-2AAA",
+    "application": "户外广告 / 固装显示",
+    "summary": "P6.6 Outdoor LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiUltra Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4266go-2aaa/",
+    "lastSeenAt": "2026-03-28T15:02:26.800Z",
+    "specs": {
+      "点间距": "6.67 mm",
+      "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
+      "分辨率": "144 × 144",
+      "亮度": "9000 nit (Factory preset brightness) 10000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front/Rear maintenance",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4266go-2aaa-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiUltra Series",
+    "model": "DS-D4266GO-2AAA/M",
+    "application": "户外广告 / 固装显示",
+    "summary": "Module for DS-D4266GO-2APA/M",
+    "tags": [
+      "真实抓取",
+      "LumiUltra Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4266go-2aaa-m/",
+    "lastSeenAt": "2026-03-28T15:02:27.101Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4280co-2apa",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiSquare Series",
+    "model": "DS-D4280CO-2APA",
+    "application": "户外广告 / 固装显示",
+    "summary": "P8 Outdoor LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiSquare Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4280co-2apa/",
+    "lastSeenAt": "2026-03-28T15:02:52.396Z",
+    "specs": {
+      "点间距": "8 mm",
+      "箱体尺寸": "960 mm × 960 mm × 100 mm",
+      "分辨率": "120 × 120",
+      "亮度": "6500 nit (Factory preset brightness) 7000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front/Rear maintenance",
+      "防护等级": "IP66",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4280co-2apa-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiSquare Series",
+    "model": "DS-D4280CO-2APA/M",
+    "application": "户外广告 / 固装显示",
+    "summary": "Module for DS-D4280CO-2APA",
+    "tags": [
+      "真实抓取",
+      "LumiSquare Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4280co-2apa-m/",
+    "lastSeenAt": "2026-03-28T15:02:55.676Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4280go-2aaa",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiUltra Series",
+    "model": "DS-D4280GO-2AAA",
+    "application": "户外广告 / 固装显示",
+    "summary": "P8 Outdoor LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiUltra Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4280go-2aaa/",
+    "lastSeenAt": "2026-03-28T15:02:31.002Z",
+    "specs": {
+      "点间距": "8 mm",
+      "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
+      "分辨率": "120 × 120",
+      "亮度": "9000 nit (Factory preset brightness) 10000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front/Rear maintenance",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4280go-2aaa-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiUltra Series",
+    "model": "DS-D4280GO-2AAA/M",
+    "application": "户外广告 / 固装显示",
+    "summary": "Module for DS-D4280GO-2APA/M",
+    "tags": [
+      "真实抓取",
+      "LumiUltra Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4280go-2aaa-m/",
+    "lastSeenAt": "2026-03-28T15:02:27.368Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d42a0co-2apa",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiSquare Series",
+    "model": "DS-D42A0CO-2APA",
+    "application": "户外广告 / 固装显示",
+    "summary": "P10 Outdoor LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiSquare Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d42a0co-2apa/",
+    "lastSeenAt": "2026-03-28T15:02:59.667Z",
+    "specs": {
+      "点间距": "10 mm",
+      "箱体尺寸": "960 mm × 960 mm × 100 mm",
+      "分辨率": "96 × 96",
+      "亮度": "6500 nit (Factory preset brightness) 7000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front/Rear maintenance",
+      "防护等级": "IP66",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d42a0co-2apa-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiSquare Series",
+    "model": "DS-D42A0CO-2APA/M",
+    "application": "户外广告 / 固装显示",
+    "summary": "Module for DS-D42A0CO-2APA",
+    "tags": [
+      "真实抓取",
+      "LumiSquare Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d42a0co-2apa-m/",
+    "lastSeenAt": "2026-03-28T15:03:02.943Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d42a0go-2aaa",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiUltra Series",
+    "model": "DS-D42A0GO-2AAA",
+    "application": "户外广告 / 固装显示",
+    "summary": "P10 Outdoor LED Display Unit",
+    "tags": [
+      "真实抓取",
+      "LumiUltra Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d42a0go-2aaa/",
+    "lastSeenAt": "2026-03-28T15:02:33.966Z",
+    "specs": {
+      "点间距": "10 mm",
+      "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
+      "分辨率": "96 × 96",
+      "亮度": "9000 nit (Factory preset brightness) 10000 nit (Peak)",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Front/Rear maintenance",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d42a0go-2aaa-m",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LumiUltra Series",
+    "model": "DS-D42A0GO-2AAA/M",
+    "application": "户外广告 / 固装显示",
+    "summary": "Module for DS-D42A0GO-2APA/M",
+    "tags": [
+      "真实抓取",
+      "LumiUltra Series",
+      "Outdoor LED Displays",
+      "户外"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d42a0go-2aaa-m/",
+    "lastSeenAt": "2026-03-28T15:02:27.716Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Outdoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4512cb108-2fq",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED All-in-one display",
+    "model": "DS-D4512CB108-2FQ",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4512CB108-2FQ 108'' LED AIO（Non-Touch）",
+    "tags": [
+      "真实抓取",
+      "LED All-in-one display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4512cb108-2fq/",
+    "lastSeenAt": "2026-03-28T15:03:05.299Z",
+    "specs": {
+      "点间距": "1.25 mm",
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "600 cd/m²",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4512cb108-2fq-a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED All-in-one display",
+    "model": "DS-D4512CB108-2FQ/A",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4512CB108-2FQ/A 108'' LED AIO LED Module Spare Part",
+    "tags": [
+      "真实抓取",
+      "LED All-in-one display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4512cb108-2fq-a/",
+    "lastSeenAt": "2026-03-28T15:03:06.637Z",
+    "specs": {
+      "点间距": "1.25 mm",
+      "箱体尺寸": "300 × 168.75 mm",
+      "分辨率": "-",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4512ch-1fq",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4512CH-1FQ",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4512CH-1FQ",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4512ch-1fq/",
+    "lastSeenAt": "2026-03-28T15:03:11.032Z",
+    "specs": {
+      "点间距": "P1.2",
+      "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
+      "分辨率": "480*1350",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4512ch-1fq-a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4512CH-1FQ/A",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4512CH-1FQ/A",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4512ch-1fq-a/",
+    "lastSeenAt": "2026-03-28T15:03:23.832Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4512ch-1fqf",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4512CH-1FQF",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4512CH-1FQF",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4512ch-1fqf/",
+    "lastSeenAt": "2026-03-28T15:03:13.798Z",
+    "specs": {
+      "点间距": "P1.2",
+      "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
+      "分辨率": "480*1350",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4515cb135-2fq",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED All-in-one display",
+    "model": "DS-D4515CB135-2FQ",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4515CB135-2FQ 135'' LED AIO（Non-Touch）",
+    "tags": [
+      "真实抓取",
+      "LED All-in-one display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4515cb135-2fq/",
+    "lastSeenAt": "2026-03-28T15:03:08.647Z",
+    "specs": {
+      "点间距": "1.5625 mm",
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "600 cd/m²",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4515cb135-2fq-a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED All-in-one display",
+    "model": "DS-D4515CB135-2FQ/A",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4515CB135-2FQ/A 135'' LED AIO LED Module Spare Part",
+    "tags": [
+      "真实抓取",
+      "LED All-in-one display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4515cb135-2fq-a/",
+    "lastSeenAt": "2026-03-28T15:03:10.010Z",
+    "specs": {
+      "点间距": "1.5625 mm",
+      "箱体尺寸": "300 × 168.75 mm",
+      "分辨率": "-",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4515ch-1fq",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4515CH-1FQ",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4515CH-1FQ",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4515ch-1fq/",
+    "lastSeenAt": "2026-03-28T15:03:16.571Z",
+    "specs": {
+      "点间距": "P1.5",
+      "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
+      "分辨率": "384 × 1080",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4515ch-1fq-a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4515CH-1FQ/A",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4515CH-1FQ/A",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4515ch-1fq-a/",
+    "lastSeenAt": "2026-03-28T15:03:26.463Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4515ch-1fqf",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4515CH-1FQF",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4515CH-1FQF",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4515ch-1fqf/",
+    "lastSeenAt": "2026-03-28T15:03:16.838Z",
+    "specs": {
+      "点间距": "P1.5",
+      "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
+      "分辨率": "384*1080",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4518cb162-2fq",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED All-in-one display",
+    "model": "DS-D4518CB162-2FQ",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4518CB162-2FQ 162'' LED AIO（Non-Touch）",
+    "tags": [
+      "真实抓取",
+      "LED All-in-one display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4518cb162-2fq/",
+    "lastSeenAt": "2026-03-28T15:03:10.275Z",
+    "specs": {
+      "点间距": "1.875 mm",
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "600 cd/m²",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front maintenance",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4518cb162-2fq-a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED All-in-one display",
+    "model": "DS-D4518CB162-2FQ/A",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4518CB162-2FQ/A 162'' LED AIO LED Module Spare Part",
+    "tags": [
+      "真实抓取",
+      "LED All-in-one display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4518cb162-2fq-a/",
+    "lastSeenAt": "2026-03-28T15:03:10.530Z",
+    "specs": {
+      "点间距": "1.875 mm",
+      "箱体尺寸": "300 × 168.75 mm",
+      "分辨率": "-",
+      "亮度": "600 cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4518ch-1fq",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4518CH-1FQ",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4518CH-1FQ",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4518ch-1fq/",
+    "lastSeenAt": "2026-03-28T15:03:17.170Z",
+    "specs": {
+      "点间距": "P1.8",
+      "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
+      "分辨率": "320*900",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4518ch-1fq-a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4518CH-1FQ/A",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4518CH-1FQ/A",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4518ch-1fq-a/",
+    "lastSeenAt": "2026-03-28T15:03:26.727Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4518ch-1fqf",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4518CH-1FQF",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4518CH-1FQF",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4518ch-1fqf/",
+    "lastSeenAt": "2026-03-28T15:03:19.949Z",
+    "specs": {
+      "点间距": "P1.8",
+      "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
+      "分辨率": "320 × 900",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4525ch-1fq",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4525CH-1FQ",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4525CH-1FQ",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4525ch-1fq/",
+    "lastSeenAt": "2026-03-28T15:03:20.247Z",
+    "specs": {
+      "点间距": "P2.5",
+      "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
+      "分辨率": "240 ×675",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4525ch-1fq-a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "LED Poster display",
+    "model": "DS-D4525CH-1FQ/A",
+    "application": "创意显示 / 一体机 / 海报屏",
+    "summary": "DS-D4525CH-1FQ/A",
+    "tags": [
+      "真实抓取",
+      "LED Poster display",
+      "Indoor Standard LED",
+      "创意显示"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4525ch-1fq-a/",
+    "lastSeenAt": "2026-03-28T15:03:29.259Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Indoor Standard LED"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4619cd-1ac-p",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4619CD-1AC/P",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-D4619CD-1AC/P",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4619cd-1ac-p/",
+    "lastSeenAt": "2026-03-28T15:04:10.937Z",
+    "specs": {
+      "点间距": "1.9531 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "256 x 256",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4626cd-1a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4626CD-1A",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500*500/aries indoor rental P2.6",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4626cd-1a/",
+    "lastSeenAt": "2026-03-28T15:03:36.734Z",
+    "specs": {
+      "点间距": "2.6042 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "192 × 192",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front&Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4626cd-1ac",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4626CD-1AC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500*500/aries indoor rental P2.6 with curve lock",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4626cd-1ac/",
+    "lastSeenAt": "2026-03-28T15:03:40.116Z",
+    "specs": {
+      "点间距": "2.6042 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "192 × 192",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4626cd-1ac-p",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4626CD-1AC/P",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-D4626CD-1AC/P",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4626cd-1ac-p/",
+    "lastSeenAt": "2026-03-28T15:04:11.205Z",
+    "specs": {
+      "点间距": "2.6042 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "192 × 192",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4629cd-1a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4629CD-1A",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500*500/aries indoor rental P2.9",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cd-1a/",
+    "lastSeenAt": "2026-03-28T15:03:43.491Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "168 × 168",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4629cd-1ac",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4629CD-1AC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "00*500/aries indoor rental P2.9 with curve lock",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cd-1ac/",
+    "lastSeenAt": "2026-03-28T15:03:46.968Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "168 × 168",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4629cd-1ac-p",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4629CD-1AC/P",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-D4629CD-1AC/P",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cd-1ac-p/",
+    "lastSeenAt": "2026-03-28T15:04:11.472Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "168 × 168",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4629cf-1a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4629CF-1A",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500*1000/aries indoor rental P2.9",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cf-1a/",
+    "lastSeenAt": "2026-03-28T15:03:49.023Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "168 × 336",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4629cf-1ac",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4629CF-1AC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500*1000/aries indoor rental P2.9 with curve lock",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cf-1ac/",
+    "lastSeenAt": "2026-03-28T15:03:49.278Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "168 × 336",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4629cf-1ac-p",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4629CF-1AC/P",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-D4629CF-1AC/P",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cf-1ac-p/",
+    "lastSeenAt": "2026-03-28T15:04:14.323Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "168 × 336",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4639cd-1a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4639CD-1A",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500*500/aries indoor rental P3.9",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cd-1a/",
+    "lastSeenAt": "2026-03-28T15:03:52.403Z",
+    "specs": {
+      "点间距": "3.9063 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "128 × 128",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4639cd-1ac",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4639CD-1AC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "00*500/aries indoor rental P3.9 with curve lock",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cd-1ac/",
+    "lastSeenAt": "2026-03-28T15:03:55.634Z",
+    "specs": {
+      "点间距": "3.9063 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "128 × 128",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4639cf-1a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4639CF-1A",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500*1000/aries indoor rental P3.9",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cf-1a/",
+    "lastSeenAt": "2026-03-28T15:03:57.733Z",
+    "specs": {
+      "点间距": "3.9063 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "128 × 256",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4639cf-1ac",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4639CF-1AC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500*1000/aries indoor rental P3.9 with curve lock",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cf-1ac/",
+    "lastSeenAt": "2026-03-28T15:04:00.290Z",
+    "specs": {
+      "点间距": "3.9063 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "128 × 256",
+      "亮度": "1000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Front & Rear maintenance",
+      "防护等级": "IP40",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4729cd-1a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4729CD-1A",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500x500 aries rental outdoor P2.9",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cd-1a/",
+    "lastSeenAt": "2026-03-28T15:03:29.777Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "168 × 168",
+      "亮度": "4500 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4729cd-1ac",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4729CD-1AC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500x500 aries rental outdoor P2.9 with curve lock",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cd-1ac/",
+    "lastSeenAt": "2026-03-28T15:04:00.574Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "168 × 168",
+      "亮度": "4500 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4729cd-1ac-p",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4729CD-1AC/P",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-D4729CD-1AC/P",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cd-1ac-p/",
+    "lastSeenAt": "2026-03-28T15:04:16.978Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "168 × 168",
+      "亮度": "4000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4729cf-1a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4729CF-1A",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500x1000 rental outdoor cabinet P2.9",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cf-1a/",
+    "lastSeenAt": "2026-03-28T15:04:00.909Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "168 × 336",
+      "亮度": "4500 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4729cf-1ac",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4729CF-1AC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500x1000 aries rental outdoor cabinet P2.9 with curve lock",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cf-1ac/",
+    "lastSeenAt": "2026-03-28T15:04:03.874Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "168 × 336",
+      "亮度": "4500 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4729cf-1ac-p",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4729CF-1AC/P",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-D4729CF-1AC/P",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cf-1ac-p/",
+    "lastSeenAt": "2026-03-28T15:04:19.742Z",
+    "specs": {
+      "点间距": "2.9762 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "168 × 336",
+      "亮度": "4000 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4739cd-1a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4739CD-1A",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500x500/rental outdoor cabinet P3.9",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cd-1a/",
+    "lastSeenAt": "2026-03-28T15:04:04.141Z",
+    "specs": {
+      "点间距": "3.9063 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "128 × 128",
+      "亮度": "4500 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4739cd-1ac",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4739CD-1AC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500x500 aries rental outdoor cabinet P3.9 with curve lock",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cd-1ac/",
+    "lastSeenAt": "2026-03-28T15:04:07.806Z",
+    "specs": {
+      "点间距": "3.9063 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "128 × 128",
+      "亮度": "4500 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4739cd-1ac-p",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4739CD-1AC/P",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-D4739CD-1AC/P",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cd-1ac-p/",
+    "lastSeenAt": "2026-03-28T15:04:22.711Z",
+    "specs": {
+      "点间距": "3.9063 mm",
+      "箱体尺寸": "500mm × 500mm × 69mm",
+      "分辨率": "128x128",
+      "亮度": "4500 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4739cf-1a",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4739CF-1A",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500x1000/rental outdoor cabinet P3.9",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cf-1a/",
+    "lastSeenAt": "2026-03-28T15:03:30.034Z",
+    "specs": {
+      "点间距": "3.9063 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "128 × 256",
+      "亮度": "4500 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4739cf-1ac",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4739CF-1AC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "500x1000 rental outdoor cabinet P3.9 with curve lock",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cf-1ac/",
+    "lastSeenAt": "2026-03-28T15:04:08.069Z",
+    "specs": {
+      "点间距": "3.9063 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "128 × 256",
+      "亮度": "4500 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4739cf-1ac-p",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-D4739CF-1AC/P",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-D4739CF-1AC/P",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cf-1ac-p/",
+    "lastSeenAt": "2026-03-28T15:04:25.169Z",
+    "specs": {
+      "点间距": "3.9063 mm",
+      "箱体尺寸": "500mm × 1000mm × 69mm",
+      "分辨率": "128 × 256",
+      "亮度": "4500 cd/㎡",
+      "刷新率": "7680 Hz",
+      "维护方式": "Rear maintenance",
+      "防护等级": "IP65",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-dprss-1n-hb05-cb",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-DPRSS-1N/HB05/CB",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-DPRSS-1N/HB05/CB",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hb05-cb/",
+    "lastSeenAt": "2026-03-28T15:04:25.429Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-dprss-1n-hb05-fc",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-DPRSS-1N/HB05/FC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-DPRSS-1N/HB05/FC",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hb05-fc/",
+    "lastSeenAt": "2026-03-28T15:03:31.101Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-dprss-1n-hbbs05-cb",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-DPRSS-1N/HBBS05/CB",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-DPRSS-1N/HBBS05/CB",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hbbs05-cb/",
+    "lastSeenAt": "2026-03-28T15:03:32.741Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-dprss-1n-hbbs05-fc",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-DPRSS-1N/HBBS05/FC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-DPRSS-1N/HBBS05/FC",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hbbs05-fc/",
+    "lastSeenAt": "2026-03-28T15:03:33.753Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-6920udi-u-c",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-6920UDI-U(C)",
+    "application": "拼控 / 视频墙",
+    "summary": "20 output ports multi-functional video center",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-6920udi-u-c-/",
+    "lastSeenAt": "2026-03-28T15:05:07.675Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "2 × 10/100/1000 Mbps self-adaptive Ethernet interface (RJ-45)",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-6924udi-u-c",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-6924UDI-U(C)",
+    "application": "拼控 / 视频墙",
+    "summary": "24 output ports multi-functional video center",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-6924udi-u-c-/",
+    "lastSeenAt": "2026-03-28T15:05:07.979Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "2 × 10/100/1000 Mbps self-adaptive Ethernet interface (RJ-45)",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-6932udi-u-c",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-6932UDI-U(C)",
+    "application": "拼控 / 视频墙",
+    "summary": "32 output ports multi-functional video center",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-6932udi-u-c-/",
+    "lastSeenAt": "2026-03-28T15:05:10.332Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "2 × 10/100/1000 Mbps self-adaptive Ethernet interface (RJ-45)",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c30s-02dpi-4k",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C30S-02DPI/4K",
+    "application": "拼控 / 视频墙",
+    "summary": "DP Input Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-02dpi-4k/",
+    "lastSeenAt": "2026-03-28T15:05:10.588Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c30s-02hi-4k",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C30S-02HI/4K",
+    "application": "拼控 / 视频墙",
+    "summary": "HDMI Input Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-02hi-4k/",
+    "lastSeenAt": "2026-03-28T15:05:10.810Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c30s-02ho-4k",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C30S-02HO/4K",
+    "application": "拼控 / 视频墙",
+    "summary": "HDMI Output Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-02ho-4k/",
+    "lastSeenAt": "2026-03-28T15:05:12.823Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c30s-04hi",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C30S-04HI",
+    "application": "拼控 / 视频墙",
+    "summary": "HDMI Input Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-04hi/",
+    "lastSeenAt": "2026-03-28T15:05:13.077Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c30s-04ho",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C30S-04HO",
+    "application": "拼控 / 视频墙",
+    "summary": "HDMI Output Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-04ho/",
+    "lastSeenAt": "2026-03-28T15:05:13.351Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c30s-s23",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C30S-S23",
+    "application": "拼控 / 视频墙",
+    "summary": "Video Wall Controller Casing",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-s23/",
+    "lastSeenAt": "2026-03-28T15:05:13.708Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-02dpi-4k",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-02DPI/4K",
+    "application": "拼控 / 视频墙",
+    "summary": "2 Channels DP 4K Input Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-02dpi-4k/",
+    "lastSeenAt": "2026-03-28T15:04:56.674Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-02hi-4k",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-02HI/4K",
+    "application": "拼控 / 视频墙",
+    "summary": "2 Channels HDMI 4K Input Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-02hi-4k/",
+    "lastSeenAt": "2026-03-28T15:04:58.856Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-02ho-4k",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-02HO/4K",
+    "application": "拼控 / 视频墙",
+    "summary": "2 Channels HDMI 4K Output Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-02ho-4k/",
+    "lastSeenAt": "2026-03-28T15:04:59.134Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-04di",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-04DI",
+    "application": "拼控 / 视频墙",
+    "summary": "4 Channels DVI Input Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04di/",
+    "lastSeenAt": "2026-03-28T15:05:01.219Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-04do",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-04DO",
+    "application": "拼控 / 视频墙",
+    "summary": "4 Channels DVI Output Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04do/",
+    "lastSeenAt": "2026-03-28T15:05:01.488Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-04hi",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-04HI",
+    "application": "拼控 / 视频墙",
+    "summary": "4 Channels HDMI Input Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04hi/",
+    "lastSeenAt": "2026-03-28T15:05:01.719Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-04ho",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-04HO",
+    "application": "拼控 / 视频墙",
+    "summary": "4 Channel HDMI Output Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04ho/",
+    "lastSeenAt": "2026-03-28T15:05:02.031Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-04sdi-4k",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-04SDI/4K",
+    "application": "拼控 / 视频墙",
+    "summary": "4 Channels SDI Input Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04sdi-4k/",
+    "lastSeenAt": "2026-03-28T15:05:02.341Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-16no-2fo",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-16NO/2FO",
+    "application": "拼控 / 视频墙",
+    "summary": "16 Network Ports with SFP LED Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-16no-2fo/",
+    "lastSeenAt": "2026-03-28T15:05:02.657Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-20no",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-20NO",
+    "application": "拼控 / 视频墙",
+    "summary": "20 Network Ports LED Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-20no/",
+    "lastSeenAt": "2026-03-28T15:05:05.004Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-pre",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-PRE",
+    "application": "拼控 / 视频墙",
+    "summary": "Preview Board",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-pre/",
+    "lastSeenAt": "2026-03-28T15:05:06.883Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-s12",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-S12",
+    "application": "拼控 / 视频墙",
+    "summary": "12 Slots C66S Chasis",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-s12/",
+    "lastSeenAt": "2026-03-28T15:05:07.156Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c66s-s6",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C66S-S6",
+    "application": "拼控 / 视频墙",
+    "summary": "6 Slots C66S Chasis",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-s6/",
+    "lastSeenAt": "2026-03-28T15:05:07.407Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c80n-01hi",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C80N-01HI",
+    "application": "拼控 / 视频墙",
+    "summary": "Distributed HDMI input Node",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01hi/",
+    "lastSeenAt": "2026-03-28T15:05:16.324Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "Power supply: 110 VAC to 240 VAC, 0.7 A POE: 802.3at protocol",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c80n-01hi-4k",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C80N-01HI/4K",
+    "application": "拼控 / 视频墙",
+    "summary": "Distributed 4K HDMI input Node",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01hi-4k/",
+    "lastSeenAt": "2026-03-28T15:05:16.594Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "Power supply: 110 VAC to 240 VAC, 0.7 A POE: 802.3at protocol",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c80n-01ho",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C80N-01HO",
+    "application": "拼控 / 视频墙",
+    "summary": "Distributed HDMI output Node",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01ho/",
+    "lastSeenAt": "2026-03-28T15:05:16.887Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "Power supply: 110 VAC to 240 VAC, 0.7 A POE: 802.3at protocol",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-c80n-01ho-4k",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "Video Wall Controllers",
+    "model": "DS-C80N-01HO/4K",
+    "application": "拼控 / 视频墙",
+    "summary": "Distributed 4K HDMI output Node",
+    "tags": [
+      "真实抓取",
+      "Video Wall Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01ho-4k/",
+    "lastSeenAt": "2026-03-28T15:05:17.192Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "Power supply: 110 VAC to 240 VAC, 0.7 A POE: 802.3at protocol",
+      "海康子类": "Video Wall Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-d42a05",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-D42A05",
+    "application": "发送控制 / 屏体控制",
+    "summary": "LED Accessory",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-d42a05/",
+    "lastSeenAt": "2026-03-28T15:04:33.960Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt30p-01hi01no",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT30P-01HI01NO",
+    "application": "发送控制 / 屏体控制",
+    "summary": "1-port DT30 synchronous and asynchronous LED controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt30p-01hi01no/",
+    "lastSeenAt": "2026-03-28T15:04:32.826Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt30p-01hi02no",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT30P-01HI02NO",
+    "application": "发送控制 / 屏体控制",
+    "summary": "2-portS DT30 synchronous and asynchronous LED controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt30p-01hi02no/",
+    "lastSeenAt": "2026-03-28T15:04:33.158Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt60c-01hi02no",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT60C-01HI02NO",
+    "application": "发送控制 / 屏体控制",
+    "summary": "2 Ports LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60c-01hi02no/",
+    "lastSeenAt": "2026-03-28T15:04:34.284Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt60c-01hi04no",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT60C-01HI04NO",
+    "application": "发送控制 / 屏体控制",
+    "summary": "4 Ports LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60c-01hi04no/",
+    "lastSeenAt": "2026-03-28T15:04:37.314Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt60c-01hi06no",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT60C-01HI06NO",
+    "application": "发送控制 / 屏体控制",
+    "summary": "6 Ports LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60c-01hi06no/",
+    "lastSeenAt": "2026-03-28T15:04:41.054Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt60p-02hdi12no-u",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT60P-02HDI12NO/U",
+    "application": "发送控制 / 屏体控制",
+    "summary": "12 Ports 3-in-1 LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hdi12no-u/",
+    "lastSeenAt": "2026-03-28T15:04:51.827Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt60p-02hdi20no-u",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT60P-02HDI20NO/U",
+    "application": "发送控制 / 屏体控制",
+    "summary": "20 Ports 3-in-1 LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hdi20no-u/",
+    "lastSeenAt": "2026-03-28T15:04:55.585Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt60p-02hi04no",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT60P-02HI04NO",
+    "application": "发送控制 / 屏体控制",
+    "summary": "4 Ports 3-in-1 LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hi04no/",
+    "lastSeenAt": "2026-03-28T15:04:55.892Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt60p-02hi06no",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT60P-02HI06NO",
+    "application": "发送控制 / 屏体控制",
+    "summary": "6 Ports 3-in-1 LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hi06no/",
+    "lastSeenAt": "2026-03-28T15:04:56.198Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt60v-03hdi12no-u",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT60V-03HDI12NO/U",
+    "application": "发送控制 / 屏体控制",
+    "summary": "12 Ports 2-in-1 LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60v-03hdi12no-u/",
+    "lastSeenAt": "2026-03-28T15:04:41.359Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt60v-03hdi20no-u",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT60V-03HDI20NO/U",
+    "application": "发送控制 / 屏体控制",
+    "summary": "20 Ports 2-in-1 LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60v-03hdi20no-u/",
+    "lastSeenAt": "2026-03-28T15:04:45.141Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt60v-03hi06no",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT60V-03HI06NO",
+    "application": "发送控制 / 屏体控制",
+    "summary": "6 Ports 2-in-1 LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60v-03hi06no/",
+    "lastSeenAt": "2026-03-28T15:04:48.730Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt90c-07hdpsdi24no-u",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT90C-07HDPSDI24NO/U",
+    "application": "发送控制 / 屏体控制",
+    "summary": "24 Ports C Series LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90c-07hdpsdi24no-u/",
+    "lastSeenAt": "2026-03-28T15:04:31.950Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt90p-09hdpsi24no-u",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT90P-09HDPSI24NO/U",
+    "application": "发送控制 / 屏体控制",
+    "summary": "24 Ports P Series LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90p-09hdpsi24no-u/",
+    "lastSeenAt": "2026-03-28T15:04:33.416Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt90p-09hdpsi40no-u",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT90P-09HDPSI40NO/U",
+    "application": "发送控制 / 屏体控制",
+    "summary": "40 Ports P Series LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90p-09hdpsi40no-u/",
+    "lastSeenAt": "2026-03-28T15:04:33.696Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt90v-09hdpsi16no-u",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT90V-09HDPSI16NO/U",
+    "application": "发送控制 / 屏体控制",
+    "summary": "16 Ports V Series LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90v-09hdpsi16no-u/",
+    "lastSeenAt": "2026-03-28T15:04:32.215Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-dt90v-09hdpsi24no-u",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "LED Controllers",
+    "model": "DS-DT90V-09HDPSI24NO/U",
+    "application": "发送控制 / 屏体控制",
+    "summary": "24 Ports V Series LED Controller",
+    "tags": [
+      "真实抓取",
+      "LED Controllers"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90v-09hdpsi24no-u/",
+    "lastSeenAt": "2026-03-28T15:04:32.565Z",
+    "specs": {
+      "输入接口": "-",
+      "输出接口": "-",
+      "控制网口": "-",
+      "最大带载": "-",
+      "工作电压": "-",
+      "海康子类": "LED Controllers"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q12ca-1gs",
     "brand": "海康威视",
     "category": "module",
-    "series": "FinePixel",
-    "model": "P1.53 室内高清模组",
-    "application": "会议室 / 企业展厅",
-    "summary": "兼顾清晰度与成本的室内高清模组方案，适合常规商显和会议室项目。",
+    "series": "Flexible Module",
+    "model": "DS-D41Q12CA-1GS",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q12CA-1GS,Soft LED modules,indoor,1.25mm,320*160mm,3840hz",
     "tags": [
-      "室内",
-      "高清",
-      "种子数据"
+      "真实抓取",
+      "Flexible Module",
+      "LED Modules"
     ],
-    "originUrl": "https://www.hikvision.com/",
-    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q12ca-1gs/",
+    "lastSeenAt": "2026-03-28T15:04:30.227Z",
     "specs": {
-      "点间距": "1.53 mm",
-      "模组尺寸": "320 x 160 mm",
-      "分辨率": "208 x 104",
-      "亮度": "700 nits",
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q12ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Indoor Module",
+    "model": "DS-D41Q12CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q12CA-1PH,indoor,1.2mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Indoor Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q12ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:27.668Z",
+    "specs": {
+      "点间距": "1.25 mm",
+      "箱体尺寸": "320 mm × 160 mm × 17 mm",
+      "分辨率": "256 × 128",
+      "亮度": "550cd/㎡",
       "刷新率": "3840 Hz",
-      "维护方式": "前维护",
-      "防护等级": "IP31"
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q15ca-1gs",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Flexible Module",
+    "model": "DS-D41Q15CA-1GS",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q15CA-1GS,Soft LED modules,indoor,1.538mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Flexible Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q15ca-1gs/",
+    "lastSeenAt": "2026-03-28T15:04:30.493Z",
+    "specs": {
+      "点间距": "1.538",
+      "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
+      "分辨率": "208 × 104",
+      "亮度": "600cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front and Rear Maintenance",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q15ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Indoor Module",
+    "model": "DS-D41Q15CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q15CA-1PH,indoor,1.5mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Indoor Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q15ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:27.940Z",
+    "specs": {
+      "点间距": "1.538 mm",
+      "箱体尺寸": "320 mm × 160 mm × 17 mm",
+      "分辨率": "208 × 104",
+      "亮度": "550cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q15ca-1pht",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Indoor Module",
+    "model": "DS-D41Q15CA-1PHT",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q15CA-1PHT，1.538mm，edge-cut",
+    "tags": [
+      "真实抓取",
+      "Indoor Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q15ca-1pht/",
+    "lastSeenAt": "2026-03-28T15:04:25.989Z",
+    "specs": {
+      "点间距": "1.538 mm",
+      "箱体尺寸": "320 mm × 160 mm × 16.6 mm(12.6'' × 6.3'' × 0.65'')",
+      "分辨率": "208 × 104",
+      "亮度": "550cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q18ca-1gs",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Flexible Module",
+    "model": "DS-D41Q18CA-1GS",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q18CA-1GS,Soft LED modules,indoor,1.86mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Flexible Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q18ca-1gs/",
+    "lastSeenAt": "2026-03-28T15:04:30.854Z",
+    "specs": {
+      "点间距": "1.86",
+      "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
+      "分辨率": "172 × 86",
+      "亮度": "600cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front and Rear Maintenance",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q18ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Indoor Module",
+    "model": "DS-D41Q18CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q18CA-1PH,indoor,1.8mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Indoor Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q18ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:26.746Z",
+    "specs": {
+      "点间距": "1.86 mm",
+      "箱体尺寸": "320 mm × 160 mm × 17 mm",
+      "分辨率": "172 × 86",
+      "亮度": "550cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q18ca-1pht",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Indoor Module",
+    "model": "DS-D41Q18CA-1PHT",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q18CA-1PHT，1.86mm，edge-cut",
+    "tags": [
+      "真实抓取",
+      "Indoor Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q18ca-1pht/",
+    "lastSeenAt": "2026-03-28T15:04:26.240Z",
+    "specs": {
+      "点间距": "1.86 mm",
+      "箱体尺寸": "320 mm × 160 mm × 16.6 mm(12.6'' × 6.3'' × 0.65'')",
+      "分辨率": "172 × 86",
+      "亮度": "550cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q20ca-1gs",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Flexible Module",
+    "model": "DS-D41Q20CA-1GS",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q20CA-1GS,Soft LED modules,indoor,2.0mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Flexible Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q20ca-1gs/",
+    "lastSeenAt": "2026-03-28T15:04:31.125Z",
+    "specs": {
+      "点间距": "2",
+      "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
+      "分辨率": "160 × 80",
+      "亮度": "600cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front and Rear Maintenance",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q20ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Indoor Module",
+    "model": "DS-D41Q20CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q20CA-1PH,indoor,2.0mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Indoor Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q20ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:27.121Z",
+    "specs": {
+      "点间距": "2 mm",
+      "箱体尺寸": "320 mm × 160 mm × 17 mm",
+      "分辨率": "160 × 80",
+      "亮度": "550cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q20ca-1pht",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Indoor Module",
+    "model": "DS-D41Q20CA-1PHT",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q20CA-1PHT，2.0mm，edge-cut",
+    "tags": [
+      "真实抓取",
+      "Indoor Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q20ca-1pht/",
+    "lastSeenAt": "2026-03-28T15:04:26.492Z",
+    "specs": {
+      "点间距": "2 mm",
+      "箱体尺寸": "320 mm × 160 mm × 16.6 mm(12.6'' × 6.3'' × 0.65'')",
+      "分辨率": "160 × 80",
+      "亮度": "550cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q25ca-1gs",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Flexible Module",
+    "model": "DS-D41Q25CA-1GS",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q25CA-1GS,Soft LED modules,indoor,2.5mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Flexible Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q25ca-1gs/",
+    "lastSeenAt": "2026-03-28T15:04:31.394Z",
+    "specs": {
+      "点间距": "2.5",
+      "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
+      "分辨率": "128×64",
+      "亮度": "600cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "Front and Rear Maintenance",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d41q30ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Indoor Module",
+    "model": "DS-D41Q30CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D41Q30CA-1PH,indoor,3.067mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Indoor Module",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q30ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:27.393Z",
+    "specs": {
+      "点间距": "3.076 mm",
+      "箱体尺寸": "320 mm × 160 mm × 16.6 mm (12.60'' × 6.30'' × 0.65'')",
+      "分辨率": "104 × 52",
+      "亮度": "550cd/㎡",
+      "刷新率": "3840 Hz",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d43q25ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Outdoor Modules",
+    "model": "DS-D43Q25CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D43Q25CA-1PH,outdoor,2.5mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Outdoor Modules",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q25ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:29.476Z",
+    "specs": {
+      "点间距": "2.5mm",
+      "箱体尺寸": "320 mm × 160 mm x 18mm",
+      "分辨率": "128 × 64",
+      "亮度": "4500cd/㎡",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Back maintenance",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d43q30ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Outdoor Modules",
+    "model": "DS-D43Q30CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D43Q30CA-1PH,outdoor,3.0mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Outdoor Modules",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q30ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:29.698Z",
+    "specs": {
+      "点间距": "3.076 mm",
+      "箱体尺寸": "320 mm × 160 mm x 18mm",
+      "分辨率": "104 × 52",
+      "亮度": "4500cd/㎡",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Back maintenance",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d43q40ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Outdoor Modules",
+    "model": "DS-D43Q40CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D43Q40CA-1PH,outdoor,4.0mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Outdoor Modules",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q40ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:28.450Z",
+    "specs": {
+      "点间距": "4 mm",
+      "箱体尺寸": "320 mm × 160 mm x 17.3 mm",
+      "分辨率": "80 × 40",
+      "亮度": "4500cd/㎡",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Back maintenance",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d43q50ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Outdoor Modules",
+    "model": "DS-D43Q50CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D43Q50CA-1PH,outdoor,5.0mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Outdoor Modules",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q50ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:28.713Z",
+    "specs": {
+      "点间距": "5 mm",
+      "箱体尺寸": "320 mm × 160 mm x 17.3 mm",
+      "分辨率": "64 × 32",
+      "亮度": "4500cd/㎡",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Back maintenance",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d43q60ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Outdoor Modules",
+    "model": "DS-D43Q60CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D43Q60CA-1PH,outdoor,6.0mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Outdoor Modules",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q60ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:28.940Z",
+    "specs": {
+      "点间距": "6.67 mm",
+      "箱体尺寸": "320 mm × 160 mm x 18.4 mm",
+      "分辨率": "48 × 24",
+      "亮度": "4500cd/㎡",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Back maintenance",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
+    }
+  },
+  {
+    "id": "hikvision-ds-d43q80ca-1ph",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "Outdoor Modules",
+    "model": "DS-D43Q80CA-1PH",
+    "application": "模组配套 / 项目集成",
+    "summary": "DS-D43Q80CA-1PH,outdoor,8.0mm,320*160mm,3840hz",
+    "tags": [
+      "真实抓取",
+      "Outdoor Modules",
+      "LED Modules"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q80ca-1ph/",
+    "lastSeenAt": "2026-03-28T15:04:29.209Z",
+    "specs": {
+      "点间距": "8 mm",
+      "箱体尺寸": "320 mm × 160 mm x 19 mm",
+      "分辨率": "40 × 20",
+      "亮度": "4500cd/㎡",
+      "刷新率": "Up to 3840 Hz",
+      "维护方式": "Back maintenance",
+      "防护等级": "-",
+      "海康子类": "LED Modules"
     }
   },
   {
@@ -467,31 +4715,6 @@
     }
   },
   {
-    "id": "unilumin-cabinet-1000",
-    "brand": "洲明",
-    "category": "cabinet",
-    "series": "Upad",
-    "model": "500 x 1000 XR 租赁箱体",
-    "application": "XR 虚拟拍摄 / 大型演出",
-    "summary": "面向 XR 和高要求租赁场景，强调高平整度与拼缝控制。",
-    "tags": [
-      "XR",
-      "租赁",
-      "种子数据"
-    ],
-    "originUrl": "https://www.unilumin.com/",
-    "lastSeenAt": "2026-03-28T13:30:00.000Z",
-    "specs": {
-      "点间距": "2.6 mm",
-      "箱体尺寸": "500 x 1000 x 73 mm",
-      "箱体材质": "压铸铝",
-      "箱体重量": "12.8 kg",
-      "维护方式": "前后维护",
-      "弧度支持": "-5° 至 +10°",
-      "防护等级": "IP54"
-    }
-  },
-  {
     "id": "unilumin-usurface-gm",
     "brand": "洲明",
     "category": "cabinet",
@@ -505,7 +4728,7 @@
       "DOOH"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/usurface-gm.html",
-    "lastSeenAt": "2026-03-28T14:33:33.176Z",
+    "lastSeenAt": "2026-03-28T15:05:18.642Z",
     "specs": {
       "点间距": "5.71mm",
       "箱体尺寸": "960*960*85mm",
@@ -513,56 +4736,6 @@
       "箱体重量": "26.5kg/㎡",
       "维护方式": "Front & Rear",
       "防护等级": "IP69K"
-    }
-  },
-  {
-    "id": "unilumin-module-p1-25",
-    "brand": "洲明",
-    "category": "module",
-    "series": "UMini",
-    "model": "P1.25 Mini LED 模组",
-    "application": "监控中心 / 高端会议",
-    "summary": "适合高精度近距离观看场景，强调色彩一致性和低亮高灰。",
-    "tags": [
-      "Mini LED",
-      "高端",
-      "种子数据"
-    ],
-    "originUrl": "https://www.unilumin.com/",
-    "lastSeenAt": "2026-03-28T13:30:00.000Z",
-    "specs": {
-      "点间距": "1.25 mm",
-      "模组尺寸": "300 x 168.75 mm",
-      "分辨率": "240 x 135",
-      "亮度": "600 nits",
-      "刷新率": "3840 Hz",
-      "维护方式": "前维护",
-      "防护等级": "IP30"
-    }
-  },
-  {
-    "id": "unilumin-module-p1-56",
-    "brand": "洲明",
-    "category": "module",
-    "series": "Uslim",
-    "model": "P1.56 室内高清模组",
-    "application": "演播厅 / 监控中心",
-    "summary": "偏高端室内显示方案，适合需要细腻灰阶表现的高密度场景。",
-    "tags": [
-      "高清",
-      "演播级",
-      "种子数据"
-    ],
-    "originUrl": "https://www.unilumin.com/",
-    "lastSeenAt": "2026-03-28T13:30:00.000Z",
-    "specs": {
-      "点间距": "1.56 mm",
-      "模组尺寸": "300 x 168.75 mm",
-      "分辨率": "192 x 108",
-      "亮度": "700 nits",
-      "刷新率": "3840 Hz",
-      "维护方式": "前维护",
-      "防护等级": "IP30"
     }
   }
 ]

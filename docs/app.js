@@ -339,7 +339,7 @@ function getBucketedProducts(products, category) {
     const bucketLabel =
       category === "controller"
         ? `系列: ${product.series || "未分组"}`
-        : `点间距: ${product.specs["点间距"] || product.specs["像素间距"] || "未标注"}`;
+        : `点间距: ${normalizePitchValue(product.specs["点间距"] || product.specs["像素间距"] || "未标注")}`;
 
     if (!map.has(bucketLabel)) {
       map.set(bucketLabel, []);
@@ -351,6 +351,25 @@ function getBucketedProducts(products, category) {
     bucketLabel,
     items
   }));
+}
+
+function normalizePitchValue(value) {
+  if (!value || value === "未标注") {
+    return "未标注";
+  }
+
+  const match = String(value).match(/(\d+(?:\.\d+)?)/);
+  if (!match) {
+    return String(value);
+  }
+
+  const numeric = Number(match[1]);
+  if (Number.isNaN(numeric)) {
+    return String(value);
+  }
+
+  const rounded = numeric >= 10 ? numeric.toFixed(0) : numeric.toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
+  return `${rounded} mm`;
 }
 
 function renderProductCard(product) {
