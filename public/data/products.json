@@ -24,6 +24,104 @@
     }
   },
   {
+    "id": "absen-cabinet-500-500",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "PR Series",
+    "model": "500 x 500 租赁箱体",
+    "application": "巡演 / 发布会 / 演艺活动",
+    "summary": "面向高标准租赁项目，强调平整度、维护效率和舞台表现。",
+    "tags": [
+      "租赁",
+      "高端",
+      "种子数据"
+    ],
+    "originUrl": "https://www.absen.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "箱体尺寸": "500 x 500 x 87 mm",
+      "箱体材质": "压铸铝",
+      "箱体重量": "8.2 kg",
+      "维护方式": "全前维护",
+      "弧度支持": "-7.5° 至 +10°",
+      "防护等级": "IP65"
+    }
+  },
+  {
+    "id": "absen-module-p1-25",
+    "brand": "艾比森",
+    "category": "module",
+    "series": "KL II",
+    "model": "P1.25 小间距模组",
+    "application": "会议 / 广播电视",
+    "summary": "面向高端室内应用的小间距产品，偏重显示一致性和维护便利性。",
+    "tags": [
+      "小间距",
+      "高端",
+      "种子数据"
+    ],
+    "originUrl": "https://www.absen.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "点间距": "1.25 mm",
+      "模组尺寸": "300 x 168.75 mm",
+      "分辨率": "240 x 135",
+      "亮度": "800 nits",
+      "刷新率": "7680 Hz",
+      "维护方式": "全前维护",
+      "防护等级": "IP40"
+    }
+  },
+  {
+    "id": "absen-module-p1-875",
+    "brand": "艾比森",
+    "category": "module",
+    "series": "KLCOB",
+    "model": "P1.875 COB 模组",
+    "application": "高端会议 / 广播电视",
+    "summary": "COB 封装路线，强调抗磕碰与低维护成本。",
+    "tags": [
+      "COB",
+      "高端",
+      "防磕碰"
+    ],
+    "originUrl": "https://www.absen.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "点间距": "1.875 mm",
+      "模组尺寸": "300 x 168.75 mm",
+      "分辨率": "160 x 90",
+      "亮度": "600 nits",
+      "刷新率": "7680 Hz",
+      "维护方式": "全前维护",
+      "防护等级": "IP40"
+    }
+  },
+  {
+    "id": "hik-cabinet-500",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "ArcVision",
+    "model": "500 x 500 压铸租赁箱体",
+    "application": "舞台租赁 / 展会活动",
+    "summary": "适配快装和弧形拼接的租赁箱体，适合中高频活动项目。",
+    "tags": [
+      "租赁",
+      "压铸铝",
+      "种子数据"
+    ],
+    "originUrl": "https://www.hikvision.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "箱体尺寸": "500 x 500 x 75 mm",
+      "箱体材质": "压铸铝",
+      "箱体重量": "7.5 kg",
+      "维护方式": "前后维护",
+      "弧度支持": "-10° 至 +10°",
+      "防护等级": "IP54"
+    }
+  },
+  {
     "id": "hikvision-ds-d4280fo",
     "brand": "海康威视",
     "category": "cabinet",
@@ -37,7 +135,7 @@
       "固定安装"
     ],
     "originUrl": "https://www.hikvision.com/my/products/led-displays/outdoor-led/ds-d4280fo/",
-    "lastSeenAt": "2026-03-28T14:00:47.529Z",
+    "lastSeenAt": "2026-03-28T14:10:12.969Z",
     "specs": {
       "点间距": "8.0 mm",
       "箱体尺寸": "960 mm × 960 mm × 102.5 mm (37.8\" × 37.8\" × 4.0\")",
@@ -45,54 +143,6 @@
       "亮度": "6000 cd/m²",
       "刷新率": "Up to 3840 Hz",
       "防护等级": "IP65 both front and back"
-    }
-  },
-  {
-    "id": "qiangli-cabinet-960",
-    "brand": "强力巨彩",
-    "category": "cabinet",
-    "series": "Storm",
-    "model": "960 x 960 户外箱体",
-    "application": "户外广告 / 楼体媒体",
-    "summary": "标准大箱体方案，适用于常规固定安装户外广告屏。",
-    "tags": [
-      "户外",
-      "固定安装",
-      "高亮"
-    ],
-    "originUrl": "https://www.qiangli.cn/",
-    "lastSeenAt": "2026-03-28T13:30:00.000Z",
-    "specs": {
-      "箱体尺寸": "960 x 960 x 140 mm",
-      "箱体材质": "镀锌钢 / 铝型材",
-      "箱体重量": "28 kg",
-      "维护方式": "后维护",
-      "亮度": "6500 nits",
-      "防护等级": "IP65"
-    }
-  },
-  {
-    "id": "unilumin-usurface-gm",
-    "brand": "洲明",
-    "category": "cabinet",
-    "series": "Usurface",
-    "model": "Usurface GM",
-    "application": "户外广告 / DOOH",
-    "summary": "从洲明官方产品页抓取的户外商显产品。",
-    "tags": [
-      "真实抓取",
-      "户外",
-      "DOOH"
-    ],
-    "originUrl": "https://www.unilumin.com/products/dooh/usurface-gm.html",
-    "lastSeenAt": "2026-03-28T14:00:48.683Z",
-    "specs": {
-      "点间距": "5.71mm",
-      "箱体尺寸": "960*960*85mm",
-      "亮度": "8000～10,000cd/㎡",
-      "箱体重量": "26.5kg/㎡",
-      "维护方式": "Front & Rear",
-      "防护等级": "IP69K"
     }
   },
   {
@@ -115,6 +165,104 @@
       "输入接口": "HDMI / DVI / VGA",
       "输出网口": "8 个千兆网口",
       "图层数": "2 层",
+      "预监回显": "支持",
+      "备份机制": "双网口备份"
+    }
+  },
+  {
+    "id": "hik-controller-vp2000",
+    "brand": "海康威视",
+    "category": "controller",
+    "series": "VisionHub",
+    "model": "VP2000 视频控制器",
+    "application": "监控中心 / 综合会议",
+    "summary": "用于更高带载和更多输入场景的视频控制器，适合综合安防和中控项目。",
+    "tags": [
+      "安防",
+      "中控",
+      "种子数据"
+    ],
+    "originUrl": "https://www.hikvision.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "最大带载": "780 万像素",
+      "输入接口": "HDMI / DVI / VGA / SDI",
+      "输出网口": "12 个千兆网口",
+      "图层数": "4 层",
+      "预监回显": "支持",
+      "备份机制": "双机备份"
+    }
+  },
+  {
+    "id": "hik-module-p1-25",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "FinePixel",
+    "model": "P1.25 室内小间距模组",
+    "application": "指挥中心 / 会议室",
+    "summary": "适合超高清近距离观看场景，强调高刷新与低亮高灰表现。",
+    "tags": [
+      "室内",
+      "小间距",
+      "种子数据"
+    ],
+    "originUrl": "https://www.hikvision.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "点间距": "1.25 mm",
+      "模组尺寸": "320 x 160 mm",
+      "分辨率": "256 x 128",
+      "亮度": "600 nits",
+      "刷新率": "3840 Hz",
+      "维护方式": "前维护",
+      "防护等级": "IP31"
+    }
+  },
+  {
+    "id": "hik-module-p1-53",
+    "brand": "海康威视",
+    "category": "module",
+    "series": "FinePixel",
+    "model": "P1.53 室内高清模组",
+    "application": "会议室 / 企业展厅",
+    "summary": "兼顾清晰度与成本的室内高清模组方案，适合常规商显和会议室项目。",
+    "tags": [
+      "室内",
+      "高清",
+      "种子数据"
+    ],
+    "originUrl": "https://www.hikvision.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "点间距": "1.53 mm",
+      "模组尺寸": "320 x 160 mm",
+      "分辨率": "208 x 104",
+      "亮度": "700 nits",
+      "刷新率": "3840 Hz",
+      "维护方式": "前维护",
+      "防护等级": "IP31"
+    }
+  },
+  {
+    "id": "colorlight-controller-x20",
+    "brand": "卡莱特",
+    "category": "controller",
+    "series": "X Series",
+    "model": "X20 视频处理器",
+    "application": "舞台租赁 / 中大型活动",
+    "summary": "偏舞台活动场景的视频处理器，适合较高像素带载和多输入场景。",
+    "tags": [
+      "舞台",
+      "视频处理",
+      "种子数据"
+    ],
+    "originUrl": "https://www.colorlightinside.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "最大带载": "1300 万像素",
+      "输入接口": "HDMI 2.0 / DP 1.2 / 3G-SDI",
+      "输出网口": "20 个千兆网口",
+      "图层数": "6 层",
       "预监回显": "支持",
       "备份机制": "双网口备份"
     }
@@ -192,28 +340,100 @@
     }
   },
   {
-    "id": "absen-module-p1-875",
-    "brand": "艾比森",
-    "category": "module",
-    "series": "KLCOB",
-    "model": "P1.875 COB 模组",
-    "application": "高端会议 / 广播电视",
-    "summary": "COB 封装路线，强调抗磕碰与低维护成本。",
+    "id": "nova-controller-vx1000",
+    "brand": "诺瓦",
+    "category": "controller",
+    "series": "VX Series",
+    "model": "VX1000 一体式控制器",
+    "application": "中型舞台 / 会议显示",
+    "summary": "适合中型项目的视频控制一体机，兼顾发送与处理能力。",
     "tags": [
-      "COB",
-      "高端",
-      "防磕碰"
+      "一体机",
+      "会议",
+      "种子数据"
     ],
-    "originUrl": "https://www.absen.com/",
+    "originUrl": "https://www.novastar.tech/",
     "lastSeenAt": "2026-03-28T13:30:00.000Z",
     "specs": {
-      "点间距": "1.875 mm",
-      "模组尺寸": "300 x 168.75 mm",
-      "分辨率": "160 x 90",
-      "亮度": "600 nits",
-      "刷新率": "7680 Hz",
-      "维护方式": "全前维护",
-      "防护等级": "IP40"
+      "最大带载": "650 万像素",
+      "输入接口": "HDMI / DVI / 3G-SDI",
+      "输出网口": "10 个千兆网口",
+      "图层数": "3 层",
+      "预监回显": "支持",
+      "备份机制": "网口备份"
+    }
+  },
+  {
+    "id": "qiangli-cabinet-500-1000",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Storm Rental",
+    "model": "500 x 1000 租赁箱体",
+    "application": "舞台演出 / 活动租赁",
+    "summary": "用于租赁市场的轻量化箱体，兼顾安装效率和舞台场景适配。",
+    "tags": [
+      "租赁",
+      "轻量化",
+      "种子数据"
+    ],
+    "originUrl": "https://www.qiangli.cn/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "箱体尺寸": "500 x 1000 x 85 mm",
+      "箱体材质": "压铸铝",
+      "箱体重量": "12.5 kg",
+      "维护方式": "前后维护",
+      "弧度支持": "-5° 至 +10°",
+      "防护等级": "IP54"
+    }
+  },
+  {
+    "id": "qiangli-cabinet-960",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Storm",
+    "model": "960 x 960 户外箱体",
+    "application": "户外广告 / 楼体媒体",
+    "summary": "标准大箱体方案，适用于常规固定安装户外广告屏。",
+    "tags": [
+      "户外",
+      "固定安装",
+      "高亮"
+    ],
+    "originUrl": "https://www.qiangli.cn/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "箱体尺寸": "960 x 960 x 140 mm",
+      "箱体材质": "镀锌钢 / 铝型材",
+      "箱体重量": "28 kg",
+      "维护方式": "后维护",
+      "亮度": "6500 nits",
+      "防护等级": "IP65"
+    }
+  },
+  {
+    "id": "qiangli-module-p1-86",
+    "brand": "强力巨彩",
+    "category": "module",
+    "series": "Q-Pro",
+    "model": "P1.86 室内模组",
+    "application": "会议室 / 商业显示",
+    "summary": "更适合近距离观看的室内小间距模组，覆盖中高端常规项目。",
+    "tags": [
+      "室内",
+      "小间距",
+      "种子数据"
+    ],
+    "originUrl": "https://www.qiangli.cn/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "点间距": "1.86 mm",
+      "模组尺寸": "320 x 160 mm",
+      "分辨率": "172 x 86",
+      "亮度": "700 nits",
+      "刷新率": "3840 Hz",
+      "维护方式": "后维护",
+      "防护等级": "IP31"
     }
   },
   {
@@ -239,6 +459,104 @@
       "刷新率": "3840 Hz",
       "维护方式": "后维护",
       "防护等级": "IP31"
+    }
+  },
+  {
+    "id": "unilumin-cabinet-1000",
+    "brand": "洲明",
+    "category": "cabinet",
+    "series": "Upad",
+    "model": "500 x 1000 XR 租赁箱体",
+    "application": "XR 虚拟拍摄 / 大型演出",
+    "summary": "面向 XR 和高要求租赁场景，强调高平整度与拼缝控制。",
+    "tags": [
+      "XR",
+      "租赁",
+      "种子数据"
+    ],
+    "originUrl": "https://www.unilumin.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "箱体尺寸": "500 x 1000 x 73 mm",
+      "箱体材质": "压铸铝",
+      "箱体重量": "12.8 kg",
+      "维护方式": "前后维护",
+      "弧度支持": "-5° 至 +10°",
+      "防护等级": "IP54"
+    }
+  },
+  {
+    "id": "unilumin-usurface-gm",
+    "brand": "洲明",
+    "category": "cabinet",
+    "series": "Usurface",
+    "model": "Usurface GM",
+    "application": "户外广告 / DOOH",
+    "summary": "从洲明官方产品页抓取的户外商显产品。",
+    "tags": [
+      "真实抓取",
+      "户外",
+      "DOOH"
+    ],
+    "originUrl": "https://www.unilumin.com/products/dooh/usurface-gm.html",
+    "lastSeenAt": "2026-03-28T14:10:14.388Z",
+    "specs": {
+      "点间距": "5.71mm",
+      "箱体尺寸": "960*960*85mm",
+      "亮度": "8000～10,000cd/㎡",
+      "箱体重量": "26.5kg/㎡",
+      "维护方式": "Front & Rear",
+      "防护等级": "IP69K"
+    }
+  },
+  {
+    "id": "unilumin-module-p1-25",
+    "brand": "洲明",
+    "category": "module",
+    "series": "UMini",
+    "model": "P1.25 Mini LED 模组",
+    "application": "监控中心 / 高端会议",
+    "summary": "适合高精度近距离观看场景，强调色彩一致性和低亮高灰。",
+    "tags": [
+      "Mini LED",
+      "高端",
+      "种子数据"
+    ],
+    "originUrl": "https://www.unilumin.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "点间距": "1.25 mm",
+      "模组尺寸": "300 x 168.75 mm",
+      "分辨率": "240 x 135",
+      "亮度": "600 nits",
+      "刷新率": "3840 Hz",
+      "维护方式": "前维护",
+      "防护等级": "IP30"
+    }
+  },
+  {
+    "id": "unilumin-module-p1-56",
+    "brand": "洲明",
+    "category": "module",
+    "series": "Uslim",
+    "model": "P1.56 室内高清模组",
+    "application": "演播厅 / 监控中心",
+    "summary": "偏高端室内显示方案，适合需要细腻灰阶表现的高密度场景。",
+    "tags": [
+      "高清",
+      "演播级",
+      "种子数据"
+    ],
+    "originUrl": "https://www.unilumin.com/",
+    "lastSeenAt": "2026-03-28T13:30:00.000Z",
+    "specs": {
+      "点间距": "1.56 mm",
+      "模组尺寸": "300 x 168.75 mm",
+      "分辨率": "192 x 108",
+      "亮度": "700 nits",
+      "刷新率": "3840 Hz",
+      "维护方式": "前维护",
+      "防护等级": "IP30"
     }
   }
 ]

@@ -14,6 +14,7 @@ const brandFilter = document.querySelector("#brandFilter");
 const searchInput = document.querySelector("#searchInput");
 const productList = document.querySelector("#productList");
 const resultSummary = document.querySelector("#resultSummary");
+const brandSummary = document.querySelector("#brandSummary");
 const emptyState = document.querySelector("#emptyState");
 const comparisonWrapper = document.querySelector("#comparisonWrapper");
 const comparisonTable = document.querySelector("#comparisonTable");
@@ -140,7 +141,18 @@ function getFilteredProducts() {
 
 function renderProductList() {
   const filteredProducts = getFilteredProducts();
-  resultSummary.textContent = `当前显示 ${filteredProducts.length} 个产品`;
+  const groupedBrands = groupProductsByBrand(filteredProducts);
+  resultSummary.textContent = `当前显示 ${filteredProducts.length} 个产品，分布在 ${groupedBrands.length} 个品牌下`;
+  brandSummary.innerHTML = groupedBrands
+    .map(
+      ({ brand, items }) => `
+        <button class="brand-pill" type="button" data-brand-jump="${brand}">
+          ${brand}
+          <span>${items.length}</span>
+        </button>
+      `
+    )
+    .join("");
 
   if (!filteredProducts.length) {
     productList.innerHTML = `
@@ -152,41 +164,14 @@ function renderProductList() {
     return;
   }
 
-  productList.innerHTML = filteredProducts
-    .map((product) => {
-      const checked = state.selectedIds.has(product.id) ? "checked" : "";
-      const paramsPreview = Object.entries(product.specs)
-        .slice(0, 4)
-        .map(([key, value]) => `<span class="meta-chip">${key}: ${value}</span>`)
-        .join("");
+  productList.innerHTML = groupedBrands.map(renderBrandGroup).join("");
 
-      return `
-        <article class="product-card">
-          <div class="product-top">
-            <div>
-              <span class="brand-badge">${product.brand}</span>
-              <h3 class="product-title">${product.model}</h3>
-              <p class="product-subtitle">${product.series} · ${categoryLabels[product.category]}</p>
-            </div>
-            <label class="compare-toggle">
-              <input type="checkbox" data-id="${product.id}" ${checked} />
-              加入对比
-            </label>
-          </div>
-          <p class="product-summary">${product.summary}</p>
-          <div class="product-meta">
-            <span class="meta-chip">应用: ${product.application}</span>
-            ${product.originUrl ? `<a class="meta-link" href="${product.originUrl}" target="_blank" rel="noreferrer">来源页面</a>` : ""}
-            ${product.lastSeenAt ? `<span class="meta-chip">更新: ${formatDate(product.lastSeenAt)}</span>` : ""}
-          </div>
-          <div class="product-tags">${paramsPreview}</div>
-          <div class="product-tags secondary-tags">
-            ${product.tags.map((tag) => `<span class="tag-chip">${tag}</span>`).join("")}
-          </div>
-        </article>
-      `;
-    })
-    .join("");
+  document.querySelectorAll("[data-brand-jump]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const target = document.querySelector(`[data-brand-section="${button.dataset.brandJump}"]`);
+      target?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
 
   document.querySelectorAll('input[type="checkbox"][data-id]').forEach((checkbox) => {
     checkbox.addEventListener("change", (event) => {
@@ -199,6 +184,100 @@ function renderProductList() {
       render();
     });
   });
+}
+
+function renderBrandGroup({ brand, items }) {
+  const groupedByCategory = {
+    module: items.filter((item) => item.category === "module"),
+    cabinet: items.filter((item) => item.category === "cabinet"),
+    controller: items.filter((item) => item.category === "controller")
+  };
+
+  const categoryBlocks = Object.entries(groupedByCategory)
+    .filter(([, products]) => products.length > 0)
+    .map(
+      ([category, products]) => `
+        <section class="brand-category-block">
+          <div class="brand-category-head">
+            <h4>${categoryLabels[category]}</h4>
+            <span>${products.length} 个产品</span>
+          </div>
+          <div class="brand-product-grid">
+            ${products.map(renderProductCard).join("")}
+          </div>
+        </section>
+      `
+    )
+    .join("");
+
+  return `
+    <section class="brand-group" data-brand-section="${brand}">
+      <div class="brand-group-head">
+        <div>
+          <span class="brand-badge large">${brand}</span>
+          <h3>${brand} 产品库</h3>
+        </div>
+        <span class="brand-count">${items.length} 个产品</span>
+      </div>
+      ${categoryBlocks}
+    </section>
+  `;
+}
+
+function renderProductCard(product) {
+  const checked = state.selectedIds.has(product.id) ? "checked" : "";
+  const paramsPreview = Object.entries(product.specs)
+    .slice(0, 4)
+    .map(([key, value]) => `<span class="meta-chip">${key}: ${value}</span>`)
+    .join("");
+
+  return `
+    <article class="product-card">
+      <div class="product-top">
+        <div>
+          <h3 class="product-title">${product.model}</h3>
+          <p class="product-subtitle">${product.series} · ${categoryLabels[product.category]}</p>
+        </div>
+        <label class="compare-toggle">
+          <input type="checkbox" data-id="${product.id}" ${checked} />
+          加入对比
+        </label>
+      </div>
+      <p class="product-summary">${product.summary}</p>
+      <div class="product-meta">
+        <span class="meta-chip">应用: ${product.application}</span>
+        ${product.originUrl ? `<a class="meta-link" href="${product.originUrl}" target="_blank" rel="noreferrer">来源页面</a>` : ""}
+        ${product.lastSeenAt ? `<span class="meta-chip">更新: ${formatDate(product.lastSeenAt)}</span>` : ""}
+      </div>
+      <div class="product-tags">${paramsPreview}</div>
+      <div class="product-tags secondary-tags">
+        ${product.tags.map((tag) => `<span class="tag-chip">${tag}</span>`).join("")}
+      </div>
+    </article>
+  `;
+}
+
+function groupProductsByBrand(products) {
+  const map = new Map();
+
+  products.forEach((product) => {
+    if (!map.has(product.brand)) {
+      map.set(product.brand, []);
+    }
+    map.get(product.brand).push(product);
+  });
+
+  return Array.from(map.entries())
+    .map(([brand, items]) => ({
+      brand,
+      items: items.sort((left, right) => {
+        if (left.category === right.category) {
+          return left.model.localeCompare(right.model, "zh-CN");
+        }
+        return left.category.localeCompare(right.category);
+      })
+    }))
+    .sort((left, right) => right.items.length - left.items.length || left.brand.localeCompare(right.brand, "zh-CN"));
 }
 
 function renderComparison() {

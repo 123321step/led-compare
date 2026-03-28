@@ -311,6 +311,82 @@ input {
 
 .product-list {
   display: grid;
+  gap: 18px;
+}
+
+.brand-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.brand-pill {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--text);
+}
+
+.brand-pill span {
+  margin-left: 8px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: var(--orange-soft);
+  color: var(--primary-dark);
+}
+
+.brand-group {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.brand-group-head,
+.brand-category-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand-group-head {
+  margin-bottom: 14px;
+}
+
+.brand-group-head h3,
+.brand-category-head h4 {
+  margin-bottom: 0;
+}
+
+.brand-count {
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.brand-category-block {
+  padding-top: 14px;
+  border-top: 1px dashed rgba(18, 33, 38, 0.12);
+}
+
+.brand-category-block + .brand-category-block {
+  margin-top: 14px;
+}
+
+.brand-category-head {
+  margin-bottom: 14px;
+}
+
+.brand-category-head span {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.brand-product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 14px;
 }
 
@@ -338,6 +414,10 @@ input {
   color: var(--primary-dark);
   font-size: 12px;
   font-weight: 800;
+}
+
+.brand-badge.large {
+  margin-bottom: 10px;
 }
 
 .product-title {
@@ -485,7 +565,9 @@ tbody tr:nth-child(odd) {
 
   .toolbar-row,
   .section-heading,
-  .product-top {
+  .product-top,
+  .brand-group-head,
+  .brand-category-head {
     flex-direction: column;
     align-items: stretch;
   }

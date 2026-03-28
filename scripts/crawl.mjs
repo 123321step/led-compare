@@ -48,10 +48,13 @@ async function main() {
   }));
 
   const allProducts = [...generatedProducts, ...normalizedManualProducts].sort((left, right) => {
-    if (left.category === right.category) {
-      return `${left.brand}${left.model}`.localeCompare(`${right.brand}${right.model}`, "zh-CN");
+    if (left.brand === right.brand) {
+      if (left.category === right.category) {
+        return left.model.localeCompare(right.model, "zh-CN");
+      }
+      return left.category.localeCompare(right.category);
     }
-    return left.category.localeCompare(right.category);
+    return left.brand.localeCompare(right.brand, "zh-CN");
   });
 
   await fs.writeFile(productsFile, stringify(allProducts));
@@ -71,7 +74,9 @@ async function main() {
     })
   );
 
-  console.log(`Crawl completed. Generated ${generatedProducts.length} live products and kept ${normalizedManualProducts.length} seed products.`);
+  console.log(
+    `Crawl completed. Generated ${generatedProducts.length} live products and kept ${normalizedManualProducts.length} seed products.`
+  );
 }
 
 async function crawlSource(source) {
@@ -129,7 +134,7 @@ async function crawlUniluminProduct(source) {
     lastSeenAt: new Date().toISOString(),
     specs: {
       "点间距": readRequiredSpec(specs, "Pixel Pitch"),
-      "箱体尺寸": readRequiredSpec(specs, "Cabinet Size(W x H x D)", "Cabinet Size(W x H x D)"),
+      "箱体尺寸": readRequiredSpec(specs, "Cabinet Size(W x H x D)", "Cabinet Size(W x H x D)", "Cabinet Size(W x H x D)"),
       "亮度": readRequiredSpec(specs, "Brightness"),
       "箱体重量": readRequiredSpec(specs, "Cabinet Weight"),
       "维护方式": readRequiredSpec(specs, "Maintenance Method"),
@@ -227,6 +232,8 @@ function decodeHtml(value) {
     .replace(/&times;/g, "×")
     .replace(/&#215;/g, "×")
     .replace(/&#176;/g, "°")
+    .replace(/&#178;/g, "²")
+    .replace(/&#13217;/g, "㎡")
     .replace(/&nbsp;/g, " ");
 }
 
