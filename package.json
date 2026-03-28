@@ -1,0 +1,9 @@
+{
+  "name": "led-compare-platform",
+  "version": "1.0.0",
+  "description": "LED行业产品参数对比网站原型",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}

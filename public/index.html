@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LED 行业产品参数对比平台</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">LED Product Intelligence</p>
+          <h1>LED 行业产品参数对比平台</h1>
+          <p class="hero-text">
+            面向模组、箱体与控制器的参数对比原型。当前版本支持按品牌筛选、跨厂家多产品对比、导出 Excel 兼容表格与打印为 PDF，并预留实时采集接口。
+          </p>
+          <div class="hero-tags">
+            <span>模组</span>
+            <span>箱体</span>
+            <span>控制器</span>
+            <span>品牌横向对比</span>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-card">
+            <div class="hero-stat">12</div>
+            <div class="hero-label">样例产品</div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-stat">7</div>
+            <div class="hero-label">品牌覆盖</div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-stat">1</div>
+            <div class="hero-label">统一参数视图</div>
+          </div>
+        </div>
+      </header>
+
+      <main class="dashboard">
+        <section class="toolbar card">
+          <div class="filters">
+            <label>
+              产品类型
+              <select id="categoryFilter"></select>
+            </label>
+            <label>
+              品牌
+              <select id="brandFilter"></select>
+            </label>
+            <label class="search-box">
+              搜索产品
+              <input id="searchInput" type="search" placeholder="输入型号、品牌或关键词" />
+            </label>
+          </div>
+          <div class="actions">
+            <button id="exportExcelBtn" class="primary">导出 Excel</button>
+            <button id="exportPdfBtn" class="secondary">导出 PDF</button>
+            <button id="clearSelectionBtn" class="ghost">清空对比</button>
+          </div>
+        </section>
+
+        <section class="content-grid">
+          <section class="catalog card">
+            <div class="section-title">
+              <div>
+                <p class="section-eyebrow">Catalog</p>
+                <h2>产品库</h2>
+              </div>
+              <p id="resultSummary" class="muted"></p>
+            </div>
+            <div id="productList" class="product-list"></div>
+          </section>
+
+          <section class="comparison card">
+            <div class="section-title">
+              <div>
+                <p class="section-eyebrow">Comparison</p>
+                <h2>参数对比</h2>
+              </div>
+              <p class="muted">可跨品牌勾选多个产品进行横向分析</p>
+            </div>
+            <div id="emptyState" class="empty-state">
+              <h3>还没有选中产品</h3>
+              <p>从左侧选择 2 个或以上产品，即可生成统一参数对比表。</p>
+            </div>
+            <div id="comparisonWrapper" class="comparison-wrapper hidden">
+              <div id="comparisonMeta" class="comparison-meta"></div>
+              <div class="table-scroll">
+                <table id="comparisonTable"></table>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section class="roadmap card">
+          <div class="section-title">
+            <div>
+              <p class="section-eyebrow">Crawler Ready</p>
+              <h2>后续接入实时爬取建议</h2>
+            </div>
+          </div>
+          <div class="roadmap-grid">
+            <article>
+              <h3>1. 品牌采集适配器</h3>
+              <p>为海康威视、强力、洲明、艾比森、诺瓦、卡莱特等分别建立品牌抓取规则，统一清洗成同一份字段结构。</p>
+            </article>
+            <article>
+              <h3>2. 定时更新与差异比对</h3>
+              <p>定时抓取官网或授权页面，将新增型号、参数变更和停产产品写入变更日志。</p>
+            </article>
+            <article>
+              <h3>3. 导出与权限</h3>
+              <p>后端补充真实 Excel/PDF 生成、下载记录和账号权限控制，适合业务团队长期使用。</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
