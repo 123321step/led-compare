@@ -4,6 +4,9 @@ const path = require("path");
 
 const rootDir = __dirname;
 const publicDir = path.join(rootDir, "public");
+const sourcesFile = path.join(rootDir, "config", "sources.json");
+const productsFile = path.join(publicDir, "data", "products.json");
+const metadataFile = path.join(publicDir, "data", "crawl-meta.json");
 const port = process.env.PORT || 3000;
 
 const mimeTypes = {
@@ -17,6 +20,15 @@ const mimeTypes = {
   ".ico": "image/x-icon"
 };
 
+function sendJson(res, payload, statusCode = 200) {
+  res.writeHead(statusCode, { "Content-Type": "application/json; charset=utf-8" });
+  res.end(JSON.stringify(payload, null, 2));
+}
+
+function readJson(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
 function resolveFile(urlPath) {
   const safePath = path.normalize(decodeURIComponent(urlPath)).replace(/^(\.\.[/\\])+/, "");
   const requested = safePath === "/" ? "index.html" : safePath.replace(/^[/\\]/, "");
@@ -24,8 +36,22 @@ function resolveFile(urlPath) {
 }
 
 const server = http.createServer((req, res) => {
-  const filePath = resolveFile(req.url || "/");
+  if (req.url === "/api/products") {
+    sendJson(res, readJson(productsFile));
+    return;
+  }
 
+  if (req.url === "/api/metadata") {
+    sendJson(res, readJson(metadataFile));
+    return;
+  }
+
+  if (req.url === "/api/sources") {
+    sendJson(res, readJson(sourcesFile));
+    return;
+  }
+
+  const filePath = resolveFile(req.url || "/");
   if (!filePath.startsWith(publicDir)) {
     res.writeHead(403);
     res.end("Forbidden");

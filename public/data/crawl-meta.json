@@ -1,0 +1,6 @@
+{
+  "syncMode": "GitHub Actions 定时同步",
+  "lastUpdatedAt": "2026-03-28T13:48:39.470Z",
+  "sourceCount": 6,
+  "note": "当前以人工维护种子数据为主，采集脚本已就位，可继续为每个品牌添加解析器。"
+}

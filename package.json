@@ -4,6 +4,9 @@
   "description": "LED行业产品参数对比网站原型",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "crawl": "node scripts/crawl.mjs",
+    "sync:docs": "node scripts/sync-docs.mjs",
+    "build": "npm run crawl && npm run sync:docs"
   }
 }

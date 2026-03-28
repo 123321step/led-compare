@@ -1,44 +1,41 @@
 # 免费部署说明
 
-当前项目已经准备好静态部署目录：
+当前项目已经适配 `GitHub Pages` 免费部署。
 
-- [docs](C:\Users\Administrator\Documents\LED相关\docs)
+## 线上网址
 
-最适合的免费方案是 `GitHub Pages`，因为：
+配置完成后，固定网址通常为：
 
-- 完全免费
-- 会得到固定公网网址
-- 后续更新方便
+`https://123321step.github.io/led-compare/`
 
-## 方案一：GitHub Pages
+## 当前发布结构
 
-1. 在 GitHub 新建一个公开仓库
-2. 把当前目录代码上传到该仓库
-3. 进入仓库 `Settings -> Pages`
-4. 在 `Build and deployment` 中选择：
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/docs`
-5. 保存后等待 1 到 3 分钟
-6. 访问 GitHub 提供的网址
+- [public](C:\Users\Administrator\Documents\LED相关\public)：开发源文件
+- [docs](C:\Users\Administrator\Documents\LED相关\docs)：GitHub Pages 发布目录
 
-最终网址通常会是：
+## Pages 设置
 
-`https://你的GitHub用户名.github.io/仓库名/`
+在 GitHub 仓库的 `Settings -> Pages` 中：
 
-## 方案二：Cloudflare Pages
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/docs`
 
-1. 注册并登录 Cloudflare
-2. 进入 Pages
-3. 选择 `Upload assets`
-4. 上传整个 `docs` 文件夹内容
-5. 发布后会得到一个 `*.pages.dev` 固定网址
+## 免费自动更新
 
-## 当前目录说明
+本项目已经内置 GitHub Actions 工作流：
 
-- [public](C:\Users\Administrator\Documents\LED相关\public)：本地开发使用
-- [docs](C:\Users\Administrator\Documents\LED相关\docs)：免费静态部署使用
+- [.github/workflows/free-sync.yml](C:\Users\Administrator\Documents\LED相关\.github\workflows\free-sync.yml)
 
-## 更新站点时
+默认每 6 小时运行一次：
 
-如果你修改了 `public` 目录内容，需要同步复制到 `docs` 目录再重新发布。
+1. 执行采集脚本
+2. 更新 `public/data`
+3. 同步到 `docs`
+4. 自动提交回仓库
+
+## 注意
+
+- GitHub Actions 的定时任务可能有延迟
+- 如果仓库长期没有活动，定时任务可能被 GitHub 暂停
+- 如果以后要做真正实时爬虫，建议迁移到独立后端

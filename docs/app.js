@@ -1,5 +1,6 @@
 const state = {
   products: [],
+  metadata: null,
   selectedIds: new Set(),
   filters: {
     category: "all",
@@ -21,10 +22,20 @@ const exportExcelBtn = document.querySelector("#exportExcelBtn");
 const exportPdfBtn = document.querySelector("#exportPdfBtn");
 const clearSelectionBtn = document.querySelector("#clearSelectionBtn");
 
+const productCount = document.querySelector("#productCount");
+const brandCount = document.querySelector("#brandCount");
+const selectedCount = document.querySelector("#selectedCount");
+const syncMode = document.querySelector("#syncMode");
+const lastUpdated = document.querySelector("#lastUpdated");
+const sourceCount = document.querySelector("#sourceCount");
+const syncNote = document.querySelector("#syncNote");
+
 const baseFields = [
   { key: "brand", label: "品牌" },
   { key: "category", label: "类别" },
-  { key: "model", label: "型号" }
+  { key: "series", label: "系列" },
+  { key: "model", label: "型号" },
+  { key: "application", label: "应用场景" }
 ];
 
 const categoryLabels = {
@@ -36,9 +47,13 @@ const categoryLabels = {
 init();
 
 async function init() {
-  const response = await fetch("./data/products.json");
-  const products = await response.json();
-  state.products = products;
+  const [productsResponse, metadataResponse] = await Promise.all([
+    fetch("./data/products.json"),
+    fetch("./data/crawl-meta.json")
+  ]);
+
+  state.products = await productsResponse.json();
+  state.metadata = await metadataResponse.json();
 
   bindEvents();
   populateFilters();
@@ -83,15 +98,39 @@ function populateFilters() {
 }
 
 function render() {
+  renderHeroStats();
   renderProductList();
   renderComparison();
+}
+
+function renderHeroStats() {
+  const brands = new Set(state.products.map((product) => product.brand));
+  productCount.textContent = String(state.products.length);
+  brandCount.textContent = String(brands.size);
+  selectedCount.textContent = String(state.selectedIds.size);
+
+  if (!state.metadata) {
+    return;
+  }
+
+  syncMode.textContent = state.metadata.syncMode;
+  lastUpdated.textContent = formatDate(state.metadata.lastUpdatedAt);
+  sourceCount.textContent = `${state.metadata.sourceCount} 个来源`;
+  syncNote.textContent = state.metadata.note;
 }
 
 function getFilteredProducts() {
   return state.products.filter((product) => {
     const matchesCategory = state.filters.category === "all" || product.category === state.filters.category;
     const matchesBrand = state.filters.brand === "all" || product.brand === state.filters.brand;
-    const haystack = [product.brand, product.model, product.series, product.summary, ...product.tags]
+    const haystack = [
+      product.brand,
+      product.model,
+      product.series,
+      product.summary,
+      product.application,
+      ...product.tags
+    ]
       .join(" ")
       .toLowerCase();
     const matchesSearch = !state.filters.search || haystack.includes(state.filters.search);
@@ -101,10 +140,15 @@ function getFilteredProducts() {
 
 function renderProductList() {
   const filteredProducts = getFilteredProducts();
-  resultSummary.textContent = `共 ${filteredProducts.length} 个产品`;
+  resultSummary.textContent = `当前显示 ${filteredProducts.length} 个产品`;
 
   if (!filteredProducts.length) {
-    productList.innerHTML = `<div class="empty-state"><h3>没有匹配结果</h3><p>可以更换筛选条件，或接入更多品牌实时数据。</p></div>`;
+    productList.innerHTML = `
+      <div class="empty-state compact-empty">
+        <h3>没有匹配结果</h3>
+        <p>可以更换筛选条件，或继续补充新的品牌采集源。</p>
+      </div>
+    `;
     return;
   }
 
@@ -112,7 +156,7 @@ function renderProductList() {
     .map((product) => {
       const checked = state.selectedIds.has(product.id) ? "checked" : "";
       const paramsPreview = Object.entries(product.specs)
-        .slice(0, 3)
+        .slice(0, 4)
         .map(([key, value]) => `<span class="meta-chip">${key}: ${value}</span>`)
         .join("");
 
@@ -122,23 +166,22 @@ function renderProductList() {
             <div>
               <span class="brand-badge">${product.brand}</span>
               <h3 class="product-title">${product.model}</h3>
-            </div>
-            <span class="tag-chip">${categoryLabels[product.category]}</span>
-          </div>
-          <div class="product-meta">
-            <span class="meta-chip">系列: ${product.series}</span>
-            <span class="meta-chip">应用: ${product.application}</span>
-          </div>
-          <p class="product-summary">${product.summary}</p>
-          <div class="product-tags">${paramsPreview}</div>
-          <div class="product-footer">
-            <div class="product-tags">
-              ${product.tags.map((tag) => `<span class="tag-chip">${tag}</span>`).join("")}
+              <p class="product-subtitle">${product.series} · ${categoryLabels[product.category]}</p>
             </div>
             <label class="compare-toggle">
               <input type="checkbox" data-id="${product.id}" ${checked} />
               加入对比
             </label>
+          </div>
+          <p class="product-summary">${product.summary}</p>
+          <div class="product-meta">
+            <span class="meta-chip">应用: ${product.application}</span>
+            ${product.originUrl ? `<a class="meta-link" href="${product.originUrl}" target="_blank" rel="noreferrer">来源页面</a>` : ""}
+            ${product.lastSeenAt ? `<span class="meta-chip">更新: ${formatDate(product.lastSeenAt)}</span>` : ""}
+          </div>
+          <div class="product-tags">${paramsPreview}</div>
+          <div class="product-tags secondary-tags">
+            ${product.tags.map((tag) => `<span class="tag-chip">${tag}</span>`).join("")}
           </div>
         </article>
       `;
@@ -153,7 +196,7 @@ function renderProductList() {
       } else {
         state.selectedIds.delete(productId);
       }
-      renderComparison();
+      render();
     });
   });
 }
@@ -161,6 +204,7 @@ function renderProductList() {
 function renderComparison() {
   const selectedProducts = state.products.filter((product) => state.selectedIds.has(product.id));
   const allFieldLabels = collectComparisonFields(selectedProducts);
+  selectedCount.textContent = String(selectedProducts.length);
 
   if (selectedProducts.length < 2) {
     emptyState.classList.remove("hidden");
@@ -217,12 +261,13 @@ function collectComparisonFields(products) {
 
 function readFieldValue(product, key) {
   if (key.startsWith("specs.")) {
-    const specKey = key.replace("specs.", "");
-    return product.specs[specKey] || "-";
+    return product.specs[key.replace("specs.", "")] || "-";
   }
+
   if (key === "category") {
     return categoryLabels[product.category] || product.category;
   }
+
   return product[key] || "-";
 }
 
@@ -270,6 +315,22 @@ function downloadFile(content, fileName, mimeType) {
   link.download = fileName;
   link.click();
   URL.revokeObjectURL(url);
+}
+
+function formatDate(value) {
+  if (!value) {
+    return "-";
+  }
+
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+
+  return new Intl.DateTimeFormat("zh-CN", {
+    dateStyle: "medium",
+    timeStyle: "short"
+  }).format(date);
 }
 
 function escapeHtml(value) {

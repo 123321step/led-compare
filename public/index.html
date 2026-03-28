@@ -4,86 +4,147 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LED 行业产品参数对比平台</title>
+    <meta
+      name="description"
+      content="支持 LED 模组、箱体、控制器的品牌筛选、参数对比、Excel 导出与免费定时更新。"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="page-shell">
       <header class="hero">
-        <div class="hero-copy">
+        <div class="hero-copy card-hero">
           <p class="eyebrow">LED Product Intelligence</p>
-          <h1>LED 行业产品参数对比平台</h1>
+          <h1>把不同品牌 LED 产品参数放在一张表里看清楚</h1>
           <p class="hero-text">
-            面向模组、箱体与控制器的参数对比原型。当前版本支持按品牌筛选、跨厂家多产品对比、导出 Excel 兼容表格与打印为 PDF，并预留实时采集接口。
+            面向 LED 模组、箱体、控制器的在线参数情报站。你可以按品牌快速筛选产品，跨厂家横向对比核心规格，并导出
+            Excel 或打印为 PDF。
           </p>
+          <div class="hero-actions">
+            <a class="primary link-button" href="#catalog">开始选产品</a>
+            <a class="ghost link-button" href="#data-status">查看同步状态</a>
+          </div>
           <div class="hero-tags">
-            <span>模组</span>
-            <span>箱体</span>
-            <span>控制器</span>
-            <span>品牌横向对比</span>
+            <span>海康威视</span>
+            <span>强力巨彩</span>
+            <span>洲明</span>
+            <span>艾比森</span>
+            <span>诺瓦</span>
+            <span>卡莱特</span>
           </div>
         </div>
-        <div class="hero-panel">
-          <div class="hero-card">
-            <div class="hero-stat">12</div>
-            <div class="hero-label">样例产品</div>
-          </div>
-          <div class="hero-card">
-            <div class="hero-stat">7</div>
-            <div class="hero-label">品牌覆盖</div>
-          </div>
-          <div class="hero-card">
-            <div class="hero-stat">1</div>
-            <div class="hero-label">统一参数视图</div>
-          </div>
-        </div>
+
+        <aside class="hero-side">
+          <section class="hero-stats card">
+            <div class="hero-card">
+              <strong id="productCount">0</strong>
+              <span>收录产品</span>
+            </div>
+            <div class="hero-card">
+              <strong id="brandCount">0</strong>
+              <span>品牌数量</span>
+            </div>
+            <div class="hero-card">
+              <strong id="selectedCount">0</strong>
+              <span>当前已选</span>
+            </div>
+          </section>
+
+          <section id="data-status" class="status-panel card">
+            <div class="section-heading compact">
+              <div>
+                <p class="section-eyebrow">Data Status</p>
+                <h2>同步状态</h2>
+              </div>
+            </div>
+            <div class="status-grid">
+              <div>
+                <span>同步模式</span>
+                <strong id="syncMode">加载中</strong>
+              </div>
+              <div>
+                <span>最近更新</span>
+                <strong id="lastUpdated">加载中</strong>
+              </div>
+              <div>
+                <span>数据来源</span>
+                <strong id="sourceCount">加载中</strong>
+              </div>
+              <div>
+                <span>同步说明</span>
+                <strong id="syncNote">加载中</strong>
+              </div>
+            </div>
+          </section>
+        </aside>
       </header>
 
       <main class="dashboard">
-        <section class="toolbar card">
-          <div class="filters">
-            <label>
-              产品类型
-              <select id="categoryFilter"></select>
-            </label>
-            <label>
-              品牌
-              <select id="brandFilter"></select>
-            </label>
-            <label class="search-box">
-              搜索产品
-              <input id="searchInput" type="search" placeholder="输入型号、品牌或关键词" />
-            </label>
+        <section class="insights-grid">
+          <article class="feature card">
+            <p class="section-eyebrow">Use Case</p>
+            <h2>售前报价更快</h2>
+            <p>把同点间距、同亮度、同带载能力的方案放在一个页面里快速比差异。</p>
+          </article>
+          <article class="feature card">
+            <p class="section-eyebrow">Output</p>
+            <h2>导出给客户或团队</h2>
+            <p>导出 Excel 给业务同事整理方案，也能直接打印成 PDF 做会议资料。</p>
+          </article>
+          <article class="feature card">
+            <p class="section-eyebrow">Free Stack</p>
+            <h2>免费可持续更新</h2>
+            <p>前台用 GitHub Pages 托管，后台用 GitHub Actions 定时更新公开数据。</p>
+          </article>
+        </section>
+
+        <section class="toolbar card" id="catalog">
+          <div class="section-heading">
+            <div>
+              <p class="section-eyebrow">Catalog</p>
+              <h2>产品库</h2>
+            </div>
+            <p id="resultSummary" class="muted"></p>
           </div>
-          <div class="actions">
-            <button id="exportExcelBtn" class="primary">导出 Excel</button>
-            <button id="exportPdfBtn" class="secondary">导出 PDF</button>
-            <button id="clearSelectionBtn" class="ghost">清空对比</button>
+          <div class="toolbar-row">
+            <div class="filters">
+              <label>
+                产品类型
+                <select id="categoryFilter"></select>
+              </label>
+              <label>
+                品牌
+                <select id="brandFilter"></select>
+              </label>
+              <label class="search-box">
+                搜索产品
+                <input id="searchInput" type="search" placeholder="输入型号、系列、品牌或关键词" />
+              </label>
+            </div>
+            <div class="actions">
+              <button id="exportExcelBtn" class="primary">导出 Excel</button>
+              <button id="exportPdfBtn" class="secondary">导出 PDF</button>
+              <button id="clearSelectionBtn" class="ghost">清空对比</button>
+            </div>
           </div>
         </section>
 
         <section class="content-grid">
           <section class="catalog card">
-            <div class="section-title">
-              <div>
-                <p class="section-eyebrow">Catalog</p>
-                <h2>产品库</h2>
-              </div>
-              <p id="resultSummary" class="muted"></p>
-            </div>
             <div id="productList" class="product-list"></div>
           </section>
 
           <section class="comparison card">
-            <div class="section-title">
+            <div class="section-heading">
               <div>
                 <p class="section-eyebrow">Comparison</p>
                 <h2>参数对比</h2>
               </div>
-              <p class="muted">可跨品牌勾选多个产品进行横向分析</p>
+              <p class="muted">支持跨品牌勾选多个产品，自动合并字段形成统一对比表。</p>
             </div>
             <div id="emptyState" class="empty-state">
               <h3>还没有选中产品</h3>
-              <p>从左侧选择 2 个或以上产品，即可生成统一参数对比表。</p>
+              <p>从左侧至少选择 2 个产品，即可生成统一参数对比表。</p>
             </div>
             <div id="comparisonWrapper" class="comparison-wrapper hidden">
               <div id="comparisonMeta" class="comparison-meta"></div>
@@ -94,25 +155,26 @@
           </section>
         </section>
 
-        <section class="roadmap card">
-          <div class="section-title">
+        <section class="crawler-plan card">
+          <div class="section-heading">
             <div>
-              <p class="section-eyebrow">Crawler Ready</p>
-              <h2>后续接入实时爬取建议</h2>
+              <p class="section-eyebrow">Collector</p>
+              <h2>免费数据更新方案</h2>
             </div>
+            <p class="muted">适合 GitHub Pages 的免费架构，不需要单独购买服务器。</p>
           </div>
           <div class="roadmap-grid">
             <article>
-              <h3>1. 品牌采集适配器</h3>
-              <p>为海康威视、强力、洲明、艾比森、诺瓦、卡莱特等分别建立品牌抓取规则，统一清洗成同一份字段结构。</p>
+              <h3>1. 品牌采集配置</h3>
+              <p>为每个品牌维护公开来源地址、产品类别、字段映射与解析策略。</p>
             </article>
             <article>
-              <h3>2. 定时更新与差异比对</h3>
-              <p>定时抓取官网或授权页面，将新增型号、参数变更和停产产品写入变更日志。</p>
+              <h3>2. GitHub Actions 定时更新</h3>
+              <p>定时运行采集脚本，输出标准化 JSON，并自动提交回仓库。</p>
             </article>
             <article>
-              <h3>3. 导出与权限</h3>
-              <p>后端补充真实 Excel/PDF 生成、下载记录和账号权限控制，适合业务团队长期使用。</p>
+              <h3>3. Pages 自动发布</h3>
+              <p>GitHub Pages 直接读取最新的 docs 数据目录，让网址始终展示最新结果。</p>
             </article>
           </div>
         </section>

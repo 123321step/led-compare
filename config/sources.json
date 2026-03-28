@@ -1,0 +1,56 @@
+[
+  {
+    "id": "hikvision-seed",
+    "brand": "海康威视",
+    "type": "manualSeed",
+    "category": ["module", "cabinet", "controller"],
+    "homepage": "https://www.hikvision.com/",
+    "enabled": true,
+    "notes": "先使用人工维护样例数据，后续补独立解析器。"
+  },
+  {
+    "id": "qiangli-seed",
+    "brand": "强力巨彩",
+    "type": "manualSeed",
+    "category": ["module", "cabinet"],
+    "homepage": "https://www.qiangli.cn/",
+    "enabled": true,
+    "notes": "建议优先梳理室内模组、户外箱体字段映射。"
+  },
+  {
+    "id": "unilumin-seed",
+    "brand": "洲明",
+    "type": "manualSeed",
+    "category": ["module", "cabinet"],
+    "homepage": "https://www.unilumin.com/",
+    "enabled": true,
+    "notes": "建议后续补租赁与商显系列详情页解析。"
+  },
+  {
+    "id": "absen-seed",
+    "brand": "艾比森",
+    "type": "manualSeed",
+    "category": ["module", "cabinet"],
+    "homepage": "https://www.absen.com/",
+    "enabled": true,
+    "notes": "建议后续补 KL、PL 系列详情页解析。"
+  },
+  {
+    "id": "novastar-seed",
+    "brand": "诺瓦",
+    "type": "manualSeed",
+    "category": ["controller"],
+    "homepage": "https://www.novastar.tech/",
+    "enabled": true,
+    "notes": "建议优先做控制器产品线的规格归一化。"
+  },
+  {
+    "id": "colorlight-seed",
+    "brand": "卡莱特",
+    "type": "manualSeed",
+    "category": ["controller"],
+    "homepage": "https://www.colorlightinside.com/",
+    "enabled": true,
+    "notes": "建议后续补控制系统详情页抓取。"
+  }
+]
