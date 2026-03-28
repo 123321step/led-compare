@@ -19,15 +19,15 @@
     "id": "qiangli-seed",
     "brand": "强力巨彩",
     "type": "manualSeed",
-    "enabled": true,
-    "notes": "保留手工种子数据，后续补真实解析器。"
+    "enabled": false,
+    "notes": "等待接入强力巨彩海外官网目录后再重新启用。"
   },
   {
     "id": "absen-seed",
     "brand": "艾比森",
     "type": "manualSeed",
-    "enabled": true,
-    "notes": "保留手工种子数据，后续补真实解析器。"
+    "enabled": false,
+    "notes": "等待接入艾比森海外官网目录后再重新启用。"
   },
   {
     "id": "novastar-seed",

@@ -44,8 +44,11 @@ async function main() {
 
   const now = new Date().toISOString();
   const liveBrands = new Set(generatedProducts.map((product) => product.brand));
+  const enabledManualBrands = new Set(
+    enabledSources.filter((source) => source.type === "manualSeed").map((source) => source.brand)
+  );
   const normalizedManualProducts = manualProducts
-    .filter((product) => !liveBrands.has(product.brand))
+    .filter((product) => enabledManualBrands.has(product.brand) && !liveBrands.has(product.brand))
     .map((product) => ({
       ...product,
       lastSeenAt: product.lastSeenAt || now
