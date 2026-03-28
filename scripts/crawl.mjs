@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
+import { PDFParse } from "pdf-parse";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -96,6 +97,10 @@ async function crawlSource(source) {
     return crawlNovaStarCatalog(source);
   }
 
+  if (source.type === "colorlightCatalog") {
+    return crawlColorlightCatalog(source);
+  }
+
   throw new Error(`Unsupported source type: ${source.type}`);
 }
 
@@ -150,6 +155,42 @@ async function crawlNovaStarCatalog(source) {
     const html = await fetchText(entry.detailUrl);
     const variants = extractNovaVariants(html, entry);
     products.push(...variants);
+  }
+
+  return dedupeProducts(products);
+}
+
+async function crawlColorlightCatalog(source) {
+  const homeHtml = await fetchText(source.rootUrl);
+  const catalogEntries = dedupeColorlightEntries(extractColorlightCatalogEntries(source.rootUrl, homeHtml));
+  const pdfTextCache = new Map();
+  const products = [];
+
+  for (const entry of catalogEntries) {
+    try {
+      const [featureHtml, downloadHtml] = await Promise.all([fetchText(entry.detailUrl), fetchText(entry.downloadUrl)]);
+      const summary = extractColorlightSummary(featureHtml, entry);
+      const specPdfUrl = extractColorlightSpecPdfUrl(downloadHtml);
+      const pdfText = specPdfUrl ? await getColorlightPdfText(specPdfUrl, pdfTextCache) : "";
+
+      for (const model of splitColorlightModels(entry.model)) {
+        products.push({
+          id: `colorlight-${slugify(model)}`,
+          brand: "卡莱特",
+          category: "controller",
+          series: entry.series,
+          model,
+          application: inferColorlightApplication(entry.series, model),
+          summary,
+          tags: unique(["真实抓取", entry.topCategory, entry.series]),
+          originUrl: entry.detailUrl,
+          lastSeenAt: new Date().toISOString(),
+          specs: normalizeColorlightSpecs(parseColorlightPdfSpecs(pdfText, entry, specPdfUrl))
+        });
+      }
+    } catch (error) {
+      console.warn(`Skipped Colorlight ${entry.model}: ${error.message}`);
+    }
   }
 
   return dedupeProducts(products);
@@ -697,6 +738,249 @@ function normalizeNovaModelName(value) {
     .trim();
 }
 
+function extractColorlightCatalogEntries(rootUrl, html) {
+  const productNavHtml = html.slice(html.indexOf('<div class="ProductNav">'), html.indexOf('<div class="ProductNavOff"'));
+  const tabTitles = [...productNavHtml.matchAll(/<div class="tabTerm[^"]*">([\s\S]*?)<\/div>/gi)].map((match) =>
+    normalizeWhitespace(decodeHtml(stripTags(match[1])))
+  );
+  const tabItems = productNavHtml.split(/<div class="tabItem[^"]*">/i).slice(1, tabTitles.length + 1);
+
+  return tabItems.flatMap((tabHtml, tabIndex) => {
+    const topCategory = tabTitles[tabIndex] || "Colorlight";
+    const boxes = [...tabHtml.matchAll(/<h5>([\s\S]*?)<\/h5>[\s\S]*?<div class="li">([\s\S]*?)<\/div>/gi)].map((match) => ({
+      series: normalizeWhitespace(decodeHtml(stripTags(match[1]))),
+      linksHtml: match[2]
+    }));
+
+    return boxes.flatMap((box) => {
+      const series = box.series || topCategory;
+      const links = [...box.linksHtml.matchAll(/<a[^>]*href="([^"]*\/product\/special\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)];
+
+      return links.map((linkMatch) => {
+        const detailUrl = new URL(linkMatch[1].replace(/\/{2,}/g, "/"), rootUrl).toString();
+        const detailId = detailUrl.match(/\/product\/special\/(\d+)/)?.[1] || slugify(detailUrl);
+        const model = normalizeWhitespace(decodeHtml(stripTags(linkMatch[2])));
+
+        return {
+          id: detailId,
+          topCategory,
+          series,
+          model,
+          detailUrl,
+          downloadUrl: detailUrl.replace("/product/special/", "/product/download/"),
+          specUrl: detailUrl.replace("/product/special/", "/product/routine/")
+        };
+      });
+    });
+  });
+}
+
+function dedupeColorlightEntries(entries) {
+  const seen = new Set();
+  return entries.filter((entry) => {
+    const key = `${entry.id}:${entry.model}`;
+    if (seen.has(key)) {
+      return false;
+    }
+    seen.add(key);
+    return true;
+  });
+}
+
+function splitColorlightModels(value) {
+  const normalized = normalizeWhitespace(value).replace(/\s*\/\s*/g, "/");
+  const parts = normalized.split("/").map((item) => item.trim()).filter(Boolean);
+  return parts.length ? parts : [normalized];
+}
+
+function extractColorlightSummary(featureHtml, entry) {
+  const metaDescription = extractMetaContent(featureHtml, "description");
+  if (metaDescription && metaDescription !== "- Video processors · LED control system · ColorlightCloud · Media Server · Solutions · Downloads · News · About Colorlight") {
+    return metaDescription;
+  }
+
+  const paragraphs = [...featureHtml.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map((match) => normalizeWhitespace(decodeHtml(stripTags(match[1]))))
+    .filter((text) => text.length > 30 && !/Copyright|Colorlight|English/i.test(text));
+
+  return paragraphs[0] || `${entry.model}，来自卡莱特官方产品目录。`;
+}
+
+function extractColorlightSpecPdfUrl(downloadHtml) {
+  const pdfLinks = [...downloadHtml.matchAll(/href="([^"]+\.pdf)"/gi)].map((match) => match[1]);
+  const specLink =
+    pdfLinks.find((link) => /spec/i.test(link)) ||
+    pdfLinks.find((link) => /quick.?start/i.test(link)) ||
+    pdfLinks[0];
+
+  if (!specLink) {
+    return "";
+  }
+
+  const normalized = decodeHtml(specLink).replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
+  return new URL(normalized, "https://en.colorlightinside.com").toString();
+}
+
+async function getColorlightPdfText(pdfUrl, cache) {
+  if (!pdfUrl) {
+    return "";
+  }
+
+  if (!cache.has(pdfUrl)) {
+    const pdfData = fetchBinary(pdfUrl);
+    cache.set(
+      pdfUrl,
+      pdfData.then(async (buffer) => {
+        const parser = new PDFParse({ data: buffer });
+        try {
+          const result = await parser.getText();
+          return normalizeColorlightPdfText(result.text);
+        } finally {
+          await parser.destroy();
+        }
+      })
+    );
+  }
+
+  return cache.get(pdfUrl);
+}
+
+function normalizeColorlightPdfText(text) {
+  const shifted = Array.from(text)
+    .map((ch) => {
+      const code = ch.charCodeAt(0);
+      if (code >= 33 && code <= 126) {
+        return String.fromCharCode(code - 1);
+      }
+      return ch;
+    })
+    .join("");
+
+  const controlMap = {
+    "\u0010": "0",
+    "\u0011": "0",
+    "\u0012": "1",
+    "\u0013": "2",
+    "\u0014": "3",
+    "\u0015": "4",
+    "\u0016": "5",
+    "\u0017": "6",
+    "\u0018": "7",
+    "\u0019": "8",
+    "\u001a": "9",
+    "\u000f": "."
+  };
+
+  return shifted
+    .replace(/[\u000f-\u001a]/g, (match) => controlMap[match] || " ")
+    .replace(/\u0007/g, "&")
+    .replace(//g, "x")
+    .replace(/[\u0000-\u0008\u000b-\u000e\u001b-\u001f]/g, " ")
+    .replace(/[^\S\r\n]+/g, " ")
+    .replace(/[\uE000-\uF8FF]/g, " ")
+    .replace(/\s+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
+function parseColorlightPdfSpecs(text, entry, specPdfUrl) {
+  const specs = {
+    "产品类型": entry.series,
+    "规格书": specPdfUrl || "-"
+  };
+
+  if (!text) {
+    return specs;
+  }
+
+  const loadingMatch =
+    text.match(/LOADING CAPACITY OF ([0-9.\s]+MILLION PIXELS)/i) ||
+    text.match(/SUPPORTS UP TO ([0-9.\s]+MILLION PIXELS)/i);
+  if (loadingMatch) {
+    specs["最大带载"] = normalizeWhitespace(loadingMatch[1]);
+  }
+
+  const widthHeightMatch = text.match(/([0-9\s]+) PIXELS IN WIDTH OR ([0-9\s]+) PIXELS IN HEIGHT/i);
+  if (widthHeightMatch) {
+    specs["分辨率"] = `${compactDigits(widthHeightMatch[1])} x ${compactDigits(widthHeightMatch[2])}`;
+  }
+
+  const layerMatch = text.match(/([0-9]+)[^\n]{0,20}LAYER(?: SPLICING DISPLAY)?/i);
+  if (layerMatch) {
+    specs["图层数"] = `${layerMatch[1]} layers`;
+  }
+
+  const inputLines = collectColorlightLines(text, /(INPUT BOARDS?|INPUTS? UP TO|HDMI|DP 1\.|SDI|ST2110)/i, 5);
+  if (inputLines.length) {
+    specs["输入接口"] = unique(inputLines).join(" ");
+  }
+
+  const outputLines = collectColorlightLines(text, /(OUTPUT BOARD|ETHERNET PORT OUTPUT|FIBER PORTS|LOOP REDUNDANCY)/i, 5);
+  if (outputLines.length) {
+    specs["输出接口"] = unique(outputLines).join(" ");
+  }
+
+  const voltageMatch = text.match(/INPUT VOLTAGE[:\s]+([A-Z0-9.\-\/\s()]+)/i);
+  if (voltageMatch) {
+    specs["工作电压"] = normalizeWhitespace(voltageMatch[1]);
+  }
+
+  const backupMatch = text.match(/(BACKUP PORTS?[^\n.]+|LOOP REDUNDANCY[^\n.]+)/i);
+  if (backupMatch) {
+    specs["备份机制"] = normalizeWhitespace(backupMatch[1]);
+  }
+
+  return specs;
+}
+
+function collectColorlightLines(text, pattern) {
+  const lines = text
+    .split(/\r?\n/)
+    .map((line) => normalizeWhitespace(line))
+    .filter(Boolean);
+
+  return unique(
+    lines
+      .filter((line) => pattern.test(line))
+      .map((line) => line.replace(/\s+/g, " ").trim())
+      .filter((line) => line.length <= 220)
+  );
+}
+
+function compactDigits(value = "") {
+  return normalizeWhitespace(value).replace(/\s+/g, "");
+}
+
+function normalizeColorlightSpecs(specs) {
+  const normalized = {
+    "最大带载": specs["最大带载"] || "-",
+    "输入接口": specs["输入接口"] || "-",
+    "输出接口": specs["输出接口"] || "-",
+    "图层数": specs["图层数"] || "-",
+    "工作电压": specs["工作电压"] || "-",
+    "备份机制": specs["备份机制"] || "-",
+    "分辨率": specs["分辨率"] || "-",
+    "产品类型": specs["产品类型"] || "-",
+    "规格书": specs["规格书"] || "-"
+  };
+
+  return normalized;
+}
+
+function inferColorlightApplication(series, model) {
+  const text = `${series} ${model}`;
+  if (/media server|cloud/i.test(text)) {
+    return "媒体播控 / 云平台";
+  }
+  if (/calibration|software/i.test(text)) {
+    return "校正管理 / 软件控制";
+  }
+  if (/processor|splicer|av over ip|meeting/i.test(text)) {
+    return "视频处理 / 拼控 / 会议";
+  }
+  return "LED 控制 / 视频处理";
+}
+
 function looksLikeGenericNovaSeries(value = "") {
   return /series|software|resolution|processor|controller|receiving card|video controller/i.test(value);
 }
@@ -902,17 +1186,33 @@ async function fetchJson(url) {
   return fetchWithRetry(url, "json");
 }
 
+async function fetchBinary(url) {
+  return fetchWithRetry(url, "binary");
+}
+
 async function fetchWithRetry(url, mode, attempt = 1) {
   await sleep(180);
   const response = await fetch(url, {
     headers: {
       "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0 Safari/537.36",
-      accept: mode === "json" ? "application/json,text/plain,*/*" : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+      accept:
+        mode === "json"
+          ? "application/json,text/plain,*/*"
+          : mode === "binary"
+            ? "application/pdf,application/octet-stream,*/*"
+            : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      referer: "https://en.colorlightinside.com/"
     }
   });
 
   if (response.ok) {
-    return mode === "json" ? response.json() : response.text();
+    if (mode === "json") {
+      return response.json();
+    }
+    if (mode === "binary") {
+      return Buffer.from(await response.arrayBuffer());
+    }
+    return response.text();
   }
 
   if ((response.status === 403 || response.status === 429) && attempt < 4) {

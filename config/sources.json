@@ -43,8 +43,9 @@
   {
     "id": "colorlight-seed",
     "brand": "卡莱特",
-    "type": "manualSeed",
+    "type": "colorlightCatalog",
     "enabled": true,
-    "notes": "保留手工种子数据，后续补真实解析器。"
+    "rootUrl": "https://en.colorlightinside.com/",
+    "notes": "抓取卡莱特官网产品导航、下载页规格书和控制器参数。"
   }
 ]

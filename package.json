@@ -8,5 +8,8 @@
     "crawl": "node scripts/crawl.mjs",
     "sync:docs": "node scripts/sync-docs.mjs",
     "build": "npm run crawl && npm run sync:docs"
+  },
+  "dependencies": {
+    "pdf-parse": "^2.4.5"
   }
 }
