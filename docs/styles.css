@@ -118,6 +118,24 @@ h1 {
   margin-bottom: 20px;
 }
 
+.hero-topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.lang-switch {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.lang-switch .is-active {
+  background: var(--surface-dark);
+  color: #fff;
+}
+
 .link-button,
 button {
   display: inline-flex;
@@ -238,6 +256,11 @@ button:hover {
   display: block;
   margin-top: 8px;
   line-height: 1.4;
+}
+
+.source-scope {
+  margin-top: 16px;
+  line-height: 1.7;
 }
 
 .dashboard {
@@ -622,6 +645,11 @@ input {
   font-weight: 700;
 }
 
+.source-chip {
+  background: rgba(217, 93, 46, 0.12);
+  color: var(--primary-dark);
+}
+
 .compare-toggle {
   display: inline-flex;
   align-items: center;
@@ -741,7 +769,8 @@ tbody tr:nth-child(odd) {
   .section-heading,
   .product-top,
   .brand-group-head,
-  .brand-category-head {
+  .brand-category-head,
+  .hero-topline {
     flex-direction: column;
     align-items: stretch;
   }
