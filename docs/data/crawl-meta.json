@@ -1,6 +1,9 @@
 {
   "syncMode": "GitHub Actions 定时同步",
-  "lastUpdatedAt": "2026-03-28T13:48:39.470Z",
+  "lastUpdatedAt": "2026-03-28T14:00:01.295Z",
   "sourceCount": 6,
-  "note": "当前以人工维护种子数据为主，采集脚本已就位，可继续为每个品牌添加解析器。"
+  "liveSourceCount": 2,
+  "failedSourceCount": 0,
+  "note": "已成功抓取 2 个真实来源，其他品牌继续使用人工维护种子数据。",
+  "failures": []
 }

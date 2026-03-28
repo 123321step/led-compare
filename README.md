@@ -19,6 +19,8 @@ node server.js
 ## 数据结构
 
 核心展示数据位于 [public/data/products.json](C:\Users\Administrator\Documents\LED相关\public\data\products.json)。
+手工种子数据位于 [data/manual-products.json](C:\Users\Administrator\Documents\LED相关\data\manual-products.json)。
+真实抓取来源配置位于 [config/sources.json](C:\Users\Administrator\Documents\LED相关\config\sources.json)。
 
 ```json
 {
@@ -73,6 +75,11 @@ npm run build
 2. 给每个品牌增加专属解析器，把字段映射到统一结构
 3. 将解析结果写回 `public/data/products.json`
 4. 让 GitHub Actions 每 6 小时自动刷新一次
+
+## 当前已接入的真实抓取
+
+- 海康威视：官方产品详情页解析器
+- 洲明：官方 Product Parameter 表格解析器
 
 ## 限制
 

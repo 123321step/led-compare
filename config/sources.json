@@ -1,56 +1,56 @@
 [
   {
-    "id": "hikvision-seed",
+    "id": "hikvision-ds-d4280fo",
     "brand": "海康威视",
-    "type": "manualSeed",
-    "category": ["module", "cabinet", "controller"],
-    "homepage": "https://www.hikvision.com/",
+    "type": "hikvisionProductPage",
     "enabled": true,
-    "notes": "先使用人工维护样例数据，后续补独立解析器。"
+    "category": "cabinet",
+    "url": "https://www.hikvision.com/my/products/led-displays/outdoor-led/ds-d4280fo/",
+    "model": "DS-D4280FO",
+    "series": "Outdoor Fixed LED",
+    "application": "户外广告 / 固装显示",
+    "summary": "从海康威视官方详情页抓取的户外固定安装 LED 产品。",
+    "tags": ["真实抓取", "户外", "固定安装"]
+  },
+  {
+    "id": "unilumin-usurface-gm",
+    "brand": "洲明",
+    "type": "uniluminProductPage",
+    "enabled": true,
+    "category": "cabinet",
+    "url": "https://www.unilumin.com/products/dooh/usurface-gm.html",
+    "model": "Usurface GM",
+    "series": "Usurface",
+    "application": "户外广告 / DOOH",
+    "summary": "从洲明官方产品页抓取的户外商显产品。",
+    "tags": ["真实抓取", "户外", "DOOH"]
   },
   {
     "id": "qiangli-seed",
     "brand": "强力巨彩",
     "type": "manualSeed",
-    "category": ["module", "cabinet"],
-    "homepage": "https://www.qiangli.cn/",
     "enabled": true,
-    "notes": "建议优先梳理室内模组、户外箱体字段映射。"
-  },
-  {
-    "id": "unilumin-seed",
-    "brand": "洲明",
-    "type": "manualSeed",
-    "category": ["module", "cabinet"],
-    "homepage": "https://www.unilumin.com/",
-    "enabled": true,
-    "notes": "建议后续补租赁与商显系列详情页解析。"
+    "notes": "保留手工种子数据，后续补真实解析器。"
   },
   {
     "id": "absen-seed",
     "brand": "艾比森",
     "type": "manualSeed",
-    "category": ["module", "cabinet"],
-    "homepage": "https://www.absen.com/",
     "enabled": true,
-    "notes": "建议后续补 KL、PL 系列详情页解析。"
+    "notes": "保留手工种子数据，后续补真实解析器。"
   },
   {
     "id": "novastar-seed",
     "brand": "诺瓦",
     "type": "manualSeed",
-    "category": ["controller"],
-    "homepage": "https://www.novastar.tech/",
     "enabled": true,
-    "notes": "建议优先做控制器产品线的规格归一化。"
+    "notes": "保留手工种子数据，后续补真实解析器。"
   },
   {
     "id": "colorlight-seed",
     "brand": "卡莱特",
     "type": "manualSeed",
-    "category": ["controller"],
-    "homepage": "https://www.colorlightinside.com/",
     "enabled": true,
-    "notes": "建议后续补控制系统详情页抓取。"
+    "notes": "保留手工种子数据，后续补真实解析器。"
   }
 ]
