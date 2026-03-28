@@ -92,6 +92,10 @@ async function crawlSource(source) {
     return crawlUniluminLedProductsCatalog(source);
   }
 
+  if (source.type === "novastarCatalog") {
+    return crawlNovaStarCatalog(source);
+  }
+
   throw new Error(`Unsupported source type: ${source.type}`);
 }
 
@@ -130,6 +134,25 @@ async function crawlUniluminLedProductsCatalog(source) {
   }
 
   return dedupeProducts(allProducts);
+}
+
+async function crawlNovaStarCatalog(source) {
+  const catalogEntries = [];
+
+  for (const listUrl of source.listUrls || []) {
+    const html = await fetchText(listUrl);
+    catalogEntries.push(...extractNovaCatalogEntries(listUrl, html));
+  }
+
+  const products = [];
+
+  for (const entry of catalogEntries) {
+    const html = await fetchText(entry.detailUrl);
+    const variants = extractNovaVariants(html, entry);
+    products.push(...variants);
+  }
+
+  return dedupeProducts(products);
 }
 
 async function discoverHikvisionListingEndpoints(rootUrl) {
@@ -483,6 +506,223 @@ function normalizeUniluminSpecs(specs) {
   };
 }
 
+function normalizeNovaSpecs(specs, firstLabel) {
+  const normalized = {
+    "最大带载": readRequiredSpec(specs, "Max. Loading Capacity", "Loading Capacity", "Max Width (pixels)"),
+    "输入接口": readRequiredSpec(specs, "Input Options", "Input", "Inputs", "Input Connectors"),
+    "输出接口": readRequiredSpec(specs, "Output Options", "Outputs", "Output", "Output Connectors"),
+    "控制网口": readRequiredSpec(specs, "Control Interface", "Ethernet Port", "Control Connectors"),
+    "图层数": readRequiredSpec(specs, "Layers"),
+    "备份机制": readRequiredSpec(specs, "Device Backup", "Backup"),
+    "工作电压": readRequiredSpec(specs, "Power Supply", "Input Voltage", "Output Voltage"),
+    "机箱规格": readRequiredSpec(specs, "Chassis"),
+    "CPU": readRequiredSpec(specs, "CPU"),
+    "内存": readRequiredSpec(specs, "RAM"),
+    "存储": readRequiredSpec(specs, "Storage")
+  };
+
+  const productType = readRequiredSpec(specs, "Product Type");
+  if (productType !== "-") {
+    normalized["产品类型"] = productType;
+  }
+
+  if (firstLabel && !normalized["软件类型"]) {
+    normalized["产品类型"] = firstLabel;
+  }
+
+  return Object.fromEntries(
+    Object.entries(normalized).map(([key, value]) => [key, value === "/" ? "-" : value])
+  );
+}
+
+function extractNovaCatalogEntries(listUrl, html) {
+  return [...html.matchAll(/<li[^>]*products_list_col1[^>]*>([\s\S]*?)<\/li>/gi)].flatMap((match) => {
+    const cardHtml = match[1];
+    const primaryHeading = normalizeWhitespace(
+      decodeHtml(stripTags(cardHtml.match(/products_list_card_text11">([\s\S]*?)<\/div>/i)?.[1] || ""))
+    );
+    const secondaryHeading = normalizeWhitespace(
+      decodeHtml(stripTags(cardHtml.match(/products_list_card_text12">([\s\S]*?)<\/div>/i)?.[1] || ""))
+    );
+    const productType = secondaryHeading || primaryHeading || "NovaStar";
+
+    return [...cardHtml.matchAll(/<a[^>]*products_list_card_link1[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)]
+      .map((linkMatch) => {
+        const linkText = normalizeNovaModelName(decodeHtml(stripTags(linkMatch[2])));
+        const model = /learn more/i.test(linkText) ? normalizeNovaModelName(primaryHeading || secondaryHeading) : linkText;
+        if (!model) {
+          return null;
+        }
+
+        return {
+          detailUrl: new URL(linkMatch[1], listUrl).toString(),
+          model,
+          series: inferNovaSeriesFromCatalog(model, productType),
+          productType,
+          pageCategory: /catid=2/.test(listUrl) ? "LED Control System" : "Processors"
+        };
+      })
+      .filter(Boolean);
+  });
+}
+
+function extractNovaVariants(html, entry) {
+  const rows = extractNovaTableRows(html);
+  const category = "controller";
+  const title = normalizeNovaModelName(entry.model || extractNovaTitle(html) || "NovaStar Product");
+  const summary = `${title}，来自诺瓦官方产品目录。`;
+  const headerRow = rows[0] || [];
+  const nextRow = rows[1] || [];
+
+  if (isNovaVariantHeaderRow(headerRow, nextRow)) {
+    const startIndex = isExplicitNovaHeaderLabel(headerRow[0]) ? 1 : 0;
+    const models = headerRow.slice(startIndex).map(normalizeNovaModelName).filter(Boolean);
+    return models.map((model, index) => {
+      const specs = buildNovaVariantSpecs(rows.slice(1), index, startIndex);
+      return buildNovaProduct({
+        model,
+        entry,
+        category,
+        summary: `${model}，来自诺瓦官方产品目录。`,
+        specs
+      });
+    });
+  }
+
+  const specs = Object.fromEntries(rows.map((row) => [row[0], row[1] || "-"]));
+  const resolvedModel = resolveNovaSingleModel(entry, specs, title);
+  return [
+    buildNovaProduct({
+      model: resolvedModel,
+      entry,
+      category,
+      summary: `${resolvedModel}，来自诺瓦官方产品目录。`,
+      specs
+    })
+  ];
+}
+
+function buildNovaProduct({ model, entry, category, summary, specs }) {
+  return {
+    id: `novastar-${slugify(model)}`,
+    brand: "诺瓦",
+    category,
+    series: entry.series,
+    model,
+    application: inferNovaApplication(entry.productType, entry.series, model),
+    summary,
+    tags: unique(["真实抓取", "控制器", entry.productType, entry.pageCategory]),
+    originUrl: entry.detailUrl,
+    lastSeenAt: new Date().toISOString(),
+    specs: normalizeNovaSpecs({
+      ...specs,
+      "Product Type": entry.productType
+    })
+  };
+}
+
+function isNovaVariantHeaderRow(row, nextRow) {
+  if (row.length < 2) {
+    return false;
+  }
+
+  if (row.length >= 3 && isExplicitNovaHeaderLabel(row[0])) {
+    return true;
+  }
+
+  return row.length >= 3 && row.every(looksLikeNovaModel) && isLikelyNovaSpecLabel(nextRow[0] || "");
+}
+
+function isExplicitNovaHeaderLabel(value = "") {
+  return /^(type|product|model|device model)$/i.test(value);
+}
+
+function buildNovaVariantSpecs(rows, variantIndex, startIndex = 1) {
+  return Object.fromEntries(
+    rows
+      .filter((row) => row[0])
+      .map((row) => [row[0], row[variantIndex + startIndex] || "-"])
+  );
+}
+
+function resolveNovaSingleModel(entry, specs, fallbackTitle) {
+  const detailModel = readRequiredSpec(specs, "Model", "Type", "Product", "Device Model");
+  const normalizedDetailModel = normalizeNovaModelName(detailModel);
+
+  if (normalizedDetailModel !== "-" && (looksLikeGenericNovaSeries(entry.model) || isWeakNovaModel(fallbackTitle))) {
+    return normalizedDetailModel;
+  }
+
+  return fallbackTitle;
+}
+
+function inferNovaSeriesFromCatalog(model, productType) {
+  if (/series/i.test(model)) {
+    return model;
+  }
+
+  if (/kompass/i.test(model)) {
+    return "Kompass";
+  }
+
+  const prefixMatch = model.match(/^([A-Z]{1,6})[\s-]?\d/i);
+  if (prefixMatch) {
+    return `${prefixMatch[1]} Series`;
+  }
+
+  return productType || "NovaStar";
+}
+
+function inferNovaApplication(productType, series, model) {
+  const text = [productType, series, model].join(" ");
+  if (/media server/i.test(text)) {
+    return "媒体服务器 / 舞台播控";
+  }
+  if (/software/i.test(text)) {
+    return "内容编辑 / 播控软件";
+  }
+  if (/receiving card/i.test(text)) {
+    return "接收卡 / 屏体控制";
+  }
+  if (/resolution|mctrl|coex|controller/i.test(text)) {
+    return "发送控制 / 视频处理";
+  }
+  return "LED 控制 / 视频处理";
+}
+
+function normalizeNovaModelName(value) {
+  return normalizeWhitespace(value)
+    .replace(/\s+Comparison\s+Downloads$/i, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function looksLikeGenericNovaSeries(value = "") {
+  return /series|software|resolution|processor|controller|receiving card|video controller/i.test(value);
+}
+
+function isWeakNovaModel(value = "") {
+  return !value || /^v[\d.]+$/i.test(value) || /global leading/i.test(value);
+}
+
+function looksLikeNovaModel(value = "") {
+  if (!value || value.length > 40) {
+    return false;
+  }
+
+  if (isLikelyNovaSpecLabel(value)) {
+    return false;
+  }
+
+  return /[A-Z]/.test(value) && (/\d/.test(value) || /series|plus|pro|kompass|unico|visual/i.test(value));
+}
+
+function isLikelyNovaSpecLabel(value = "") {
+  return /loading|capacity|connector|voltage|bandwidth|layers|presets|control|output|input|monitor|backup|calibration|latency|chassis|ram|cpu|storage|graphics|decoding|programs|product type|device model|model$/i.test(
+    value
+  );
+}
+
 function inferHikvisionCategory(endpoint) {
   if (endpoint.includes("/led-modules/")) {
     return "module";
@@ -553,6 +793,26 @@ function inferUniluminApplication(productUrl) {
   return "LED 显示";
 }
 
+function inferNovaCategory(detailUrl, rows, model) {
+  if (/catid=3/.test(detailUrl)) {
+    return "controller";
+  }
+
+  const firstLabel = rows[0]?.[0] || "";
+  if (/software/i.test(firstLabel) || /kompass/i.test(model)) {
+    return "controller";
+  }
+
+  return "controller";
+}
+
+function inferNovaSeries(detailUrl, model) {
+  if (/catid=3/.test(detailUrl)) {
+    return /MX|CX/i.test(model) ? "COEX / MX Series" : /VX/i.test(model) ? "VX Series" : "Video Controller";
+  }
+  return /H/i.test(model) ? "H Series" : /Kompass/i.test(model) ? "Kompass" : "NovaStar";
+}
+
 function extractUniluminSegment(productUrl) {
   const match = productUrl.match(/\/products\/([^/]+)\//);
   return match ? match[1] : "unilumin";
@@ -601,6 +861,24 @@ function extractMetaContent(html, propertyName) {
 function extractTitle(html) {
   const match = html.match(/<title>([^<]+)<\/title>/i);
   return decodeHtml(match?.[1] || "");
+}
+
+function extractNovaTitle(html) {
+  const headers = [...html.matchAll(/<h[1-3][^>]*>([\s\S]*?)<\/h[1-3]>/gi)]
+    .map((match) => normalizeWhitespace(stripTags(match[1])))
+    .filter(Boolean);
+
+  return headers.find((text) => /[A-Z]{1,4}\d|Kompass|COEX|VX|MX|CX|H/i.test(text)) || extractTitle(html);
+}
+
+function extractNovaTableRows(html) {
+  return [...html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)]
+    .map((rowMatch) =>
+      [...rowMatch[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)]
+        .map((cell) => normalizeWhitespace(decodeHtml(stripTags(cell[1]))))
+        .filter(Boolean)
+    )
+    .filter((row) => row.length >= 2);
 }
 
 function readRequiredSpec(specs, ...keys) {

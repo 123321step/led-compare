@@ -32,9 +32,13 @@
   {
     "id": "novastar-seed",
     "brand": "诺瓦",
-    "type": "manualSeed",
+    "type": "novastarCatalog",
     "enabled": true,
-    "notes": "保留手工种子数据，后续补真实解析器。"
+    "listUrls": [
+      "https://www.novastar.tech/product/product.html?catid=2",
+      "https://www.novastar.tech/product/product.html?catid=3"
+    ],
+    "notes": "抓取诺瓦产品目录页中的控制器和视频处理器产品。"
   },
   {
     "id": "colorlight-seed",
