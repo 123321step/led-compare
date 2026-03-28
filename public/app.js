@@ -6,6 +6,9 @@ const state = {
     category: "all",
     brand: "all",
     search: ""
+  },
+  navigation: {
+    selectedBrand: "all"
   }
 };
 
@@ -15,6 +18,7 @@ const searchInput = document.querySelector("#searchInput");
 const productList = document.querySelector("#productList");
 const resultSummary = document.querySelector("#resultSummary");
 const brandSummary = document.querySelector("#brandSummary");
+const brandTree = document.querySelector("#brandTree");
 const emptyState = document.querySelector("#emptyState");
 const comparisonWrapper = document.querySelector("#comparisonWrapper");
 const comparisonTable = document.querySelector("#comparisonTable");
@@ -69,6 +73,7 @@ function bindEvents() {
 
   brandFilter.addEventListener("change", (event) => {
     state.filters.brand = event.target.value;
+    state.navigation.selectedBrand = event.target.value;
     render();
   });
 
@@ -100,6 +105,7 @@ function populateFilters() {
 
 function render() {
   renderHeroStats();
+  renderBrandTree();
   renderProductList();
   renderComparison();
 }
@@ -122,8 +128,10 @@ function renderHeroStats() {
 
 function getFilteredProducts() {
   return state.products.filter((product) => {
+    const activeBrand =
+      state.navigation.selectedBrand !== "all" ? state.navigation.selectedBrand : state.filters.brand;
     const matchesCategory = state.filters.category === "all" || product.category === state.filters.category;
-    const matchesBrand = state.filters.brand === "all" || product.brand === state.filters.brand;
+    const matchesBrand = activeBrand === "all" || product.brand === activeBrand;
     const haystack = [
       product.brand,
       product.model,
@@ -139,9 +147,89 @@ function getFilteredProducts() {
   });
 }
 
+function renderBrandTree() {
+  const browseableProducts = state.products.filter((product) => {
+    const matchesCategory = state.filters.category === "all" || product.category === state.filters.category;
+    const haystack = [
+      product.brand,
+      product.model,
+      product.series,
+      product.summary,
+      product.application,
+      ...product.tags
+    ]
+      .join(" ")
+      .toLowerCase();
+    const matchesSearch = !state.filters.search || haystack.includes(state.filters.search);
+    return matchesCategory && matchesSearch;
+  });
+
+  const groupedBrands = groupProductsByBrand(browseableProducts);
+
+  brandTree.innerHTML = groupedBrands
+    .map(({ brand, items }) => {
+      const categories = ["module", "cabinet", "controller"]
+        .map((category) => {
+          const categoryProducts = items.filter((item) => item.category === category);
+          if (!categoryProducts.length) {
+            return "";
+          }
+
+          const bucketCount = getBucketedProducts(categoryProducts, category).length;
+          return `
+            <button class="tree-link tree-child" type="button" data-brand-jump="${brand}" data-category-jump="${category}">
+              <span>${categoryLabels[category]}</span>
+              <strong>${bucketCount}</strong>
+            </button>
+          `;
+        })
+        .join("");
+
+      const selectedClass = state.navigation.selectedBrand === brand ? "selected" : "";
+
+      return `
+        <section class="tree-group ${selectedClass}">
+          <button class="tree-link tree-parent" type="button" data-brand-select="${brand}">
+            <span>${brand}</span>
+            <strong>${items.length}</strong>
+          </button>
+          <div class="tree-children">
+            ${categories}
+          </div>
+        </section>
+      `;
+    })
+    .join("");
+
+  brandTree.querySelectorAll("[data-brand-select]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const brand = button.dataset.brandSelect;
+      state.navigation.selectedBrand = state.navigation.selectedBrand === brand ? "all" : brand;
+      state.filters.brand = state.navigation.selectedBrand;
+      brandFilter.value = state.navigation.selectedBrand;
+      render();
+    });
+  });
+
+  brandTree.querySelectorAll("[data-category-jump]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const brand = button.dataset.brandJump;
+      const category = button.dataset.categoryJump;
+      state.navigation.selectedBrand = brand;
+      state.filters.brand = brand;
+      state.filters.category = category;
+      brandFilter.value = brand;
+      categoryFilter.value = category;
+      render();
+      document.querySelector(`[data-brand-section="${brand}"]`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
 function renderProductList() {
   const filteredProducts = getFilteredProducts();
   const groupedBrands = groupProductsByBrand(filteredProducts);
+
   resultSummary.textContent = `当前显示 ${filteredProducts.length} 个产品，分布在 ${groupedBrands.length} 个品牌下`;
   brandSummary.innerHTML = groupedBrands
     .map(
@@ -158,7 +246,7 @@ function renderProductList() {
     productList.innerHTML = `
       <div class="empty-state compact-empty">
         <h3>没有匹配结果</h3>
-        <p>可以更换筛选条件，或继续补充新的品牌采集源。</p>
+        <p>可以更换筛选条件，或继续补充新的品牌产品目录。</p>
       </div>
     `;
     return;
@@ -168,8 +256,12 @@ function renderProductList() {
 
   document.querySelectorAll("[data-brand-jump]").forEach((button) => {
     button.addEventListener("click", () => {
-      const target = document.querySelector(`[data-brand-section="${button.dataset.brandJump}"]`);
-      target?.scrollIntoView({ behavior: "smooth", block: "start" });
+      const brand = button.dataset.brandJump;
+      state.navigation.selectedBrand = brand;
+      state.filters.brand = brand;
+      brandFilter.value = brand;
+      render();
+      document.querySelector(`[data-brand-section="${brand}"]`)?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 
@@ -202,9 +294,7 @@ function renderBrandGroup({ brand, items }) {
             <h4>${categoryLabels[category]}</h4>
             <span>${products.length} 个产品</span>
           </div>
-          <div class="brand-product-grid">
-            ${products.map(renderProductCard).join("")}
-          </div>
+          ${renderCategoryBuckets(products, category)}
         </section>
       `
     )
@@ -215,13 +305,52 @@ function renderBrandGroup({ brand, items }) {
       <div class="brand-group-head">
         <div>
           <span class="brand-badge large">${brand}</span>
-          <h3>${brand} 产品库</h3>
+          <h3>${brand} 产品目录</h3>
         </div>
         <span class="brand-count">${items.length} 个产品</span>
       </div>
       ${categoryBlocks}
     </section>
   `;
+}
+
+function renderCategoryBuckets(products, category) {
+  return getBucketedProducts(products, category)
+    .map(
+      ({ bucketLabel, items }) => `
+        <div class="pitch-group">
+          <div class="pitch-group-head">
+            <h5>${bucketLabel}</h5>
+            <span>${items.length} 个产品</span>
+          </div>
+          <div class="brand-product-grid">
+            ${items.map(renderProductCard).join("")}
+          </div>
+        </div>
+      `
+    )
+    .join("");
+}
+
+function getBucketedProducts(products, category) {
+  const map = new Map();
+
+  products.forEach((product) => {
+    const bucketLabel =
+      category === "controller"
+        ? `系列: ${product.series || "未分组"}`
+        : `点间距: ${product.specs["点间距"] || product.specs["像素间距"] || "未标注"}`;
+
+    if (!map.has(bucketLabel)) {
+      map.set(bucketLabel, []);
+    }
+    map.get(bucketLabel).push(product);
+  });
+
+  return Array.from(map.entries()).map(([bucketLabel, items]) => ({
+    bucketLabel,
+    items
+  }));
 }
 
 function renderProductCard(product) {

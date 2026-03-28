@@ -15,6 +15,7 @@
     "originUrl": "https://www.absen.com/",
     "lastSeenAt": "2026-03-28T13:30:00.000Z",
     "specs": {
+      "点间距": "2.97 mm",
       "箱体尺寸": "500 x 1000 x 85 mm",
       "箱体材质": "压铸铝",
       "箱体重量": "13.5 kg",
@@ -39,6 +40,7 @@
     "originUrl": "https://www.absen.com/",
     "lastSeenAt": "2026-03-28T13:30:00.000Z",
     "specs": {
+      "点间距": "2.97 mm",
       "箱体尺寸": "500 x 500 x 87 mm",
       "箱体材质": "压铸铝",
       "箱体重量": "8.2 kg",
@@ -113,6 +115,7 @@
     "originUrl": "https://www.hikvision.com/",
     "lastSeenAt": "2026-03-28T13:30:00.000Z",
     "specs": {
+      "点间距": "3.91 mm",
       "箱体尺寸": "500 x 500 x 75 mm",
       "箱体材质": "压铸铝",
       "箱体重量": "7.5 kg",
@@ -135,7 +138,7 @@
       "固定安装"
     ],
     "originUrl": "https://www.hikvision.com/my/products/led-displays/outdoor-led/ds-d4280fo/",
-    "lastSeenAt": "2026-03-28T14:10:12.969Z",
+    "lastSeenAt": "2026-03-28T14:33:31.606Z",
     "specs": {
       "点间距": "8.0 mm",
       "箱体尺寸": "960 mm × 960 mm × 102.5 mm (37.8\" × 37.8\" × 4.0\")",
@@ -379,6 +382,7 @@
     "originUrl": "https://www.qiangli.cn/",
     "lastSeenAt": "2026-03-28T13:30:00.000Z",
     "specs": {
+      "点间距": "3.91 mm",
       "箱体尺寸": "500 x 1000 x 85 mm",
       "箱体材质": "压铸铝",
       "箱体重量": "12.5 kg",
@@ -403,6 +407,7 @@
     "originUrl": "https://www.qiangli.cn/",
     "lastSeenAt": "2026-03-28T13:30:00.000Z",
     "specs": {
+      "点间距": "10 mm",
       "箱体尺寸": "960 x 960 x 140 mm",
       "箱体材质": "镀锌钢 / 铝型材",
       "箱体重量": "28 kg",
@@ -477,6 +482,7 @@
     "originUrl": "https://www.unilumin.com/",
     "lastSeenAt": "2026-03-28T13:30:00.000Z",
     "specs": {
+      "点间距": "2.6 mm",
       "箱体尺寸": "500 x 1000 x 73 mm",
       "箱体材质": "压铸铝",
       "箱体重量": "12.8 kg",
@@ -499,7 +505,7 @@
       "DOOH"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/usurface-gm.html",
-    "lastSeenAt": "2026-03-28T14:10:14.388Z",
+    "lastSeenAt": "2026-03-28T14:33:33.176Z",
     "specs": {
       "点间距": "5.71mm",
       "箱体尺寸": "960*960*85mm",
