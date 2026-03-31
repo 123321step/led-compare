@@ -1,19 +1,10 @@
 {
   "syncMode": "GitHub Actions 定时同步",
-<<<<<<< HEAD
-  "lastUpdatedAt": "2026-03-31T02:18:09.539Z",
-  "sourceCount": 4,
-  "liveSourceCount": 4,
-  "liveProductCount": 365,
-  "failedSourceCount": 0,
-  "note": "已成功抓取 365 个真实产品，并自动替换同品牌种子数据。",
-=======
-  "lastUpdatedAt": "2026-03-31T04:10:31.704Z",
+  "lastUpdatedAt": "2026-03-31T07:17:02.520Z",
   "sourceCount": 5,
   "liveSourceCount": 5,
-  "liveProductCount": 408,
+  "liveProductCount": 407,
   "failedSourceCount": 0,
-  "note": "已成功抓取 408 个真实产品，并自动替换同品牌种子数据。",
->>>>>>> f3709d0 (Add Qiangli global catalog crawl)
+  "note": "已成功抓取 407 个真实产品，并自动替换同品牌种子数据。",
   "failures": []
 }
