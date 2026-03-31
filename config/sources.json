@@ -18,9 +18,10 @@
   {
     "id": "qiangli-seed",
     "brand": "强力巨彩",
-    "type": "manualSeed",
-    "enabled": false,
-    "notes": "等待接入强力巨彩海外官网目录后再重新启用。"
+    "type": "qiangliCatalog",
+    "enabled": true,
+    "rootUrl": "https://www.qiangliled.com/products/",
+    "notes": "抓取强力巨彩海外官网 products 目录及各系列页面里的型号与点间距信息。"
   },
   {
     "id": "absen-seed",

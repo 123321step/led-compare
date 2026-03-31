@@ -14,7 +14,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4007bw-2fb-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:36.515Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:31.258Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "0.78mm",
       "箱体尺寸": "600 (W) × 337.5 (H) × 29.3(D) mm ；",
@@ -41,7 +45,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4009bw-2fc/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:32.880Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:30.688Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "0.9375 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.3 mm (23.622\" × 13.287\" × 1.154\")",
@@ -68,7 +76,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4012bw-2fc/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:36.777Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:34.379Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.3 mm (23.622\" × 13.287\" × 1.154\")",
@@ -95,7 +107,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4012cs-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:11.184Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:33.560Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.25mm",
       "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
@@ -122,7 +138,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-series/ds-d4012cw-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:41.306Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:39.938Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
@@ -130,6 +150,32 @@
       "亮度": "600 cd/㎡",
       "刷新率": "3840 Hz",
       "维护方式": "Front maintenance for all components",
+      "防护等级": "-",
+      "海康子类": "Indoor LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-d4015aw-2fq",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Solid Plus Series",
+    "model": "DS-D4015AW-2FQ",
+    "application": "室内显示 / 会议 / 展厅",
+    "summary": "P1.5 GOB 800nits",
+    "tags": [
+      "真实抓取",
+      "Solid Plus Series",
+      "Indoor LED Displays",
+      "室内"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-plus-series/ds-d4015aw-2fq/",
+    "lastSeenAt": "2026-03-31T03:59:36.869Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
       "防护等级": "-",
       "海康子类": "Indoor LED Displays"
     }
@@ -149,7 +195,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4015bw-2fc/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:37.040Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:34.932Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.3 mm (23.622\" × 13.287\" × 1.154\")",
@@ -176,7 +226,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cb-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:45.046Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:43.644Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
@@ -203,7 +257,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cc-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:45.587Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:44.249Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
@@ -230,7 +288,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cd-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:46.131Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:44.895Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
@@ -257,7 +319,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cf-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:46.395Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:45.477Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "1000 mm × 500 mm × 50 mm(39.370\" × 19.685\" × 1.969\")",
@@ -284,7 +350,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4015cs-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:13.769Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:34.154Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.538 mm",
       "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
@@ -311,7 +381,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-series/ds-d4015cw-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:40.779Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:38.677Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
@@ -338,7 +412,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cx-1f-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:07.347Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:23.484Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -364,7 +442,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4018cs-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:14.032Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:34.740Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.86 mm",
       "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
@@ -391,7 +473,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-series/ds-d4018cw-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:41.043Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:39.275Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.875 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
@@ -418,7 +504,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-plus-series/ds-d4018cw-2fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:40.267Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:37.562Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.875 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
@@ -445,7 +535,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cb-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:46.657Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:59.139Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
@@ -472,7 +566,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cc-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:46.920Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:59.840Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
@@ -499,7 +597,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cd-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:52.750Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:00.405Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
@@ -526,7 +628,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cexx-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:41.893Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:41.960Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "250 mm × 250 mm × 40.6 mm (9.84\" × 9.84\" × 1.60\"); 750 mm × 250 mm × 40.6 mm (29.53\" × 9.84\" × 1.60\"); 500 mm × 500 mm × 40.6 mm (19.69\" × 19.69\" × 1.60\");",
@@ -553,7 +659,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cf-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:53.014Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:01.101Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "1000 mm × 500 mm × 50 mm (39.370\" × 19.685\" × 1.969\")",
@@ -580,7 +690,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cx-1f-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:07.608Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:25.848Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -606,7 +720,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4025cs-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:10.921Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:32.960Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.5mm",
       "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
@@ -633,7 +751,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cb-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:55.874Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:01.882Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.604 mm",
       "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
@@ -660,7 +782,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cc-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:56.416Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:02.485Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.604 mm",
       "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
@@ -687,7 +813,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cd-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:56.968Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:03.097Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.604 mm",
       "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
@@ -714,7 +844,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cexx-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:44.506Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:42.546Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.604 mm",
       "箱体尺寸": "250 mm × 250 mm × 40.6 mm (9.84\" × 9.84\" × 1.60\"); 750 mm × 250 mm × 40.6 mm (29.53\" × 9.84\" × 1.60\"); 500 mm × 500 mm × 40.6 mm (19.69\" × 19.69\" × 1.60\");",
@@ -741,7 +875,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cf-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:57.537Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:03.682Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.604 mm",
       "箱体尺寸": "1000 mm × 500 mm × 50 mm (39.370\" × 19.685\" × 1.969\")",
@@ -768,7 +906,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cx-1f-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:07.871Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:29.859Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -794,7 +936,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cb-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:57.801Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:04.295Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.976 mm",
       "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
@@ -821,7 +967,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cc-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:58.065Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:05.016Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.976 mm",
       "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
@@ -848,7 +998,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cd-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:58.327Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:12.548Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.97619 mm",
       "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
@@ -875,7 +1029,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cf-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:58.591Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:13.162Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.97619 mm",
       "箱体尺寸": "1000 mm × 500 mm × 50 mm(39.370\" × 19.685\" × 1.969\")",
@@ -902,7 +1060,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cx-1f-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:10.408Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:30.439Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -928,7 +1090,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cb-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:58.855Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:13.750Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.906 mm",
       "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
@@ -955,7 +1121,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cc-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:03.915Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:20.787Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.906 mm",
       "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
@@ -982,7 +1152,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cd-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:04.177Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:21.422Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.90625 mm",
       "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
@@ -1009,7 +1183,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cexx-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:09:44.783Z",
+=======
+    "lastSeenAt": "2026-03-31T03:59:43.207Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.906 mm",
       "箱体尺寸": "250 mm × 250 mm × 40.6 mm (9.84\" × 9.84\" × 1.60\"); 750 mm × 250 mm × 40.6 mm (29.53\" × 9.84\" × 1.60\"); 500 mm × 500 mm × 40.6 mm (19.69\" × 19.69\" × 1.60\");",
@@ -1036,7 +1214,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cf-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:04.444Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:22.154Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.90625 mm",
       "箱体尺寸": "1000 mm × 500 mm × 50 mm(39.370\" × 19.685\" × 1.969\")",
@@ -1063,7 +1245,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cx-1f-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:05.046Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:22.912Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1089,7 +1275,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cd-1aab/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:45.846Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:50.356Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.91mm",
       "箱体尺寸": "500 mm × 500 mm × 97 mm",
@@ -1116,7 +1306,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cd-1aab-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:46.108Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:55.397Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1142,7 +1336,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cf-1aab/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:46.649Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:55.984Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.91 mm",
       "箱体尺寸": "500 mm × 1000 mm × 97 mm（19.69\" × 39.37\" × 3.82\"）",
@@ -1169,7 +1367,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4248cd-1aab/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:46.912Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:56.563Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "4.81mm",
       "箱体尺寸": "500 mm × 500 mm × 97 mm",
@@ -1196,7 +1398,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4248cd-1aab-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:47.450Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:57.128Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1222,7 +1428,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4248cf-1aab/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:47.715Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:57.709Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "4.8 mm",
       "箱体尺寸": "500 mm × 1000 mm × 97 mm （19.69\" × 39.37\" × 3.82\"）",
@@ -1249,7 +1459,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4257co-2apa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:48.230Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:58.825Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "5.71 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm",
@@ -1276,7 +1490,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4257co-2apa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:48.492Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:59.396Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1302,7 +1520,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4257go-2aaa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:35.526Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:38.983Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "5.71 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
@@ -1329,7 +1551,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4257go-2aaa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:17.870Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:36.024Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1355,7 +1581,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4266co-2apa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:48.755Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:00.010Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "6.67 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm",
@@ -1382,7 +1612,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4266co-2apa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:49.017Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:05.433Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1408,7 +1642,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4266go-2aaa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:21.351Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:36.677Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "6.67 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
@@ -1435,7 +1673,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4266go-2aaa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:26.088Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:37.255Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1461,7 +1703,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4280co-2apa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:49.280Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:06.003Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "8 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm",
@@ -1488,7 +1734,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4280co-2apa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:49.820Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:06.669Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1514,7 +1764,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4280go-2aaa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:38.190Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:43.408Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "8 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
@@ -1541,7 +1795,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4280go-2aaa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:26.622Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:37.824Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1567,7 +1825,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d42a0co-2apa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:50.081Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:07.262Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "10 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm",
@@ -1594,7 +1856,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d42a0co-2apa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:50.345Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:19.896Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1620,7 +1886,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d42a0go-2aaa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:38.734Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:49.166Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "10 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
@@ -1647,7 +1917,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d42a0go-2aaa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:32.293Z",
+=======
+    "lastSeenAt": "2026-03-31T04:00:38.388Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1673,7 +1947,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4512cb108-2fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:52.723Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:20.925Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "-",
@@ -1700,7 +1978,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4512cb108-2fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:52.985Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:21.501Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "300 × 168.75 mm",
@@ -1727,7 +2009,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4512ch-1fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:00.657Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:43.284Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "P1.2",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -1754,7 +2040,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4512ch-1fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:33.107Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:47.554Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1780,7 +2070,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4512ch-1fqf/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:09.275Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:43.927Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "P1.2",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -1807,7 +2101,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4515cb135-2fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:53.564Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:22.081Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "-",
@@ -1834,7 +2132,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4515cb135-2fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:53.824Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:29.560Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "300 × 168.75 mm",
@@ -1861,7 +2163,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4515ch-1fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:17.119Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:44.534Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "P1.5",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -1888,7 +2194,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4515ch-1fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:38.609Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:48.124Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1914,7 +2224,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4515ch-1fqf/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:17.383Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:45.126Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "P1.5",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -1941,7 +2255,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4518cb162-2fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:59.601Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:30.145Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.875 mm",
       "箱体尺寸": "-",
@@ -1968,7 +2286,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4518cb162-2fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:10:59.863Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:30.717Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.875 mm",
       "箱体尺寸": "300 × 168.75 mm",
@@ -1995,7 +2317,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4518ch-1fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:24.110Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:45.818Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "P1.8",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -2022,7 +2348,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4518ch-1fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:39.150Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:48.690Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -2048,7 +2378,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4518ch-1fqf/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:24.374Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:46.391Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "P1.8",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -2075,7 +2409,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4525ch-1fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:32.845Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:46.993Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "P2.5",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -2102,7 +2440,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4525ch-1fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:44.753Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:49.242Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -2127,7 +2469,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4619cd-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:52.289Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:12.279Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2153,7 +2499,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4626cd-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:54.773Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:55.517Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.6042 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2179,7 +2529,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4626cd-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:09.586Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:56.195Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.6042 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2205,7 +2559,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4626cd-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:52.832Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:12.867Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.6042 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2231,7 +2589,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cd-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:19.066Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:56.844Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2257,7 +2619,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cd-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:19.606Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:57.438Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2283,7 +2649,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cd-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:56.166Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:13.461Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2309,7 +2679,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cf-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:20.144Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:58.049Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2335,7 +2709,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cf-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:20.683Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:58.645Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2361,7 +2739,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cf-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:56.428Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:19.083Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2387,7 +2769,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cd-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:30.824Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:59.257Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2413,7 +2799,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cd-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:36.394Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:59.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2439,7 +2829,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cf-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:39.823Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:00.387Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2465,7 +2859,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cf-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:42.675Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:00.987Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2491,7 +2889,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cd-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:49.663Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:50.335Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2517,7 +2919,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cd-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:42.936Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:06.397Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2543,7 +2949,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cd-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:59.245Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:19.664Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2569,7 +2979,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cf-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:46.894Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:08.794Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2595,7 +3009,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cf-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:47.435Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:09.514Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2621,7 +3039,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cf-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:59.860Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:20.263Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2647,7 +3069,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cd-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:47.698Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:10.251Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2673,7 +3099,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cd-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:48.302Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:11.078Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2699,7 +3129,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cd-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:02.268Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:20.846Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2725,7 +3159,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cf-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:50.273Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:50.939Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2751,7 +3189,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cf-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:12:48.565Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:11.700Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2777,7 +3219,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cf-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:02.805Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:21.465Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2803,7 +3249,36 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hb05-cb/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:03.067Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:23.991Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-dprss-1n-hb05-fc",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-DPRSS-1N/HB05/FC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-DPRSS-1N/HB05/FC",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hb05-fc/",
+    "lastSeenAt": "2026-03-31T04:01:51.497Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -2828,7 +3303,36 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hbbs05-cb/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:11:54.511Z",
+=======
+    "lastSeenAt": "2026-03-31T04:01:52.058Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-dprss-1n-hbbs05-fc",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-DPRSS-1N/HBBS05/FC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-DPRSS-1N/HBBS05/FC",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hbbs05-fc/",
+    "lastSeenAt": "2026-03-31T04:01:54.908Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -2852,7 +3356,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-6920udi-u-c-/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:07.583Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:36.291Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2875,7 +3383,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-6924udi-u-c-/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:07.847Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:45.281Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2898,7 +3410,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-6932udi-u-c-/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:08.111Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:45.886Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2921,7 +3437,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-02dpi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:08.373Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:46.457Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2944,7 +3464,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-02hi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:11.926Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:47.025Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2967,7 +3491,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-02ho-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:14.500Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:47.683Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2990,7 +3518,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-04hi/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:14.762Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:48.239Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3013,7 +3545,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-04ho/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:15.023Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:48.807Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3036,7 +3572,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-s23/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:15.573Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:49.424Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3059,7 +3599,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-02dpi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:00.904Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:01.057Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3082,7 +3626,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-02hi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:01.167Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:01.900Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3105,7 +3653,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-02ho-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:04.068Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:07.010Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3128,7 +3680,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04di/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:04.331Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:07.606Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3151,7 +3707,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04do/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:04.594Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:08.255Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3174,7 +3734,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04hi/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:04.855Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:19.145Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3197,7 +3761,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04ho/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:05.116Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:19.797Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3220,7 +3788,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04sdi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:05.377Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:20.496Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3243,7 +3815,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-16no-2fo/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:05.988Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:21.133Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3266,7 +3842,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-20no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:06.249Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:21.698Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3289,7 +3869,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-pre/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:06.511Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:22.265Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3312,7 +3896,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-s12/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:06.775Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:22.881Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3335,7 +3923,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-s6/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:07.037Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:23.331Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3358,7 +3950,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01hi/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:18.782Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:50.037Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3381,7 +3977,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01hi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:21.885Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:50.702Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3404,7 +4004,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01ho/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:22.153Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:51.328Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3427,7 +4031,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01ho-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:25.145Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:51.920Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3450,7 +4058,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-d42a05/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:31.882Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:52.819Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3473,7 +4085,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt30p-01hi01no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:30.265Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:57.059Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3496,7 +4112,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt30p-01hi02no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:30.529Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:57.640Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3519,7 +4139,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60c-01hi02no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:35.717Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:53.420Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3542,7 +4166,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60c-01hi04no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:35.980Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:54.021Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3565,7 +4193,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60c-01hi06no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:36.524Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:54.611Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3588,7 +4220,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hdi12no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:47.575Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:58.240Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3611,7 +4247,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hdi20no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:55.125Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:58.844Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3634,7 +4274,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hi04no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:00.126Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:59.423Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3657,7 +4301,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hi06no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:00.392Z",
+=======
+    "lastSeenAt": "2026-03-31T04:03:00.022Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3680,7 +4328,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60v-03hdi12no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:36.790Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:55.221Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3703,7 +4355,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60v-03hdi20no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:41.418Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:55.897Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3726,7 +4382,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60v-03hi06no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:41.682Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:56.479Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3749,7 +4409,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90c-07hdpsdi24no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:24.195Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:50.035Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3772,7 +4436,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90p-09hdpsi24no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:31.079Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:51.743Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3795,7 +4463,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90p-09hdpsi40no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:31.346Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:52.237Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3818,7 +4490,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90v-09hdpsi16no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:24.461Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:50.681Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3841,7 +4517,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90v-09hdpsi24no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:30.000Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:51.298Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3852,6 +4532,7 @@
     }
   },
   {
+<<<<<<< HEAD
     "id": "hikvision-ds-d41q12ca-1gs",
     "brand": "海康威视",
     "category": "module",
@@ -3877,6 +4558,8 @@
     }
   },
   {
+=======
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "id": "hikvision-ds-d41q12ca-1ph",
     "brand": "海康威视",
     "category": "module",
@@ -3890,7 +4573,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q12ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:07.598Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:30.876Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "320 mm × 160 mm × 17 mm",
@@ -3916,7 +4603,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q15ca-1gs/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:20.483Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:46.078Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.538",
       "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
@@ -3942,7 +4633,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q15ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:09.686Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:31.521Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.538 mm",
       "箱体尺寸": "320 mm × 160 mm × 17 mm",
@@ -3968,7 +4663,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q15ca-1pht/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:05.468Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:26.986Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.538 mm",
       "箱体尺寸": "320 mm × 160 mm × 16.6 mm(12.6'' × 6.3'' × 0.65'')",
@@ -3994,7 +4693,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q18ca-1gs/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:20.749Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:48.489Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.86",
       "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
@@ -4020,7 +4723,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q18ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:06.808Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:25.799Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.86 mm",
       "箱体尺寸": "320 mm × 160 mm × 17 mm",
@@ -4046,7 +4753,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q18ca-1pht/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:06.007Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:25.178Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.86 mm",
       "箱体尺寸": "320 mm × 160 mm × 16.6 mm(12.6'' × 6.3'' × 0.65'')",
@@ -4072,7 +4783,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q20ca-1gs/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:23.416Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:49.151Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2",
       "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
@@ -4098,7 +4813,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q20ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:07.072Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:32.104Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2 mm",
       "箱体尺寸": "320 mm × 160 mm × 17 mm",
@@ -4124,7 +4843,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q20ca-1pht/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:06.546Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:30.328Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2 mm",
       "箱体尺寸": "320 mm × 160 mm × 16.6 mm(12.6'' × 6.3'' × 0.65'')",
@@ -4137,6 +4860,7 @@
     }
   },
   {
+<<<<<<< HEAD
     "id": "hikvision-ds-d41q25ca-1gs",
     "brand": "海康威视",
     "category": "module",
@@ -4163,6 +4887,8 @@
     }
   },
   {
+=======
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "id": "hikvision-ds-d41q30ca-1ph",
     "brand": "海康威视",
     "category": "module",
@@ -4176,7 +4902,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q30ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:07.335Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:26.411Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.076 mm",
       "箱体尺寸": "320 mm × 160 mm × 16.6 mm (12.60'' × 6.30'' × 0.65'')",
@@ -4202,7 +4932,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q25ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:16.348Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:42.105Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.5mm",
       "箱体尺寸": "320 mm × 160 mm x 18mm",
@@ -4228,7 +4962,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q30ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:16.610Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:44.842Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.076 mm",
       "箱体尺寸": "320 mm × 160 mm x 18mm",
@@ -4254,7 +4992,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q40ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:10.477Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:34.085Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "4 mm",
       "箱体尺寸": "320 mm × 160 mm x 17.3 mm",
@@ -4280,7 +5022,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q50ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:11.014Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:38.091Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "5 mm",
       "箱体尺寸": "320 mm × 160 mm x 17.3 mm",
@@ -4306,7 +5052,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q60ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:13.694Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:38.526Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "6.67 mm",
       "箱体尺寸": "320 mm × 160 mm x 18.4 mm",
@@ -4332,7 +5082,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q80ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:13:14.234Z",
+=======
+    "lastSeenAt": "2026-03-31T04:02:41.400Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "8 mm",
       "箱体尺寸": "320 mm × 160 mm x 19 mm",
@@ -4358,7 +5112,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/745",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:24.870Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:18.210Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4385,7 +5143,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/745",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:24.870Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:18.210Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4412,7 +5174,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2333",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:37.941Z",
+=======
+    "lastSeenAt": "2026-03-31T04:09:01.701Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4439,7 +5205,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2333",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:37.941Z",
+=======
+    "lastSeenAt": "2026-03-31T04:09:01.701Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4466,7 +5236,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2242",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:42.362Z",
+=======
+    "lastSeenAt": "2026-03-31T04:09:18.159Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4493,7 +5267,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2242",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:42.362Z",
+=======
+    "lastSeenAt": "2026-03-31T04:09:18.159Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4520,7 +5298,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2176",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:36.031Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:58.499Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4547,7 +5329,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2176",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:36.031Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:58.498Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4574,7 +5360,11 @@
       "AI Media Station"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5616",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:18:02.733Z",
+=======
+    "lastSeenAt": "2026-03-31T04:10:21.804Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4601,7 +5391,11 @@
       "AI Media Station"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5616",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:18:02.732Z",
+=======
+    "lastSeenAt": "2026-03-31T04:10:21.803Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4628,7 +5422,11 @@
       "AI Media Station"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5616",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:18:02.733Z",
+=======
+    "lastSeenAt": "2026-03-31T04:10:21.805Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4655,7 +5453,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2259",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:40.160Z",
+=======
+    "lastSeenAt": "2026-03-31T04:09:14.975Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4681,7 +5483,11 @@
       "Calibration System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5345",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:18:05.054Z",
+=======
+    "lastSeenAt": "2026-03-31T04:10:25.147Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4708,7 +5514,11 @@
       "CM Series"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5954",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:18:00.583Z",
+=======
+    "lastSeenAt": "2026-03-31T04:10:07.038Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4735,7 +5545,11 @@
       "CM Series"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5954",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:18:00.584Z",
+=======
+    "lastSeenAt": "2026-03-31T04:10:07.040Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4762,7 +5576,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1229",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:01.326Z",
+=======
+    "lastSeenAt": "2026-03-31T04:07:01.299Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4789,7 +5607,11 @@
       "Cloud Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2299",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:45.863Z",
+=======
+    "lastSeenAt": "2026-03-31T04:09:23.746Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4815,7 +5637,11 @@
       "Media Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/502",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:52.077Z",
+=======
+    "lastSeenAt": "2026-03-31T04:09:54.147Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4841,7 +5667,11 @@
       "Media Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1563",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:54.409Z",
+=======
+    "lastSeenAt": "2026-03-31T04:09:57.836Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4868,7 +5698,11 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/339",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:16:55.137Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:52.246Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4895,7 +5729,11 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/339",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:16:55.137Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:52.246Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4922,7 +5760,11 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2354",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:16:57.177Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:55.414Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4949,7 +5791,11 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2354",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:16:57.177Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:55.414Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4976,7 +5822,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2004",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:22.734Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:04.793Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5003,7 +5853,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1982",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:20.610Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:00.517Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5030,7 +5884,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2004",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:22.734Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:04.795Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5057,7 +5915,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/158",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:56.724Z",
+=======
+    "lastSeenAt": "2026-03-31T04:10:00.732Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5084,7 +5946,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6038",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:06.239Z",
+=======
+    "lastSeenAt": "2026-03-31T04:07:06.388Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5111,7 +5977,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1347",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:18.233Z",
+=======
+    "lastSeenAt": "2026-03-31T04:07:56.550Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5138,7 +6008,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1347",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:18.234Z",
+=======
+    "lastSeenAt": "2026-03-31T04:07:56.552Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5165,7 +6039,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1347",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:18.234Z",
+=======
+    "lastSeenAt": "2026-03-31T04:07:56.551Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5192,7 +6070,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1632",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:08.514Z",
+=======
+    "lastSeenAt": "2026-03-31T04:07:10.356Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5219,7 +6101,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/414",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:49.972Z",
+=======
+    "lastSeenAt": "2026-03-31T04:09:50.259Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5246,7 +6132,11 @@
       "Cloud Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5992",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:44.141Z",
+=======
+    "lastSeenAt": "2026-03-31T04:09:21.050Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5273,7 +6163,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/381",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:31.810Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:51.284Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5300,7 +6194,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/383",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:33.954Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:55.336Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5327,7 +6225,11 @@
       "Accessories"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1407",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:58.445Z",
+=======
+    "lastSeenAt": "2026-03-31T04:10:03.679Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5353,7 +6255,11 @@
       "Calibration System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6097",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:18:07.239Z",
+=======
+    "lastSeenAt": "2026-03-31T04:10:28.404Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5379,7 +6285,11 @@
       "Calibration System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6312",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:18:09.538Z",
+=======
+    "lastSeenAt": "2026-03-31T04:10:31.703Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5406,7 +6316,11 @@
       "Accessories"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/373",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:28.855Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:34.816Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5433,7 +6347,11 @@
       "Accessories"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/369",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:26.865Z",
+=======
+    "lastSeenAt": "2026-03-31T04:08:21.418Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5460,7 +6378,11 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/765",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:13.063Z",
+=======
+    "lastSeenAt": "2026-03-31T04:07:27.932Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5487,7 +6409,11 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/765",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:13.063Z",
+=======
+    "lastSeenAt": "2026-03-31T04:07:27.932Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5514,7 +6440,11 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/765",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:17:13.063Z",
+=======
+    "lastSeenAt": "2026-03-31T04:07:27.932Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5541,7 +6471,11 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2376",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:14.061Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:35.835Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5568,7 +6502,11 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2376",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:14.069Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:35.855Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5595,7 +6533,11 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2376",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:14.066Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:35.849Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5622,7 +6564,11 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2058",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:44.236Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:02.728Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "3.93 MILLION PIXELS",
       "输入接口": "-",
@@ -5649,7 +6595,11 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1674",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:42.069Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:59.182Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5676,7 +6626,11 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1674",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:42.068Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:59.180Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5703,7 +6657,11 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2058",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:44.237Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:02.730Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "3.93 MILLION PIXELS",
       "输入接口": "-",
@@ -5730,7 +6688,11 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/111",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:16.518Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:40.076Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5757,7 +6719,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6868",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:16:50.346Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:41.354Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5784,7 +6750,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6657",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:16:07.165Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:23.195Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5811,7 +6781,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6757",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:46.377Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:16.535Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5838,7 +6812,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6704",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:52.408Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:19.936Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5865,7 +6843,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6474",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:16:52.872Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:45.765Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5892,7 +6874,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6757",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:46.377Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:16.535Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5919,7 +6905,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6474",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:16:52.871Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:45.764Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5946,7 +6936,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6868",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:16:50.345Z",
+=======
+    "lastSeenAt": "2026-03-31T04:06:41.352Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5973,7 +6967,11 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1132",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:37.328Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:51.091Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6000,7 +6998,11 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1132",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:37.328Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:51.091Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6027,7 +7029,11 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1049",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:35.620Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:48.399Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6054,7 +7060,11 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/159",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:33.024Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:44.004Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "23.59 MILLION PIXELS",
       "输入接口": "x 2x($-) 2.0 INPUT BOARDS x 2x$0 1.2 INPUT BOARDS x 2x12' 3$) INPUT BOARDS x 3 IN 1 INPUT BOARD 1x($-) 2.1 1x$0 1.4 1x12' 3$) !LL x 342110 INPUT BOARD 3UPPORTS UNCOMPRESSED 4096x2160 60(Z x /PTIONAL 5 TYPES OF SWAPPABLE INPUT BOARD 2x($-) 2.0 INPUT BOARDS 2x($-) 2.0 INPUTS UP TO 4096x2160 60(Z 2x$0 1.2 INPUT BOARDS 2x$0 1.2 INPUTS UP TO 4096x2160 60(Z PER 2x12' 3$) INPUT BOARDS 2x12' 3$) INPUTS UP TO 4096x2160 60(Z PER 3). INPUT BOARD 1x($-) 2.1 1x$0 1.4 1x12' 3$) !LL PORTS SUPPORT 342110 INPUT BOARD 1x342110 INPUT WITH UP TO 4+ UNCOMPRESSED 4096",
@@ -6082,7 +7092,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:02.700Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:17.912Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6113,7 +7127,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:02.700Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:17.913Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6144,7 +7162,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:02.700Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:17.912Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6175,7 +7197,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:02.700Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:17.912Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6206,7 +7232,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:02.700Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:17.912Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6237,7 +7267,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:01.938Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:16.819Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "384*256",
       "输入接口": "-",
@@ -6268,7 +7302,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:01.938Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:16.819Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "512*384",
       "输入接口": "-",
@@ -6299,7 +7337,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:01.938Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:16.819Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "512*512",
       "输入接口": "-",
@@ -6330,7 +7372,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:01.938Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:16.817Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "512*384",
       "输入接口": "-",
@@ -6361,7 +7407,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:01.938Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:16.817Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "512*512",
       "输入接口": "-",
@@ -6392,7 +7442,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=48",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:58.128Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:10.644Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "141 Million",
       "输入接口": "MX_4×HDMI 2.0 input card MX_4×DP 1.2 input card MX_4×12G-SDI input card MX_2×HDMI 2.1 input card MX_2×DP 1.4 input card MX_1×DP 1.4+HDMI 2.1 input card MX_1×DP 1.4(8K@60Hz) input card MX_1×SMPTE ST 2110(25G) input card MX_2×SMPTE ST 2110(25G) input card MX_1×ST 2110 (100G) (8K@60Hz) input card",
@@ -6423,7 +7477,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.803Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.297Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "12x 5120*2880@60Hz",
       "输入接口": "-",
@@ -6454,7 +7512,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.803Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.297Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6485,7 +7547,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.802Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.297Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "1x 4096*2160@60Hz",
       "输入接口": "-",
@@ -6516,7 +7582,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.803Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.297Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "2x 4096*2160@60Hz",
       "输入接口": "-",
@@ -6547,7 +7617,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.803Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.297Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "8x 5120*2880@60Hz",
       "输入接口": "-",
@@ -6578,7 +7652,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.803Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.297Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "4x 5120*2880@60Hz",
       "输入接口": "-",
@@ -6609,7 +7687,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:05.166Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.851Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6640,7 +7722,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:05.165Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.851Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6671,7 +7757,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:05.166Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.851Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6702,7 +7792,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:05.166Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.851Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6733,7 +7827,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:05.166Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:21.851Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6764,7 +7862,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=41",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:05.861Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:22.933Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6795,7 +7897,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=52",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.444Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:20.713Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6826,7 +7932,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:58.514Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:11.241Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "3.9 Million",
       "输入接口": "-",
@@ -6857,7 +7967,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=24",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:59.533Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:12.826Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6888,7 +8002,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=25",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:59.191Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:12.297Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6919,7 +8037,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=30",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:01.585Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:16.248Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -6950,7 +8072,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=28",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:00.215Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:14.042Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6981,7 +8107,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=27",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:00.557Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:14.595Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -7012,7 +8142,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=26",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:00.899Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:15.170Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -7043,7 +8177,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=29",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:59.874Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:13.373Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -7074,7 +8212,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.102Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:20.176Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7105,7 +8247,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.102Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:20.176Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7136,7 +8282,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.102Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:20.176Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7167,7 +8317,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.102Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:20.176Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7198,7 +8352,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.102Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:20.176Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7229,7 +8387,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.102Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:20.176Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7260,7 +8422,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:04.102Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:20.176Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7291,7 +8457,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:03.046Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:18.495Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7322,7 +8492,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:03.046Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:18.495Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7353,7 +8527,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:03.046Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:18.496Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7384,7 +8562,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:03.046Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:18.496Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7415,7 +8597,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=31",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:01.243Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:15.712Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7446,7 +8632,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:58.514Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:11.241Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "3.9 Million",
       "输入接口": "-",
@@ -7477,7 +8667,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:58.514Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:11.241Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "35.38 Million (Max)",
       "输入接口": "-",
@@ -7508,7 +8702,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:58.514Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:11.241Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "6.5 Million",
       "输入接口": "-",
@@ -7539,7 +8737,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:58.514Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:11.241Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "9 Million",
       "输入接口": "-",
@@ -7570,7 +8772,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:58.514Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:11.241Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "141 Million (Max)",
       "输入接口": "-",
@@ -7601,7 +8807,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=36",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:03.403Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:19.064Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7632,7 +8842,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=43",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:06.545Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:24.017Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7663,7 +8877,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=42",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:06.203Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:23.476Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7694,7 +8912,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=50",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:58.845Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:11.756Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7725,7 +8947,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=40",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:05.506Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:22.397Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7756,7 +8982,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:03.764Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:19.617Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "6.5 million pixels",
       "输入接口": "1× HDMI 2.0（IN&LOOP） 2× HDMI 1.3 1× 3G-SDI（IN&LOOP） 1× 10G OPT Port（OPT1） 1× USB3.0",
@@ -7787,7 +9017,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:03.764Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:19.617Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "13 million pixels",
       "输入接口": "1× 12G-SDI(IN&LOOP) 1× DP 1.2 2× HDM 2.0 4× HDMI 1.3 2× OPT 1× USB3.0",
@@ -7818,7 +9052,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:03.764Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:19.617Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "2.6 million pixels",
       "输入接口": "1× HDMI 2.0（IN&LOOP） 2× HDMI 1.3 1× 3G-SDI（IN&LOOP） 1× 10G OPT Port（OPT1） 1× USB3.0",
@@ -7849,7 +9087,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:03.764Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:19.617Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "3.9 million pixels",
       "输入接口": "1× HDMI 2.0（IN&LOOP） 2× HDMI 1.3 1× 3G-SDI（IN&LOOP） 1× 10G OPT Port（OPT1） 1× USB3.0",
@@ -7880,7 +9122,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=51",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:15:02.279Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:17.355Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "最大带载": "512×1024",
       "输入接口": "-",
@@ -7897,6 +9143,930 @@
     }
   },
   {
+    "id": "qiangli-cs3-9",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "CS Series",
+    "model": "CS3.9",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "The CS series transparent screen is installed in large indoor spaces such as bars, airports, and high-speed rail stations, creating an unobstructed visual effect in large indoor spaces. It interacts with lighting and music, creating a dynamic and youthful activity space.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "CS Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/cs-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.023Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-dm-series",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "DM Series",
+    "model": "DM Series",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "The new outer frame design with a sense of technology and lines presents a modern and futuristic look as a whole. The line design adopts simple and smooth curves, starting from the edge of the box and gradually converging towards the center, forming a dynamic visual effect.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "DM Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/dm-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.342Z",
+    "specs": {
+      "点间距": "2.6 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-h-l",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "CS Series",
+    "model": "H-L",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "The CS series transparent screen is installed in large indoor spaces such as bars, airports, and high-speed rail stations, creating an unobstructed visual effect in large indoor spaces. It interacts with lighting and music, creating a dynamic and youthful activity space.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "CS Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/cs-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.023Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-h-m",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "CS Series",
+    "model": "H-M",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "The CS series transparent screen is installed in large indoor spaces such as bars, airports, and high-speed rail stations, creating an unobstructed visual effect in large indoor spaces. It interacts with lighting and music, creating a dynamic and youthful activity space.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "CS Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/cs-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.024Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-h-t",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "CS Series",
+    "model": "H-T",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "The CS series transparent screen is installed in large indoor spaces such as bars, airports, and high-speed rail stations, creating an unobstructed visual effect in large indoor spaces. It interacts with lighting and music, creating a dynamic and youthful activity space.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "CS Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/cs-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.024Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-p-series",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "P Series",
+    "model": "P Series",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "No.5 Yutashi Road, Xiang'an District, Xiamen City, Fujian Province (Qiangli Jucai LED Display Industrial Park )",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "P Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/p-series/",
+    "lastSeenAt": "2026-03-31T04:05:08.229Z",
+    "specs": {
+      "点间距": "-",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-pm3-9",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "PM Series",
+    "model": "PM3.9",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in large shopping mall atriums, sightseeing elevators, shopping mall glass curtain walls, brand exhibition halls, shop windows, chain store windows, etc.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "PM Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/pm-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.643Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-pm7-8",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "PM Series",
+    "model": "PM7.8",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in large shopping mall atriums, sightseeing elevators, shopping mall glass curtain walls, brand exhibition halls, shop windows, chain store windows, etc.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "PM Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/pm-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.643Z",
+    "specs": {
+      "点间距": "7.8 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q0-8",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q0.8",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "0.8 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q0-9",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q0.9",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "0.9 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q1",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q1",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "1 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q1-2",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q1.2",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "1.2 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q1-3",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q1.3",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "1.3 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q1-5",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q1.5",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "1.5 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q1-6",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q1.6",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "1.6 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q1-8",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q1.8",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "1.8 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q10",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor Q Series",
+    "model": "Q10",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.961Z",
+    "specs": {
+      "点间距": "10 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q2",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q2",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "2 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q2-5",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q2.5",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "2.5 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q3",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q3",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "3 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q3-0",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q3.0",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "3 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q4",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor Q Series",
+    "model": "Q4",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.392Z",
+    "specs": {
+      "点间距": "4 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q5",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor Q Series",
+    "model": "Q5",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.961Z",
+    "specs": {
+      "点间距": "5 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q6",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor Q Series",
+    "model": "Q6",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.961Z",
+    "specs": {
+      "点间距": "6 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q6-6",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor Q Series",
+    "model": "Q6.6",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.961Z",
+    "specs": {
+      "点间距": "6.6 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-q8",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor Q Series",
+    "model": "Q8",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor Q Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.961Z",
+    "specs": {
+      "点间距": "8 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-qm-e",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "QM Series",
+    "model": "QM-E",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "The QM series is a newly launched 640*480 aluminum alloy box that is light in weight, extremely thin, multi-purpose in one box, high-precision, and capable of front and rear maintenance. It is suitable for various indoor full-color 320*160 size module to meet the application needs of various indoor places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "QM Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/qm-series/",
+    "lastSeenAt": "2026-03-31T04:05:07.592Z",
+    "specs": {
+      "点间距": "9 mm",
+      "箱体尺寸": "-",
+      "维护方式": "前后维护",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-qm-p",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "QM Series",
+    "model": "QM-P",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "The QM series is a newly launched 640*480 aluminum alloy box that is light in weight, extremely thin, multi-purpose in one box, high-precision, and capable of front and rear maintenance. It is suitable for various indoor full-color 320*160 size module to meet the application needs of various indoor places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "QM Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/qm-series/",
+    "lastSeenAt": "2026-03-31T04:05:07.592Z",
+    "specs": {
+      "点间距": "9 mm",
+      "箱体尺寸": "-",
+      "维护方式": "前后维护",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-r-p",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor R Series",
+    "model": "R-P",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor R Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-r-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.706Z",
+    "specs": {
+      "点间距": "1.5 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-r1-5",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor R Series",
+    "model": "R1.5",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor R Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-r-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.706Z",
+    "specs": {
+      "点间距": "1.5 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-r1-8",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor R Series",
+    "model": "R1.8",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor R Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-r-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.706Z",
+    "specs": {
+      "点间距": "1.8 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-r2",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor R Series",
+    "model": "R2",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor R Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-r-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.706Z",
+    "specs": {
+      "点间距": "2 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-r2-5",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Indoor R Series",
+    "model": "R2.5",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in commercial office spaces, indoor halls, television studios, exhibition halls, cinemas, government departments, conference rooms, entertainment venues, hospitals, performing arts centers, etc., and occupies a prominent position in these fields.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Indoor R Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/indoor-r-series/",
+    "lastSeenAt": "2026-03-31T04:05:05.706Z",
+    "specs": {
+      "点间距": "2.5 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-s10",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor S Series",
+    "model": "S10",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor S Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+    "lastSeenAt": "2026-03-31T04:05:07.277Z",
+    "specs": {
+      "点间距": "10 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-s2-5",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor S Series",
+    "model": "S2.5",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor S Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+    "lastSeenAt": "2026-03-31T04:05:07.277Z",
+    "specs": {
+      "点间距": "2.5 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-s3-0",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor S Series",
+    "model": "S3.0",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor S Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+    "lastSeenAt": "2026-03-31T04:05:07.277Z",
+    "specs": {
+      "点间距": "3 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-s4",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor S Series",
+    "model": "S4",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor S Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+    "lastSeenAt": "2026-03-31T04:05:07.277Z",
+    "specs": {
+      "点间距": "4 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-s5",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor S Series",
+    "model": "S5",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor S Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+    "lastSeenAt": "2026-03-31T04:05:07.277Z",
+    "specs": {
+      "点间距": "5 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-s6-6",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor S Series",
+    "model": "S6.6",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor S Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+    "lastSeenAt": "2026-03-31T04:05:07.277Z",
+    "specs": {
+      "点间距": "6.6 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-s8",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "Outdoor S Series",
+    "model": "S8",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "It is widely used in outdoor advertising, sports venues, bus stations, subway stations, outdoor advertising in shopping malls, retail stores, street sign advertising, landmark advertising and other places.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "Outdoor S Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+    "lastSeenAt": "2026-03-31T04:05:07.277Z",
+    "specs": {
+      "点间距": "8 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-ts3-9",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "CS Series",
+    "model": "TS3.9",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "The CS series transparent screen is installed in large indoor spaces such as bars, airports, and high-speed rail stations, creating an unobstructed visual effect in large indoor spaces. It interacts with lighting and music, creating a dynamic and youthful activity space.",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "CS Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/cs-series/",
+    "lastSeenAt": "2026-03-31T04:05:06.023Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
+    "id": "qiangli-v-series",
+    "brand": "强力巨彩",
+    "category": "cabinet",
+    "series": "V Series",
+    "model": "V Series",
+    "application": "LED 显示 / 箱体方案",
+    "summary": "No.5 Yutashi Road, Xiang'an District, Xiamen City, Fujian Province (Qiangli Jucai LED Display Industrial Park )",
+    "tags": [
+      "真实抓取",
+      "LED Displays",
+      "V Series"
+    ],
+    "originUrl": "https://www.qiangliled.com/v-series-/",
+    "lastSeenAt": "2026-03-31T04:05:08.547Z",
+    "specs": {
+      "点间距": "-",
+      "箱体尺寸": "-",
+      "维护方式": "-",
+      "系列类型": "LED Displays"
+    }
+  },
+  {
     "id": "unilumin-f-m10a-basic",
     "brand": "洲明",
     "category": "cabinet",
@@ -7909,7 +10079,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/f-m.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:54.665Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:59.616Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "10.4-10.4mm",
       "箱体尺寸": "-",
@@ -7933,7 +10107,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/f-m.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:54.665Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:59.616Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "10.4-10.4mm",
       "箱体尺寸": "-",
@@ -7957,7 +10135,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/f-m.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:54.665Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:59.616Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "10.4-10.4mm",
       "箱体尺寸": "-",
@@ -7981,7 +10163,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/f-m.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:54.665Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:59.616Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9-7.8mm",
       "箱体尺寸": "-",
@@ -8005,7 +10191,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/f-m.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:54.665Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:59.616Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "7.8-7.8mm",
       "箱体尺寸": "-",
@@ -8029,7 +10219,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:52.439Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:53.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.52mm",
       "箱体尺寸": "500X500X92mm",
@@ -8053,7 +10247,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:52.439Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:53.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.83mm",
       "箱体尺寸": "500X500X92mm",
@@ -8077,7 +10275,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:52.439Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:53.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.95mm",
       "箱体尺寸": "500X500X92mm",
@@ -8101,7 +10303,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:52.439Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:53.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.5mm",
       "箱体尺寸": "500X500X92mm",
@@ -8125,7 +10331,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:52.439Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:53.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "500X500X92mm",
@@ -8149,7 +10359,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:52.439Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:53.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.97mm",
       "箱体尺寸": "500X500X92mm",
@@ -8173,7 +10387,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:52.439Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:53.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.91mm",
       "箱体尺寸": "500X500X92mm",
@@ -8197,7 +10415,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:52.439Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:53.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.91mm",
       "箱体尺寸": "500X500X92mm",
@@ -8221,7 +10443,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/u-natural.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:54.146Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:58.314Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8244,7 +10470,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:55.222Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:00.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8267,7 +10497,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:55.222Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:00.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8290,7 +10524,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:55.222Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:00.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8313,7 +10551,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:55.222Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:00.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8336,7 +10578,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:55.222Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:00.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8359,7 +10605,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:55.222Z",
+=======
+    "lastSeenAt": "2026-03-31T04:05:00.845Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8382,7 +10632,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uda-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:37.807Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:19.844Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8405,7 +10659,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uda-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:37.807Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:19.844Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8428,7 +10686,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uda-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:37.807Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:19.844Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8451,7 +10713,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uda-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:37.807Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:19.844Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8474,7 +10740,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uda-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:37.807Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:19.844Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8497,7 +10767,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/udesign-sv.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:50.661Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:49.576Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8520,7 +10794,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/udesign-sv.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:50.661Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:49.576Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8543,7 +10821,11 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/ufix-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:41.469Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:27.681Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "4mm",
       "箱体尺寸": "-",
@@ -8567,7 +10849,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:46.281Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:39.223Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9mm",
       "箱体尺寸": "500 × 500 × 64mm 500 × 1000 × 64mm",
@@ -8591,7 +10877,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:46.281Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:39.223Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "4.8mm",
       "箱体尺寸": "500 × 500 × 64mm 500 × 1000 × 64mm",
@@ -8615,7 +10905,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:46.281Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:39.223Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9mm",
       "箱体尺寸": "500 × 500 × 64mm 500 × 1000 × 64mm",
@@ -8639,7 +10933,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:46.281Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:39.223Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "500 × 500 × 63mm 500 × 1000 × 63mm",
@@ -8663,7 +10961,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:46.281Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:39.223Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9mm",
       "箱体尺寸": "500 × 500 × 64mm 500 × 1000 × 64mm",
@@ -8687,7 +10989,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugn-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:46.796Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:40.589Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8710,7 +11016,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-of.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:50.120Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:48.326Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8733,7 +11043,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-vt.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:51.210Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:50.840Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "5 mm",
       "箱体尺寸": "W1000 x H320 mm",
@@ -8757,7 +11071,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-wg.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:51.719Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:52.572Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8780,7 +11098,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umate-lm.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:33.983Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:10.024Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8803,7 +11125,11 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/umate-lm-o-unilumin-distribution.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:43.549Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:32.789Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8826,7 +11152,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umicro.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:29.692Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:00.978Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8849,7 +11179,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umini-iii-pro.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:30.376Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:02.241Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8872,7 +11206,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umini-p.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:34.988Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:12.524Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8895,7 +11233,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umini-x.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:35.483Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:13.792Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -8918,7 +11260,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/upadpro-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:44.586Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:35.406Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.5mm",
       "箱体尺寸": "500mm × 500mm × 70.1mm",
@@ -8942,7 +11288,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/upadpro-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:44.586Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:35.406Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.9mm",
       "箱体尺寸": "500mm × 500mm × 70.1mm",
@@ -8966,7 +11316,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/upadpro-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:44.586Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:35.406Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "500mm × 500mm × 70.1mm",
@@ -8990,7 +11344,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/upanel-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:31.409Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:04.758Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9013,7 +11371,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/upanels.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:32.115Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:06.163Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9036,7 +11398,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:45.788Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:37.969Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -9060,7 +11426,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:45.788Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:37.969Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "4.8mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -9084,7 +11454,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:45.788Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:37.969Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "4.8mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -9108,7 +11482,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:45.788Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:37.969Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -9132,7 +11510,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:45.788Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:37.969Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -9156,7 +11538,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:45.788Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:37.969Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -9180,7 +11566,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:45.788Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:37.969Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.9mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -9204,7 +11594,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-s2.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:36.496Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:16.491Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.5",
       "箱体尺寸": "500×1000×48.2mm",
@@ -9228,7 +11622,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:37.012Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:17.779Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "250x250mm",
@@ -9251,7 +11649,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:37.012Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:17.779Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "250x250mm",
@@ -9274,7 +11676,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:37.012Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:17.779Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "250x250mm",
@@ -9297,7 +11703,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:37.012Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:17.779Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "250x250mm",
@@ -9320,7 +11730,11 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/usurface-gm.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:39.985Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:24.998Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "5.71mm",
       "箱体尺寸": "960*960*85mm",
@@ -9344,7 +11758,11 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/usurface-pl2.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:39.479Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:23.749Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9367,7 +11785,11 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/usurface-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:40.713Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:26.366Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9390,7 +11812,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/uvf.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:53.011Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:55.107Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.6-6.9mm",
       "箱体尺寸": "1000×500mm/1000×1000mm",
@@ -9414,7 +11840,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/uvs.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:53.528Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:56.387Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "P10.4-10.4mm",
       "箱体尺寸": "-",
@@ -9438,7 +11868,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/uvs.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:53.528Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:56.387Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "P15.6-15.6mm",
       "箱体尺寸": "-",
@@ -9462,7 +11896,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/uvs.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:53.528Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:56.386Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "P3.9-7.8mm",
       "箱体尺寸": "-",
@@ -9486,7 +11924,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xc-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:47.286Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:41.889Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9509,7 +11951,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xs-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:48.331Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:44.501Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "1.9mm",
       "箱体尺寸": "-",
@@ -9533,7 +11979,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xs-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:48.331Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:44.501Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "-",
@@ -9557,7 +12007,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xs-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:48.331Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:44.501Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9mm",
       "箱体尺寸": "-",
@@ -9581,7 +12035,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xv-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-03-31T02:14:49.613Z",
+=======
+    "lastSeenAt": "2026-03-31T04:04:47.038Z",
+>>>>>>> f3709d0 (Add Qiangli global catalog crawl)
     "specs": {
       "点间距": "3.9-7.8mm",
       "箱体尺寸": "W500mm×H500mm×D80mm W1000mm×H500mm×D80mm",

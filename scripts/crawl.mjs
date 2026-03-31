@@ -96,6 +96,10 @@ async function crawlSource(source) {
     return crawlUniluminLedProductsCatalog(source);
   }
 
+  if (source.type === "qiangliCatalog") {
+    return crawlQiangliCatalog(source);
+  }
+
   if (source.type === "novastarCatalog") {
     return crawlNovaStarCatalog(source);
   }
@@ -112,19 +116,27 @@ async function crawlHikvisionLedDisplaysCatalog(source) {
   const allProducts = [];
 
   for (const endpoint of listingEndpoints) {
-    const data = await fetchJson(`https://display.hikvision.com${endpoint}.json`);
-    for (const item of data.products || []) {
-      const detailUrl = toHikvisionDetailUrl(item.detailPath);
-      const detailHtml = await fetchText(detailUrl);
-      const detailSpecs = extractLabeledSpecsFromHikvision(detailHtml);
-      allProducts.push(
-        normalizeHikvisionProduct({
-          endpoint,
-          item,
-          detailUrl,
-          detailSpecs
-        })
-      );
+    try {
+      const data = await fetchJson(`https://display.hikvision.com${endpoint}.json`);
+      for (const item of data.products || []) {
+        try {
+          const detailUrl = toHikvisionDetailUrl(item.detailPath);
+          const detailHtml = await fetchText(detailUrl);
+          const detailSpecs = extractLabeledSpecsFromHikvision(detailHtml);
+          allProducts.push(
+            normalizeHikvisionProduct({
+              endpoint,
+              item,
+              detailUrl,
+              detailSpecs
+            })
+          );
+        } catch (error) {
+          console.warn(`Skipped Hikvision ${item.title || item.detailPath}: ${error.message}`);
+        }
+      }
+    } catch (error) {
+      console.warn(`Skipped Hikvision endpoint ${endpoint}: ${error.message}`);
     }
   }
 
@@ -136,12 +148,33 @@ async function crawlUniluminLedProductsCatalog(source) {
   const allProducts = [];
 
   for (const productUrl of productUrls) {
-    const html = await fetchText(productUrl);
-    const variants = extractUniluminVariants(productUrl, html);
-    allProducts.push(...variants);
+    try {
+      const html = await fetchText(productUrl);
+      const variants = extractUniluminVariants(productUrl, html);
+      allProducts.push(...variants);
+    } catch (error) {
+      console.warn(`Skipped Unilumin ${productUrl}: ${error.message}`);
+    }
   }
 
   return dedupeProducts(allProducts);
+}
+
+async function crawlQiangliCatalog(source) {
+  const listingHtml = await fetchText(source.rootUrl);
+  const seriesEntries = discoverQiangliSeriesEntries(source.rootUrl, listingHtml);
+  const products = [];
+
+  for (const entry of seriesEntries) {
+    try {
+      const html = await fetchText(entry.url);
+      products.push(...extractQiangliProducts(entry, html));
+    } catch (error) {
+      console.warn(`Skipped Qiangli ${entry.series}: ${error.message}`);
+    }
+  }
+
+  return dedupeProducts(products);
 }
 
 async function crawlNovaStarCatalog(source) {
@@ -347,6 +380,153 @@ function extractUniluminVariants(productUrl, html) {
       lastSeenAt: new Date().toISOString(),
       specs: normalizeUniluminSpecs(variantSpecs)
     }));
+}
+
+function discoverQiangliSeriesEntries(rootUrl, html) {
+  const entries = [];
+  const categoryMap = {
+    "Commercial Display": "商业显示",
+    "Rental & Staging": "租赁演出",
+    DOOH: "户外广告",
+    Accessories: "配套箱体"
+  };
+
+  const categoryBlocks = [...html.matchAll(/<div class="cplb_box">([\s\S]*?)<\/div>\s*<\/div>/gi)].map((match) => match[1]);
+
+  categoryBlocks.forEach((blockHtml) => {
+    const categoryName = normalizeWhitespace(decodeHtml(stripTags(blockHtml.match(/<h3[^>]*>([\s\S]*?)<\/h3>/i)?.[1] || "")));
+    const links = [...blockHtml.matchAll(/<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)];
+
+    links.forEach((linkMatch) => {
+      const series = normalizeWhitespace(decodeHtml(stripTags(linkMatch[2])));
+      if (!series || /Commercial Display|Rental & Staging|DOOH|Accessories/i.test(series)) {
+        return;
+      }
+
+      entries.push({
+        categoryName: categoryMap[categoryName] || categoryName || "LED Displays",
+        series,
+        url: new URL(linkMatch[1], rootUrl).toString()
+      });
+    });
+  });
+
+  if (entries.length) {
+    return dedupeQiangliSeries(entries);
+  }
+
+  const fallbackLinks = [...html.matchAll(/href="([^"]+)"[^>]*>(Indoor Q Series|Indoor R Series|CS Series|DM Series|PM Series|Outdoor Q Series|Outdoor S Series|QM Series|MG Series|P Series|V Series)<\/a>/gi)];
+  return dedupeQiangliSeries(
+    fallbackLinks.map((match) => ({
+      categoryName: "LED Displays",
+      series: normalizeWhitespace(match[2]),
+      url: new URL(match[1], rootUrl).toString()
+    }))
+  );
+}
+
+function dedupeQiangliSeries(entries) {
+  const seen = new Set();
+  return entries.filter((entry) => {
+    if (seen.has(entry.url)) {
+      return false;
+    }
+    seen.add(entry.url);
+    return true;
+  });
+}
+
+function extractQiangliProducts(entry, html) {
+  const summaryParagraphs = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map((match) => normalizeWhitespace(decodeHtml(stripTags(match[1]))))
+    .filter((text) => text.length > 24);
+
+  const summary = summaryParagraphs[0] || `${entry.series}，来自强力巨彩海外官网产品页。`;
+  const pixelPitchLine = normalizeWhitespace(
+    decodeHtml(stripTags(html.match(/Pixel Pitch \(mm\)\s*:\s*([\s\S]*?)<\/p>/i)?.[1] || ""))
+  );
+  const models = extractQiangliModels(entry.series, pixelPitchLine);
+  const cabinetSize = extractQiangliCabinetSize(summaryParagraphs.join(" "));
+  const maintenance = inferQiangliMaintenance(summaryParagraphs.join(" "));
+
+  return models.map((model) => {
+    const pointPitch = inferQiangliPitch(model, pixelPitchLine);
+    return {
+      id: `qiangli-${slugify(model)}`,
+      brand: "强力巨彩",
+      category: "cabinet",
+      series: entry.series,
+      model,
+      application: inferQiangliApplication(entry.categoryName),
+      summary,
+      tags: unique(["真实抓取", entry.categoryName, entry.series]),
+      originUrl: entry.url,
+      lastSeenAt: new Date().toISOString(),
+      specs: {
+        "点间距": pointPitch,
+        "箱体尺寸": cabinetSize,
+        "维护方式": maintenance,
+        "系列类型": entry.categoryName
+      }
+    };
+  });
+}
+
+function extractQiangliModels(series, pixelPitchLine) {
+  const compact = pixelPitchLine.replace(/[：:]/g, " ").replace(/\s+/g, " ");
+  const matches = compact.match(/[A-Z]+(?:-[A-Z]+)?-?\d+(?:\.\d+)?|[A-Z]+(?:-[A-Z]+)?/g) || [];
+  const filtered = unique(
+    matches
+      .map((item) => item.replace(/MM$/i, "").trim())
+      .filter((item) => item.length > 1 && /[A-Z]/.test(item))
+  );
+
+  if (filtered.length) {
+    return filtered;
+  }
+
+  return [series];
+}
+
+function inferQiangliPitch(model, pixelPitchLine) {
+  const direct = model.match(/(\d+(?:\.\d+)?)/)?.[1];
+  if (direct) {
+    return `${Number(direct).toString()} mm`;
+  }
+
+  const lineMatch = pixelPitchLine.match(/(\d+(?:\.\d+)?)/);
+  return lineMatch ? `${Number(lineMatch[1]).toString()} mm` : "-";
+}
+
+function extractQiangliCabinetSize(text) {
+  const match = text.match(/(\d{3,4})\s*[x*]\s*(\d{3,4})\s*mm/i);
+  return match ? `${match[1]} x ${match[2]} mm` : "-";
+}
+
+function inferQiangliMaintenance(text) {
+  if (/front and rear maintenance/i.test(text)) {
+    return "前后维护";
+  }
+  if (/front maintenance/i.test(text)) {
+    return "前维护";
+  }
+  if (/rear maintenance/i.test(text)) {
+    return "后维护";
+  }
+  return "-";
+}
+
+function inferQiangliApplication(categoryName) {
+  if (/商业/i.test(categoryName)) {
+    return "商业显示 / 室内应用";
+  }
+  if (/租赁/i.test(categoryName)) {
+    return "租赁演出 / 活动显示";
+  }
+  if (/户外/i.test(categoryName)) {
+    return "户外广告 / 固装显示";
+  }
+  return "LED 显示 / 箱体方案";
 }
 
 function extractUniluminParameterTables(html) {
@@ -1195,18 +1375,28 @@ async function fetchBinary(url) {
 
 async function fetchWithRetry(url, mode, attempt = 1) {
   await sleep(180);
-  const response = await fetch(url, {
-    headers: {
-      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0 Safari/537.36",
-      accept:
-        mode === "json"
-          ? "application/json,text/plain,*/*"
-          : mode === "binary"
-            ? "application/pdf,application/octet-stream,*/*"
-            : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      referer: "https://en.colorlightinside.com/"
+  let response;
+
+  try {
+    response = await fetch(url, {
+      headers: {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0 Safari/537.36",
+        accept:
+          mode === "json"
+            ? "application/json,text/plain,*/*"
+            : mode === "binary"
+              ? "application/pdf,application/octet-stream,*/*"
+              : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        referer: "https://en.colorlightinside.com/"
+      }
+    });
+  } catch (error) {
+    if (attempt < 4) {
+      await sleep(500 * attempt);
+      return fetchWithRetry(url, mode, attempt + 1);
     }
-  });
+    throw error;
+  }
 
   if (response.ok) {
     if (mode === "json") {
