@@ -1,5 +1,1279 @@
 [
   {
+    "id": "absen-a25-series-10",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "A25 Series",
+    "model": "A25 Series 10",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:49:48 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/a25-series/",
+    "lastSeenAt": "2026-04-12T23:18:11.798Z",
+    "specs": {
+      "点间距": "10 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-a25-series-4",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "A25 Series",
+    "model": "A25 Series 4",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:49:48 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/a25-series/",
+    "lastSeenAt": "2026-04-12T23:18:11.798Z",
+    "specs": {
+      "点间距": "4 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-a25-series-6",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "A25 Series",
+    "model": "A25 Series 6",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:49:48 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/a25-series/",
+    "lastSeenAt": "2026-04-12T23:18:11.798Z",
+    "specs": {
+      "点间距": "6 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-a25-series-8",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "A25 Series",
+    "model": "A25 Series 8",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:49:48 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/a25-series/",
+    "lastSeenAt": "2026-04-12T23:18:11.798Z",
+    "specs": {
+      "点间距": "8 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-a99-series-10",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "A99 Series",
+    "model": "A99 Series 10",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:26:36 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/a99-series/",
+    "lastSeenAt": "2026-04-12T23:18:17.127Z",
+    "specs": {
+      "点间距": "10 mm",
+      "箱体尺寸": "1600 x 900 x 129 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "快速维护",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-a99-series-6-25",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "A99 Series",
+    "model": "A99 Series 6.25",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:26:36 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/a99-series/",
+    "lastSeenAt": "2026-04-12T23:18:17.127Z",
+    "specs": {
+      "点间距": "6.25 mm",
+      "箱体尺寸": "1600 x 900 x 129 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "快速维护",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-aw-pro-series-1-25",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "AW Pro Series",
+    "model": "AW Pro Series 1.25",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 12:13:27 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "Flip-chip",
+      "COB",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/aw-pro-series/",
+    "lastSeenAt": "2026-04-12T23:18:14.462Z",
+    "specs": {
+      "点间距": "1.25 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "后维护",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-aw-pro-series-1-51",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "AW Pro Series",
+    "model": "AW Pro Series 1.51",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 12:13:27 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "Flip-chip",
+      "COB",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/aw-pro-series/",
+    "lastSeenAt": "2026-04-12T23:18:14.462Z",
+    "specs": {
+      "点间距": "1.51 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "后维护",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-aw-series-1-98",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "AW Series",
+    "model": "AW Series 1.98",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:28:38 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "防水",
+      "直角拼接",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/aw-series/",
+    "lastSeenAt": "2026-04-12T23:18:13.110Z",
+    "specs": {
+      "点间距": "1.98 mm",
+      "箱体尺寸": "-",
+      "亮度": "4500-5000 nits",
+      "刷新率": "3840 Hz",
+      "维护方式": "前后维护",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-aw-series-2-5",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "AW Series",
+    "model": "AW Series 2.5",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:28:38 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "防水",
+      "直角拼接",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/aw-series/",
+    "lastSeenAt": "2026-04-12T23:18:13.110Z",
+    "specs": {
+      "点间距": "2.5 mm",
+      "箱体尺寸": "-",
+      "亮度": "4500-5000 nits",
+      "刷新率": "3840 Hz",
+      "维护方式": "前后维护",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-aw-series-2-84",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "AW Series",
+    "model": "AW Series 2.84",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:28:38 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "防水",
+      "直角拼接",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/aw-series/",
+    "lastSeenAt": "2026-04-12T23:18:13.110Z",
+    "specs": {
+      "点间距": "2.84 mm",
+      "箱体尺寸": "-",
+      "亮度": "4500-5000 nits",
+      "刷新率": "3840 Hz",
+      "维护方式": "前后维护",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-aw-series-3-9",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "AW Series",
+    "model": "AW Series 3.9",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:28:38 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "防水",
+      "直角拼接",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/aw-series/",
+    "lastSeenAt": "2026-04-12T23:18:13.110Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "-",
+      "亮度": "4500-5000 nits",
+      "刷新率": "3840 Hz",
+      "维护方式": "前后维护",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-ax-pro-series",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "AX Pro Series",
+    "model": "AX Pro Series",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:43:28 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/ax-pro-series/",
+    "lastSeenAt": "2026-04-12T23:19:26.208Z",
+    "specs": {
+      "点间距": "-",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "后维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-c-series-15-625",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "C Series",
+    "model": "C Series 15.625",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:00:44 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/c-series/",
+    "lastSeenAt": "2026-04-12T23:18:15.782Z",
+    "specs": {
+      "点间距": "15.625 mm",
+      "箱体尺寸": "500 x 1500 x 77 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-c-series-20",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "C Series",
+    "model": "C Series 20",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:00:44 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/c-series/",
+    "lastSeenAt": "2026-04-12T23:18:15.782Z",
+    "specs": {
+      "点间距": "20 mm",
+      "箱体尺寸": "500 x 1500 x 77 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-c-series-31-25",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "C Series",
+    "model": "C Series 31.25",
+    "application": "户外广告 / 固装显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:00:44 GMT",
+    "tags": [
+      "真实抓取",
+      "Outdoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/c-series/",
+    "lastSeenAt": "2026-04-12T23:18:15.782Z",
+    "specs": {
+      "点间距": "31.25 mm",
+      "箱体尺寸": "500 x 1500 x 77 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Outdoor"
+    }
+  },
+  {
+    "id": "absen-cl-v3-series-0-93",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "CL V3 Series",
+    "model": "CL V3 Series 0.93",
+    "application": "高端显示 / 微间距",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:45:51 GMT",
+    "tags": [
+      "真实抓取",
+      "Micro LED",
+      "Flip-chip",
+      "COB",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/cl-v3-series/",
+    "lastSeenAt": "2026-04-12T23:19:28.852Z",
+    "specs": {
+      "点间距": "0.93 mm",
+      "箱体尺寸": "600 x 337.5 x 29.8 mm",
+      "亮度": "1600 nits",
+      "刷新率": "7680 Hz",
+      "维护方式": "-",
+      "系列类型": "Micro LED"
+    }
+  },
+  {
+    "id": "absen-cl-v3-series-1-25",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "CL V3 Series",
+    "model": "CL V3 Series 1.25",
+    "application": "高端显示 / 微间距",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:45:51 GMT",
+    "tags": [
+      "真实抓取",
+      "Micro LED",
+      "Flip-chip",
+      "COB",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/cl-v3-series/",
+    "lastSeenAt": "2026-04-12T23:19:28.852Z",
+    "specs": {
+      "点间距": "1.25 mm",
+      "箱体尺寸": "600 x 337.5 x 29.8 mm",
+      "亮度": "1600 nits",
+      "刷新率": "7680 Hz",
+      "维护方式": "-",
+      "系列类型": "Micro LED"
+    }
+  },
+  {
+    "id": "absen-cps-series-1-8",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "CPS Series",
+    "model": "CPS Series 1.8",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:27:41 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/cps-series/",
+    "lastSeenAt": "2026-04-12T23:18:03.794Z",
+    "specs": {
+      "点间距": "1.8 mm",
+      "箱体尺寸": "320 x 480 x 46.5 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "前维护",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-cps-series-2",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "CPS Series",
+    "model": "CPS Series 2",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:27:41 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/cps-series/",
+    "lastSeenAt": "2026-04-12T23:18:03.794Z",
+    "specs": {
+      "点间距": "2 mm",
+      "箱体尺寸": "320 x 240 x 46.5 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "前维护",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-cps-series-2-5",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "CPS Series",
+    "model": "CPS Series 2.5",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:27:41 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/cps-series/",
+    "lastSeenAt": "2026-04-12T23:18:03.794Z",
+    "specs": {
+      "点间距": "2.5 mm",
+      "箱体尺寸": "320 x 480 x 46.5 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "前维护",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-fl-v2-outdoor-series-2-97",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "FL V2 Outdoor Series",
+    "model": "FL V2 Outdoor Series 2.97",
+    "application": "租赁演出 / 活动显示",
+    "summary": "FL V2 Outdoor Series: Outdoor Ultra-flexible Display | Absen",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/flv2-outdoor-series/",
+    "lastSeenAt": "2026-04-12T23:19:23.580Z",
+    "specs": {
+      "点间距": "2.97 mm",
+      "箱体尺寸": "500 x 500 x 73 mm",
+      "亮度": "4000 nits",
+      "刷新率": "7680 Hz",
+      "维护方式": "后维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-fl-v2-outdoor-series-3-91",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "FL V2 Outdoor Series",
+    "model": "FL V2 Outdoor Series 3.91",
+    "application": "租赁演出 / 活动显示",
+    "summary": "FL V2 Outdoor Series: Outdoor Ultra-flexible Display | Absen",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/flv2-outdoor-series/",
+    "lastSeenAt": "2026-04-12T23:19:23.580Z",
+    "specs": {
+      "点间距": "3.91 mm",
+      "箱体尺寸": "500 x 500 x 73 mm",
+      "亮度": "4000 nits",
+      "刷新率": "7680 Hz",
+      "维护方式": "后维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-jd-h-series-10-4",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "JD-H Series",
+    "model": "JD-H Series 10.4",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:43:00 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/jd-h-series/",
+    "lastSeenAt": "2026-04-12T23:17:59.774Z",
+    "specs": {
+      "点间距": "10.4 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-jd-h-series-3-91",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "JD-H Series",
+    "model": "JD-H Series 3.91",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:43:00 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/jd-h-series/",
+    "lastSeenAt": "2026-04-12T23:17:59.774Z",
+    "specs": {
+      "点间距": "3.91 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-jd-h-series-6-25",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "JD-H Series",
+    "model": "JD-H Series 6.25",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 10:43:00 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/jd-h-series/",
+    "lastSeenAt": "2026-04-12T23:17:59.774Z",
+    "specs": {
+      "点间距": "6.25 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-jp-pro-series",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "JP Pro Series",
+    "model": "JP Pro Series",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:33:52 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/jp-pro-series/",
+    "lastSeenAt": "2026-04-12T23:19:09.547Z",
+    "specs": {
+      "点间距": "-",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "7680 Hz",
+      "维护方式": "-",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-jp-v2-series",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "JP V2 Series",
+    "model": "JP V2 Series",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:57:04 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/jp-v2-series/",
+    "lastSeenAt": "2026-04-12T23:19:27.544Z",
+    "specs": {
+      "点间距": "-",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "快速维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-k-v3-series-1-89",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "K V3 Series",
+    "model": "K V3 Series 1.89",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 11:48:45 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "直角拼接",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/k-v3-series/",
+    "lastSeenAt": "2026-04-12T23:18:06.455Z",
+    "specs": {
+      "点间距": "1.89 mm",
+      "箱体尺寸": "750 x 250 x 39.5 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-k-v3-series-2-5",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "K V3 Series",
+    "model": "K V3 Series 2.5",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 11:48:45 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "直角拼接",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/k-v3-series/",
+    "lastSeenAt": "2026-04-12T23:18:06.455Z",
+    "specs": {
+      "点间距": "2.5 mm",
+      "箱体尺寸": "1000 x 250 x 39.5 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-k-v3-series-3-9",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "K V3 Series",
+    "model": "K V3 Series 3.9",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 11:48:45 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "直角拼接",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/k-v3-series/",
+    "lastSeenAt": "2026-04-12T23:18:06.455Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "1250 x 250 x 39.5 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-klcob-v2-series",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "KLCOB V2 Series",
+    "model": "KLCOB V2 Series",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:21:22 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "COB",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/klcob-v2-series/",
+    "lastSeenAt": "2026-04-12T23:18:02.431Z",
+    "specs": {
+      "点间距": "-",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-nt-v2-indoor-series-1-9",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "NT V2 Indoor Series",
+    "model": "NT V2 Indoor Series 1.9",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:31:18 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/nt-v2-series/",
+    "lastSeenAt": "2026-04-12T23:19:06.648Z",
+    "specs": {
+      "点间距": "1.9 mm",
+      "箱体尺寸": "500 x 500 x 75 mm",
+      "亮度": "-",
+      "刷新率": "7680 Hz",
+      "维护方式": "前维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-nt-v2-indoor-series-2-6",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "NT V2 Indoor Series",
+    "model": "NT V2 Indoor Series 2.6",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:31:18 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/nt-v2-series/",
+    "lastSeenAt": "2026-04-12T23:19:06.649Z",
+    "specs": {
+      "点间距": "2.6 mm",
+      "箱体尺寸": "500 x 1000 x 75 mm",
+      "亮度": "-",
+      "刷新率": "7680 Hz",
+      "维护方式": "前维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-nt-v2-indoor-series-2-9",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "NT V2 Indoor Series",
+    "model": "NT V2 Indoor Series 2.9",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:31:18 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/nt-v2-series/",
+    "lastSeenAt": "2026-04-12T23:19:06.650Z",
+    "specs": {
+      "点间距": "2.9 mm",
+      "箱体尺寸": "500 x 500 x 75 mm",
+      "亮度": "-",
+      "刷新率": "7680 Hz",
+      "维护方式": "前维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-nt-v2-outdoor-series-2-9",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "NT V2 Outdoor Series",
+    "model": "NT V2 Outdoor Series 2.9",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:21:22 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/nt-v2-outdoor-series/",
+    "lastSeenAt": "2026-04-12T23:19:11.613Z",
+    "specs": {
+      "点间距": "2.9 mm",
+      "箱体尺寸": "500 x 1000 x 75 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-nt-v2-outdoor-series-3-9",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "NT V2 Outdoor Series",
+    "model": "NT V2 Outdoor Series 3.9",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:21:22 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/nt-v2-outdoor-series/",
+    "lastSeenAt": "2026-04-12T23:19:11.613Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "500 x 1000 x 75 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-nx-series",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "NX Series",
+    "model": "NX Series",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Wed, 16 Jul 2025 09:41:31 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor"
+    ],
+    "originUrl": "https://www.absen.com/product/nx-series/",
+    "lastSeenAt": "2026-04-12T23:18:05.127Z",
+    "specs": {
+      "点间距": "-",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-pl-v2-series",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "PL V2 Series",
+    "model": "PL V2 Series",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:27:10 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/pl-v2-series/",
+    "lastSeenAt": "2026-04-12T23:19:08.219Z",
+    "specs": {
+      "点间距": "-",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "后维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-pl-v3-series",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "PL V3 Series",
+    "model": "PL V3 Series",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:33:49 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/pl-v3-series/",
+    "lastSeenAt": "2026-04-12T23:19:05.283Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "500 x 1000 x 88 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-po-series-1-53",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "PO Series",
+    "model": "PO Series 1.53",
+    "application": "创意显示 / 异形显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 12:25:49 GMT",
+    "tags": [
+      "真实抓取",
+      "Creative Display",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/po-series/",
+    "lastSeenAt": "2026-04-12T23:19:30.215Z",
+    "specs": {
+      "点间距": "1.53 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Creative Display"
+    }
+  },
+  {
+    "id": "absen-po-series-1-86",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "PO Series",
+    "model": "PO Series 1.86",
+    "application": "创意显示 / 异形显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 12:25:49 GMT",
+    "tags": [
+      "真实抓取",
+      "Creative Display",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/po-series/",
+    "lastSeenAt": "2026-04-12T23:19:30.215Z",
+    "specs": {
+      "点间距": "1.86 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Creative Display"
+    }
+  },
+  {
+    "id": "absen-sa-series",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "SA Series",
+    "model": "SA Series",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:33:54 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "Flip-chip",
+      "COB",
+      "直角拼接",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/sa-series/",
+    "lastSeenAt": "2026-04-12T23:19:03.964Z",
+    "specs": {
+      "点间距": "1.5 mm",
+      "箱体尺寸": "500 x 500 x 80 mm",
+      "亮度": "-",
+      "刷新率": "7680 Hz",
+      "维护方式": "前维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-vn-series-3-9",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "VN Series",
+    "model": "VN Series 3.9",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:28:53 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/vn-series/",
+    "lastSeenAt": "2026-04-12T23:19:24.935Z",
+    "specs": {
+      "点间距": "3.9 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "后维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-vn-series-4-8",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "VN Series",
+    "model": "VN Series 4.8",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:28:53 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/vn-series/",
+    "lastSeenAt": "2026-04-12T23:19:24.935Z",
+    "specs": {
+      "点间距": "4.8 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "后维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-vn-series-8-3",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "VN Series",
+    "model": "VN Series 8.3",
+    "application": "租赁演出 / 活动显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:28:53 GMT",
+    "tags": [
+      "真实抓取",
+      "Rental",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/vn-series/",
+    "lastSeenAt": "2026-04-12T23:19:24.935Z",
+    "specs": {
+      "点间距": "8.3 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "后维护",
+      "系列类型": "Rental"
+    }
+  },
+  {
+    "id": "absen-x-series",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "X Series",
+    "model": "X Series",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:46:46 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "COB",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/x-series/",
+    "lastSeenAt": "2026-04-12T23:18:01.063Z",
+    "specs": {
+      "点间距": "-",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-x-ultrawide",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "X Ultrawide",
+    "model": "X Ultrawide",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 12:06:38 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "COB",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/ultrawide-solution/",
+    "lastSeenAt": "2026-04-12T23:18:09.102Z",
+    "specs": {
+      "点间距": "-",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-x-v2-series-1-25",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "X V2 Series",
+    "model": "X V2 Series 1.25",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:46:42 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/x-v2-series/",
+    "lastSeenAt": "2026-04-12T23:18:07.803Z",
+    "specs": {
+      "点间距": "1.25 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-x-v2-series-1-56",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "X V2 Series",
+    "model": "X V2 Series 1.56",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:46:42 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/x-v2-series/",
+    "lastSeenAt": "2026-04-12T23:18:07.803Z",
+    "specs": {
+      "点间距": "1.56 mm",
+      "箱体尺寸": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-xl-series-1-53",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "XL Series",
+    "model": "XL Series 1.53",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:46:35 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "Flip-chip",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/xl-series/",
+    "lastSeenAt": "2026-04-12T23:18:10.402Z",
+    "specs": {
+      "点间距": "1.53 mm",
+      "箱体尺寸": "640 x 480 x 60 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
+    "id": "absen-xl-series-1-86",
+    "brand": "艾比森",
+    "category": "cabinet",
+    "series": "XL Series",
+    "model": "XL Series 1.86",
+    "application": "室内显示 / 商业显示",
+    "summary": "Published Time: Sat, 11 Apr 2026 09:46:35 GMT",
+    "tags": [
+      "真实抓取",
+      "Indoor",
+      "Flip-chip",
+      "一体机"
+    ],
+    "originUrl": "https://www.absen.com/product/xl-series/",
+    "lastSeenAt": "2026-04-12T23:18:10.403Z",
+    "specs": {
+      "点间距": "1.86 mm",
+      "箱体尺寸": "640 x 480 x 60 mm",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "系列类型": "Indoor"
+    }
+  },
+  {
     "id": "hikvision-ds-d4007bw-2fb-a",
     "brand": "海康威视",
     "category": "cabinet",
@@ -14,7 +1288,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4007bw-2fb-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:06.187Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:45.325Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "0.78mm",
       "箱体尺寸": "600 (W) × 337.5 (H) × 29.3(D) mm ；",
@@ -41,7 +1319,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4009bw-2fc/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:05.998Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:45.097Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "0.9375 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.3 mm (23.622\" × 13.287\" × 1.154\")",
@@ -68,7 +1350,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4012bw-2fc/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:06.654Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:45.542Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.3 mm (23.622\" × 13.287\" × 1.154\")",
@@ -95,7 +1381,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4012cs-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:35.712Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:54.504Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.25mm",
       "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
@@ -122,7 +1412,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-series/ds-d4012cw-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:15.020Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:47.132Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
@@ -135,6 +1429,7 @@
     }
   },
   {
+<<<<<<< HEAD
     "id": "hikvision-ds-d4015aw-2fq",
     "brand": "海康威视",
     "category": "cabinet",
@@ -161,6 +1456,8 @@
     }
   },
   {
+=======
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "id": "hikvision-ds-d4015bw-2fc",
     "brand": "海康威视",
     "category": "cabinet",
@@ -175,7 +1472,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/ultra-series/ds-d4015bw-2fc/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:07.116Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:45.780Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.3 mm (23.622\" × 13.287\" × 1.154\")",
@@ -202,7 +1503,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cb-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:19.144Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:48.266Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
@@ -229,7 +1534,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cc-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:19.606Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:48.481Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
@@ -256,7 +1565,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cd-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:22.765Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:48.705Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
@@ -283,7 +1596,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cf-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:22.954Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:48.940Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "1000 mm × 500 mm × 50 mm(39.370\" × 19.685\" × 1.969\")",
@@ -310,7 +1627,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4015cs-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:35.902Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:54.742Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.538 mm",
       "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
@@ -337,7 +1658,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-series/ds-d4015cw-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:11.151Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:46.681Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
@@ -364,7 +1689,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4015cx-1f-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:33.459Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:53.111Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -390,7 +1719,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4018cs-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:36.366Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:54.979Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.86 mm",
       "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
@@ -417,7 +1750,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-series/ds-d4018cw-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:14.828Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:46.905Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.875 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
@@ -444,7 +1781,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/solid-plus-series/ds-d4018cw-2fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:10.775Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:46.217Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.875 mm",
       "箱体尺寸": "600 mm × 337.5 mm × 29.5 mm (23.622\" × 13.287\" × 1.161\")",
@@ -471,7 +1812,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cb-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:23.143Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:49.166Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
@@ -498,7 +1843,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cc-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:23.332Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:49.392Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
@@ -525,7 +1874,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cd-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:23.801Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:49.611Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
@@ -552,7 +1905,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cexx-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:18.023Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:47.574Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "250 mm × 250 mm × 40.6 mm (9.84\" × 9.84\" × 1.60\"); 750 mm × 250 mm × 40.6 mm (29.53\" × 9.84\" × 1.60\"); 500 mm × 500 mm × 40.6 mm (19.69\" × 19.69\" × 1.60\");",
@@ -579,7 +1936,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cf-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:23.992Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:49.832Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "1000 mm × 500 mm × 50 mm (39.370\" × 19.685\" × 1.969\")",
@@ -606,7 +1967,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4019cx-1f-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:33.931Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:53.355Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -632,7 +1997,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/value-series/ds-d4025cs-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:35.522Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:54.276Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.5mm",
       "箱体尺寸": "640 (W) mm × 480 (H) mm ×36 (D) mm (25.197'' × 1.898'' × 1.42'')",
@@ -659,7 +2028,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cb-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:24.457Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:50.064Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.604 mm",
       "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
@@ -686,7 +2059,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cc-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:24.920Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:50.281Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.604 mm",
       "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
@@ -713,7 +2090,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cd-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:25.385Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:50.504Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.604 mm",
       "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
@@ -740,7 +2121,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cexx-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:18.485Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:47.795Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.604 mm",
       "箱体尺寸": "250 mm × 250 mm × 40.6 mm (9.84\" × 9.84\" × 1.60\"); 750 mm × 250 mm × 40.6 mm (29.53\" × 9.84\" × 1.60\"); 500 mm × 500 mm × 40.6 mm (19.69\" × 19.69\" × 1.60\");",
@@ -767,7 +2152,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cf-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:25.850Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:50.720Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.604 mm",
       "箱体尺寸": "1000 mm × 500 mm × 50 mm (39.370\" × 19.685\" × 1.969\")",
@@ -794,7 +2183,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4026cx-1f-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:34.399Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:53.588Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -820,7 +2213,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cb-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:26.315Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:50.941Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.976 mm",
       "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
@@ -847,7 +2244,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cc-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:26.778Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:51.174Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.976 mm",
       "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
@@ -874,7 +2275,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cd-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:27.241Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:51.406Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.97619 mm",
       "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
@@ -901,7 +2306,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cf-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:27.706Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:51.642Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.97619 mm",
       "箱体尺寸": "1000 mm × 500 mm × 50 mm(39.370\" × 19.685\" × 1.969\")",
@@ -928,7 +2337,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4029cx-1f-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:34.871Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:53.854Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -954,7 +2367,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cb-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:28.171Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:51.927Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.906 mm",
       "箱体尺寸": "750 mm × 250 mm × 50 mm (29.528\" × 9.843\" × 1.969\")",
@@ -981,7 +2398,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cc-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:28.360Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:52.155Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.906 mm",
       "箱体尺寸": "1000 mm × 250 mm × 50 mm (39.370\" × 9.843\" × 1.969\")",
@@ -1008,7 +2429,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cd-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:32.353Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:52.391Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.90625 mm",
       "箱体尺寸": "500 mm × 500 mm × 50 mm (19.685\" × 19.685\" × 1.969\")",
@@ -1035,7 +2460,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cexx-2f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:18.952Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:48.037Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.906 mm",
       "箱体尺寸": "250 mm × 250 mm × 40.6 mm (9.84\" × 9.84\" × 1.60\"); 750 mm × 250 mm × 40.6 mm (29.53\" × 9.84\" × 1.60\"); 500 mm × 500 mm × 40.6 mm (19.69\" × 19.69\" × 1.60\");",
@@ -1062,7 +2491,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cf-1f/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:32.813Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:52.630Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.90625 mm",
       "箱体尺寸": "1000 mm × 500 mm × 50 mm(39.370\" × 19.685\" × 1.969\")",
@@ -1089,7 +2522,11 @@
       "室内"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/indoor-led/flex-series/ds-d4039cx-1f-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:33.000Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:52.856Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1115,7 +2552,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cd-1aab/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:43.618Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:57.482Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.91mm",
       "箱体尺寸": "500 mm × 500 mm × 97 mm",
@@ -1142,7 +2583,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cd-1aab-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:43.806Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:57.725Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1168,7 +2613,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4239cf-1aab/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:44.267Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:57.958Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.91 mm",
       "箱体尺寸": "500 mm × 1000 mm × 97 mm（19.69\" × 39.37\" × 3.82\"）",
@@ -1195,7 +2644,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4248cd-1aab/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:44.455Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:58.196Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "4.81mm",
       "箱体尺寸": "500 mm × 500 mm × 97 mm",
@@ -1222,7 +2675,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4248cd-1aab-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:44.644Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:58.422Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1248,7 +2705,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumifit-series/ds-d4248cf-1aab/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:45.108Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:58.659Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "4.8 mm",
       "箱体尺寸": "500 mm × 1000 mm × 97 mm （19.69\" × 39.37\" × 3.82\"）",
@@ -1275,7 +2736,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4257co-2apa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:45.759Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:59.091Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "5.71 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm",
@@ -1302,7 +2767,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4257co-2apa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:48.111Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:59.323Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1328,7 +2797,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4257go-2aaa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:42.235Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:56.532Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "5.71 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
@@ -1355,7 +2828,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4257go-2aaa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:37.014Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:55.421Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1381,7 +2858,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4266co-2apa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:48.572Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:59.601Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "6.67 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm",
@@ -1408,7 +2889,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4266co-2apa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:49.038Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:59.846Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1434,7 +2919,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4266go-2aaa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:40.387Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:55.654Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "6.67 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
@@ -1461,7 +2950,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4266go-2aaa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:40.849Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:55.876Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1487,7 +2980,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4280co-2apa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:49.226Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:00.081Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "8 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm",
@@ -1514,7 +3011,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d4280co-2apa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:49.687Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:00.312Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1540,7 +3041,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4280go-2aaa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:42.695Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:56.762Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "8 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
@@ -1567,7 +3072,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d4280go-2aaa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:41.309Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:56.096Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1593,7 +3102,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d42a0co-2apa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:49.881Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:00.543Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "10 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm",
@@ -1620,7 +3133,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumisquare-series/ds-d42a0co-2apa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:50.343Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:00.772Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1646,7 +3163,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d42a0go-2aaa/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:43.242Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:57.027Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "10 mm",
       "箱体尺寸": "960 mm × 960 mm × 100 mm (37.795'' × 37.795'' × 3.973'')",
@@ -1673,7 +3194,11 @@
       "户外"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/outdoor-led/lumiultra-series/ds-d42a0go-2aaa-m/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:41.768Z",
+=======
+    "lastSeenAt": "2026-04-12T23:15:56.313Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1699,7 +3224,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4512cb108-2fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:51.001Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:01.228Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "-",
@@ -1726,7 +3255,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4512cb108-2fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:52.690Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:01.458Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "300 × 168.75 mm",
@@ -1753,7 +3286,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4512ch-1fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:54.944Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:02.828Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "P1.2",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -1780,7 +3317,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4512ch-1fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:00.481Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:04.438Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1806,7 +3347,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4512ch-1fqf/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:55.406Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:03.055Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "P1.2",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -1833,7 +3378,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4515cb135-2fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:53.159Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:01.696Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "-",
@@ -1860,7 +3409,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4515cb135-2fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:53.348Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:01.925Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5625 mm",
       "箱体尺寸": "300 × 168.75 mm",
@@ -1887,7 +3440,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4515ch-1fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:55.870Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:03.297Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "P1.5",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -1914,7 +3471,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4515ch-1fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:00.668Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:04.673Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -1940,7 +3501,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4515ch-1fqf/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:56.335Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:03.527Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "P1.5",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -1967,7 +3532,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4518cb162-2fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:53.814Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:02.171Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.875 mm",
       "箱体尺寸": "-",
@@ -1994,7 +3563,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-all-in-one-display/ds-d4518cb162-2fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:54.284Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:02.397Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.875 mm",
       "箱体尺寸": "300 × 168.75 mm",
@@ -2021,7 +3594,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4518ch-1fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:56.798Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:03.756Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "P1.8",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -2048,7 +3625,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4518ch-1fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:00.855Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:04.893Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -2074,7 +3655,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4518ch-1fqf/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:44:56.986Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:03.994Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "P1.8",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -2101,7 +3686,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4525ch-1fq/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:00.017Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:04.217Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "P2.5",
       "箱体尺寸": "600 (W) mm × 1687.5 (H) mm ×29.5 (D) mm (23.622'' × 66.435'' × 1.161'')",
@@ -2128,7 +3717,11 @@
       "创意显示"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/creative-led/led-poster-display/ds-d4525ch-1fq-a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:01.317Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:05.128Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -2153,7 +3746,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4619cd-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:23.249Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:10.640Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.9531 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2179,7 +3776,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4626cd-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:05.401Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:06.797Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.6042 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2205,7 +3806,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4626cd-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:08.996Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:07.039Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.6042 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2231,7 +3836,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4626cd-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:23.714Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:10.862Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.6042 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2257,7 +3866,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cd-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:12.341Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:07.306Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2283,7 +3896,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cd-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:12.812Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:07.543Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2309,7 +3926,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cd-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:24.178Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:11.098Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2335,7 +3956,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cf-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:13.396Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:07.799Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2361,7 +3986,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cf-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:13.865Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:08.042Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2387,7 +4016,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4629cf-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:24.644Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:11.314Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2413,7 +4046,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cd-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:14.331Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:08.269Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2439,7 +4076,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cd-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:14.796Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:08.508Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2465,7 +4106,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cf-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:17.141Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:08.741Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2491,7 +4136,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4639cf-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:17.330Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:08.980Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2517,7 +4166,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cd-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:03.936Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:05.582Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2543,7 +4196,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cd-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:17.794Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:09.195Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2569,7 +4226,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cd-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:28.849Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:11.535Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2595,7 +4256,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cf-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:18.255Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:09.430Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2621,7 +4286,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cf-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:18.716Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:09.658Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2647,7 +4316,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4729cf-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:29.313Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:11.760Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9762 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2673,7 +4346,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cd-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:19.177Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:09.896Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2699,7 +4376,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cd-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:19.643Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:10.139Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2725,7 +4406,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cd-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:29.777Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:11.977Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 500mm × 69mm",
@@ -2751,7 +4436,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cf-1a/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:04.476Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:05.810Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2777,7 +4466,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cf-1ac/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:20.106Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:10.418Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2803,7 +4496,11 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-d4739cf-1ac-p/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:30.241Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:12.192Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9063 mm",
       "箱体尺寸": "500mm × 1000mm × 69mm",
@@ -2829,7 +4526,36 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hb05-cb/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:30.702Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:12.410Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-dprss-1n-hb05-fc",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-DPRSS-1N/HB05/FC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-DPRSS-1N/HB05/FC",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hb05-fc/",
+    "lastSeenAt": "2026-04-12T23:16:06.048Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -2854,7 +4580,36 @@
       "租赁"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hbbs05-cb/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:04.937Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:06.284Z",
+    "specs": {
+      "箱体尺寸": "-",
+      "分辨率": "-",
+      "亮度": "-",
+      "刷新率": "-",
+      "维护方式": "-",
+      "防护等级": "-",
+      "海康子类": "Rental LED Displays"
+    }
+  },
+  {
+    "id": "hikvision-ds-dprss-1n-hbbs05-fc",
+    "brand": "海康威视",
+    "category": "cabinet",
+    "series": "Rental LED Displays",
+    "model": "DS-DPRSS-1N/HBBS05/FC",
+    "application": "租赁演出 / 活动显示",
+    "summary": "DS-DPRSS-1N/HBBS05/FC",
+    "tags": [
+      "真实抓取",
+      "Rental LED Displays",
+      "租赁"
+    ],
+    "originUrl": "https://display.hikvision.com/en/products/led-displays/rental-led/rental-led-displays/ds-dprss-1n-hbbs05-fc/",
+    "lastSeenAt": "2026-04-12T23:16:06.516Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -2878,7 +4633,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-6920udi-u-c-/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:10.602Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:25.687Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2901,7 +4660,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-6924udi-u-c-/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:10.790Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:25.913Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2924,7 +4687,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-6932udi-u-c-/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:10.980Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:26.136Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2947,7 +4714,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-02dpi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:11.443Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:26.374Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2970,7 +4741,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-02hi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:11.631Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:26.606Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -2993,7 +4768,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-02ho-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:12.093Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:26.833Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3016,7 +4795,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-04hi/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:12.558Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:27.066Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3039,7 +4822,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-04ho/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:17.589Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:27.299Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3062,7 +4849,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c30s-s23/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:18.057Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:27.600Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3085,7 +4876,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-02dpi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:03.229Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:22.653Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3108,7 +4903,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-02hi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:03.694Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:22.887Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3131,7 +4930,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-02ho-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:04.156Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:23.119Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3154,7 +4957,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04di/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:04.625Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:23.360Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3177,7 +4984,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04do/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:06.982Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:23.588Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3200,7 +5011,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04hi/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:07.442Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:23.816Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3223,7 +5038,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04ho/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:07.630Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:24.055Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3246,7 +5065,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-04sdi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:08.094Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:24.282Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3269,7 +5092,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-16no-2fo/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:08.558Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:24.503Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3292,7 +5119,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-20no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:09.018Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:24.736Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3315,7 +5146,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-pre/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:09.482Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:24.960Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3338,7 +5173,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-s12/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:09.670Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:25.208Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3361,7 +5200,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c66s-s6/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:10.136Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:25.445Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3384,7 +5227,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01hi/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:18.527Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:27.837Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3407,7 +5254,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01hi-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:18.998Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:28.069Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3430,7 +5281,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01ho/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:19.471Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:28.304Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3453,7 +5308,11 @@
       "Video Wall Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/video-wall-controllers/video-wall-controller/ds-c80n-01ho-4k/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:22.305Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:28.537Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3476,7 +5335,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-d42a05/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:50.667Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:19.872Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3499,7 +5362,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt30p-01hi01no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:57.019Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:18.923Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3522,7 +5389,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt30p-01hi02no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:57.210Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:19.163Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3545,7 +5416,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60c-01hi02no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:54.485Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:20.103Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3568,7 +5443,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60c-01hi04no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:54.954Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:20.328Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3591,7 +5470,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60c-01hi06no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:55.423Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:20.553Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3614,7 +5497,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hdi12no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:57.859Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:21.504Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3637,7 +5524,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hdi20no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:58.331Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:21.751Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3660,7 +5551,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hi04no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:58.802Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:21.992Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3683,7 +5578,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60p-02hi06no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:02.580Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:22.234Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3706,7 +5605,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60v-03hdi12no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:55.892Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:20.787Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3729,7 +5632,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60v-03hdi20no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:56.362Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:21.030Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3752,7 +5659,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt60v-03hi06no/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:56.551Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:21.263Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3775,7 +5686,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90c-07hdpsdi24no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:46.710Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:18.163Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3798,7 +5713,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90p-09hdpsi24no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:50.019Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:19.420Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3821,7 +5740,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90p-09hdpsi40no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:50.208Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:19.644Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3844,7 +5767,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90v-09hdpsi16no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:49.357Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:18.441Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3867,7 +5794,11 @@
       "LED Controllers"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-controllers/led-controllers/ds-dt90v-09hdpsi24no-u/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:49.549Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:18.684Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "输入接口": "-",
       "输出接口": "-",
@@ -3891,7 +5822,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q12ca-1gs/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:42.136Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:16.606Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "分辨率": "-",
@@ -3916,7 +5851,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q12ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:35.356Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:14.207Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "320 mm × 160 mm × 17 mm",
@@ -3942,7 +5881,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q15ca-1gs/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:42.605Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:16.881Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.538",
       "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
@@ -3968,7 +5911,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q15ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:35.830Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:14.428Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.538 mm",
       "箱体尺寸": "320 mm × 160 mm × 17 mm",
@@ -3994,7 +5941,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q15ca-1pht/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:31.348Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:12.850Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.538 mm",
       "箱体尺寸": "320 mm × 160 mm × 16.6 mm(12.6'' × 6.3'' × 0.65'')",
@@ -4020,7 +5971,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q18ca-1gs/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:45.405Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:17.147Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.86",
       "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
@@ -4046,7 +6001,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q18ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:34.513Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:13.505Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.86 mm",
       "箱体尺寸": "320 mm × 160 mm × 17 mm",
@@ -4072,7 +6031,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q18ca-1pht/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:31.813Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:13.068Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.86 mm",
       "箱体尺寸": "320 mm × 160 mm × 16.6 mm(12.6'' × 6.3'' × 0.65'')",
@@ -4098,7 +6061,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q20ca-1gs/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:45.869Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:17.400Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2",
       "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
@@ -4124,7 +6091,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q20ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:34.702Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:13.740Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2 mm",
       "箱体尺寸": "320 mm × 160 mm × 17 mm",
@@ -4150,7 +6121,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q20ca-1pht/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:34.326Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:13.287Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2 mm",
       "箱体尺寸": "320 mm × 160 mm × 16.6 mm(12.6'' × 6.3'' × 0.65'')",
@@ -4176,7 +6151,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/soft-led-module-for-indoor-series/ds-d41q25ca-1gs/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:46.059Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:17.649Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.5",
       "箱体尺寸": "320 mm × 160 mm × 13 mm (12.60\" × 6.30\" × 0.51\") (connectors contained)",
@@ -4202,7 +6181,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-indoor-series/ds-d41q30ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:35.168Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:13.972Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.076 mm",
       "箱体尺寸": "320 mm × 160 mm × 16.6 mm (12.60'' × 6.30'' × 0.65'')",
@@ -4228,7 +6211,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q25ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:41.277Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:15.849Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.5mm",
       "箱体尺寸": "320 mm × 160 mm x 18mm",
@@ -4254,7 +6241,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q30ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:41.465Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:16.083Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.076 mm",
       "箱体尺寸": "320 mm × 160 mm x 18mm",
@@ -4280,7 +6271,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q40ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:39.338Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:14.920Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "4 mm",
       "箱体尺寸": "320 mm × 160 mm x 17.3 mm",
@@ -4306,7 +6301,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q50ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:39.805Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:15.153Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "5 mm",
       "箱体尺寸": "320 mm × 160 mm x 17.3 mm",
@@ -4332,7 +6331,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q60ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:40.278Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:15.388Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "6.67 mm",
       "箱体尺寸": "320 mm × 160 mm x 18.4 mm",
@@ -4358,7 +6361,11 @@
       "LED Modules"
     ],
     "originUrl": "https://display.hikvision.com/en/products/led-displays/led-modules/normal-led-module-for-outdoor-series/ds-d43q80ca-1ph/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:45:40.744Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:15.616Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "8 mm",
       "箱体尺寸": "320 mm × 160 mm x 19 mm",
@@ -4384,7 +6391,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/745",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:32.301Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:35.339Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4411,7 +6422,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/745",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:32.301Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:35.339Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4438,7 +6453,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2333",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:48.903Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:46.500Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4465,7 +6484,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2333",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:48.903Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:46.499Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4492,7 +6515,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2242",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:53.607Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:49.027Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4519,7 +6546,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2242",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:53.607Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:49.027Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4546,7 +6577,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2176",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:46.946Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:45.049Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4573,7 +6608,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2176",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:46.945Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:45.049Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4600,7 +6639,11 @@
       "AI Media Station"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5616",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:15.664Z",
+=======
+    "lastSeenAt": "2026-04-12T23:21:00.312Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4627,7 +6670,11 @@
       "AI Media Station"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5616",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:15.664Z",
+=======
+    "lastSeenAt": "2026-04-12T23:21:00.311Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4654,7 +6701,11 @@
       "AI Media Station"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5616",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:15.665Z",
+=======
+    "lastSeenAt": "2026-04-12T23:21:00.313Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4681,7 +6732,11 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2259",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:50.852Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:47.838Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4707,7 +6762,11 @@
       "Calibration System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5345",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:17.645Z",
+=======
+    "lastSeenAt": "2026-04-12T23:21:01.348Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4734,7 +6793,11 @@
       "CM Series"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5954",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:13.692Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:59.108Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4761,7 +6824,11 @@
       "CM Series"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5954",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:13.692Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:59.110Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4788,7 +6855,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1229",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:11.801Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:17.546Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4815,7 +6886,11 @@
       "Cloud Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2299",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:56.972Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:50.253Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4841,7 +6916,11 @@
       "Media Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/502",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:05.897Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:54.321Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4867,7 +6946,11 @@
       "Media Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1563",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:08.122Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:56.061Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4894,7 +6977,11 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/339",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:07.287Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:12.616Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4921,7 +7008,11 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/339",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:07.287Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:12.616Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4948,7 +7039,11 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2354",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:09.177Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:13.889Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4975,7 +7070,11 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2354",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:09.177Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:13.889Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5002,7 +7101,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2004",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:30.402Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:34.027Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5029,7 +7132,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1982",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:28.349Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:32.672Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5056,7 +7163,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2004",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:30.403Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:34.027Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5083,7 +7194,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/158",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:10.091Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:57.237Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5110,7 +7225,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6038",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:14.406Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:21.477Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5137,7 +7256,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1347",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:26.194Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:31.232Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5164,7 +7287,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1347",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:26.195Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:31.233Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5191,7 +7318,11 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1347",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:26.195Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:31.232Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5218,7 +7349,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1632",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:16.591Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:23.873Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5245,7 +7380,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/414",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:02.890Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:52.962Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5272,7 +7411,11 @@
       "Display Quality Test System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/MeetLEDAnalyzerDisplay%20Quality%20Test%20System7328",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:23.446Z",
+=======
+    "lastSeenAt": "2026-04-12T23:21:04.586Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5299,7 +7442,11 @@
       "Cloud Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5992",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:55.270Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:49.636Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5326,7 +7473,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/381",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:42.047Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:42.179Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5353,7 +7504,11 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/383",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:44.900Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:43.980Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5380,7 +7535,11 @@
       "Accessories"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1407",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:11.733Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:57.832Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5406,7 +7565,11 @@
       "Calibration System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6097",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:19.688Z",
+=======
+    "lastSeenAt": "2026-04-12T23:21:02.704Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5432,7 +7595,11 @@
       "Calibration System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6312",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:49:21.753Z",
+=======
+    "lastSeenAt": "2026-04-12T23:21:04.005Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5459,7 +7626,11 @@
       "Accessories"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/373",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:39.140Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:37.595Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5486,7 +7657,11 @@
       "Accessories"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/369",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:37.140Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:36.402Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5513,7 +7688,11 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/765",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:21.206Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:27.067Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5540,7 +7719,11 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/765",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:21.206Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:27.067Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5567,7 +7750,11 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/765",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:21.206Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:27.067Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5594,7 +7781,11 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2376",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:32.343Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:50.768Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5621,7 +7812,11 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2376",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:32.351Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:50.787Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5648,7 +7843,11 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2376",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:32.348Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:50.773Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5675,7 +7874,11 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2058",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:49.650Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:02.150Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "3.93 MILLION PIXELS",
       "输入接口": "-",
@@ -5702,7 +7905,11 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1674",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:47.388Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:00.406Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5729,7 +7936,11 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1674",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:47.387Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:00.405Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5756,7 +7967,11 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2058",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:49.651Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:02.151Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "3.93 MILLION PIXELS",
       "输入接口": "-",
@@ -5783,7 +7998,11 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/111",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:34.651Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:52.458Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5810,7 +8029,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6868",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:02.937Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:09.537Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5837,7 +8060,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6657",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:56.828Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:06.278Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5864,7 +8091,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6757",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:52.822Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:03.502Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5891,7 +8122,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6704",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:54.847Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:04.958Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5918,7 +8153,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6474",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:05.338Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:11.358Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5945,7 +8184,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6757",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:52.822Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:03.502Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5972,7 +8215,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6474",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:05.338Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:11.358Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5999,7 +8246,11 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6868",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:48:02.936Z",
+=======
+    "lastSeenAt": "2026-04-12T23:20:09.536Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6026,7 +8277,11 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1132",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:42.215Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:56.366Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6053,7 +8308,11 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1132",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:42.215Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:56.366Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6080,7 +8339,11 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1049",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:40.506Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:55.753Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6107,7 +8370,11 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/159",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:36.722Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:54.471Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "23.59 MILLION PIXELS",
       "输入接口": "x 2x($-) 2.0 INPUT BOARDS x 2x$0 1.2 INPUT BOARDS x 2x12' 3$) INPUT BOARDS x 3 IN 1 INPUT BOARD 1x($-) 2.1 1x$0 1.4 1x12' 3$) !LL x 342110 INPUT BOARD 3UPPORTS UNCOMPRESSED 4096x2160 60(Z x /PTIONAL 5 TYPES OF SWAPPABLE INPUT BOARD 2x($-) 2.0 INPUT BOARDS 2x($-) 2.0 INPUTS UP TO 4096x2160 60(Z 2x$0 1.2 INPUT BOARDS 2x$0 1.2 INPUTS UP TO 4096x2160 60(Z PER 2x12' 3$) INPUT BOARDS 2x12' 3$) INPUTS UP TO 4096x2160 60(Z PER 3). INPUT BOARD 1x($-) 2.1 1x$0 1.4 1x12' 3$) !LL PORTS SUPPORT 342110 INPUT BOARD 1x342110 INPUT WITH UP TO 4+ UNCOMPRESSED 4096",
@@ -6135,7 +8402,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.000Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:40.435Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6166,7 +8437,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.000Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:40.435Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6197,7 +8472,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.000Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:40.434Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6228,7 +8507,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.000Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:40.434Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6259,7 +8542,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.000Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:40.435Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6290,7 +8577,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:22.355Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:39.339Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "384*256",
       "输入接口": "-",
@@ -6321,7 +8612,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:22.355Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:39.339Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "512*384",
       "输入接口": "-",
@@ -6352,7 +8647,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:22.355Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:39.339Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "512*512",
       "输入接口": "-",
@@ -6383,7 +8682,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:22.354Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:39.337Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "512*384",
       "输入接口": "-",
@@ -6414,7 +8717,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:22.354Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:39.337Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "512*512",
       "输入接口": "-",
@@ -6445,7 +8752,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=48",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:18.843Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:33.349Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "141 Million",
       "输入接口": "MX_4×HDMI 2.0 input card MX_4×DP 1.2 input card MX_4×12G-SDI input card MX_2×HDMI 2.1 input card MX_2×DP 1.4 input card MX_1×DP 1.4+HDMI 2.1 input card MX_1×DP 1.4(8K@60Hz) input card MX_1×SMPTE ST 2110(25G) input card MX_2×SMPTE ST 2110(25G) input card MX_1×ST 2110 (100G) (8K@60Hz) input card",
@@ -6476,7 +8787,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.917Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:43.730Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "12x 5120*2880@60Hz",
       "输入接口": "-",
@@ -6507,7 +8822,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.917Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:43.730Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6538,7 +8857,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.917Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:43.729Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "1x 4096*2160@60Hz",
       "输入接口": "-",
@@ -6569,7 +8892,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.917Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:43.729Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "2x 4096*2160@60Hz",
       "输入接口": "-",
@@ -6600,7 +8927,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.917Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:43.730Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "8x 5120*2880@60Hz",
       "输入接口": "-",
@@ -6631,7 +8962,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.917Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:43.729Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "4x 5120*2880@60Hz",
       "输入接口": "-",
@@ -6662,7 +8997,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:25.254Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:44.301Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6693,7 +9032,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:25.254Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:44.300Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6724,7 +9067,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:25.254Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:44.301Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6755,7 +9102,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:25.254Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:44.301Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6786,7 +9137,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:25.254Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:44.301Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6817,7 +9172,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=41",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:25.871Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:45.381Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6848,7 +9207,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=52",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.586Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:43.179Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6879,7 +9242,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:19.199Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:33.933Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "3.9 Million",
       "输入接口": "-",
@@ -6910,7 +9277,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=24",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:20.126Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:35.531Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6941,7 +9312,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=25",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:19.815Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:35.000Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -6972,7 +9347,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=30",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:21.986Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:38.765Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -7003,7 +9382,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=28",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:20.742Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:36.598Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7034,7 +9417,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=27",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:21.052Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:37.135Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -7065,7 +9452,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=26",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:21.364Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:37.670Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -7096,7 +9487,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=29",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:20.434Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:36.054Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -7127,7 +9522,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.276Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.625Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7158,7 +9557,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.276Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.625Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7189,7 +9592,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.275Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.624Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7220,7 +9627,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.275Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.624Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7251,7 +9662,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.275Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.625Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7282,7 +9697,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.276Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.625Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7313,7 +9732,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:24.276Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.625Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7344,7 +9767,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.313Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:40.979Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7375,7 +9802,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.313Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:40.980Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7406,7 +9837,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.313Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:40.980Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7437,7 +9872,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.313Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:40.980Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7468,7 +9907,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=31",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:21.671Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:38.216Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7499,7 +9942,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:19.199Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:33.933Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "3.9 Million",
       "输入接口": "-",
@@ -7530,7 +9977,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:19.198Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:33.933Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "35.38 Million (Max)",
       "输入接口": "-",
@@ -7561,7 +10012,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:19.199Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:33.933Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "6.5 Million",
       "输入接口": "-",
@@ -7592,7 +10047,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:19.198Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:33.933Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "9 Million",
       "输入接口": "-",
@@ -7623,7 +10082,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:19.198Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:33.933Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "141 Million (Max)",
       "输入接口": "-",
@@ -7654,7 +10117,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=36",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.641Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:41.549Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7685,7 +10152,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=43",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:26.548Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:46.503Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7716,7 +10187,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=42",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:26.179Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:45.919Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7747,7 +10222,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=50",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:19.502Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:34.474Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7778,7 +10257,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=40",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:25.562Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:44.834Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -7809,7 +10292,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.968Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.105Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "6.5 million pixels",
       "输入接口": "1× HDMI 2.0（IN&LOOP） 2× HDMI 1.3 1× 3G-SDI（IN&LOOP） 1× 10G OPT Port（OPT1） 1× USB3.0",
@@ -7840,7 +10327,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.968Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.105Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "13 million pixels",
       "输入接口": "1× 12G-SDI(IN&LOOP) 1× DP 1.2 2× HDM 2.0 4× HDMI 1.3 2× OPT 1× USB3.0",
@@ -7871,7 +10362,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.968Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.105Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "2.6 million pixels",
       "输入接口": "1× HDMI 2.0（IN&LOOP） 2× HDMI 1.3 1× 3G-SDI（IN&LOOP） 1× 10G OPT Port（OPT1） 1× USB3.0",
@@ -7902,7 +10397,11 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:23.968Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:42.105Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "3.9 million pixels",
       "输入接口": "1× HDMI 2.0（IN&LOOP） 2× HDMI 1.3 1× 3G-SDI（IN&LOOP） 1× 10G OPT Port（OPT1） 1× USB3.0",
@@ -7933,7 +10432,11 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=51",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:22.661Z",
+=======
+    "lastSeenAt": "2026-04-12T23:19:39.885Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "最大带载": "512×1024",
       "输入接口": "-",
@@ -7963,7 +10466,11 @@
       "CS Series"
     ],
     "originUrl": "https://www.qiangliled.com/cs-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:13.805Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.892Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "-",
@@ -7985,7 +10492,11 @@
       "DM Series"
     ],
     "originUrl": "https://www.qiangliled.com/dm-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:14.231Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:48.189Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.6 mm",
       "箱体尺寸": "-",
@@ -8007,7 +10518,11 @@
       "CS Series"
     ],
     "originUrl": "https://www.qiangliled.com/cs-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:13.805Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.892Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "-",
@@ -8029,7 +10544,11 @@
       "CS Series"
     ],
     "originUrl": "https://www.qiangliled.com/cs-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:13.805Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.892Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "-",
@@ -8051,7 +10570,11 @@
       "CS Series"
     ],
     "originUrl": "https://www.qiangliled.com/cs-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:13.805Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.892Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "-",
@@ -8073,7 +10596,11 @@
       "P Series"
     ],
     "originUrl": "https://www.qiangliled.com/p-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:16.856Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:50.075Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -8095,7 +10622,11 @@
       "PM Series"
     ],
     "originUrl": "https://www.qiangliled.com/pm-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:14.659Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:48.498Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "-",
@@ -8117,7 +10648,11 @@
       "PM Series"
     ],
     "originUrl": "https://www.qiangliled.com/pm-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:14.659Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:48.498Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "7.8 mm",
       "箱体尺寸": "-",
@@ -8139,7 +10674,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.948Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.293Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "0.8 mm",
       "箱体尺寸": "-",
@@ -8161,7 +10700,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.948Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.293Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "0.9 mm",
       "箱体尺寸": "-",
@@ -8183,7 +10726,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.293Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1 mm",
       "箱体尺寸": "-",
@@ -8205,7 +10752,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.294Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.2 mm",
       "箱体尺寸": "-",
@@ -8227,7 +10778,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.294Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.3 mm",
       "箱体尺寸": "-",
@@ -8249,7 +10804,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.294Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5 mm",
       "箱体尺寸": "-",
@@ -8271,7 +10830,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.294Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.6 mm",
       "箱体尺寸": "-",
@@ -8293,7 +10856,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.294Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.8 mm",
       "箱体尺寸": "-",
@@ -8315,7 +10882,11 @@
       "Outdoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.089Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:48.820Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "10 mm",
       "箱体尺寸": "-",
@@ -8337,7 +10908,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.294Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2 mm",
       "箱体尺寸": "-",
@@ -8359,7 +10934,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.294Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.5 mm",
       "箱体尺寸": "-",
@@ -8381,7 +10960,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.294Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3 mm",
       "箱体尺寸": "-",
@@ -8403,7 +10986,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.294Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3 mm",
       "箱体尺寸": "-",
@@ -8425,7 +11012,11 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:12.949Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.294Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "4 mm",
       "箱体尺寸": "-",
@@ -8447,7 +11038,11 @@
       "Outdoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.089Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:48.819Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "5 mm",
       "箱体尺寸": "-",
@@ -8469,7 +11064,11 @@
       "Outdoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.089Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:48.819Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "6 mm",
       "箱体尺寸": "-",
@@ -8491,7 +11090,11 @@
       "Outdoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.089Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:48.820Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "6.6 mm",
       "箱体尺寸": "-",
@@ -8513,7 +11116,11 @@
       "Outdoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.089Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:48.820Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "8 mm",
       "箱体尺寸": "-",
@@ -8535,7 +11142,11 @@
       "QM Series"
     ],
     "originUrl": "https://www.qiangliled.com/qm-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.992Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:49.454Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "9 mm",
       "箱体尺寸": "-",
@@ -8557,7 +11168,11 @@
       "QM Series"
     ],
     "originUrl": "https://www.qiangliled.com/qm-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.992Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:49.454Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "9 mm",
       "箱体尺寸": "-",
@@ -8579,7 +11194,11 @@
       "Indoor R Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-r-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:13.375Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.584Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5 mm",
       "箱体尺寸": "-",
@@ -8601,7 +11220,11 @@
       "Indoor R Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-r-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:13.375Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.585Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5 mm",
       "箱体尺寸": "-",
@@ -8623,7 +11246,11 @@
       "Indoor R Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-r-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:13.375Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.585Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.8 mm",
       "箱体尺寸": "-",
@@ -8645,7 +11272,11 @@
       "Indoor R Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-r-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:13.375Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.585Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2 mm",
       "箱体尺寸": "-",
@@ -8667,7 +11298,11 @@
       "Indoor R Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-r-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:13.375Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.585Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.5 mm",
       "箱体尺寸": "-",
@@ -8689,7 +11324,11 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.561Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:49.144Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "10 mm",
       "箱体尺寸": "-",
@@ -8711,7 +11350,11 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.561Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:49.144Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.5 mm",
       "箱体尺寸": "-",
@@ -8733,7 +11376,11 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.561Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:49.144Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3 mm",
       "箱体尺寸": "-",
@@ -8755,7 +11402,11 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.561Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:49.144Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "4 mm",
       "箱体尺寸": "-",
@@ -8777,7 +11428,11 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.561Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:49.144Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "5 mm",
       "箱体尺寸": "-",
@@ -8799,7 +11454,11 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.561Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:49.144Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "6.6 mm",
       "箱体尺寸": "-",
@@ -8821,7 +11480,11 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:15.561Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:49.144Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "8 mm",
       "箱体尺寸": "-",
@@ -8843,7 +11506,11 @@
       "CS Series"
     ],
     "originUrl": "https://www.qiangliled.com/cs-series/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:13.805Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:47.892Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "-",
@@ -8865,7 +11532,11 @@
       "V Series"
     ],
     "originUrl": "https://www.qiangliled.com/v-series-/",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:17.289Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:50.389Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -8886,7 +11557,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/f-m.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:07.593Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:41.168Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "10.4-10.4mm",
       "箱体尺寸": "-",
@@ -8910,7 +11585,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/f-m.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:07.593Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:41.168Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "10.4-10.4mm",
       "箱体尺寸": "-",
@@ -8934,7 +11613,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/f-m.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:07.593Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:41.168Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "10.4-10.4mm",
       "箱体尺寸": "-",
@@ -8958,7 +11641,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/f-m.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:07.593Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:41.168Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9-7.8mm",
       "箱体尺寸": "-",
@@ -8982,7 +11669,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/f-m.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:07.593Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:41.168Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "7.8-7.8mm",
       "箱体尺寸": "-",
@@ -9006,7 +11697,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:04.133Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:32.480Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.52mm",
       "箱体尺寸": "500X500X92mm",
@@ -9030,7 +11725,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:04.133Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:32.480Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.83mm",
       "箱体尺寸": "500X500X92mm",
@@ -9054,7 +11753,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:04.133Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:32.480Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.95mm",
       "箱体尺寸": "500X500X92mm",
@@ -9078,7 +11781,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:04.133Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:32.480Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.5mm",
       "箱体尺寸": "500X500X92mm",
@@ -9102,7 +11809,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:04.133Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:32.480Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "500X500X92mm",
@@ -9126,7 +11837,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:04.133Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:32.480Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.97mm",
       "箱体尺寸": "500X500X92mm",
@@ -9150,7 +11865,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:04.133Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:32.480Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.91mm",
       "箱体尺寸": "500X500X92mm",
@@ -9174,7 +11893,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-td.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:04.133Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:32.481Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.91mm",
       "箱体尺寸": "500X500X92mm",
@@ -9198,7 +11921,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/u-natural.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:06.859Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:39.921Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9221,7 +11948,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:08.352Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:42.398Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9244,7 +11975,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:08.352Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:42.398Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9267,7 +12002,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:08.352Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:42.398Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9290,7 +12029,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:08.352Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:42.398Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9313,7 +12056,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:08.352Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:42.398Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9336,7 +12083,11 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:08.352Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:42.398Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9359,7 +12110,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uda-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:42.188Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:57.066Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9382,7 +12137,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uda-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:42.188Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:57.066Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9405,7 +12164,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uda-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:42.188Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:57.066Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9428,7 +12191,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uda-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:42.188Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:57.066Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9451,7 +12218,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uda-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:42.188Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:57.066Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9474,7 +12245,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/udesign-sv.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:01.860Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:28.171Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9497,7 +12272,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/udesign-sv.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:01.860Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:28.171Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9520,7 +12299,11 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/ufix-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:47.089Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:04.971Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "4mm",
       "箱体尺寸": "-",
@@ -9544,7 +12327,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:55.310Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:17.415Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9mm",
       "箱体尺寸": "500 × 500 × 64mm 500 × 1000 × 64mm",
@@ -9568,7 +12355,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:55.310Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:17.415Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "4.8mm",
       "箱体尺寸": "500 × 500 × 64mm 500 × 1000 × 64mm",
@@ -9592,7 +12383,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:55.310Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:17.415Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9mm",
       "箱体尺寸": "500 × 500 × 64mm 500 × 1000 × 64mm",
@@ -9616,7 +12411,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:55.310Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:17.415Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "500 × 500 × 63mm 500 × 1000 × 63mm",
@@ -9640,7 +12439,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:55.310Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:17.415Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9mm",
       "箱体尺寸": "500 × 500 × 64mm 500 × 1000 × 64mm",
@@ -9664,7 +12467,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugn-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:56.063Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:18.773Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9687,7 +12494,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-of.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:01.085Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:26.845Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9710,7 +12521,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-vt.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:02.628Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:29.504Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "5 mm",
       "箱体尺寸": "W1000 x H320 mm",
@@ -9734,7 +12549,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/umake-wg.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:03.406Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:30.846Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9757,7 +12576,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umate-lm.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:35.537Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:47.552Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9780,7 +12603,11 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/umate-lm-o-unilumin-distribution.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:50.604Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:10.589Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9803,7 +12630,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umicro.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:28.997Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:37.745Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9826,7 +12657,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umini-iii-pro.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:30.016Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:39.301Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9849,7 +12684,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umini-p.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:37.615Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:50.221Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9872,7 +12711,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umini-x.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:38.613Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:51.508Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9895,7 +12738,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/upadpro-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:52.426Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:13.220Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.5mm",
       "箱体尺寸": "500mm × 500mm × 70.1mm",
@@ -9919,7 +12766,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/upadpro-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:52.426Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:13.220Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.9mm",
       "箱体尺寸": "500mm × 500mm × 70.1mm",
@@ -9943,7 +12794,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/upadpro-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:52.426Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:13.220Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "500mm × 500mm × 70.1mm",
@@ -9967,7 +12822,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/upanel-ii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:32.146Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:41.927Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -9990,7 +12849,11 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/upanels.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:32.939Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:43.280Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -10013,7 +12876,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:54.191Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:15.873Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -10037,7 +12904,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:54.191Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:15.873Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "4.8mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -10061,7 +12932,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:54.191Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:15.873Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "4.8mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -10085,7 +12960,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:54.191Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:15.873Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -10109,7 +12988,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:54.191Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:15.873Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -10133,7 +13016,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:54.191Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:15.873Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -10157,7 +13044,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:54.191Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:15.873Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.9mm",
       "箱体尺寸": "W500mm×H500mm×D71mm W500mm×H1000mm×D71mm",
@@ -10181,7 +13072,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-s2.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:40.345Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:54.239Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.5",
       "箱体尺寸": "500×1000×48.2mm",
@@ -10205,7 +13100,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:41.424Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:55.510Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "250x250mm",
@@ -10228,7 +13127,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:41.424Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:55.510Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "250x250mm",
@@ -10251,7 +13154,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:41.424Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:55.510Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "250x250mm",
@@ -10274,7 +13181,11 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:41.425Z",
+=======
+    "lastSeenAt": "2026-04-12T23:16:55.510Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "250x250mm",
@@ -10297,7 +13208,11 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/usurface-gm.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:45.196Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:02.337Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "5.71mm",
       "箱体尺寸": "960*960*85mm",
@@ -10321,7 +13236,11 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/usurface-pl2.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:44.453Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:00.995Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -10344,7 +13263,11 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/usurface-iii.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:46.285Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:03.636Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -10367,7 +13290,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/uvf.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:04.877Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:33.754Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.6-6.9mm",
       "箱体尺寸": "1000×500mm/1000×1000mm",
@@ -10391,7 +13318,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/uvs.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:05.601Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:35.045Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "P10.4-10.4mm",
       "箱体尺寸": "-",
@@ -10415,7 +13346,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/uvs.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:05.601Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:35.045Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "P15.6-15.6mm",
       "箱体尺寸": "-",
@@ -10439,7 +13374,11 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/uvs.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:05.601Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:35.045Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "P3.9-7.8mm",
       "箱体尺寸": "-",
@@ -10463,7 +13402,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xc-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:56.821Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:20.060Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -10486,7 +13429,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xs-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:58.624Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:22.712Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "1.9mm",
       "箱体尺寸": "-",
@@ -10510,7 +13457,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xs-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:58.624Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:22.712Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "-",
@@ -10534,7 +13485,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xs-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:46:58.624Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:22.712Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9mm",
       "箱体尺寸": "-",
@@ -10558,7 +13513,11 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xv-series.html",
+<<<<<<< HEAD
     "lastSeenAt": "2026-04-12T18:47:00.091Z",
+=======
+    "lastSeenAt": "2026-04-12T23:17:25.548Z",
+>>>>>>> bb0961e (Add Absen global catalog crawl)
     "specs": {
       "点间距": "3.9-7.8mm",
       "箱体尺寸": "W500mm×H500mm×D80mm W1000mm×H500mm×D80mm",

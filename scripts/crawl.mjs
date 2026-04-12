@@ -100,6 +100,10 @@ async function crawlSource(source) {
     return crawlQiangliCatalog(source);
   }
 
+  if (source.type === "absenCatalog") {
+    return crawlAbsenCatalog(source);
+  }
+
   if (source.type === "novastarCatalog") {
     return crawlNovaStarCatalog(source);
   }
@@ -171,6 +175,33 @@ async function crawlQiangliCatalog(source) {
       products.push(...extractQiangliProducts(entry, html));
     } catch (error) {
       console.warn(`Skipped Qiangli ${entry.series}: ${error.message}`);
+    }
+  }
+
+  return dedupeProducts(products);
+}
+
+async function crawlAbsenCatalog(source) {
+  const categoryEntries = [];
+
+  for (const categoryUrl of source.categoryUrls || []) {
+    try {
+      const markdown = await fetchText(toJinaUrl(categoryUrl));
+      categoryEntries.push(...extractAbsenCategoryEntries(categoryUrl, markdown));
+    } catch (error) {
+      console.warn(`Skipped Absen category ${categoryUrl}: ${error.message}`);
+    }
+  }
+
+  const uniqueEntries = dedupeAbsenEntries(categoryEntries);
+  const products = [];
+
+  for (const entry of uniqueEntries) {
+    try {
+      const markdown = await fetchText(toJinaUrl(entry.url));
+      products.push(...extractAbsenProducts(entry, markdown));
+    } catch (error) {
+      console.warn(`Skipped Absen ${entry.series}: ${error.message}`);
     }
   }
 
@@ -470,6 +501,234 @@ function extractQiangliProducts(entry, html) {
       }
     };
   });
+}
+
+function extractAbsenCategoryEntries(categoryUrl, markdown) {
+  const categoryName = inferAbsenCategoryName(categoryUrl, markdown);
+  return [...markdown.matchAll(/### \[([^\]]+)\]\((https:\/\/www\.absen\.com\/product\/[a-z0-9\-]+\/)\)/g)].map((match) => ({
+    series: normalizeWhitespace(match[1]),
+    url: match[2],
+    categoryName
+  }));
+}
+
+function dedupeAbsenEntries(entries) {
+  const seen = new Set();
+  return entries.filter((entry) => {
+    if (seen.has(entry.url)) {
+      return false;
+    }
+    seen.add(entry.url);
+    return true;
+  });
+}
+
+function inferAbsenCategoryName(categoryUrl, markdown) {
+  const heading = markdown.match(/^#\s+(.+?)\s*\|/m)?.[1] || "";
+  if (/indoor/i.test(categoryUrl) || /Indoor/i.test(heading)) {
+    return "Indoor";
+  }
+  if (/outdoor/i.test(categoryUrl) || /Outdoor/i.test(heading)) {
+    return "Outdoor";
+  }
+  if (/rental/i.test(categoryUrl) || /Rental/i.test(heading)) {
+    return "Rental";
+  }
+  if (/micro-led/i.test(categoryUrl) || /Micro LED/i.test(heading)) {
+    return "Micro LED";
+  }
+  if (/all-in-one/i.test(categoryUrl) || /All-In-One/i.test(heading)) {
+    return "All-In-One Screen";
+  }
+  if (/creative-display/i.test(categoryUrl) || /Creative/i.test(heading)) {
+    return "Creative Display";
+  }
+  return "Absen";
+}
+
+function extractAbsenProducts(entry, markdown) {
+  const series = entry.series;
+  const summary = extractAbsenSummary(markdown, series);
+  const pitchValues = extractAbsenPitchValues(markdown);
+  const dimensions = extractAbsenDimensions(markdown);
+  const brightness = extractAbsenBrightness(markdown);
+  const refreshRate = extractAbsenRefreshRate(markdown);
+  const maintenance = extractAbsenMaintenance(markdown);
+  const application = inferAbsenApplication(entry.categoryName);
+  const category = inferAbsenProductCategory(entry.categoryName);
+  const featureTags = extractAbsenFeatureTags(markdown);
+
+  if (pitchValues.length > 1) {
+    return pitchValues.map((pitch, index) => {
+      const model = buildAbsenModel(series, pitch);
+      return {
+        id: `absen-${slugify(model)}`,
+        brand: "艾比森",
+        category,
+        series,
+        model,
+        application,
+        summary,
+        tags: unique(["真实抓取", entry.categoryName, ...featureTags]),
+        originUrl: entry.url,
+        lastSeenAt: new Date().toISOString(),
+        specs: {
+          "点间距": `${pitch} mm`,
+          "箱体尺寸": dimensions[index] || dimensions[0] || "-",
+          "亮度": brightness,
+          "刷新率": refreshRate,
+          "维护方式": maintenance,
+          "系列类型": entry.categoryName
+        }
+      };
+    });
+  }
+
+  return [
+    {
+      id: `absen-${slugify(series)}`,
+      brand: "艾比森",
+      category,
+      series,
+      model: series,
+      application,
+      summary,
+      tags: unique(["真实抓取", entry.categoryName, ...featureTags]),
+      originUrl: entry.url,
+      lastSeenAt: new Date().toISOString(),
+      specs: {
+        "点间距": pitchValues[0] ? `${pitchValues[0]} mm` : "-",
+        "箱体尺寸": dimensions[0] || "-",
+        "亮度": brightness,
+        "刷新率": refreshRate,
+        "维护方式": maintenance,
+        "系列类型": entry.categoryName
+      }
+    }
+  ];
+}
+
+function extractAbsenSummary(markdown, series) {
+  const lines = markdown
+    .split("\n")
+    .map((line) => normalizeWhitespace(line.replace(/^#+\s*/, "").replace(/^\*\s*/, "")))
+    .filter(Boolean);
+
+  return (
+    lines.find((line) => line.length > 30 && !line.startsWith("Title:") && !line.startsWith("URL Source:") && line !== series) ||
+    `${series}，来自艾比森海外官网产品页。`
+  );
+}
+
+function extractAbsenPitchValues(markdown) {
+  const values = [];
+
+  for (const match of markdown.matchAll(/Pixel Pitch:\s*([^\n]+)/gi)) {
+    const pitches = match[1].match(/\d+(?:\.\d+)?/g) || [];
+    values.push(...pitches);
+  }
+
+  for (const line of markdown.split("\n")) {
+    const cleaned = normalizeWhitespace(line);
+    if (!/^P\d+(?:\.\d+)?(?:\s|$)/i.test(cleaned)) {
+      continue;
+    }
+    const match = cleaned.match(/^P(\d+(?:\.\d+)?)/i);
+    if (match) {
+      values.push(match[1]);
+    }
+  }
+
+  return unique(values.map((value) => Number(value).toString())).sort((left, right) => Number(left) - Number(right));
+}
+
+function extractAbsenDimensions(markdown) {
+  return unique(
+    [...markdown.matchAll(/(\d+(?:\.\d+)?)\s*\(W\)\s*[×x*]\s*(\d+(?:\.\d+)?)\s*\(H\)\s*[×x*]\s*(\d+(?:\.\d+)?)\s*\(D\)\s*mm/gi)].map(
+      (match) => `${match[1]} x ${match[2]} x ${match[3]} mm`
+    )
+  );
+}
+
+function extractAbsenBrightness(markdown) {
+  const match = markdown.match(/(\d{3,5}(?:-\d{3,5})?)\s*nits?\s*(?:peak\s*)?brightness/i);
+  return match ? `${match[1]} nits` : "-";
+}
+
+function extractAbsenRefreshRate(markdown) {
+  const match = markdown.match(/(\d{3,5})\s*Hz\s*(?:flicker-free\s*)?refresh/i);
+  return match ? `${match[1]} Hz` : "-";
+}
+
+function extractAbsenMaintenance(markdown) {
+  const text = markdown.toLowerCase();
+  if (text.includes("front of the module and rear of the power supply")) {
+    return "前后维护";
+  }
+  if (text.includes("front service") || text.includes("front maintenance")) {
+    return "前维护";
+  }
+  if (text.includes("rear maintenance") || text.includes("rear service")) {
+    return "后维护";
+  }
+  if (text.includes("easy maintenance")) {
+    return "快速维护";
+  }
+  return "-";
+}
+
+function inferAbsenApplication(categoryName) {
+  const text = categoryName;
+  if (/Rental/i.test(text)) {
+    return "租赁演出 / 活动显示";
+  }
+  if (/Outdoor/i.test(text)) {
+    return "户外广告 / 固装显示";
+  }
+  if (/Indoor/i.test(text)) {
+    return "室内显示 / 商业显示";
+  }
+  if (/All-In-One/i.test(text)) {
+    return "会议一体机 / 企业显示";
+  }
+  if (/Creative/i.test(text)) {
+    return "创意显示 / 异形显示";
+  }
+  if (/Micro LED/i.test(text)) {
+    return "高端显示 / 微间距";
+  }
+  return "LED 显示";
+}
+
+function inferAbsenProductCategory(categoryName) {
+  return /All-In-One/i.test(categoryName) ? "cabinet" : "cabinet";
+}
+
+function extractAbsenFeatureTags(markdown) {
+  const tags = [];
+  if (/water resistant/i.test(markdown)) {
+    tags.push("防水");
+  }
+  if (/flip-chip/i.test(markdown)) {
+    tags.push("Flip-chip");
+  }
+  if (/COB/i.test(markdown)) {
+    tags.push("COB");
+  }
+  if (/right-angle/i.test(markdown)) {
+    tags.push("直角拼接");
+  }
+  if (/All-In-One/i.test(markdown)) {
+    tags.push("一体机");
+  }
+  return tags;
+}
+
+function buildAbsenModel(series, pitch) {
+  if (new RegExp(`\\b${escapeRegExp(pitch)}\\b`).test(series)) {
+    return series;
+  }
+  return `${series} ${pitch}`;
 }
 
 function extractQiangliModels(series, pixelPitchLine) {
@@ -1374,7 +1633,8 @@ async function fetchBinary(url) {
 }
 
 async function fetchWithRetry(url, mode, attempt = 1) {
-  await sleep(180);
+  const isJina = /r\.jina\.ai/.test(url);
+  await sleep(isJina ? 900 : 180);
   let response;
 
   try {
@@ -1391,8 +1651,8 @@ async function fetchWithRetry(url, mode, attempt = 1) {
       }
     });
   } catch (error) {
-    if (attempt < 4) {
-      await sleep(500 * attempt);
+    if (attempt < (isJina ? 7 : 4)) {
+      await sleep((isJina ? 1800 : 500) * attempt);
       return fetchWithRetry(url, mode, attempt + 1);
     }
     throw error;
@@ -1408,8 +1668,8 @@ async function fetchWithRetry(url, mode, attempt = 1) {
     return response.text();
   }
 
-  if ((response.status === 403 || response.status === 429) && attempt < 4) {
-    await sleep(500 * attempt);
+  if ((response.status === 403 || response.status === 429) && attempt < (isJina ? 7 : 4)) {
+    await sleep((isJina ? 1800 : 500) * attempt);
     return fetchWithRetry(url, mode, attempt + 1);
   }
 
@@ -1473,6 +1733,14 @@ function slugify(value) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function toJinaUrl(url) {
+  return `https://r.jina.ai/http://${url}`;
 }
 
 main().catch((error) => {

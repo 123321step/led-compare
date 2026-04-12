@@ -26,9 +26,18 @@
   {
     "id": "absen-seed",
     "brand": "艾比森",
-    "type": "manualSeed",
-    "enabled": false,
-    "notes": "等待接入艾比森海外官网目录后再重新启用。"
+    "type": "absenCatalog",
+    "enabled": true,
+    "rootUrl": "https://www.absen.com/products/",
+    "categoryUrls": [
+      "https://www.absen.com/product-category/indoor/",
+      "https://www.absen.com/product-category/outdoor/",
+      "https://www.absen.com/product-category/rental/",
+      "https://www.absen.com/product-category/micro-led/",
+      "https://www.absen.com/product-category/all-in-one-screen/",
+      "https://www.absen.com/product-category/creative-display/"
+    ],
+    "notes": "通过只读转发抓取艾比森海外官网 products 与分类页，提取系列、点间距、箱体尺寸与核心参数。"
   },
   {
     "id": "novastar-seed",
