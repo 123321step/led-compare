@@ -237,10 +237,18 @@ async function crawlColorlightCatalog(source) {
     try {
       const [featureHtml, downloadHtml] = await Promise.all([fetchText(entry.detailUrl), fetchText(entry.downloadUrl)]);
       const summary = extractColorlightSummary(featureHtml, entry);
-      const specPdfUrl = extractColorlightSpecPdfUrl(downloadHtml);
-      const pdfText = specPdfUrl ? await getColorlightPdfText(specPdfUrl, pdfTextCache) : "";
+      const featureSpecs = parseColorlightFeatureSpecs(featureHtml, entry);
+      const pdfCandidates = extractColorlightPdfCandidates(downloadHtml);
+      const models = extractColorlightModels(entry, pdfCandidates);
 
-      for (const model of splitColorlightModels(entry.model)) {
+      for (const model of models) {
+        const modelPdfCandidates = selectColorlightPdfCandidatesForModel(pdfCandidates, model);
+        const { pdfText, specPdfUrl } = await getColorlightPdfText(
+          modelPdfCandidates.map((candidate) => candidate.url),
+          pdfTextCache
+        );
+        const parsedPdfSpecs = parseColorlightPdfSpecs(pdfText, entry, specPdfUrl);
+        const mergedSpecs = mergeColorlightSpecs(featureSpecs, parsedPdfSpecs, entry, specPdfUrl);
         products.push({
           id: `colorlight-${slugify(model)}`,
           brand: "卡莱特",
@@ -252,7 +260,7 @@ async function crawlColorlightCatalog(source) {
           tags: unique(["真实抓取", entry.topCategory, entry.series]),
           originUrl: entry.detailUrl,
           lastSeenAt: new Date().toISOString(),
-          specs: normalizeColorlightSpecs(parseColorlightPdfSpecs(pdfText, entry, specPdfUrl))
+          specs: normalizeColorlightSpecs(mergedSpecs)
         });
       }
     } catch (error) {
@@ -1294,6 +1302,19 @@ function splitColorlightModels(value) {
   return parts.length ? parts : [normalized];
 }
 
+function extractColorlightModels(entry, pdfCandidates) {
+  const directModels = splitColorlightModels(entry.model);
+  if (!/series/i.test(entry.model) || directModels.length > 1) {
+    return directModels;
+  }
+
+  const candidateModels = pdfCandidates
+    .map((candidate) => candidate.modelHint)
+    .filter((modelHint) => looksLikeSupplementalColorlightModel(modelHint));
+
+  return candidateModels.length ? unique(candidateModels) : directModels;
+}
+
 function extractColorlightSummary(featureHtml, entry) {
   const metaDescription = extractMetaContent(featureHtml, "description");
   if (metaDescription && metaDescription !== "- Video processors · LED control system · ColorlightCloud · Media Server · Solutions · Downloads · News · About Colorlight") {
@@ -1307,43 +1328,111 @@ function extractColorlightSummary(featureHtml, entry) {
   return paragraphs[0] || `${entry.model}，来自卡莱特官方产品目录。`;
 }
 
-function extractColorlightSpecPdfUrl(downloadHtml) {
+function extractColorlightPdfCandidates(downloadHtml) {
   const pdfLinks = [...downloadHtml.matchAll(/href="([^"]+\.pdf)"/gi)].map((match) => match[1]);
-  const specLink =
-    pdfLinks.find((link) => /spec/i.test(link)) ||
-    pdfLinks.find((link) => /quick.?start/i.test(link)) ||
-    pdfLinks[0];
+  const prioritizedLinks = unique([
+    ...pdfLinks.filter((link) => /spec/i.test(link)),
+    ...pdfLinks.filter((link) => /quick.?start/i.test(link)),
+    ...pdfLinks
+  ]);
 
-  if (!specLink) {
-    return "";
-  }
-
-  const normalized = decodeHtml(specLink).replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
-  return new URL(normalized, "https://en.colorlightinside.com").toString();
+  return prioritizedLinks
+    .map((link) => {
+      const url = normalizeColorlightPdfUrl(link);
+      const filename = decodeURIComponent(url.split("/").pop() || "");
+      return {
+        url,
+        filename,
+        modelHint: inferColorlightModelHintFromFilename(filename)
+      };
+    })
+    .filter((candidate) => candidate.url);
 }
 
-async function getColorlightPdfText(pdfUrl, cache) {
-  if (!pdfUrl) {
+function normalizeColorlightPdfUrl(link) {
+  if (!link) {
     return "";
   }
 
-  if (!cache.has(pdfUrl)) {
-    const pdfData = fetchBinary(pdfUrl);
-    cache.set(
-      pdfUrl,
-      pdfData.then(async (buffer) => {
-        const parser = new PDFParse({ data: buffer });
-        try {
-          const result = await parser.getText();
-          return normalizeColorlightPdfText(result.text);
-        } finally {
-          await parser.destroy();
-        }
-      })
-    );
+  const decoded = link
+    .replace(/&nbsp;/gi, "\u00a0")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .trim();
+  return new URL(decoded, "https://en.colorlightinside.com").toString();
+}
+
+async function getColorlightPdfText(pdfUrls, cache) {
+  for (const pdfUrl of pdfUrls || []) {
+    try {
+      if (!cache.has(pdfUrl)) {
+        const pdfData = fetchBinary(pdfUrl);
+        cache.set(
+          pdfUrl,
+          pdfData.then(async (buffer) => {
+            const parser = new PDFParse({ data: buffer });
+            try {
+              const result = await parser.getText();
+              return normalizeColorlightPdfText(result.text);
+            } finally {
+              await parser.destroy();
+            }
+          })
+        );
+      }
+
+      return {
+        pdfText: await cache.get(pdfUrl),
+        specPdfUrl: pdfUrl
+      };
+    } catch (error) {
+      continue;
+    }
   }
 
-  return cache.get(pdfUrl);
+  return {
+    pdfText: "",
+    specPdfUrl: pdfUrls?.[0] || ""
+  };
+}
+
+function inferColorlightModelHintFromFilename(filename = "") {
+  const base = filename.replace(/\.pdf$/i, "");
+  const cleaned = base
+    .replace(/\u00a0/g, " ")
+    .replace(/_(\d+)$/g, "")
+    .replace(/(?:Specification|Specifications|UserManual|Manual|QuickStartGuide|Quick Start Guide).*$/i, "")
+    .replace(/[-_]+$/g, "")
+    .trim();
+
+  if (!cleaned) {
+    return "";
+  }
+
+  if (/^[A-Z0-9+\- ]+(?:\/[A-Z0-9+\- ]+)+$/i.test(cleaned)) {
+    return cleaned;
+  }
+
+  return cleaned.split(/[\/ ]/)[0].trim();
+}
+
+function selectColorlightPdfCandidatesForModel(candidates, model) {
+  if (!candidates.length) {
+    return [];
+  }
+
+  const normalizedModel = normalizeWhitespace(model).toLowerCase();
+  const matched = candidates.filter((candidate) => {
+    const hint = normalizeWhitespace(candidate.modelHint || "").toLowerCase();
+    const filename = normalizeWhitespace(candidate.filename || "").toLowerCase();
+    return (
+      hint === normalizedModel ||
+      hint.split("/").includes(normalizedModel) ||
+      filename.includes(normalizedModel)
+    );
+  });
+
+  return matched.length ? matched : candidates;
 }
 
 function normalizeColorlightPdfText(text) {
@@ -1432,6 +1521,182 @@ function parseColorlightPdfSpecs(text, entry, specPdfUrl) {
   }
 
   return specs;
+}
+
+function parseColorlightFeatureSpecs(featureHtml, entry) {
+  const text = extractColorlightFeatureText(featureHtml);
+  const specs = {
+    "产品类型": entry.series
+  };
+
+  const loadingMatch =
+    text.match(/up to\s+([0-9.]+)\s*(million)\s+pixels/i) ||
+    text.match(/([0-9.]+)\s*(million)\s+pixels\s+load capacity/i);
+  if (loadingMatch) {
+    specs["最大带载"] = `${loadingMatch[1]} ${loadingMatch[2]} pixels`.toUpperCase();
+  }
+
+  const resolutionMatch =
+    text.match(/up to\s+([0-9,]+)\s+pixels\s+in\s+width\s+and\s+(?:height|the height)/i) ||
+    text.match(/maximum\s+([0-9,]+)\s+pixels\s+in\s+width\s+or\s+([0-9,]+)\s+pixels\s+in\s+height/i);
+  if (resolutionMatch) {
+    const width = compactDigits(resolutionMatch[1]);
+    const height = compactDigits(resolutionMatch[2] || resolutionMatch[1]);
+    specs["分辨率"] = `${width} x ${height}`;
+  }
+
+  const layerMatch =
+    text.match(/display\s+up\s+to\s+([0-9]+)\s+layers/i) ||
+    text.match(/([0-9]+)[-\s]*layers?/i);
+  if (layerMatch) {
+    specs["图层数"] = `${layerMatch[1]} layers`;
+  }
+
+  const inputLines = collectColorlightFeatureLines(text, /(HDMI|DP1?\.[0-9]|DVI|SDI|ST2110|input)/i);
+  if (inputLines.length) {
+    specs["输入接口"] = inputLines.join(" ");
+  }
+
+  const outputLines = collectColorlightFeatureLines(text, /(Ethernet|fiber|optical|loop output|RJ45|output)/i);
+  if (outputLines.length) {
+    specs["输出接口"] = outputLines.join(" ");
+  }
+
+  const voltageMatch = text.match(/(?:AC|input)\s*([0-9]{2,3}\s*[-~]\s*[0-9]{2,3}\s*V)/i);
+  if (voltageMatch) {
+    specs["工作电压"] = normalizeWhitespace(voltageMatch[1]);
+  }
+
+  const backupMatch = text.match(/(backup[^.]+|redundan[^.]+|loop redundancy[^.]+)/i);
+  if (backupMatch) {
+    specs["备份机制"] = normalizeWhitespace(backupMatch[1]);
+  }
+
+  return specs;
+}
+
+function extractColorlightFeatureText(featureHtml) {
+  const metaDescription = extractMetaContent(featureHtml, "description");
+  const chunks = [...featureHtml.matchAll(/<(?:p|h[1-6]|li|div)[^>]*>([\s\S]*?)<\/(?:p|h[1-6]|li|div)>/gi)]
+    .map((match) => normalizeWhitespace(decodeHtml(stripTags(match[1]))))
+    .filter((text) => text.length > 8);
+
+  return unique([metaDescription, ...chunks])
+    .filter(Boolean)
+    .join("\n");
+}
+
+function collectColorlightFeatureLines(text, pattern) {
+  return unique(
+    text
+      .split(/\r?\n/)
+      .map((line) => sanitizeColorlightFeatureLine(line))
+      .filter((line) => line && pattern.test(line) && line.length >= 8 && line.length <= 180)
+  ).slice(0, 4);
+}
+
+function sanitizeColorlightFeatureLine(line = "") {
+  const normalized = normalizeWhitespace(line);
+  if (!normalized) {
+    return "";
+  }
+
+  if (
+    /^(Optical Fiber Transceiver|Monitoring Accessories|Accessories|Cloud Player|Cloud Server|Software|Meeting System)$/i.test(
+      normalized
+    )
+  ) {
+    return "";
+  }
+
+  return normalized;
+}
+
+function mergeColorlightSpecs(featureSpecs, pdfSpecs, entry, specPdfUrl) {
+  const merged = {
+    "最大带载": "-",
+    "输入接口": "-",
+    "输出接口": "-",
+    "图层数": "-",
+    "工作电压": "-",
+    "备份机制": "-",
+    "分辨率": "-",
+    "产品类型": entry.series || "-",
+    "规格书": specPdfUrl || "-"
+  };
+
+  for (const key of Object.keys(merged)) {
+    const pdfValue = sanitizeColorlightSpecValue(pdfSpecs?.[key] || "");
+    const featureValue = sanitizeColorlightSpecValue(featureSpecs?.[key] || "");
+    merged[key] = chooseColorlightSpecValue(pdfValue, featureValue, key === "规格书" ? specPdfUrl || featureValue : "-");
+  }
+
+  return merged;
+}
+
+function chooseColorlightSpecValue(pdfValue, featureValue, fallbackValue) {
+  if (isUsefulColorlightSpecValue(pdfValue)) {
+    return pdfValue;
+  }
+  if (isUsefulColorlightSpecValue(featureValue)) {
+    return featureValue;
+  }
+  return fallbackValue || "-";
+}
+
+function isUsefulColorlightSpecValue(value = "") {
+  if (!value || value === "-") {
+    return false;
+  }
+
+  const normalized = normalizeWhitespace(value);
+  if (normalized.length < 2) {
+    return false;
+  }
+
+  const invalidScore = (normalized.match(/[&'$]/g) || []).length;
+  if (invalidScore >= 4) {
+    return false;
+  }
+
+  return true;
+}
+
+function sanitizeColorlightSpecValue(value = "") {
+  if (!value || value === "-") {
+    return "-";
+  }
+
+  return normalizeWhitespace(
+    value
+      .replace(/[,;]\s*[,;]+/g, ", ")
+      .replace(/\s{2,}/g, " ")
+  );
+}
+
+function looksLikeSupplementalColorlightModel(value = "") {
+  if (!value) {
+    return false;
+  }
+
+  const normalized = normalizeWhitespace(value);
+  if (normalized.length > 24) {
+    return false;
+  }
+
+  if (/^(specification|user manual|quick start guide|downloads?|series)$/i.test(normalized)) {
+    return false;
+  }
+
+  if (/[ _](?:v?\d+(\.\d+)*)$/i.test(normalized)) {
+    return false;
+  }
+
+  if (/user|manual|spec|guide|software|configuration/i.test(normalized)) {
+    return false;
+  }
+
+  return /^[A-Z]{1,6}[A-Z0-9.+-]*\d[A-Z0-9.+-]*$/i.test(normalized);
 }
 
 function collectColorlightLines(text, pattern) {
