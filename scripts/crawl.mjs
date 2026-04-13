@@ -471,14 +471,18 @@ function extractQiangliProducts(entry, html) {
   const summaryParagraphs = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
     .map((match) => normalizeWhitespace(decodeHtml(stripTags(match[1]))))
     .filter((text) => text.length > 24);
+  const plainText = normalizeWhitespace(decodeHtml(stripTags(html)));
 
   const summary = summaryParagraphs[0] || `${entry.series}，来自强力巨彩海外官网产品页。`;
   const pixelPitchLine = normalizeWhitespace(
     decodeHtml(stripTags(html.match(/Pixel Pitch \(mm\)\s*:\s*([\s\S]*?)<\/p>/i)?.[1] || ""))
   );
-  const models = extractQiangliModels(entry.series, pixelPitchLine);
-  const cabinetSize = extractQiangliCabinetSize(summaryParagraphs.join(" "));
-  const maintenance = inferQiangliMaintenance(summaryParagraphs.join(" "));
+  const pitchValues = extractQiangliPitchValues(pixelPitchLine);
+  const models = extractQiangliModels(entry.series, pixelPitchLine, pitchValues);
+  const cabinetSize = extractQiangliCabinetSize(`${summaryParagraphs.join(" ")} ${plainText}`);
+  const maintenance = inferQiangliMaintenance(`${summaryParagraphs.join(" ")} ${plainText}`);
+  const brightness = extractQiangliBrightness(plainText);
+  const refreshRate = extractQiangliRefreshRate(plainText);
 
   return models.map((model) => {
     const pointPitch = inferQiangliPitch(model, pixelPitchLine);
@@ -496,6 +500,8 @@ function extractQiangliProducts(entry, html) {
       specs: {
         "点间距": pointPitch,
         "箱体尺寸": cabinetSize,
+        "亮度": brightness,
+        "刷新率": refreshRate,
         "维护方式": maintenance,
         "系列类型": entry.categoryName
       }
@@ -643,26 +649,38 @@ function extractAbsenPitchValues(markdown) {
 }
 
 function extractAbsenDimensions(markdown) {
-  return unique(
-    [...markdown.matchAll(/(\d+(?:\.\d+)?)\s*\(W\)\s*[×x*]\s*(\d+(?:\.\d+)?)\s*\(H\)\s*[×x*]\s*(\d+(?:\.\d+)?)\s*\(D\)\s*mm/gi)].map(
+  const values = [
+    ...[...markdown.matchAll(/(\d+(?:\.\d+)?)\s*\(W\)\s*[×x*]\s*(\d+(?:\.\d+)?)\s*\(H\)\s*[×x*]\s*(\d+(?:\.\d+)?)\s*\(D\)\s*mm/gi)].map(
+      (match) => `${match[1]} x ${match[2]} x ${match[3]} mm`
+    ),
+    ...[...markdown.matchAll(/(\d+(?:\.\d+)?)\s*mm\s*[×x*]\s*(\d+(?:\.\d+)?)\s*mm\s*[×x*]\s*(\d+(?:\.\d+)?)\s*mm/gi)].map(
       (match) => `${match[1]} x ${match[2]} x ${match[3]} mm`
     )
-  );
+  ];
+
+  return unique(values);
 }
 
 function extractAbsenBrightness(markdown) {
-  const match = markdown.match(/(\d{3,5}(?:-\d{3,5})?)\s*nits?\s*(?:peak\s*)?brightness/i);
+  const match =
+    markdown.match(/(\d{3,5}(?:-\d{3,5})?)\s*nits?\s*(?:peak\s*)?brightness/i) ||
+    markdown.match(/brightness[^.\n]{0,40}(\d{3,5}(?:-\d{3,5})?)\s*nits?/i);
   return match ? `${match[1]} nits` : "-";
 }
 
 function extractAbsenRefreshRate(markdown) {
-  const match = markdown.match(/(\d{3,5})\s*Hz\s*(?:flicker-free\s*)?refresh/i);
+  const match =
+    markdown.match(/(\d{3,5})\s*Hz\s*(?:flicker-free\s*)?refresh/i) ||
+    markdown.match(/refresh rate[^.\n]{0,20}(\d{3,5})\s*Hz/i);
   return match ? `${match[1]} Hz` : "-";
 }
 
 function extractAbsenMaintenance(markdown) {
   const text = markdown.toLowerCase();
   if (text.includes("front of the module and rear of the power supply")) {
+    return "前后维护";
+  }
+  if (text.includes("full front or rear maintenance") || text.includes("full front and rear maintenance")) {
     return "前后维护";
   }
   if (text.includes("front service") || text.includes("front maintenance")) {
@@ -731,7 +749,7 @@ function buildAbsenModel(series, pitch) {
   return `${series} ${pitch}`;
 }
 
-function extractQiangliModels(series, pixelPitchLine) {
+function extractQiangliModels(series, pixelPitchLine, pitchValues = []) {
   const compact = pixelPitchLine.replace(/[：:]/g, " ").replace(/\s+/g, " ");
   const matches = compact.match(/[A-Z]+(?:-[A-Z]+)?-?\d+(?:\.\d+)?|[A-Z]+(?:-[A-Z]+)?/g) || [];
   const filtered = unique(
@@ -744,7 +762,18 @@ function extractQiangliModels(series, pixelPitchLine) {
     return filtered;
   }
 
+  if (pitchValues.length > 1) {
+    const prefix = normalizeWhitespace(series.replace(/\s*Series$/i, "")).split(/\s+/)[0];
+    return pitchValues.map((pitch) => `${prefix}${pitch}`);
+  }
+
   return [series];
+}
+
+function extractQiangliPitchValues(pixelPitchLine) {
+  return unique(
+    (pixelPitchLine.match(/\d+(?:\.\d+)?/g) || []).map((value) => Number(value).toString())
+  ).sort((left, right) => Number(left) - Number(right));
 }
 
 function inferQiangliPitch(model, pixelPitchLine) {
@@ -758,12 +787,42 @@ function inferQiangliPitch(model, pixelPitchLine) {
 }
 
 function extractQiangliCabinetSize(text) {
-  const match = text.match(/(\d{3,4})\s*[x*]\s*(\d{3,4})\s*mm/i);
-  return match ? `${match[1]} x ${match[2]} mm` : "-";
+  const match =
+    text.match(/(\d{3,4})\s*[x×*]\s*(\d{3,4})\s*[x×*]\s*(\d{2,4})\s*mm/i) ||
+    text.match(/(\d{3,4})\s*[x×*]\s*(\d{3,4})\s*mm/i);
+
+  if (!match) {
+    return "-";
+  }
+
+  return match[3] ? `${match[1]} x ${match[2]} x ${match[3]} mm` : `${match[1]} x ${match[2]} mm`;
+}
+
+function extractQiangliBrightness(text) {
+  const nitMatch = text.match(/(\d{3,5}(?:\s*[,/]\s*\d{3,5})*)\s*(?:nit|nits)\b/i);
+  if (nitMatch) {
+    return normalizeWhitespace(nitMatch[1]).replaceAll("/", " / ") + " nits";
+  }
+
+  const levelMatch = text.match(/(\d{3,5}(?:\s*,\s*\d{3,5})+)\s+brightness levels/i);
+  return levelMatch ? `${normalizeWhitespace(levelMatch[1])} nits` : "-";
+}
+
+function extractQiangliRefreshRate(text) {
+  const matches = [...text.matchAll(/(\d{4})\s*Hz\s+refresh rate/gi)].map((match) => Number(match[1]));
+  if (!matches.length) {
+    return "-";
+  }
+
+  const uniqueRates = unique(matches).sort((left, right) => right - left);
+  return uniqueRates.map((rate) => `${rate} Hz`).join(" / ");
 }
 
 function inferQiangliMaintenance(text) {
   if (/front and rear maintenance/i.test(text)) {
+    return "前后维护";
+  }
+  if (/front or rear maintenance/i.test(text) || /full front or rear maintenance/i.test(text)) {
     return "前后维护";
   }
   if (/front maintenance/i.test(text)) {
