@@ -1500,14 +1500,14 @@ function parseColorlightPdfSpecs(text, entry, specPdfUrl) {
     specs["图层数"] = `${layerMatch[1]} layers`;
   }
 
-  const inputLines = collectColorlightLines(text, /(INPUT BOARDS?|INPUTS? UP TO|HDMI|DP 1\.|SDI|ST2110)/i, 5);
-  if (inputLines.length) {
-    specs["输入接口"] = unique(inputLines).join(" ");
+  const inputSummary = extractColorlightInterfaceSummary(text, "input", entry);
+  if (inputSummary) {
+    specs["输入接口"] = inputSummary;
   }
 
-  const outputLines = collectColorlightLines(text, /(OUTPUT BOARD|ETHERNET PORT OUTPUT|FIBER PORTS|LOOP REDUNDANCY)/i, 5);
-  if (outputLines.length) {
-    specs["输出接口"] = unique(outputLines).join(" ");
+  const outputSummary = extractColorlightInterfaceSummary(text, "output", entry);
+  if (outputSummary) {
+    specs["输出接口"] = outputSummary;
   }
 
   const voltageMatch = text.match(/INPUT VOLTAGE[:\s]+([A-Z0-9.\-\/\s()]+)/i);
@@ -1515,9 +1515,9 @@ function parseColorlightPdfSpecs(text, entry, specPdfUrl) {
     specs["工作电压"] = normalizeWhitespace(voltageMatch[1]);
   }
 
-  const backupMatch = text.match(/(BACKUP PORTS?[^\n.]+|LOOP REDUNDANCY[^\n.]+)/i);
-  if (backupMatch) {
-    specs["备份机制"] = normalizeWhitespace(backupMatch[1]);
+  const backupSummary = extractColorlightBackupSummary(text);
+  if (backupSummary) {
+    specs["备份机制"] = backupSummary;
   }
 
   return specs;
@@ -1552,14 +1552,14 @@ function parseColorlightFeatureSpecs(featureHtml, entry) {
     specs["图层数"] = `${layerMatch[1]} layers`;
   }
 
-  const inputLines = collectColorlightFeatureLines(text, /(HDMI|DP1?\.[0-9]|DVI|SDI|ST2110|input)/i);
-  if (inputLines.length) {
-    specs["输入接口"] = inputLines.join(" ");
+  const inputSummary = extractColorlightInterfaceSummary(text, "input", entry);
+  if (inputSummary) {
+    specs["输入接口"] = inputSummary;
   }
 
-  const outputLines = collectColorlightFeatureLines(text, /(Ethernet|fiber|optical|loop output|RJ45|output)/i);
-  if (outputLines.length) {
-    specs["输出接口"] = outputLines.join(" ");
+  const outputSummary = extractColorlightInterfaceSummary(text, "output", entry);
+  if (outputSummary) {
+    specs["输出接口"] = outputSummary;
   }
 
   const voltageMatch = text.match(/(?:AC|input)\s*([0-9]{2,3}\s*[-~]\s*[0-9]{2,3}\s*V)/i);
@@ -1567,9 +1567,9 @@ function parseColorlightFeatureSpecs(featureHtml, entry) {
     specs["工作电压"] = normalizeWhitespace(voltageMatch[1]);
   }
 
-  const backupMatch = text.match(/(backup[^.]+|redundan[^.]+|loop redundancy[^.]+)/i);
-  if (backupMatch) {
-    specs["备份机制"] = normalizeWhitespace(backupMatch[1]);
+  const backupSummary = extractColorlightBackupSummary(text);
+  if (backupSummary) {
+    specs["备份机制"] = backupSummary;
   }
 
   return specs;
@@ -1596,7 +1596,7 @@ function collectColorlightFeatureLines(text, pattern) {
 }
 
 function sanitizeColorlightFeatureLine(line = "") {
-  const normalized = normalizeWhitespace(line);
+  const normalized = normalizeWhitespace(decodeHtml(line));
   if (!normalized) {
     return "";
   }
@@ -1609,7 +1609,35 @@ function sanitizeColorlightFeatureLine(line = "") {
     return "";
   }
 
+  if (/Colorlight|ColorlightCloud|About Colorlight|Solutions|Downloads|News/i.test(normalized)) {
+    return "";
+  }
+
+  if (/supports|designed|provides|allows|equipped|automatically|display in real-time|the .*? software/i.test(normalized)) {
+    return "";
+  }
+
   return normalized;
+}
+
+function isUsefulColorlightInterfaceLine(line = "", kind = "input") {
+  if (!line) {
+    return false;
+  }
+
+  if (
+    /full compatibility of different input signals|install applications through an external device|usb-c\. one cable|video decoding and output|display in real-time|simplifying cabling|including input hot backup/i.test(
+      line
+    )
+  ) {
+    return false;
+  }
+
+  if (kind === "input") {
+    return /(HDMI|DP|DVI|SDI|ST2110|CVBS|VGA|USB|input)/i.test(line);
+  }
+
+  return /(Ethernet|fiber|optical|RJ45|loop output|audio output|output)/i.test(line);
 }
 
 function mergeColorlightSpecs(featureSpecs, pdfSpecs, entry, specPdfUrl) {
@@ -1667,11 +1695,131 @@ function sanitizeColorlightSpecValue(value = "") {
     return "-";
   }
 
-  return normalizeWhitespace(
+  const cleaned = normalizeWhitespace(
     value
+      .replace(/Optical Fiber Transceiver Monitoring Accessories/gi, "")
+      .replace(/Monitoring Accessories/gi, "")
+      .replace(/Accessories/gi, "")
+      .replace(/\bWith the frame rate multiplication[^.]+/gi, "")
+      .replace(/\bSelect output mode[^.]+/gi, "")
+      .replace(/\bDisplay in real-time[^.]+/gi, "")
+      .replace(/\bEquipped with Hi-Fi audio engine[^.]+/gi, "")
+      .replace(/\bIt is designed to capture[^.]+/gi, "")
+      .replace(/\bRefined algorithm makes image display clearer\b/gi, "")
       .replace(/[,;]\s*[,;]+/g, ", ")
+      .replace(/\s+\.\s+/g, ". ")
+      .replace(/\s{2,}/g, " ")
+      .replace(/^[,;.\s]+|[,;.\s]+$/g, "")
+  );
+
+  return normalizeWhitespace(
+    cleaned
       .replace(/\s{2,}/g, " ")
   );
+}
+
+function extractColorlightInterfaceSummary(text, kind, entry) {
+  if (!isColorlightHardwareSeries(entry?.series || "")) {
+    return "";
+  }
+
+  const lines = (kind === "input"
+    ? collectColorlightLines(text, /(HDMI|DP ?1\.|DVI|SDI|ST2110|CVBS|VGA|USB|input)/i)
+    : collectColorlightLines(text, /(Ethernet|fiber|optical|RJ45|loop output|audio output|output)/i)
+  )
+    .map((line) => sanitizeColorlightSpecValue(line))
+    .filter((line) => isUsefulColorlightInterfaceLine(line, kind));
+
+  const tokens = [];
+  const sourceText = lines.join("\n");
+  const addToken = (value) => {
+    if (value && !tokens.includes(value)) {
+      tokens.push(value);
+    }
+  };
+
+  for (const pattern of [
+    /\bHDMI ?2\.1\b/gi,
+    /\bHDMI ?2\.0\b/gi,
+    /\bHDMI ?1\.4\b/gi,
+    /\bDP ?1\.4\b/gi,
+    /\bDP ?1\.2\b/gi,
+    /\b12G-SDI\b/gi,
+    /\b6G-SDI\b/gi,
+    /\b3G-SDI\b/gi,
+    /\bDVI\b/gi,
+    /\bUSB ?3\.0\b/gi,
+    /\bST2110\b/gi,
+    /\bRJ45\b/gi
+  ]) {
+    for (const match of sourceText.matchAll(pattern)) {
+      addToken(match[0].toUpperCase().replace(/\s+/g, " "));
+    }
+  }
+
+  if (kind === "output") {
+    const ethernetCounts = [...sourceText.matchAll(/(\d+)\s*[x×]?\s*(?:gigabit\s+)?ethernet ports?/gi)];
+    ethernetCounts.forEach((match) => addToken(`${match[1]}x Ethernet`));
+
+    const fiberCounts = [...sourceText.matchAll(/(\d+)\s*[x×]?\s*(?:10G\s+)?(?:optical\s+)?fiber (?:ports?|outputs?)/gi)];
+    fiberCounts.forEach((match) => addToken(`${match[1]}x Fiber`));
+  }
+
+  if (kind === "output" && /audio output/i.test(sourceText)) {
+    addToken("Audio Out");
+  }
+
+  const filteredLines = lines.filter((line) => {
+    if (kind === "input") {
+      return /(HDMI|DP|DVI|SDI|ST2110|USB|input)/i.test(line);
+    }
+    return /(Ethernet|fiber|optical|RJ45|loop output|audio output|output)/i.test(line);
+  });
+
+  for (const line of filteredLines) {
+    if (tokens.length >= 4) {
+      break;
+    }
+    if (line.length <= 80) {
+      addToken(line);
+    }
+  }
+
+  if (/receiving card|accessories/i.test(entry?.series || "") && tokens.every((token) => token === "ST2110")) {
+    return "";
+  }
+
+  return tokens.length ? tokens.join(", ") : "";
+}
+
+function extractColorlightBackupSummary(text) {
+  const normalized = normalizeWhitespace(decodeHtml(text));
+  const parts = [];
+
+  if (/input hot backup/i.test(normalized)) {
+    parts.push("Input Hot Backup");
+  }
+  if (/ethernet\/fiber redundancy|fiber redundancy|loop redundancy/i.test(normalized)) {
+    parts.push("Ethernet/Fiber Redundancy");
+  }
+  if (/power suppl(?:y|ies) redundancy/i.test(normalized)) {
+    parts.push("Power Redundancy");
+  }
+  if (/parameter snapshot/i.test(normalized)) {
+    parts.push("Parameter Snapshot");
+  }
+  if (/calibration coefficient backup/i.test(normalized)) {
+    parts.push("Calibration Backup");
+  }
+  if (/\bbackup\b/i.test(normalized) && parts.length === 0) {
+    parts.push("Backup");
+  }
+
+  return unique(parts).join(", ");
+}
+
+function isColorlightHardwareSeries(series = "") {
+  return !/software|cloud server|cloud player|calibration/i.test(series);
 }
 
 function looksLikeSupplementalColorlightModel(value = "") {
@@ -1702,7 +1850,7 @@ function looksLikeSupplementalColorlightModel(value = "") {
 function collectColorlightLines(text, pattern) {
   const lines = text
     .split(/\r?\n/)
-    .map((line) => normalizeWhitespace(line))
+    .map((line) => sanitizeColorlightRawLine(line))
     .filter(Boolean);
 
   return unique(
@@ -1711,6 +1859,23 @@ function collectColorlightLines(text, pattern) {
       .map((line) => line.replace(/\s+/g, " ").trim())
       .filter((line) => line.length <= 220)
   );
+}
+
+function sanitizeColorlightRawLine(line = "") {
+  const normalized = normalizeWhitespace(decodeHtml(line));
+  if (!normalized) {
+    return "";
+  }
+
+  if (/Colorlight|ColorlightCloud|About Colorlight|Solutions|Downloads|News/i.test(normalized)) {
+    return "";
+  }
+
+  if (/Optical Fiber Transceiver Monitoring Accessories|Monitoring Accessories|Accessories$/i.test(normalized)) {
+    return "";
+  }
+
+  return normalized;
 }
 
 function compactDigits(value = "") {
