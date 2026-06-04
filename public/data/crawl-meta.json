@@ -1,10 +1,16 @@
 {
   "syncMode": "GitHub Actions 定时同步",
-  "lastUpdatedAt": "2026-06-04T15:01:42.632Z",
+  "lastUpdatedAt": "2026-06-04T20:08:59.908Z",
   "sourceCount": 6,
   "liveSourceCount": 6,
-  "liveProductCount": 292,
-  "failedSourceCount": 0,
-  "note": "已成功抓取 292 个真实产品，并自动替换同品牌种子数据。",
-  "failures": []
+  "liveProductCount": 295,
+  "failedSourceCount": 1,
+  "note": "已成功抓取 295 个真实产品，1 个来源抓取失败。",
+  "failures": [
+    {
+      "brand": "海康威视",
+      "model": "hikvision-led-displays",
+      "message": "HTTP 404 for https://www.hikvision.com/display-en/products/led-displays/media-server/"
+    }
+  ]
 }
