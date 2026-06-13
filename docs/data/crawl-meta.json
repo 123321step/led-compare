@@ -1,11 +1,11 @@
 {
   "syncMode": "GitHub Actions 定时同步",
-  "lastUpdatedAt": "2026-06-13T03:37:25.088Z",
+  "lastUpdatedAt": "2026-06-13T09:02:15.869Z",
   "sourceCount": 6,
   "liveSourceCount": 6,
-  "liveProductCount": 290,
+  "liveProductCount": 287,
   "failedSourceCount": 1,
-  "note": "已成功抓取 290 个真实产品，1 个来源抓取失败。",
+  "note": "已成功抓取 287 个真实产品，1 个来源抓取失败。",
   "failures": [
     {
       "brand": "海康威视",
