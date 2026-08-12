@@ -1,10 +1,16 @@
 {
   "syncMode": "GitHub Actions 定时同步",
-  "lastUpdatedAt": "2026-08-11T19:05:46.034Z",
+  "lastUpdatedAt": "2026-08-12T01:50:14.180Z",
   "sourceCount": 6,
   "liveSourceCount": 6,
-  "liveProductCount": 291,
-  "failedSourceCount": 0,
-  "note": "已成功抓取 291 个真实产品，并自动替换同品牌种子数据。",
-  "failures": []
+  "liveProductCount": 232,
+  "failedSourceCount": 1,
+  "note": "已成功抓取 232 个真实产品，1 个来源抓取失败。",
+  "failures": [
+    {
+      "brand": "洲明",
+      "model": "unilumin-led-products",
+      "message": "terminated"
+    }
+  ]
 }
