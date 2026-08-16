@@ -1,16 +1,10 @@
 {
   "syncMode": "GitHub Actions 定时同步",
-  "lastUpdatedAt": "2026-08-16T01:15:17.828Z",
+  "lastUpdatedAt": "2026-08-16T06:43:07.153Z",
   "sourceCount": 6,
   "liveSourceCount": 6,
-  "liveProductCount": 295,
-  "failedSourceCount": 1,
-  "note": "已成功抓取 295 个真实产品，1 个来源抓取失败。",
-  "failures": [
-    {
-      "brand": "海康威视",
-      "model": "hikvision-led-displays",
-      "message": "fetch failed"
-    }
-  ]
+  "liveProductCount": 287,
+  "failedSourceCount": 0,
+  "note": "已成功抓取 287 个真实产品，并自动替换同品牌种子数据。",
+  "failures": []
 }
