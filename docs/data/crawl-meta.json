@@ -1,10 +1,10 @@
 {
   "syncMode": "GitHub Actions 定时同步",
-  "lastUpdatedAt": "2026-08-26T19:51:50.029Z",
+  "lastUpdatedAt": "2026-08-27T07:24:56.192Z",
   "sourceCount": 6,
   "liveSourceCount": 6,
-  "liveProductCount": 276,
+  "liveProductCount": 272,
   "failedSourceCount": 0,
-  "note": "已成功抓取 276 个真实产品，并自动替换同品牌种子数据。",
+  "note": "已成功抓取 272 个真实产品，并自动替换同品牌种子数据。",
   "failures": []
 }
