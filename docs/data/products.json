@@ -1,145 +1,5 @@
 [
   {
-    "id": "absen-a25-series-10",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "A25 Series",
-    "model": "A25 Series 10",
-    "application": "户外广告 / 固装显示",
-    "summary": "[Products](https://www.absen.com/products/)",
-    "tags": [
-      "真实抓取",
-      "Outdoor"
-    ],
-    "originUrl": "https://www.absen.com/product/a25-series/",
-    "lastSeenAt": "2026-09-09T20:27:23.904Z",
-    "specs": {
-      "点间距": "10 mm",
-      "箱体尺寸": "-",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "-",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-a25-series-4",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "A25 Series",
-    "model": "A25 Series 4",
-    "application": "户外广告 / 固装显示",
-    "summary": "[Products](https://www.absen.com/products/)",
-    "tags": [
-      "真实抓取",
-      "Outdoor"
-    ],
-    "originUrl": "https://www.absen.com/product/a25-series/",
-    "lastSeenAt": "2026-09-09T20:27:23.904Z",
-    "specs": {
-      "点间距": "4 mm",
-      "箱体尺寸": "-",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "-",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-a25-series-6",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "A25 Series",
-    "model": "A25 Series 6",
-    "application": "户外广告 / 固装显示",
-    "summary": "[Products](https://www.absen.com/products/)",
-    "tags": [
-      "真实抓取",
-      "Outdoor"
-    ],
-    "originUrl": "https://www.absen.com/product/a25-series/",
-    "lastSeenAt": "2026-09-09T20:27:23.904Z",
-    "specs": {
-      "点间距": "6 mm",
-      "箱体尺寸": "-",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "-",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-a25-series-8",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "A25 Series",
-    "model": "A25 Series 8",
-    "application": "户外广告 / 固装显示",
-    "summary": "[Products](https://www.absen.com/products/)",
-    "tags": [
-      "真实抓取",
-      "Outdoor"
-    ],
-    "originUrl": "https://www.absen.com/product/a25-series/",
-    "lastSeenAt": "2026-09-09T20:27:23.904Z",
-    "specs": {
-      "点间距": "8 mm",
-      "箱体尺寸": "-",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "-",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-a99-series-10",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "A99 Series",
-    "model": "A99 Series 10",
-    "application": "户外广告 / 固装显示",
-    "summary": "![Image 14: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)",
-    "tags": [
-      "真实抓取",
-      "Outdoor",
-      "一体机"
-    ],
-    "originUrl": "https://www.absen.com/product/a99-series/",
-    "lastSeenAt": "2026-09-09T20:27:42.881Z",
-    "specs": {
-      "点间距": "10 mm",
-      "箱体尺寸": "1600 x 900 x 129 mm",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "快速维护",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-a99-series-6-25",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "A99 Series",
-    "model": "A99 Series 6.25",
-    "application": "户外广告 / 固装显示",
-    "summary": "![Image 14: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)",
-    "tags": [
-      "真实抓取",
-      "Outdoor",
-      "一体机"
-    ],
-    "originUrl": "https://www.absen.com/product/a99-series/",
-    "lastSeenAt": "2026-09-09T20:27:42.881Z",
-    "specs": {
-      "点间距": "6.25 mm",
-      "箱体尺寸": "1600 x 900 x 129 mm",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "快速维护",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
     "id": "absen-alt-series-1-25",
     "brand": "艾比森",
     "category": "cabinet",
@@ -153,7 +13,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/alt-series/",
-    "lastSeenAt": "2026-09-09T20:29:51.097Z",
+    "lastSeenAt": "2026-09-10T03:07:59.265Z",
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "600 x 337.5 x 39.5 mm",
@@ -177,7 +37,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/alt-series/",
-    "lastSeenAt": "2026-09-09T20:29:51.097Z",
+    "lastSeenAt": "2026-09-10T03:07:59.265Z",
     "specs": {
       "点间距": "1.56 mm",
       "箱体尺寸": "600 x 337.5 x 39.5 mm",
@@ -185,133 +45,6 @@
       "刷新率": "-",
       "维护方式": "-",
       "系列类型": "Creative Display"
-    }
-  },
-  {
-    "id": "absen-aw-pro-series-1-25",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "AW Pro Series",
-    "model": "AW Pro Series 1.25",
-    "application": "户外广告 / 固装显示",
-    "summary": "[Products](https://www.absen.com/products/)",
-    "tags": [
-      "真实抓取",
-      "Outdoor",
-      "Flip-chip",
-      "COB",
-      "一体机"
-    ],
-    "originUrl": "https://www.absen.com/product/aw-pro-series/",
-    "lastSeenAt": "2026-09-09T20:27:36.855Z",
-    "specs": {
-      "点间距": "1.25 mm",
-      "箱体尺寸": "-",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "后维护",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-aw-pro-series-1-51",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "AW Pro Series",
-    "model": "AW Pro Series 1.51",
-    "application": "户外广告 / 固装显示",
-    "summary": "[Products](https://www.absen.com/products/)",
-    "tags": [
-      "真实抓取",
-      "Outdoor",
-      "Flip-chip",
-      "COB",
-      "一体机"
-    ],
-    "originUrl": "https://www.absen.com/product/aw-pro-series/",
-    "lastSeenAt": "2026-09-09T20:27:36.855Z",
-    "specs": {
-      "点间距": "1.51 mm",
-      "箱体尺寸": "-",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "后维护",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-aw-series-2-5",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "AW Series",
-    "model": "AW Series 2.5",
-    "application": "户外广告 / 固装显示",
-    "summary": "![Image 1: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)",
-    "tags": [
-      "真实抓取",
-      "Outdoor",
-      "直角拼接",
-      "一体机"
-    ],
-    "originUrl": "https://www.absen.com/product/aw-series/",
-    "lastSeenAt": "2026-09-09T20:27:28.995Z",
-    "specs": {
-      "点间距": "2.5 mm",
-      "箱体尺寸": "500 x 500 x 99 mm",
-      "亮度": "-",
-      "刷新率": "7680 Hz",
-      "维护方式": "后维护",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-aw-series-2-8",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "AW Series",
-    "model": "AW Series 2.8",
-    "application": "户外广告 / 固装显示",
-    "summary": "![Image 1: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)",
-    "tags": [
-      "真实抓取",
-      "Outdoor",
-      "直角拼接",
-      "一体机"
-    ],
-    "originUrl": "https://www.absen.com/product/aw-series/",
-    "lastSeenAt": "2026-09-09T20:27:28.995Z",
-    "specs": {
-      "点间距": "2.8 mm",
-      "箱体尺寸": "500 x 1000 x 99 mm",
-      "亮度": "-",
-      "刷新率": "7680 Hz",
-      "维护方式": "后维护",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-aw-series-3-9",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "AW Series",
-    "model": "AW Series 3.9",
-    "application": "户外广告 / 固装显示",
-    "summary": "![Image 1: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)",
-    "tags": [
-      "真实抓取",
-      "Outdoor",
-      "直角拼接",
-      "一体机"
-    ],
-    "originUrl": "https://www.absen.com/product/aw-series/",
-    "lastSeenAt": "2026-09-09T20:27:28.995Z",
-    "specs": {
-      "点间距": "3.9 mm",
-      "箱体尺寸": "500 x 500 x 99 mm",
-      "亮度": "-",
-      "刷新率": "7680 Hz",
-      "维护方式": "后维护",
-      "系列类型": "Outdoor"
     }
   },
   {
@@ -328,7 +61,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/ax-pro-series/",
-    "lastSeenAt": "2026-09-09T20:28:53.317Z",
+    "lastSeenAt": "2026-09-10T03:07:05.599Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -339,82 +72,13 @@
     }
   },
   {
-    "id": "absen-c-series-15-625",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "C Series",
-    "model": "C Series 15.625",
-    "application": "户外广告 / 固装显示",
-    "summary": "![Image 1](https://www.absen.com/wp-content/uploads/2025/11/c-series-1920x860-EN3.jpg)",
-    "tags": [
-      "真实抓取",
-      "Outdoor"
-    ],
-    "originUrl": "https://www.absen.com/product/c-series/",
-    "lastSeenAt": "2026-09-09T20:27:59.171Z",
-    "specs": {
-      "点间距": "15.625 mm",
-      "箱体尺寸": "500 x 1500 x 77 mm",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "-",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-c-series-20",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "C Series",
-    "model": "C Series 20",
-    "application": "户外广告 / 固装显示",
-    "summary": "![Image 1](https://www.absen.com/wp-content/uploads/2025/11/c-series-1920x860-EN3.jpg)",
-    "tags": [
-      "真实抓取",
-      "Outdoor"
-    ],
-    "originUrl": "https://www.absen.com/product/c-series/",
-    "lastSeenAt": "2026-09-09T20:27:59.171Z",
-    "specs": {
-      "点间距": "20 mm",
-      "箱体尺寸": "500 x 1500 x 77 mm",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "-",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
-    "id": "absen-c-series-31-25",
-    "brand": "艾比森",
-    "category": "cabinet",
-    "series": "C Series",
-    "model": "C Series 31.25",
-    "application": "户外广告 / 固装显示",
-    "summary": "![Image 1](https://www.absen.com/wp-content/uploads/2025/11/c-series-1920x860-EN3.jpg)",
-    "tags": [
-      "真实抓取",
-      "Outdoor"
-    ],
-    "originUrl": "https://www.absen.com/product/c-series/",
-    "lastSeenAt": "2026-09-09T20:27:59.171Z",
-    "specs": {
-      "点间距": "31.25 mm",
-      "箱体尺寸": "500 x 1500 x 77 mm",
-      "亮度": "-",
-      "刷新率": "-",
-      "维护方式": "-",
-      "系列类型": "Outdoor"
-    }
-  },
-  {
     "id": "absen-cl-v3-series-0-93",
     "brand": "艾比森",
     "category": "cabinet",
     "series": "CL V3 Series",
     "model": "CL V3 Series 0.93",
     "application": "室内显示 / 商业显示",
-    "summary": "![Image 1: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)",
+    "summary": "Published Time: Fri, 04 Sep 2026 10:37:29 GMT",
     "tags": [
       "真实抓取",
       "Indoor",
@@ -423,7 +87,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/cl-v3-series/",
-    "lastSeenAt": "2026-09-09T20:26:06.668Z",
+    "lastSeenAt": "2026-09-10T03:05:00.780Z",
     "specs": {
       "点间距": "0.93 mm",
       "箱体尺寸": "600 x 337.5 x 29.8 mm",
@@ -440,7 +104,7 @@
     "series": "CL V3 Series",
     "model": "CL V3 Series 1.25",
     "application": "室内显示 / 商业显示",
-    "summary": "![Image 1: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)",
+    "summary": "Published Time: Fri, 04 Sep 2026 10:37:29 GMT",
     "tags": [
       "真实抓取",
       "Indoor",
@@ -449,7 +113,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/cl-v3-series/",
-    "lastSeenAt": "2026-09-09T20:26:06.668Z",
+    "lastSeenAt": "2026-09-10T03:05:00.781Z",
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "600 x 337.5 x 29.8 mm",
@@ -473,7 +137,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/cps-series/",
-    "lastSeenAt": "2026-09-09T20:26:42.662Z",
+    "lastSeenAt": "2026-09-10T03:05:44.206Z",
     "specs": {
       "点间距": "1.8 mm",
       "箱体尺寸": "320 x 480 x 46.5 mm",
@@ -497,7 +161,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/cps-series/",
-    "lastSeenAt": "2026-09-09T20:26:42.662Z",
+    "lastSeenAt": "2026-09-10T03:05:44.206Z",
     "specs": {
       "点间距": "2 mm",
       "箱体尺寸": "320 x 240 x 46.5 mm",
@@ -521,7 +185,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/cps-series/",
-    "lastSeenAt": "2026-09-09T20:26:42.662Z",
+    "lastSeenAt": "2026-09-10T03:05:44.206Z",
     "specs": {
       "点间距": "2.5 mm",
       "箱体尺寸": "320 x 480 x 46.5 mm",
@@ -545,7 +209,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/jd-h-series/",
-    "lastSeenAt": "2026-09-09T20:26:14.269Z",
+    "lastSeenAt": "2026-09-10T03:05:08.308Z",
     "specs": {
       "点间距": "10.4 mm",
       "箱体尺寸": "-",
@@ -569,7 +233,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/jd-h-series/",
-    "lastSeenAt": "2026-09-09T20:26:14.268Z",
+    "lastSeenAt": "2026-09-10T03:05:08.308Z",
     "specs": {
       "点间距": "3.91 mm",
       "箱体尺寸": "-",
@@ -593,7 +257,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/jd-h-series/",
-    "lastSeenAt": "2026-09-09T20:26:14.268Z",
+    "lastSeenAt": "2026-09-10T03:05:08.308Z",
     "specs": {
       "点间距": "6.25 mm",
       "箱体尺寸": "-",
@@ -617,7 +281,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/jp-pro-series/",
-    "lastSeenAt": "2026-09-09T20:28:38.115Z",
+    "lastSeenAt": "2026-09-10T03:06:50.869Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -641,7 +305,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/jp-v2-series/",
-    "lastSeenAt": "2026-09-09T20:29:07.443Z",
+    "lastSeenAt": "2026-09-10T03:07:19.564Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -658,7 +322,7 @@
     "series": "K V3 Series",
     "model": "K V3 Series 1.89",
     "application": "室内显示 / 商业显示",
-    "summary": "[Skip to content](https://www.absen.com/product/k-v3-series/#main)",
+    "summary": "![Image 1: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)",
     "tags": [
       "真实抓取",
       "Indoor",
@@ -666,7 +330,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/k-v3-series/",
-    "lastSeenAt": "2026-09-09T20:26:54.654Z",
+    "lastSeenAt": "2026-09-10T03:06:00.055Z",
     "specs": {
       "点间距": "1.89 mm",
       "箱体尺寸": "750 x 250 x 39.5 mm",
@@ -683,7 +347,7 @@
     "series": "K V3 Series",
     "model": "K V3 Series 2.5",
     "application": "室内显示 / 商业显示",
-    "summary": "[Skip to content](https://www.absen.com/product/k-v3-series/#main)",
+    "summary": "![Image 1: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)",
     "tags": [
       "真实抓取",
       "Indoor",
@@ -691,7 +355,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/k-v3-series/",
-    "lastSeenAt": "2026-09-09T20:26:54.654Z",
+    "lastSeenAt": "2026-09-10T03:06:00.055Z",
     "specs": {
       "点间距": "2.5 mm",
       "箱体尺寸": "1000 x 250 x 39.5 mm",
@@ -708,7 +372,7 @@
     "series": "K V3 Series",
     "model": "K V3 Series 3.9",
     "application": "室内显示 / 商业显示",
-    "summary": "[Skip to content](https://www.absen.com/product/k-v3-series/#main)",
+    "summary": "![Image 1: Revisit consent button](https://cdn-cookieyes.com/assets/images/revisit.svg)",
     "tags": [
       "真实抓取",
       "Indoor",
@@ -716,7 +380,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/k-v3-series/",
-    "lastSeenAt": "2026-09-09T20:26:54.654Z",
+    "lastSeenAt": "2026-09-10T03:06:00.055Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "1250 x 250 x 39.5 mm",
@@ -741,7 +405,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/klcob-v2-series/",
-    "lastSeenAt": "2026-09-09T20:26:28.714Z",
+    "lastSeenAt": "2026-09-10T03:05:27.269Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -767,7 +431,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/klcob-v3-series/",
-    "lastSeenAt": "2026-09-09T20:26:18.716Z",
+    "lastSeenAt": "2026-09-10T03:05:18.807Z",
     "specs": {
       "点间距": "0.78 mm",
       "箱体尺寸": "-",
@@ -793,7 +457,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/klcob-v3-series/",
-    "lastSeenAt": "2026-09-09T20:26:18.716Z",
+    "lastSeenAt": "2026-09-10T03:05:18.807Z",
     "specs": {
       "点间距": "0.93 mm",
       "箱体尺寸": "-",
@@ -819,7 +483,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/klcob-v3-series/",
-    "lastSeenAt": "2026-09-09T20:26:18.716Z",
+    "lastSeenAt": "2026-09-10T03:05:18.807Z",
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "-",
@@ -845,7 +509,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/klcob-v3-series/",
-    "lastSeenAt": "2026-09-09T20:26:18.716Z",
+    "lastSeenAt": "2026-09-10T03:05:18.807Z",
     "specs": {
       "点间距": "1.56 mm",
       "箱体尺寸": "-",
@@ -869,7 +533,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/lr-v3-series/",
-    "lastSeenAt": "2026-09-09T20:29:21.921Z",
+    "lastSeenAt": "2026-09-10T03:07:34.680Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "1000 x 1000 x 96 mm",
@@ -893,7 +557,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/lr-v3-series/",
-    "lastSeenAt": "2026-09-09T20:29:21.922Z",
+    "lastSeenAt": "2026-09-10T03:07:34.680Z",
     "specs": {
       "点间距": "7.8 mm",
       "箱体尺寸": "500 x 1000 x 80 mm",
@@ -917,7 +581,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/mr-series/",
-    "lastSeenAt": "2026-09-09T20:29:14.667Z",
+    "lastSeenAt": "2026-09-10T03:07:26.022Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -940,7 +604,7 @@
       "Indoor"
     ],
     "originUrl": "https://www.absen.com/product/nx-series/",
-    "lastSeenAt": "2026-09-09T20:26:48.380Z",
+    "lastSeenAt": "2026-09-10T03:05:47.827Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -965,7 +629,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/pl-plus-v2x-series/",
-    "lastSeenAt": "2026-09-09T20:28:22.437Z",
+    "lastSeenAt": "2026-09-10T03:06:35.415Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "500 x 500 x 78 mm",
@@ -989,7 +653,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/pl-v2-series/",
-    "lastSeenAt": "2026-09-09T20:28:45.146Z",
+    "lastSeenAt": "2026-09-10T03:06:58.151Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -1013,7 +677,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/pl-v3-series/",
-    "lastSeenAt": "2026-09-09T20:28:29.684Z",
+    "lastSeenAt": "2026-09-10T03:06:43.514Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "500 x 1000 x 88 mm",
@@ -1037,7 +701,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/pl-v3-series/",
-    "lastSeenAt": "2026-09-09T20:28:29.684Z",
+    "lastSeenAt": "2026-09-10T03:06:43.514Z",
     "specs": {
       "点间距": "4.8 mm",
       "箱体尺寸": "500 x 500 x 88 mm",
@@ -1061,7 +725,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/po-series/",
-    "lastSeenAt": "2026-09-09T20:29:44.588Z",
+    "lastSeenAt": "2026-09-10T03:07:51.443Z",
     "specs": {
       "点间距": "1.53 mm",
       "箱体尺寸": "-",
@@ -1085,7 +749,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/po-series/",
-    "lastSeenAt": "2026-09-09T20:29:44.588Z",
+    "lastSeenAt": "2026-09-10T03:07:51.443Z",
     "specs": {
       "点间距": "1.86 mm",
       "箱体尺寸": "-",
@@ -1112,7 +776,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/sa-series/",
-    "lastSeenAt": "2026-09-09T20:28:05.936Z",
+    "lastSeenAt": "2026-09-10T03:06:28.330Z",
     "specs": {
       "点间距": "1.5 mm",
       "箱体尺寸": "500 x 500 x 80 mm",
@@ -1136,7 +800,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/vn-series/",
-    "lastSeenAt": "2026-09-09T20:29:00.009Z",
+    "lastSeenAt": "2026-09-10T03:07:11.424Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "-",
@@ -1160,7 +824,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/vn-series/",
-    "lastSeenAt": "2026-09-09T20:29:00.009Z",
+    "lastSeenAt": "2026-09-10T03:07:11.424Z",
     "specs": {
       "点间距": "4.8 mm",
       "箱体尺寸": "-",
@@ -1184,7 +848,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/vn-series/",
-    "lastSeenAt": "2026-09-09T20:29:00.009Z",
+    "lastSeenAt": "2026-09-10T03:07:11.424Z",
     "specs": {
       "点间距": "8.3 mm",
       "箱体尺寸": "-",
@@ -1209,7 +873,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/x-series/",
-    "lastSeenAt": "2026-09-09T20:26:34.465Z",
+    "lastSeenAt": "2026-09-10T03:05:34.698Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -1234,7 +898,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/ultrawide-solution/",
-    "lastSeenAt": "2026-09-09T20:27:07.609Z",
+    "lastSeenAt": "2026-09-10T03:06:17.228Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -1258,7 +922,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/x-v2-series/",
-    "lastSeenAt": "2026-09-09T20:27:01.254Z",
+    "lastSeenAt": "2026-09-10T03:06:06.544Z",
     "specs": {
       "点间距": "1.25 mm",
       "箱体尺寸": "-",
@@ -1282,7 +946,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/x-v2-series/",
-    "lastSeenAt": "2026-09-09T20:27:01.254Z",
+    "lastSeenAt": "2026-09-10T03:06:06.544Z",
     "specs": {
       "点间距": "1.56 mm",
       "箱体尺寸": "-",
@@ -1307,7 +971,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/xl-series/",
-    "lastSeenAt": "2026-09-09T20:29:38.159Z",
+    "lastSeenAt": "2026-09-10T03:07:43.605Z",
     "specs": {
       "点间距": "1.53 mm",
       "箱体尺寸": "640 x 480 x 60 mm",
@@ -1332,7 +996,7 @@
       "一体机"
     ],
     "originUrl": "https://www.absen.com/product/xl-series/",
-    "lastSeenAt": "2026-09-09T20:29:38.159Z",
+    "lastSeenAt": "2026-09-10T03:07:43.605Z",
     "specs": {
       "点间距": "1.86 mm",
       "箱体尺寸": "640 x 480 x 60 mm",
@@ -1356,7 +1020,7 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/745",
-    "lastSeenAt": "2026-09-09T20:31:35.768Z",
+    "lastSeenAt": "2026-09-10T03:09:33.646Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1383,7 +1047,7 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/745",
-    "lastSeenAt": "2026-09-09T20:31:35.163Z",
+    "lastSeenAt": "2026-09-10T03:09:33.157Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1410,7 +1074,7 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2333",
-    "lastSeenAt": "2026-09-09T20:31:58.390Z",
+    "lastSeenAt": "2026-09-10T03:09:55.967Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1437,7 +1101,7 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2333",
-    "lastSeenAt": "2026-09-09T20:31:57.994Z",
+    "lastSeenAt": "2026-09-10T03:09:55.251Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1464,7 +1128,7 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2242",
-    "lastSeenAt": "2026-09-09T20:32:03.626Z",
+    "lastSeenAt": "2026-09-10T03:10:01.856Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1491,7 +1155,7 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2242",
-    "lastSeenAt": "2026-09-09T20:32:03.220Z",
+    "lastSeenAt": "2026-09-10T03:10:01.104Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1518,7 +1182,7 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2176",
-    "lastSeenAt": "2026-09-09T20:31:55.530Z",
+    "lastSeenAt": "2026-09-10T03:09:52.739Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1545,7 +1209,7 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2176",
-    "lastSeenAt": "2026-09-09T20:31:55.196Z",
+    "lastSeenAt": "2026-09-10T03:09:52.262Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1572,7 +1236,7 @@
       "AI Media Station"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5616",
-    "lastSeenAt": "2026-09-09T20:32:39.873Z",
+    "lastSeenAt": "2026-09-10T03:10:34.142Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1599,7 +1263,7 @@
       "AI Media Station"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5616",
-    "lastSeenAt": "2026-09-09T20:32:39.353Z",
+    "lastSeenAt": "2026-09-10T03:10:33.773Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1626,7 +1290,7 @@
       "AI Media Station"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5616",
-    "lastSeenAt": "2026-09-09T20:32:40.333Z",
+    "lastSeenAt": "2026-09-10T03:10:34.523Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1653,7 +1317,7 @@
       "Cloud Player"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2259",
-    "lastSeenAt": "2026-09-09T20:32:00.845Z",
+    "lastSeenAt": "2026-09-10T03:09:58.754Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1679,7 +1343,7 @@
       "Calibration System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5345",
-    "lastSeenAt": "2026-09-09T20:32:42.747Z",
+    "lastSeenAt": "2026-09-10T03:10:36.917Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1706,7 +1370,7 @@
       "CM Series"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5954",
-    "lastSeenAt": "2026-09-09T20:32:36.301Z",
+    "lastSeenAt": "2026-09-10T03:10:31.091Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1733,7 +1397,7 @@
       "CM Series"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5954",
-    "lastSeenAt": "2026-09-09T20:32:36.858Z",
+    "lastSeenAt": "2026-09-10T03:10:31.625Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1760,7 +1424,7 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1229",
-    "lastSeenAt": "2026-09-09T20:31:03.537Z",
+    "lastSeenAt": "2026-09-10T03:09:06.257Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1787,7 +1451,7 @@
       "Cloud Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2299",
-    "lastSeenAt": "2026-09-09T20:32:07.869Z",
+    "lastSeenAt": "2026-09-10T03:10:05.397Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1813,7 +1477,7 @@
       "Media Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/502",
-    "lastSeenAt": "2026-09-09T20:32:18.463Z",
+    "lastSeenAt": "2026-09-10T03:10:15.443Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1839,7 +1503,7 @@
       "Media Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1563",
-    "lastSeenAt": "2026-09-09T20:32:21.418Z",
+    "lastSeenAt": "2026-09-10T03:10:18.165Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1865,7 +1529,7 @@
       "Media Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/7554",
-    "lastSeenAt": "2026-09-09T20:32:29.488Z",
+    "lastSeenAt": "2026-09-10T03:10:24.555Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "Integrated HDMI IN Input Port",
@@ -1891,7 +1555,7 @@
       "Media Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/7497",
-    "lastSeenAt": "2026-09-09T20:32:26.675Z",
+    "lastSeenAt": "2026-09-10T03:10:22.174Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1917,7 +1581,7 @@
       "Media Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/7384",
-    "lastSeenAt": "2026-09-09T20:32:23.487Z",
+    "lastSeenAt": "2026-09-10T03:10:19.627Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1944,7 +1608,7 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/339",
-    "lastSeenAt": "2026-09-09T20:30:56.116Z",
+    "lastSeenAt": "2026-09-10T03:08:59.669Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1971,7 +1635,7 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/339",
-    "lastSeenAt": "2026-09-09T20:30:55.522Z",
+    "lastSeenAt": "2026-09-10T03:08:59.191Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -1998,7 +1662,7 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2354",
-    "lastSeenAt": "2026-09-09T20:30:59.081Z",
+    "lastSeenAt": "2026-09-10T03:09:02.422Z",
     "specs": {
       "最大带载": "8.8 MILLION PIXELS",
       "输入接口": "-",
@@ -2025,7 +1689,7 @@
       "AV over IP"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2354",
-    "lastSeenAt": "2026-09-09T20:30:58.558Z",
+    "lastSeenAt": "2026-09-10T03:09:01.955Z",
     "specs": {
       "最大带载": "8.8 MILLION PIXELS",
       "输入接口": "-",
@@ -2052,7 +1716,7 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2004",
-    "lastSeenAt": "2026-09-09T20:31:32.078Z",
+    "lastSeenAt": "2026-09-10T03:09:30.389Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2079,7 +1743,7 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1982",
-    "lastSeenAt": "2026-09-09T20:31:29.381Z",
+    "lastSeenAt": "2026-09-10T03:09:27.988Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2106,7 +1770,7 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2004",
-    "lastSeenAt": "2026-09-09T20:31:32.719Z",
+    "lastSeenAt": "2026-09-10T03:09:30.874Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2133,7 +1797,7 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/158",
-    "lastSeenAt": "2026-09-09T20:32:31.978Z",
+    "lastSeenAt": "2026-09-10T03:10:26.977Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2160,7 +1824,7 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/725",
-    "lastSeenAt": "2026-09-09T20:31:21.459Z",
+    "lastSeenAt": "2026-09-10T03:09:21.499Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2187,7 +1851,7 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6038",
-    "lastSeenAt": "2026-09-09T20:31:08.381Z",
+    "lastSeenAt": "2026-09-10T03:09:10.241Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2214,7 +1878,7 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1347",
-    "lastSeenAt": "2026-09-09T20:31:25.604Z",
+    "lastSeenAt": "2026-09-10T03:09:24.738Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2241,7 +1905,7 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1347",
-    "lastSeenAt": "2026-09-09T20:31:26.662Z",
+    "lastSeenAt": "2026-09-10T03:09:25.614Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2268,7 +1932,7 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1347",
-    "lastSeenAt": "2026-09-09T20:31:26.660Z",
+    "lastSeenAt": "2026-09-10T03:09:25.611Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2295,7 +1959,7 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1632",
-    "lastSeenAt": "2026-09-09T20:31:11.886Z",
+    "lastSeenAt": "2026-09-10T03:09:13.193Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2322,7 +1986,7 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/414",
-    "lastSeenAt": "2026-09-09T20:32:15.393Z",
+    "lastSeenAt": "2026-09-10T03:10:12.637Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2349,7 +2013,7 @@
       "Display Quality Test System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/7328",
-    "lastSeenAt": "2026-09-09T20:32:50.445Z",
+    "lastSeenAt": "2026-09-10T03:10:43.935Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2376,7 +2040,7 @@
       "Cloud Server"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5992",
-    "lastSeenAt": "2026-09-09T20:32:05.700Z",
+    "lastSeenAt": "2026-09-10T03:10:03.577Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2403,7 +2067,7 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/381",
-    "lastSeenAt": "2026-09-09T20:31:49.219Z",
+    "lastSeenAt": "2026-09-10T03:09:45.568Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2430,7 +2094,7 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/383",
-    "lastSeenAt": "2026-09-09T20:31:52.780Z",
+    "lastSeenAt": "2026-09-10T03:09:49.859Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2457,7 +2121,7 @@
       "Accessories"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/7362",
-    "lastSeenAt": "2026-09-09T20:32:33.811Z",
+    "lastSeenAt": "2026-09-10T03:10:28.897Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI",
@@ -2483,7 +2147,7 @@
       "Calibration System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5383",
-    "lastSeenAt": "2026-09-09T20:32:45.216Z",
+    "lastSeenAt": "2026-09-10T03:10:39.226Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2509,7 +2173,7 @@
       "Calibration System"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/5443",
-    "lastSeenAt": "2026-09-09T20:32:47.717Z",
+    "lastSeenAt": "2026-09-10T03:10:41.536Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2536,7 +2200,7 @@
       "Accessories"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/373",
-    "lastSeenAt": "2026-09-09T20:31:40.892Z",
+    "lastSeenAt": "2026-09-10T03:09:37.855Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2563,7 +2227,7 @@
       "Accessories"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/369",
-    "lastSeenAt": "2026-09-09T20:31:38.302Z",
+    "lastSeenAt": "2026-09-10T03:09:35.704Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2590,7 +2254,7 @@
       "Software"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/255",
-    "lastSeenAt": "2026-09-09T20:32:13.421Z",
+    "lastSeenAt": "2026-09-10T03:10:10.525Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2617,7 +2281,7 @@
       "Receiving Card"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/725",
-    "lastSeenAt": "2026-09-09T20:31:22.291Z",
+    "lastSeenAt": "2026-09-10T03:09:22.096Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -2644,7 +2308,7 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/765",
-    "lastSeenAt": "2026-09-09T20:31:18.050Z",
+    "lastSeenAt": "2026-09-10T03:09:18.765Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI, Dual Inputs with Loop, HDMI/DVI video input and loop, USB and LAN port control",
@@ -2671,7 +2335,7 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/345",
-    "lastSeenAt": "2026-09-09T20:31:14.265Z",
+    "lastSeenAt": "2026-09-10T03:09:15.359Z",
     "specs": {
       "最大带载": "8.85 MILLION PIXELS",
       "输入接口": "HDMI2.0, DP1.2, Seamlessly Switching between Dual-4K Inputs, HDMI2.0 and DP1.2 inputs, each with maximum resolution 4096×2160@60Hz",
@@ -2698,7 +2362,7 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/345",
-    "lastSeenAt": "2026-09-09T20:31:14.732Z",
+    "lastSeenAt": "2026-09-10T03:09:15.805Z",
     "specs": {
       "最大带载": "8.85 MILLION PIXELS",
       "输入接口": "HDMI2.0, DP1.2, Seamlessly Switching between Dual-4K Inputs, HDMI2.0 and DP1.2 inputs, each with maximum resolution 4096×2160@60Hz",
@@ -2725,7 +2389,7 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/765",
-    "lastSeenAt": "2026-09-09T20:31:17.639Z",
+    "lastSeenAt": "2026-09-10T03:09:18.404Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI, Dual Inputs with Loop, HDMI/DVI video input and loop, USB and LAN port control",
@@ -2752,7 +2416,7 @@
       "Sender"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/765",
-    "lastSeenAt": "2026-09-09T20:31:17.199Z",
+    "lastSeenAt": "2026-09-10T03:09:17.953Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI, Dual Inputs with Loop, HDMI/DVI video input and loop, USB and LAN port control",
@@ -2779,7 +2443,7 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2376",
-    "lastSeenAt": "2026-09-09T20:30:08.191Z",
+    "lastSeenAt": "2026-09-10T03:08:16.689Z",
     "specs": {
       "最大带载": "520 MILLION PIXELS",
       "输入接口": "-",
@@ -2806,7 +2470,7 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2376",
-    "lastSeenAt": "2026-09-09T20:30:13.621Z",
+    "lastSeenAt": "2026-09-10T03:08:21.571Z",
     "specs": {
       "最大带载": "520 MILLION PIXELS",
       "输入接口": "-",
@@ -2833,7 +2497,7 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2376",
-    "lastSeenAt": "2026-09-09T20:30:10.279Z",
+    "lastSeenAt": "2026-09-10T03:08:18.676Z",
     "specs": {
       "最大带载": "520 MILLION PIXELS",
       "输入接口": "-",
@@ -2860,7 +2524,7 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2376",
-    "lastSeenAt": "2026-09-09T20:30:09.269Z",
+    "lastSeenAt": "2026-09-10T03:08:17.761Z",
     "specs": {
       "最大带载": "520 MILLION PIXELS",
       "输入接口": "-",
@@ -2887,7 +2551,7 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2058",
-    "lastSeenAt": "2026-09-09T20:30:32.795Z",
+    "lastSeenAt": "2026-09-10T03:08:39.546Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "HDMI 2.0, HDMI1.4, 3G-SDI, DVI",
@@ -2914,7 +2578,7 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1674",
-    "lastSeenAt": "2026-09-09T20:30:29.951Z",
+    "lastSeenAt": "2026-09-10T03:08:36.957Z",
     "specs": {
       "最大带载": "13 MILLION PIXELS",
       "输入接口": "-",
@@ -2941,7 +2605,7 @@
       "Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/2058",
-    "lastSeenAt": "2026-09-09T20:30:33.687Z",
+    "lastSeenAt": "2026-09-10T03:08:40.324Z",
     "specs": {
       "最大带载": "3.93 MILLION PIXELS",
       "输入接口": "x 6IDEO INPUT PORT, x 5P TO 4096X2160 60(Z INPUT, !UDIO INPUT0OUTPUT, x ($-) PORT SUPPORTS AUDIO INPUT",
@@ -2968,7 +2632,7 @@
       "Video Splicer"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/111",
-    "lastSeenAt": "2026-09-09T20:30:16.828Z",
+    "lastSeenAt": "2026-09-10T03:08:24.817Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI, More inputs. Flexible combination, HDMI/DVI/DP/SDI/IP and more inputs, up to 64 outputs, flexible selection",
@@ -2995,7 +2659,7 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6868",
-    "lastSeenAt": "2026-09-09T20:30:48.328Z",
+    "lastSeenAt": "2026-09-10T03:08:52.938Z",
     "specs": {
       "最大带载": "7.86 MILLION PIXELS",
       "输入接口": "HDMI 2.0, HDMI 1.4, DP 1.2, 1×HDMI 2.0, 1×DP 1.2, 4×HDMI 1.4",
@@ -3022,7 +2686,7 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6657",
-    "lastSeenAt": "2026-09-09T20:30:42.615Z",
+    "lastSeenAt": "2026-09-10T03:08:47.945Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "DP1.2, DVI, Multi-Signal Input, 1×HDMl 2.0, 1×DP1.2, 2×HDMl 1.4, 2×DVI",
@@ -3049,7 +2713,7 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6757",
-    "lastSeenAt": "2026-09-09T20:30:37.341Z",
+    "lastSeenAt": "2026-09-10T03:08:43.213Z",
     "specs": {
       "最大带载": "26 MILLION PIXELS",
       "输入接口": "HDMI2.0, HDMI1.4, DP1.2, DVI",
@@ -3076,7 +2740,7 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6704",
-    "lastSeenAt": "2026-09-09T20:30:39.998Z",
+    "lastSeenAt": "2026-09-10T03:08:45.623Z",
     "specs": {
       "最大带载": "17.03 MILLION PIXELS",
       "输入接口": "Effortless USB Playback, Play videos and images from your USB drive. Plug and play, efficient and handy",
@@ -3103,7 +2767,7 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6474",
-    "lastSeenAt": "2026-09-09T20:30:52.877Z",
+    "lastSeenAt": "2026-09-10T03:08:56.951Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -3130,7 +2794,7 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6757",
-    "lastSeenAt": "2026-09-09T20:30:36.494Z",
+    "lastSeenAt": "2026-09-10T03:08:42.640Z",
     "specs": {
       "最大带载": "26 MILLION PIXELS",
       "输入接口": "HDMI2.0, HDMI1.4, DP1.2, DVI",
@@ -3157,7 +2821,7 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6474",
-    "lastSeenAt": "2026-09-09T20:30:51.867Z",
+    "lastSeenAt": "2026-09-10T03:08:56.104Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -3184,7 +2848,7 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6565",
-    "lastSeenAt": "2026-09-09T20:30:45.544Z",
+    "lastSeenAt": "2026-09-10T03:08:50.559Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "3G-SDI, Support various HD video input signals, suitable to different scenarios, Free display layout for 3-layer of HD inputs, enabling smooth scaling effect, 3G-SDI input port supports video deinterlacing",
@@ -3211,7 +2875,7 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6565",
-    "lastSeenAt": "2026-09-09T20:30:45.071Z",
+    "lastSeenAt": "2026-09-10T03:08:50.120Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "3G-SDI, Support various HD video input signals, suitable to different scenarios, Free display layout for 3-layer of HD inputs, enabling smooth scaling effect, 3G-SDI input port supports video deinterlacing",
@@ -3238,7 +2902,7 @@
       "Multimedia Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/6868",
-    "lastSeenAt": "2026-09-09T20:30:48.837Z",
+    "lastSeenAt": "2026-09-10T03:08:53.394Z",
     "specs": {
       "最大带载": "7.86 MILLION PIXELS",
       "输入接口": "HDMI 2.0, HDMI 1.4, DP 1.2, 1×HDMI 2.0, 1×DP 1.2, 4×HDMI 1.4",
@@ -3265,7 +2929,7 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1509",
-    "lastSeenAt": "2026-09-09T20:30:27.054Z",
+    "lastSeenAt": "2026-09-10T03:08:34.408Z",
     "specs": {
       "最大带载": "8.8 MILLION PIXELS",
       "输入接口": "HDMI2.0, DP1.2, 12G-SDI, Full 4K Input. 4K Load capacity",
@@ -3292,7 +2956,7 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1132",
-    "lastSeenAt": "2026-09-09T20:30:23.902Z",
+    "lastSeenAt": "2026-09-10T03:08:32.063Z",
     "specs": {
       "最大带载": "13 MILLION PIXELS",
       "输入接口": "HDMI2.0, DP1.2, 12G-SDI, Full 4K Input，Ultra 4K Load capacity",
@@ -3319,7 +2983,7 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1132",
-    "lastSeenAt": "2026-09-09T20:30:23.902Z",
+    "lastSeenAt": "2026-09-10T03:08:32.063Z",
     "specs": {
       "最大带载": "13 MILLION PIXELS",
       "输入接口": "HDMI2.0, DP1.2, 12G-SDI, Full 4K Input，Ultra 4K Load capacity",
@@ -3346,7 +3010,7 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/1049",
-    "lastSeenAt": "2026-09-09T20:30:21.961Z",
+    "lastSeenAt": "2026-09-10T03:08:30.238Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "4K Input and 10G Fiber Port Output",
@@ -3373,7 +3037,7 @@
       "Super Processor"
     ],
     "originUrl": "https://en.colorlightinside.com/product/special/159",
-    "lastSeenAt": "2026-09-09T20:30:19.443Z",
+    "lastSeenAt": "2026-09-10T03:08:27.945Z",
     "specs": {
       "最大带载": "23.59 MILLION PIXELS",
       "输入接口": "'%.,/#+ ). x 1x\".# PORT FOR SYNC SIGNAL INPUT, x 5P TO 2xBOARDS SUPPORTING A MAXIMUM OF 2x4+ 60(Z INPUTS, x 2x($-) 2.0 INPUT BOARDS, x 2x$0 1.2 INPUT BOARDS",
@@ -3401,7 +3065,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
-    "lastSeenAt": "2026-09-09T20:29:57.376Z",
+    "lastSeenAt": "2026-09-10T03:08:06.071Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -3432,7 +3096,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
-    "lastSeenAt": "2026-09-09T20:29:57.376Z",
+    "lastSeenAt": "2026-09-10T03:08:06.071Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -3463,7 +3127,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
-    "lastSeenAt": "2026-09-09T20:29:57.376Z",
+    "lastSeenAt": "2026-09-10T03:08:06.071Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -3494,7 +3158,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
-    "lastSeenAt": "2026-09-09T20:29:57.376Z",
+    "lastSeenAt": "2026-09-10T03:08:06.071Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -3525,7 +3189,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=33",
-    "lastSeenAt": "2026-09-09T20:29:57.376Z",
+    "lastSeenAt": "2026-09-10T03:08:06.071Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -3556,7 +3220,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
-    "lastSeenAt": "2026-09-09T20:29:56.726Z",
+    "lastSeenAt": "2026-09-10T03:08:05.278Z",
     "specs": {
       "最大带载": "384*256",
       "输入接口": "-",
@@ -3587,7 +3251,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
-    "lastSeenAt": "2026-09-09T20:29:56.726Z",
+    "lastSeenAt": "2026-09-10T03:08:05.278Z",
     "specs": {
       "最大带载": "512*384",
       "输入接口": "-",
@@ -3618,7 +3282,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
-    "lastSeenAt": "2026-09-09T20:29:56.726Z",
+    "lastSeenAt": "2026-09-10T03:08:05.278Z",
     "specs": {
       "最大带载": "512*512",
       "输入接口": "-",
@@ -3649,7 +3313,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
-    "lastSeenAt": "2026-09-09T20:29:56.726Z",
+    "lastSeenAt": "2026-09-10T03:08:05.277Z",
     "specs": {
       "最大带载": "512*384",
       "输入接口": "-",
@@ -3680,7 +3344,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=57",
-    "lastSeenAt": "2026-09-09T20:29:56.725Z",
+    "lastSeenAt": "2026-09-10T03:08:05.277Z",
     "specs": {
       "最大带载": "512*512",
       "输入接口": "-",
@@ -3711,7 +3375,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=48",
-    "lastSeenAt": "2026-09-09T20:29:53.202Z",
+    "lastSeenAt": "2026-09-10T03:08:00.863Z",
     "specs": {
       "最大带载": "141 Million",
       "输入接口": "MX_4×HDMI 2.0 input card MX_4×DP 1.2 input card MX_4×12G-SDI input card MX_2×HDMI 2.1 input card MX_2×DP 1.4 input card MX_1×DP 1.4+HDMI 2.1 input card MX_1×DP 1.4(8K@60Hz) input card MX_1×SMPTE ST 2110(25G) input card MX_2×SMPTE ST 2110(25G) input card MX_1×ST 2110 (100G) (8K@60Hz) input card",
@@ -3742,7 +3406,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
-    "lastSeenAt": "2026-09-09T20:29:59.206Z",
+    "lastSeenAt": "2026-09-10T03:08:08.569Z",
     "specs": {
       "最大带载": "12x 5120*2880@60Hz",
       "输入接口": "-",
@@ -3773,7 +3437,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
-    "lastSeenAt": "2026-09-09T20:29:59.206Z",
+    "lastSeenAt": "2026-09-10T03:08:08.569Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -3804,7 +3468,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
-    "lastSeenAt": "2026-09-09T20:29:59.206Z",
+    "lastSeenAt": "2026-09-10T03:08:08.569Z",
     "specs": {
       "最大带载": "1x 4096*2160@60Hz",
       "输入接口": "-",
@@ -3835,7 +3499,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
-    "lastSeenAt": "2026-09-09T20:29:59.206Z",
+    "lastSeenAt": "2026-09-10T03:08:08.569Z",
     "specs": {
       "最大带载": "2x 4096*2160@60Hz",
       "输入接口": "-",
@@ -3866,7 +3530,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
-    "lastSeenAt": "2026-09-09T20:29:59.206Z",
+    "lastSeenAt": "2026-09-10T03:08:08.569Z",
     "specs": {
       "最大带载": "8x 5120*2880@60Hz",
       "输入接口": "-",
@@ -3897,7 +3561,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=38",
-    "lastSeenAt": "2026-09-09T20:29:59.206Z",
+    "lastSeenAt": "2026-09-10T03:08:08.569Z",
     "specs": {
       "最大带载": "4x 5120*2880@60Hz",
       "输入接口": "-",
@@ -3928,7 +3592,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
-    "lastSeenAt": "2026-09-09T20:29:59.522Z",
+    "lastSeenAt": "2026-09-10T03:08:08.989Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -3959,7 +3623,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
-    "lastSeenAt": "2026-09-09T20:29:59.522Z",
+    "lastSeenAt": "2026-09-10T03:08:08.989Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -3990,7 +3654,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
-    "lastSeenAt": "2026-09-09T20:29:59.522Z",
+    "lastSeenAt": "2026-09-10T03:08:08.989Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4021,7 +3685,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
-    "lastSeenAt": "2026-09-09T20:29:59.522Z",
+    "lastSeenAt": "2026-09-10T03:08:08.989Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4052,7 +3716,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=39",
-    "lastSeenAt": "2026-09-09T20:29:59.522Z",
+    "lastSeenAt": "2026-09-10T03:08:08.989Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4083,7 +3747,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=41",
-    "lastSeenAt": "2026-09-09T20:30:00.111Z",
+    "lastSeenAt": "2026-09-10T03:08:09.825Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4114,7 +3778,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=52",
-    "lastSeenAt": "2026-09-09T20:29:58.895Z",
+    "lastSeenAt": "2026-09-10T03:08:08.158Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4145,7 +3809,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
-    "lastSeenAt": "2026-09-09T20:29:53.577Z",
+    "lastSeenAt": "2026-09-10T03:08:01.295Z",
     "specs": {
       "最大带载": "3.9 Million",
       "输入接口": "-",
@@ -4176,7 +3840,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=24",
-    "lastSeenAt": "2026-09-09T20:29:54.520Z",
+    "lastSeenAt": "2026-09-10T03:08:02.473Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4207,7 +3871,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=25",
-    "lastSeenAt": "2026-09-09T20:29:54.211Z",
+    "lastSeenAt": "2026-09-10T03:08:02.076Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4238,7 +3902,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=30",
-    "lastSeenAt": "2026-09-09T20:29:56.408Z",
+    "lastSeenAt": "2026-09-10T03:08:04.876Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -4269,7 +3933,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=28",
-    "lastSeenAt": "2026-09-09T20:29:55.124Z",
+    "lastSeenAt": "2026-09-10T03:08:03.254Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4300,7 +3964,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=27",
-    "lastSeenAt": "2026-09-09T20:29:55.424Z",
+    "lastSeenAt": "2026-09-10T03:08:03.663Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -4331,7 +3995,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=26",
-    "lastSeenAt": "2026-09-09T20:29:55.787Z",
+    "lastSeenAt": "2026-09-10T03:08:04.071Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -4362,7 +4026,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=29",
-    "lastSeenAt": "2026-09-09T20:29:54.825Z",
+    "lastSeenAt": "2026-09-10T03:08:02.864Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "DVI IN",
@@ -4393,7 +4057,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
-    "lastSeenAt": "2026-09-09T20:29:58.603Z",
+    "lastSeenAt": "2026-09-10T03:08:07.764Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4424,7 +4088,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
-    "lastSeenAt": "2026-09-09T20:29:58.603Z",
+    "lastSeenAt": "2026-09-10T03:08:07.764Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4455,7 +4119,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
-    "lastSeenAt": "2026-09-09T20:29:58.603Z",
+    "lastSeenAt": "2026-09-10T03:08:07.764Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4486,7 +4150,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
-    "lastSeenAt": "2026-09-09T20:29:58.603Z",
+    "lastSeenAt": "2026-09-10T03:08:07.764Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4517,7 +4181,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
-    "lastSeenAt": "2026-09-09T20:29:58.603Z",
+    "lastSeenAt": "2026-09-10T03:08:07.764Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4548,7 +4212,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
-    "lastSeenAt": "2026-09-09T20:29:58.603Z",
+    "lastSeenAt": "2026-09-10T03:08:07.764Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4579,7 +4243,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=37",
-    "lastSeenAt": "2026-09-09T20:29:58.603Z",
+    "lastSeenAt": "2026-09-10T03:08:07.764Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4610,7 +4274,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
-    "lastSeenAt": "2026-09-09T20:29:57.684Z",
+    "lastSeenAt": "2026-09-10T03:08:06.489Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4641,7 +4305,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
-    "lastSeenAt": "2026-09-09T20:29:57.685Z",
+    "lastSeenAt": "2026-09-10T03:08:06.489Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4672,7 +4336,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
-    "lastSeenAt": "2026-09-09T20:29:57.685Z",
+    "lastSeenAt": "2026-09-10T03:08:06.489Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4703,7 +4367,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=32",
-    "lastSeenAt": "2026-09-09T20:29:57.685Z",
+    "lastSeenAt": "2026-09-10T03:08:06.489Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4734,7 +4398,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=31",
-    "lastSeenAt": "2026-09-09T20:29:56.104Z",
+    "lastSeenAt": "2026-09-10T03:08:04.459Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4765,7 +4429,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
-    "lastSeenAt": "2026-09-09T20:29:53.577Z",
+    "lastSeenAt": "2026-09-10T03:08:01.295Z",
     "specs": {
       "最大带载": "3.9 Million",
       "输入接口": "-",
@@ -4796,7 +4460,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
-    "lastSeenAt": "2026-09-09T20:29:53.577Z",
+    "lastSeenAt": "2026-09-10T03:08:01.295Z",
     "specs": {
       "最大带载": "35.38 Million (Max)",
       "输入接口": "-",
@@ -4827,7 +4491,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
-    "lastSeenAt": "2026-09-09T20:29:53.577Z",
+    "lastSeenAt": "2026-09-10T03:08:01.295Z",
     "specs": {
       "最大带载": "6.5 Million",
       "输入接口": "-",
@@ -4858,7 +4522,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
-    "lastSeenAt": "2026-09-09T20:29:53.577Z",
+    "lastSeenAt": "2026-09-10T03:08:01.295Z",
     "specs": {
       "最大带载": "9 Million",
       "输入接口": "-",
@@ -4889,7 +4553,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=49",
-    "lastSeenAt": "2026-09-09T20:29:53.577Z",
+    "lastSeenAt": "2026-09-10T03:08:01.295Z",
     "specs": {
       "最大带载": "141 Million (Max)",
       "输入接口": "-",
@@ -4920,7 +4584,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=36",
-    "lastSeenAt": "2026-09-09T20:29:57.997Z",
+    "lastSeenAt": "2026-09-10T03:08:06.894Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4951,7 +4615,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=43",
-    "lastSeenAt": "2026-09-09T20:30:00.712Z",
+    "lastSeenAt": "2026-09-10T03:08:10.617Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -4982,7 +4646,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=42",
-    "lastSeenAt": "2026-09-09T20:30:00.412Z",
+    "lastSeenAt": "2026-09-10T03:08:10.224Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5013,7 +4677,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=50",
-    "lastSeenAt": "2026-09-09T20:29:53.880Z",
+    "lastSeenAt": "2026-09-10T03:08:01.685Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5044,7 +4708,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=40",
-    "lastSeenAt": "2026-09-09T20:29:59.816Z",
+    "lastSeenAt": "2026-09-10T03:08:09.431Z",
     "specs": {
       "最大带载": "-",
       "输入接口": "-",
@@ -5075,7 +4739,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
-    "lastSeenAt": "2026-09-09T20:29:58.307Z",
+    "lastSeenAt": "2026-09-10T03:08:07.373Z",
     "specs": {
       "最大带载": "6.5 million pixels",
       "输入接口": "1× HDMI 2.0（IN&LOOP） 2× HDMI 1.3 1× 3G-SDI（IN&LOOP） 1× 10G OPT Port（OPT1） 1× USB3.0",
@@ -5106,7 +4770,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
-    "lastSeenAt": "2026-09-09T20:29:58.307Z",
+    "lastSeenAt": "2026-09-10T03:08:07.373Z",
     "specs": {
       "最大带载": "13 million pixels",
       "输入接口": "1× 12G-SDI(IN&LOOP) 1× DP 1.2 2× HDM 2.0 4× HDMI 1.3 2× OPT 1× USB3.0",
@@ -5137,7 +4801,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
-    "lastSeenAt": "2026-09-09T20:29:58.307Z",
+    "lastSeenAt": "2026-09-10T03:08:07.373Z",
     "specs": {
       "最大带载": "2.6 million pixels",
       "输入接口": "1× HDMI 2.0（IN&LOOP） 2× HDMI 1.3 1× 3G-SDI（IN&LOOP） 1× 10G OPT Port（OPT1） 1× USB3.0",
@@ -5168,7 +4832,7 @@
       "Processors"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=3&id=34",
-    "lastSeenAt": "2026-09-09T20:29:58.307Z",
+    "lastSeenAt": "2026-09-10T03:08:07.373Z",
     "specs": {
       "最大带载": "3.9 million pixels",
       "输入接口": "1× HDMI 2.0（IN&LOOP） 2× HDMI 1.3 1× 3G-SDI（IN&LOOP） 1× 10G OPT Port（OPT1） 1× USB3.0",
@@ -5199,7 +4863,7 @@
       "LED Control System"
     ],
     "originUrl": "https://www.novastar.tech/product/detail.html?catid=2&id=51",
-    "lastSeenAt": "2026-09-09T20:29:57.066Z",
+    "lastSeenAt": "2026-09-10T03:08:05.669Z",
     "specs": {
       "最大带载": "512×1024",
       "输入接口": "-",
@@ -5229,7 +4893,7 @@
       "CS Series"
     ],
     "originUrl": "https://www.qiangliled.com/cs-series/",
-    "lastSeenAt": "2026-09-09T20:25:13.735Z",
+    "lastSeenAt": "2026-09-10T03:04:01.450Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "1000 x 500 mm",
@@ -5253,7 +4917,7 @@
       "DM Series"
     ],
     "originUrl": "https://www.qiangliled.com/dm-series/",
-    "lastSeenAt": "2026-09-09T20:25:14.175Z",
+    "lastSeenAt": "2026-09-10T03:04:01.838Z",
     "specs": {
       "点间距": "2.6 mm",
       "箱体尺寸": "-",
@@ -5277,7 +4941,7 @@
       "DM Series"
     ],
     "originUrl": "https://www.qiangliled.com/dm-series/",
-    "lastSeenAt": "2026-09-09T20:25:14.175Z",
+    "lastSeenAt": "2026-09-10T03:04:01.838Z",
     "specs": {
       "点间距": "2.9 mm",
       "箱体尺寸": "-",
@@ -5301,7 +4965,7 @@
       "DM Series"
     ],
     "originUrl": "https://www.qiangliled.com/dm-series/",
-    "lastSeenAt": "2026-09-09T20:25:14.175Z",
+    "lastSeenAt": "2026-09-10T03:04:01.838Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "-",
@@ -5325,7 +4989,7 @@
       "DM Series"
     ],
     "originUrl": "https://www.qiangliled.com/dm-series/",
-    "lastSeenAt": "2026-09-09T20:25:14.175Z",
+    "lastSeenAt": "2026-09-10T03:04:01.838Z",
     "specs": {
       "点间距": "4.8 mm",
       "箱体尺寸": "-",
@@ -5349,7 +5013,7 @@
       "CS Series"
     ],
     "originUrl": "https://www.qiangliled.com/cs-series/",
-    "lastSeenAt": "2026-09-09T20:25:13.735Z",
+    "lastSeenAt": "2026-09-10T03:04:01.450Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "1000 x 500 mm",
@@ -5373,7 +5037,7 @@
       "CS Series"
     ],
     "originUrl": "https://www.qiangliled.com/cs-series/",
-    "lastSeenAt": "2026-09-09T20:25:13.735Z",
+    "lastSeenAt": "2026-09-10T03:04:01.450Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "1000 x 500 mm",
@@ -5397,7 +5061,7 @@
       "CS Series"
     ],
     "originUrl": "https://www.qiangliled.com/cs-series/",
-    "lastSeenAt": "2026-09-09T20:25:13.735Z",
+    "lastSeenAt": "2026-09-10T03:04:01.450Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "1000 x 500 mm",
@@ -5421,7 +5085,7 @@
       "P Series"
     ],
     "originUrl": "https://www.qiangliled.com/p-series/",
-    "lastSeenAt": "2026-09-09T20:25:16.818Z",
+    "lastSeenAt": "2026-09-10T03:04:04.271Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -5445,7 +5109,7 @@
       "PM Series"
     ],
     "originUrl": "https://www.qiangliled.com/pm-series/",
-    "lastSeenAt": "2026-09-09T20:25:14.628Z",
+    "lastSeenAt": "2026-09-10T03:04:02.244Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "-",
@@ -5469,7 +5133,7 @@
       "PM Series"
     ],
     "originUrl": "https://www.qiangliled.com/pm-series/",
-    "lastSeenAt": "2026-09-09T20:25:14.628Z",
+    "lastSeenAt": "2026-09-10T03:04:02.244Z",
     "specs": {
       "点间距": "7.8 mm",
       "箱体尺寸": "-",
@@ -5493,7 +5157,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.848Z",
+    "lastSeenAt": "2026-09-10T03:04:00.597Z",
     "specs": {
       "点间距": "0.8 mm",
       "箱体尺寸": "-",
@@ -5517,7 +5181,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.848Z",
+    "lastSeenAt": "2026-09-10T03:04:00.597Z",
     "specs": {
       "点间距": "0.9 mm",
       "箱体尺寸": "-",
@@ -5541,7 +5205,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.848Z",
+    "lastSeenAt": "2026-09-10T03:04:00.597Z",
     "specs": {
       "点间距": "1 mm",
       "箱体尺寸": "-",
@@ -5565,7 +5229,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.848Z",
+    "lastSeenAt": "2026-09-10T03:04:00.597Z",
     "specs": {
       "点间距": "1.2 mm",
       "箱体尺寸": "-",
@@ -5589,7 +5253,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.848Z",
+    "lastSeenAt": "2026-09-10T03:04:00.597Z",
     "specs": {
       "点间距": "1.3 mm",
       "箱体尺寸": "-",
@@ -5613,7 +5277,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.848Z",
+    "lastSeenAt": "2026-09-10T03:04:00.597Z",
     "specs": {
       "点间距": "1.5 mm",
       "箱体尺寸": "-",
@@ -5637,7 +5301,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.848Z",
+    "lastSeenAt": "2026-09-10T03:04:00.597Z",
     "specs": {
       "点间距": "1.6 mm",
       "箱体尺寸": "-",
@@ -5661,7 +5325,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.848Z",
+    "lastSeenAt": "2026-09-10T03:04:00.597Z",
     "specs": {
       "点间距": "1.8 mm",
       "箱体尺寸": "-",
@@ -5685,7 +5349,7 @@
       "Outdoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.065Z",
+    "lastSeenAt": "2026-09-10T03:04:02.630Z",
     "specs": {
       "点间距": "10 mm",
       "箱体尺寸": "-",
@@ -5709,7 +5373,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.849Z",
+    "lastSeenAt": "2026-09-10T03:04:00.597Z",
     "specs": {
       "点间距": "2 mm",
       "箱体尺寸": "-",
@@ -5733,7 +5397,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.849Z",
+    "lastSeenAt": "2026-09-10T03:04:00.597Z",
     "specs": {
       "点间距": "2.5 mm",
       "箱体尺寸": "-",
@@ -5757,7 +5421,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.849Z",
+    "lastSeenAt": "2026-09-10T03:04:00.598Z",
     "specs": {
       "点间距": "3 mm",
       "箱体尺寸": "-",
@@ -5781,7 +5445,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.849Z",
+    "lastSeenAt": "2026-09-10T03:04:00.598Z",
     "specs": {
       "点间距": "3 mm",
       "箱体尺寸": "-",
@@ -5805,7 +5469,7 @@
       "Indoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:12.849Z",
+    "lastSeenAt": "2026-09-10T03:04:00.598Z",
     "specs": {
       "点间距": "4 mm",
       "箱体尺寸": "-",
@@ -5829,7 +5493,7 @@
       "Outdoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.065Z",
+    "lastSeenAt": "2026-09-10T03:04:02.630Z",
     "specs": {
       "点间距": "5 mm",
       "箱体尺寸": "-",
@@ -5853,7 +5517,7 @@
       "Outdoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.065Z",
+    "lastSeenAt": "2026-09-10T03:04:02.630Z",
     "specs": {
       "点间距": "6 mm",
       "箱体尺寸": "-",
@@ -5877,7 +5541,7 @@
       "Outdoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.065Z",
+    "lastSeenAt": "2026-09-10T03:04:02.630Z",
     "specs": {
       "点间距": "6.6 mm",
       "箱体尺寸": "-",
@@ -5901,7 +5565,7 @@
       "Outdoor Q Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-q-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.065Z",
+    "lastSeenAt": "2026-09-10T03:04:02.630Z",
     "specs": {
       "点间距": "8 mm",
       "箱体尺寸": "-",
@@ -5925,7 +5589,7 @@
       "QM Series"
     ],
     "originUrl": "https://www.qiangliled.com/qm-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.942Z",
+    "lastSeenAt": "2026-09-10T03:04:03.470Z",
     "specs": {
       "点间距": "9 mm",
       "箱体尺寸": "640 x 480 mm",
@@ -5949,7 +5613,7 @@
       "QM Series"
     ],
     "originUrl": "https://www.qiangliled.com/qm-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.942Z",
+    "lastSeenAt": "2026-09-10T03:04:03.470Z",
     "specs": {
       "点间距": "9 mm",
       "箱体尺寸": "640 x 480 mm",
@@ -5973,7 +5637,7 @@
       "Indoor R Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-r-series/",
-    "lastSeenAt": "2026-09-09T20:25:13.290Z",
+    "lastSeenAt": "2026-09-10T03:04:01.051Z",
     "specs": {
       "点间距": "1.5 mm",
       "箱体尺寸": "-",
@@ -5997,7 +5661,7 @@
       "Indoor R Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-r-series/",
-    "lastSeenAt": "2026-09-09T20:25:13.290Z",
+    "lastSeenAt": "2026-09-10T03:04:01.051Z",
     "specs": {
       "点间距": "1.5 mm",
       "箱体尺寸": "-",
@@ -6021,7 +5685,7 @@
       "Indoor R Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-r-series/",
-    "lastSeenAt": "2026-09-09T20:25:13.290Z",
+    "lastSeenAt": "2026-09-10T03:04:01.051Z",
     "specs": {
       "点间距": "1.8 mm",
       "箱体尺寸": "-",
@@ -6045,7 +5709,7 @@
       "Indoor R Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-r-series/",
-    "lastSeenAt": "2026-09-09T20:25:13.290Z",
+    "lastSeenAt": "2026-09-10T03:04:01.051Z",
     "specs": {
       "点间距": "2 mm",
       "箱体尺寸": "-",
@@ -6069,7 +5733,7 @@
       "Indoor R Series"
     ],
     "originUrl": "https://www.qiangliled.com/indoor-r-series/",
-    "lastSeenAt": "2026-09-09T20:25:13.290Z",
+    "lastSeenAt": "2026-09-10T03:04:01.051Z",
     "specs": {
       "点间距": "2.5 mm",
       "箱体尺寸": "-",
@@ -6093,7 +5757,7 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.501Z",
+    "lastSeenAt": "2026-09-10T03:04:03.070Z",
     "specs": {
       "点间距": "10 mm",
       "箱体尺寸": "-",
@@ -6117,7 +5781,7 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.501Z",
+    "lastSeenAt": "2026-09-10T03:04:03.070Z",
     "specs": {
       "点间距": "2.5 mm",
       "箱体尺寸": "-",
@@ -6141,7 +5805,7 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.501Z",
+    "lastSeenAt": "2026-09-10T03:04:03.070Z",
     "specs": {
       "点间距": "3 mm",
       "箱体尺寸": "-",
@@ -6165,7 +5829,7 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.501Z",
+    "lastSeenAt": "2026-09-10T03:04:03.070Z",
     "specs": {
       "点间距": "4 mm",
       "箱体尺寸": "-",
@@ -6189,7 +5853,7 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.501Z",
+    "lastSeenAt": "2026-09-10T03:04:03.070Z",
     "specs": {
       "点间距": "5 mm",
       "箱体尺寸": "-",
@@ -6213,7 +5877,7 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.501Z",
+    "lastSeenAt": "2026-09-10T03:04:03.070Z",
     "specs": {
       "点间距": "6.6 mm",
       "箱体尺寸": "-",
@@ -6237,7 +5901,7 @@
       "Outdoor S Series"
     ],
     "originUrl": "https://www.qiangliled.com/outdoor-s-series/",
-    "lastSeenAt": "2026-09-09T20:25:15.501Z",
+    "lastSeenAt": "2026-09-10T03:04:03.070Z",
     "specs": {
       "点间距": "8 mm",
       "箱体尺寸": "-",
@@ -6261,7 +5925,7 @@
       "CS Series"
     ],
     "originUrl": "https://www.qiangliled.com/cs-series/",
-    "lastSeenAt": "2026-09-09T20:25:13.735Z",
+    "lastSeenAt": "2026-09-10T03:04:01.450Z",
     "specs": {
       "点间距": "3.9 mm",
       "箱体尺寸": "1000 x 500 mm",
@@ -6285,7 +5949,7 @@
       "V Series"
     ],
     "originUrl": "https://www.qiangliled.com/v-series-/",
-    "lastSeenAt": "2026-09-09T20:25:17.261Z",
+    "lastSeenAt": "2026-09-10T03:04:04.651Z",
     "specs": {
       "点间距": "-",
       "箱体尺寸": "-",
@@ -6308,7 +5972,7 @@
       "creative"
     ],
     "originUrl": "https://www.unilumin.com/products/creative/u-natural.html",
-    "lastSeenAt": "2026-09-09T20:23:44.082Z",
+    "lastSeenAt": "2026-09-10T03:02:32.368Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6331,7 +5995,7 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/ucine.html",
-    "lastSeenAt": "2026-09-09T20:24:14.152Z",
+    "lastSeenAt": "2026-09-10T03:03:02.295Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6354,7 +6018,7 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/uda-ii.html",
-    "lastSeenAt": "2026-09-09T20:24:13.025Z",
+    "lastSeenAt": "2026-09-10T03:03:01.109Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6377,7 +6041,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugm-ii.html",
-    "lastSeenAt": "2026-09-09T20:24:43.152Z",
+    "lastSeenAt": "2026-09-10T03:03:31.109Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6400,7 +6064,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/ugn-ii.html",
-    "lastSeenAt": "2026-09-09T20:24:44.394Z",
+    "lastSeenAt": "2026-09-10T03:03:32.032Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6423,7 +6087,7 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/ulw-pro.html",
-    "lastSeenAt": "2026-09-09T20:23:45.400Z",
+    "lastSeenAt": "2026-09-10T03:02:33.672Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6446,7 +6110,7 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umate-lm.html",
-    "lastSeenAt": "2026-09-09T20:24:11.051Z",
+    "lastSeenAt": "2026-09-10T03:02:58.296Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6469,7 +6133,7 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/umate-lm-o-unilumin-distribution.html",
-    "lastSeenAt": "2026-09-09T20:24:16.369Z",
+    "lastSeenAt": "2026-09-10T03:03:04.292Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6492,7 +6156,7 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/umate-sf-for-outdoor-unilumin.html",
-    "lastSeenAt": "2026-09-09T20:24:28.548Z",
+    "lastSeenAt": "2026-09-10T03:03:16.591Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6515,7 +6179,7 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uky.html",
-    "lastSeenAt": "2026-09-09T20:24:12.190Z",
+    "lastSeenAt": "2026-09-10T03:02:59.429Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6538,7 +6202,7 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umicro.html",
-    "lastSeenAt": "2026-09-09T20:23:19.823Z",
+    "lastSeenAt": "2026-09-10T03:02:07.386Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6561,7 +6225,7 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umini-p.html",
-    "lastSeenAt": "2026-09-09T20:23:57.560Z",
+    "lastSeenAt": "2026-09-10T03:02:44.853Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6584,7 +6248,7 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umini5w.html",
-    "lastSeenAt": "2026-09-09T20:23:32.141Z",
+    "lastSeenAt": "2026-09-10T03:02:19.513Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6607,7 +6271,7 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/umini-iii-pro.html",
-    "lastSeenAt": "2026-09-09T20:23:21.107Z",
+    "lastSeenAt": "2026-09-10T03:02:08.326Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6630,7 +6294,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/upad-me-series.html",
-    "lastSeenAt": "2026-09-09T20:24:30.847Z",
+    "lastSeenAt": "2026-09-10T03:03:18.822Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6653,7 +6317,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/upadpro-series.html",
-    "lastSeenAt": "2026-09-09T20:24:29.750Z",
+    "lastSeenAt": "2026-09-10T03:03:17.704Z",
     "specs": {
       "点间距": "1.5mm",
       "箱体尺寸": "500mm × 500mm × 70.1mm",
@@ -6677,7 +6341,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/upadpro-series.html",
-    "lastSeenAt": "2026-09-09T20:24:29.750Z",
+    "lastSeenAt": "2026-09-10T03:03:17.704Z",
     "specs": {
       "点间距": "1.9mm",
       "箱体尺寸": "500mm × 500mm × 70.1mm",
@@ -6701,7 +6365,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/upadpro-series.html",
-    "lastSeenAt": "2026-09-09T20:24:29.750Z",
+    "lastSeenAt": "2026-09-10T03:03:17.704Z",
     "specs": {
       "点间距": "2.6mm",
       "箱体尺寸": "500mm × 500mm × 70.1mm",
@@ -6725,7 +6389,7 @@
       "professional"
     ],
     "originUrl": "https://www.unilumin.com/products/professional/upanel-ii.html",
-    "lastSeenAt": "2026-09-09T20:23:18.751Z",
+    "lastSeenAt": "2026-09-10T03:02:06.440Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6748,7 +6412,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/urm-iii.html",
-    "lastSeenAt": "2026-09-09T20:24:41.906Z",
+    "lastSeenAt": "2026-09-10T03:03:29.966Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6771,7 +6435,7 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-iii.html",
-    "lastSeenAt": "2026-09-09T20:23:58.706Z",
+    "lastSeenAt": "2026-09-10T03:02:45.833Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6794,7 +6458,7 @@
       "commercial"
     ],
     "originUrl": "https://www.unilumin.com/products/commercial/uslim-s2.html",
-    "lastSeenAt": "2026-09-09T20:24:09.895Z",
+    "lastSeenAt": "2026-09-10T03:02:57.134Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6817,7 +6481,7 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/usurface-pl1.html",
-    "lastSeenAt": "2026-09-09T20:24:15.269Z",
+    "lastSeenAt": "2026-09-10T03:03:03.285Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6840,7 +6504,7 @@
       "dooh"
     ],
     "originUrl": "https://www.unilumin.com/products/dooh/usurfaceiii-pro-unilumin-outdoor.html",
-    "lastSeenAt": "2026-09-09T20:24:27.322Z",
+    "lastSeenAt": "2026-09-10T03:03:15.452Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6863,7 +6527,7 @@
       "utv-cinema"
     ],
     "originUrl": "https://www.unilumin.com/products/utv-cinema/utv-sc-series.html",
-    "lastSeenAt": "2026-09-09T20:25:11.169Z",
+    "lastSeenAt": "2026-09-10T03:03:58.929Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6886,7 +6550,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xc.html",
-    "lastSeenAt": "2026-09-09T20:24:45.628Z",
+    "lastSeenAt": "2026-09-10T03:03:33.257Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6909,7 +6573,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xf-series.html",
-    "lastSeenAt": "2026-09-09T20:24:46.832Z",
+    "lastSeenAt": "2026-09-10T03:03:34.484Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6932,7 +6596,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xs-series.html",
-    "lastSeenAt": "2026-09-09T20:25:10.233Z",
+    "lastSeenAt": "2026-09-10T03:03:57.811Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6955,7 +6619,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xs-serieso.html",
-    "lastSeenAt": "2026-09-09T20:24:59.188Z",
+    "lastSeenAt": "2026-09-10T03:03:46.675Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
@@ -6978,7 +6642,7 @@
       "rental"
     ],
     "originUrl": "https://www.unilumin.com/products/rental/xv-series.html",
-    "lastSeenAt": "2026-09-09T20:24:57.934Z",
+    "lastSeenAt": "2026-09-10T03:03:45.559Z",
     "specs": {
       "箱体尺寸": "-",
       "模组尺寸": "-",
