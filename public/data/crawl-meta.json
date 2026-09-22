@@ -1,16 +1,10 @@
 {
   "syncMode": "GitHub Actions 定时同步",
-  "lastUpdatedAt": "2026-09-22T11:04:02.265Z",
+  "lastUpdatedAt": "2026-09-22T16:26:37.153Z",
   "sourceCount": 6,
   "liveSourceCount": 6,
-  "liveProductCount": 187,
-  "failedSourceCount": 1,
-  "note": "已成功抓取 187 个真实产品，1 个来源抓取失败。",
-  "failures": [
-    {
-      "brand": "卡莱特",
-      "model": "colorlight-seed",
-      "message": "HTTP 504 for https://en.colorlightinside.com/"
-    }
-  ]
+  "liveProductCount": 263,
+  "failedSourceCount": 0,
+  "note": "已成功抓取 263 个真实产品，并自动替换同品牌种子数据。",
+  "failures": []
 }
