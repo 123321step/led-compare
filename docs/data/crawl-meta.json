@@ -1,11 +1,11 @@
 {
   "syncMode": "GitHub Actions 定时同步",
-  "lastUpdatedAt": "2026-10-18T20:12:50.564Z",
+  "lastUpdatedAt": "2026-10-19T03:21:09.819Z",
   "sourceCount": 6,
   "liveSourceCount": 6,
-  "liveProductCount": 224,
+  "liveProductCount": 226,
   "failedSourceCount": 1,
-  "note": "已成功抓取 224 个真实产品，1 个来源抓取失败。",
+  "note": "已成功抓取 226 个真实产品，1 个来源抓取失败。",
   "failures": [
     {
       "brand": "强力巨彩",
