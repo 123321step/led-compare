@@ -1,16 +1,10 @@
 {
   "syncMode": "GitHub Actions 定时同步",
-  "lastUpdatedAt": "2026-10-19T03:21:09.819Z",
+  "lastUpdatedAt": "2026-10-19T12:13:44.286Z",
   "sourceCount": 6,
   "liveSourceCount": 6,
-  "liveProductCount": 226,
-  "failedSourceCount": 1,
-  "note": "已成功抓取 226 个真实产品，1 个来源抓取失败。",
-  "failures": [
-    {
-      "brand": "强力巨彩",
-      "model": "qiangli-seed",
-      "message": "fetch failed"
-    }
-  ]
+  "liveProductCount": 270,
+  "failedSourceCount": 0,
+  "note": "已成功抓取 270 个真实产品，并自动替换同品牌种子数据。",
+  "failures": []
 }
